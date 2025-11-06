@@ -1,15 +1,20 @@
 using UnityEngine;
+using System.Collections;
 
-public class DirtDigging : MonoBehaviour
+public class DirtDigging : MonoBehaviour, IInteractable
 {
-    [SerializeField] private GameObject[] DirtTiles;
-
+    private Renderer rend;
+    public Material Dirt;
+    public Material Grass;
     void Start()
     {
-        
+        rend = GetComponent<Renderer>();
+        rend.material = Grass;
     }
-    private void Interact()
+
+    public void Interact()
     {
         Debug.Log("tileInteracted");
+        rend.material = Dirt;
     }
 }
