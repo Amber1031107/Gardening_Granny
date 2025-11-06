@@ -22,6 +22,7 @@ public class Playermovement : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        Cursor.visible = false;
 
     }
 

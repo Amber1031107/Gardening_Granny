@@ -309,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.22447498, y: -0, z: -0, w: 0.97447985}
-  m_LocalPosition: {x: -0.19, y: 2.9, z: -3.65}
+  m_LocalPosition: {x: -0.19, y: 0.46, z: -0.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -591,6 +591,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &720745955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 720745957}
+  - component: {fileID: 720745956}
+  m_Layer: 0
+  m_Name: Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &720745956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720745955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9deaccfbb744c74f99123dbdb8ba8d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractorSource: {fileID: 330585546}
+  InteractRange: 100000
+--- !u!4 &720745957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720745955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5629473, y: 0.3440205, z: 11.138642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,7 +878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155c49a4d8b891440bc2a680875e249e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DirtTiles: []
+  Dirt: {fileID: 2100000, guid: 2bc3cf24999263d4eb813a257bcbad64, type: 2}
+  Grass: {fileID: 2100000, guid: eee5a9387400d8b468102d06d551a476, type: 2}
 --- !u!65 &1091272448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -932,3 +979,4 @@ SceneRoots:
   - {fileID: 72787406}
   - {fileID: 953978090}
   - {fileID: 1091272451}
+  - {fileID: 720745957}
