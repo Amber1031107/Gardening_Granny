@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
+    "Language": "SFX",
+    "Hash": "{D134BC23-1D41-0AB6-C225-E7746AF24518}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
+    "ShortName": "Main_Soundbank",
+    "Path": "Main_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "288864463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wind_BirdCalls_Extended.wav",
+      "CachePath": "EE/{EEC29F87-DAD7-2CAC-17A4-4FCFFCA904A5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test",
+      "GUID": "{A070DC48-D394-479F-8B6B-AE83154F22AC}",
+      "DurationType": "OneShot",
+      "DurationMin": "224.55759",
+      "DurationMax": "224.55759",
+      "MediaRefs": [
+       {
+        "Id": "288864463"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1F756BC3-7B78-D6C3-0666-DFD3DE02DB31}"
+ }
+}
