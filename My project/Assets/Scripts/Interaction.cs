@@ -3,7 +3,8 @@ using System.Collections;
 
 interface IInteractable
 {
-    public void Interact();
+    public void InteractLeftClick();
+    public void InteractRightClick();
 }
 
 public class Interaction : MonoBehaviour
@@ -21,7 +22,19 @@ public class Interaction : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
-                    interactObj.Interact();
+                    interactObj.InteractLeftClick();
+                    Debug.Log("Interacted");
+                }
+            }
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
+            if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
+            {
+                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
+                {
+                    interactObj.InteractRightClick();
                     Debug.Log("Interacted");
                 }
             }

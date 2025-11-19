@@ -12,9 +12,14 @@ public class DirtDigging : MonoBehaviour, IInteractable
         rend.material = Grass;
     }
 
-    public void Interact()
+    public void InteractLeftClick()
     {
         Debug.Log("tileInteracted");
         rend.material = Dirt;
+    }
+    public void InteractRightClick()
+    {
+        Debug.Log("tileInteracted");
+        rend.material = Grass;
     }
 }
