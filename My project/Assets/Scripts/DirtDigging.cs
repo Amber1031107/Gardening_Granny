@@ -7,14 +7,17 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public Material Dirt;
     public Material Grass;
     public GameObject Plant;
+    public GameObject Traps;
     public bool CheckDirt;
     public bool PlantIsPlanted;
+    public bool TrapIsPlaced;
     void Start()
     {
         rend = GetComponent<Renderer>();
         rend.material = Grass;
         CheckDirt = false;
         PlantIsPlanted = false;
+        TrapIsPlaced = false;
     }
 
     public void InteractLeftClick()
@@ -27,7 +30,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
             Instantiate(Plant, transform.position, Quaternion.identity);
             PlantIsPlanted = true;
         }
-        else
+        else if (TrapIsPlaced == false)
         {
             rend.material = Dirt;
             CheckDirt = true;
@@ -37,9 +40,18 @@ public class DirtDigging : MonoBehaviour, IInteractable
     {
         if (PlantIsPlanted == false)
         {
-            Debug.Log("tileInteracted");
-            rend.material = Grass;
-            CheckDirt = false;
+            if (CheckDirt == true)
+            {
+                Debug.Log("tileInteracted");
+                rend.material = Grass;
+                CheckDirt = false;
+            }
+            else if (CheckDirt == false)
+            {
+                Instantiate(Traps, transform.position, Quaternion.identity);
+                TrapIsPlaced = true;
+            }
+            
         }
         
     }
