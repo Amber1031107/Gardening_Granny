@@ -23,7 +23,7 @@ public class Interaction : MonoBehaviour
                 if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
                     interactObj.InteractLeftClick();
-                    Debug.Log("Interacted");
+                    //Debug.Log("Interacted");
                 }
             }
         }
@@ -35,7 +35,7 @@ public class Interaction : MonoBehaviour
                 if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
                     interactObj.InteractRightClick();
-                    Debug.Log("Interacted");
+                    //Debug.Log("Interacted");
                 }
             }
         }
