@@ -8,7 +8,7 @@ public class Playermovement : MonoBehaviour
     [SerializeField] private float jumpPower = 2f;
     [SerializeField] private float gravity = 5f;
     [SerializeField] private float lookSpeed = 2f;
-    [SerializeField] private float lookXLimit = 45f;
+    [SerializeField] private float lookXLimit = 90f;
     [SerializeField] private float defaultHeight = 2f;
     [SerializeField] private float crouchHeight = 1f;
     [SerializeField] private float crouchSpeed = 3f;
@@ -23,6 +23,7 @@ public class Playermovement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
     }
 

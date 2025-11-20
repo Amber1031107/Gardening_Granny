@@ -4,23 +4,22 @@ using System.Collections;
 
 public class Planting : MonoBehaviour, IInteractable
 {
-    public GameObject[] DirtGround;
-    public GameObject Plant;
-    public MeshRenderer[] DirtMaterialRenderer;
-    public Material DirtMaterialCheck;
+     public GameObject Plant;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Renderer rend;
+    public Material DirtMaterial;
+
     void Start()
     {
-        MeshRenderer DirtMaterialRenderer = DirtGround.GetComponent<MeshRenderer>();
-        Material DirtMaterialCheck = DirtMaterialRenderer.material;
+        if (rend == null) rend = GetComponent<Renderer>();
     }
 
     public void InteractLeftClick()
     {
-        if(DirtMaterialCheck.name == "Dirt")
+        if (rend.material == DirtMaterial)
         {
             Debug.Log("plantPlanted");
+            Instantiate(Plant, transform.position, Quaternion.identity);
         }
         else
         {
