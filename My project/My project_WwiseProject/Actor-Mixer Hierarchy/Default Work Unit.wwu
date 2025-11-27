@@ -72,30 +72,6 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Traps Activated" ID="{A74FA321-73A8-4E97-A3AD-8FF0D95BDD2E}" ShortID="979363378">
-									<ChildrenList>
-										<Sound Name="Bear Trap Activate" ID="{010A49AB-8AA1-4546-A7BC-FD45692DA453}" ShortID="831541676">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<RandomSequenceContainer Name="Trap Fling" ID="{97737134-BEC8-4867-85B4-3411F148BA34}" ShortID="75096638">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -148,43 +124,143 @@
 					<ChildrenList>
 						<Folder Name="Spring" ID="{031BB906-9C0B-447C-9452-8C5F26D32097}" ShortID="594599171">
 							<ChildrenList>
-								<Folder Name="Day - Player Setup" ID="{8B508DE6-E9D2-49F2-B8D4-F7F7400344CF}" ShortID="477056413">
-									<ChildrenList>
-										<Sound Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" ShortID="896952660">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Breeze" ID="{C5C4E1B3-E867-4743-A623-B780B29C6319}" ShortID="61163268">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<RandomSequenceContainer Name="Bird Sounds" ID="{77CC0FAC-8CF1-443F-AEC7-AAD1529393AC}" ShortID="786316586">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Night - Kids Cutscene" ID="{0BA53EF0-4853-4F00-BC3A-E4D680C3D5C5}" ShortID="962262991">
+								<Sound Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" ShortID="896952660">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="Breeze" ID="{C5C4E1B3-E867-4743-A623-B780B29C6319}" ShortID="61163268">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<RandomSequenceContainer Name="Bird Sounds" ID="{77CC0FAC-8CF1-443F-AEC7-AAD1529393AC}" ShortID="786316586">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{B7B8CE4A-B308-4982-BCBC-5C426853DD44}" ShortID="838566026">
+					<ChildrenList>
+						<Sound Name="Spring Music" ID="{5897A1A4-114F-46D4-BA7C-E21F00B27CDB}" ShortID="774976295">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Kids Cutscene" ID="{DD64B773-0CBC-4A30-89C4-82E068A3DA4E}" ShortID="935939516">
+					<ChildrenList>
+						<Folder Name="Music" ID="{385E79AB-13FE-49BD-A013-A398790C3282}" ShortID="769382800">
+							<ChildrenList>
+								<Sound Name="Kids Sequence Music" ID="{5FB00E3C-E1E9-491E-8145-6F0B79227BAB}" ShortID="677992470">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Traps Activated" ID="{A74FA321-73A8-4E97-A3AD-8FF0D95BDD2E}" ShortID="979363378">
+							<ChildrenList>
+								<Sound Name="Bear Trap Activate" ID="{010A49AB-8AA1-4546-A7BC-FD45692DA453}" ShortID="831541676">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<RandomSequenceContainer Name="Trap Fling" ID="{97737134-BEC8-4867-85B4-3411F148BA34}" ShortID="75096638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<RandomSequenceContainer Name="Digging Up Plant" ID="{3EDE955A-6FE6-49D1-9AA0-606BDADEA2CD}" ShortID="619547736">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<Folder Name="Footsteps" ID="{EC2C72CA-22AF-48AE-8F2C-49C0205FAABB}" ShortID="990685784">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Grass Footsteps" ID="{A307316E-2009-474B-98F8-D4088F1BECB6}" ShortID="8501978">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dirt Footsteps" ID="{A77147FD-321E-4A9E-B23D-4AC6782104DD}" ShortID="658720941">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ambience" ID="{13818D58-DD76-4FD3-8B82-747191FCBCB7}" ShortID="99464838">
+							<ChildrenList>
+								<Folder Name="Spring" ID="{4CDB931D-2BD2-4C77-90AB-938DFEFD96B0}" ShortID="631152333">
 									<ChildrenList>
 										<Sound Name="Main Loop" ID="{B66B0A16-D3BD-463E-AE7D-7F27D50E8EA8}" ShortID="28931332">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+										</Sound>
+										<Sound Name=" Breeze" ID="{4493C005-8A85-40FB-A8A6-9F1BD06244C8}" ShortID="931666058">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -204,16 +280,6 @@
 												</Reference>
 											</ReferenceList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Owl" ID="{671CD9C2-DA02-474D-B9D6-95FBD057E17C}" ShortID="451373924">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Crows" ID="{3E8069AD-975C-4718-BA7B-15D2EDD61B4F}" ShortID="59105760">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -224,7 +290,7 @@
 												</Reference>
 											</ReferenceList>
 										</RandomSequenceContainer>
-										<Sound Name=" Breeze" ID="{4493C005-8A85-40FB-A8A6-9F1BD06244C8}" ShortID="931666058">
+										<RandomSequenceContainer Name="Owl" ID="{671CD9C2-DA02-474D-B9D6-95FBD057E17C}" ShortID="451373924">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -233,35 +299,11 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 												</Reference>
 											</ReferenceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
 						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Music" ID="{B7B8CE4A-B308-4982-BCBC-5C426853DD44}" ShortID="838566026">
-					<ChildrenList>
-						<Sound Name="Spring Music" ID="{5897A1A4-114F-46D4-BA7C-E21F00B27CDB}" ShortID="774976295">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-								</Reference>
-							</ReferenceList>
-						</Sound>
-						<Sound Name="Kids Sequence Music" ID="{5FB00E3C-E1E9-491E-8145-6F0B79227BAB}" ShortID="677992470">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-								</Reference>
-							</ReferenceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
