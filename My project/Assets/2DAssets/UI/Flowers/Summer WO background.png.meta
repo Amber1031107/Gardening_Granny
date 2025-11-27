@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -147,12 +147,144 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Summer WO background_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1489
+        width: 760
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501013da760a0054d813c92d638b51f2
+      internalID: 1409309745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Summer WO background_8
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 1563
+        width: 909
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8603c0321cf764d4eacabb64a5ba96c9
+      internalID: 626182853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Summer WO background_9
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 1552
+        width: 735
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730fb3afbc83b8c478398785e4ea53f5
+      internalID: -1958524779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Summer WO background_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 122
+        width: 719
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f54378cf5665d47b735b47403ce519
+      internalID: -409914658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Summer WO background_11
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 138
+        width: 825
+        height: 1053
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1e7035361d7e948b567b1f71fbadb7
+      internalID: 1742153173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Summer WO background_12
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 149
+        width: 885
+        height: 1066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bda48bb31d974a9ff33b90df34e80
+      internalID: -1915068781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2fb86380c88ed7348a661659bb6fe377
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +293,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Summer WO background_0: 1690286969
+      Summer WO background_1: 775510648
+      Summer WO background_10: -409914658
+      Summer WO background_11: 1742153173
+      Summer WO background_12: -1915068781
+      Summer WO background_2: -147503988
+      Summer WO background_3: 1000179016
+      Summer WO background_4: -1101437583
+      Summer WO background_5: -1327036283
+      Summer WO background_6: 1409309745
+      Summer WO background_7: 1185840755
+      Summer WO background_8: 626182853
+      Summer WO background_9: -1958524779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
