@@ -34,6 +34,27 @@
 						<Folder Name="Footsteps" ID="{C34A7640-25B9-48F5-9E27-A39BBC9DD8CC}" ShortID="533553735">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}" ShortID="821139214">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BFD4FE8A-1A62-4664-BFD0-809044640C26}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -42,16 +63,96 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
 									</ReferenceList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Dirt" ID="{A07A6F03-2FD7-45AF-95B2-982F10016133}" ShortID="850721261">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-										</Reference>
-									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FS_Grass_01" ID="{2BA743EE-F7D2-4D06-A1C4-84B659D38509}" ShortID="242924692">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Grass_01" ID="{09983CB9-4EBA-452F-A523-66BA28C38B17}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Grass_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620877416"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Grass_01" ID="{09983CB9-4EBA-452F-A523-66BA28C38B17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Grass_02" ID="{6F7D116C-2203-4C8E-AA52-6EA619E99CE9}" ShortID="414575787">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Grass_02" ID="{5A5455AC-314A-498A-B997-122A516FABA3}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Grass_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="246889118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Grass_02" ID="{5A5455AC-314A-498A-B997-122A516FABA3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Grass_03" ID="{FDDBADD4-5317-4E3A-B1A5-184ABB2E5957}" ShortID="878427757">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Grass_03" ID="{32728B48-8DE9-42F7-8FCF-AE8E52D230F8}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Grass_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="988108994"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Grass_03" ID="{32728B48-8DE9-42F7-8FCF-AE8E52D230F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Grass_04" ID="{77F93ED9-6FDE-4D3C-9C23-84799F1B1C07}" ShortID="1006778228">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Grass_04" ID="{BDB0A993-3FBB-4330-BC22-F0E5DA818C0A}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Grass_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53202029"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Grass_04" ID="{BDB0A993-3FBB-4330-BC22-F0E5DA818C0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
@@ -185,7 +286,40 @@
 							<ChildrenList>
 								<Folder Name="Traps Placing" ID="{33F53217-CFC7-46AB-A21B-365B8A4B753A}" ShortID="357617243">
 									<ChildrenList>
-										<Sound Name="Bear Trap Place" ID="{CE36BEEE-83DE-4F4C-8766-4399FB0C8498}" ShortID="583080316">
+										<RandomSequenceContainer Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" ShortID="873220915">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{64BC2ED4-57A4-4C7A-8A66-4AEF1EC75429}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="19"/>
+																	<Property Name="Min" Type="Real64" Value="-19"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2FC58A1D-0F59-4CC9-B442-D08DDEC09690}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="125"/>
+																	<Property Name="Min" Type="Real64" Value="-125"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -194,7 +328,31 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 												</Reference>
 											</ReferenceList>
-										</Sound>
+											<ChildrenList>
+												<Sound Name="SFX_Bear Trap Place_01" ID="{0DBFBB96-842E-4962-A4D4-4BACA9056A32}" ShortID="201348575">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Bear Trap Place_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="193754569"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -955,7 +1113,37 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Grass Footsteps" ID="{A307316E-2009-474B-98F8-D4088F1BECB6}" ShortID="8501978">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{983E64E7-16FA-4B9B-AE63-F717389A58A5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="9"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF4BF35C-AF17-421E-8F6B-2EB8206F1CC3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -966,7 +1154,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="FS_Grass Sneak_01" ID="{72282241-E566-4590-9D62-6456758C1702}" ShortID="230309811">
+										<Sound Name="FS_Grass Sneak_01" ID="{DC022869-5AC0-4716-B760-CAFCC1AF3E7B}" ShortID="850811064">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -976,7 +1164,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass Sneak_01" ID="{118B404B-1F42-489E-BD58-3F6B3CB42369}">
+												<AudioFileSource Name="FS_Grass Sneak_01" ID="{14BA8D18-B937-44BD-AB27-81A09F9E5973}">
 													<Language>SFX</Language>
 													<AudioFile>FS_Grass Sneak_01.wav</AudioFile>
 													<MediaIDList>
@@ -985,10 +1173,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass Sneak_01" ID="{118B404B-1F42-489E-BD58-3F6B3CB42369}" Platform="Linked"/>
+												<ActiveSource Name="FS_Grass Sneak_01" ID="{14BA8D18-B937-44BD-AB27-81A09F9E5973}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FS_Grass Sneak_02" ID="{B6984A62-F251-46F6-BFC1-8AF4AC3C009C}" ShortID="1002267385">
+										<Sound Name="FS_Grass Sneak_02" ID="{300491CB-33DD-4A86-8987-AF493A796119}" ShortID="975872566">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -998,7 +1186,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass Sneak_02" ID="{5CE79338-6816-479C-9452-FE023158733A}">
+												<AudioFileSource Name="FS_Grass Sneak_02" ID="{7161BF66-B464-4D12-A7F5-F45BCB822902}">
 													<Language>SFX</Language>
 													<AudioFile>FS_Grass Sneak_02.wav</AudioFile>
 													<MediaIDList>
@@ -1007,10 +1195,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass Sneak_02" ID="{5CE79338-6816-479C-9452-FE023158733A}" Platform="Linked"/>
+												<ActiveSource Name="FS_Grass Sneak_02" ID="{7161BF66-B464-4D12-A7F5-F45BCB822902}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FS_Grass Sneak_03" ID="{EFC71E83-B424-4153-8F3E-7E2E19510AD5}" ShortID="332265123">
+										<Sound Name="FS_Grass Sneak_03" ID="{8B49D4D2-3C1F-4333-BE99-DB1AE157E2CB}" ShortID="347462341">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1020,7 +1208,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass Sneak_03" ID="{A0BAB87F-6F7B-43B8-8B04-9B22CA5F3B6C}">
+												<AudioFileSource Name="FS_Grass Sneak_03" ID="{D1B53D44-F44D-4FBB-A986-70BD4BD3777A}">
 													<Language>SFX</Language>
 													<AudioFile>FS_Grass Sneak_03.wav</AudioFile>
 													<MediaIDList>
@@ -1029,10 +1217,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass Sneak_03" ID="{A0BAB87F-6F7B-43B8-8B04-9B22CA5F3B6C}" Platform="Linked"/>
+												<ActiveSource Name="FS_Grass Sneak_03" ID="{D1B53D44-F44D-4FBB-A986-70BD4BD3777A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FS_Grass Sneak_04" ID="{620F0E37-6251-4656-AC64-639BC5EC8B52}" ShortID="824230011">
+										<Sound Name="FS_Grass Sneak_04" ID="{E146A623-90D3-4EAD-88BC-069F189DB6E4}" ShortID="577108328">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1042,7 +1230,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass Sneak_04" ID="{9B441458-1638-4EA2-9EAF-95EEFA240DFA}">
+												<AudioFileSource Name="FS_Grass Sneak_04" ID="{36584218-98AF-49B2-98C7-4DF0B41E992F}">
 													<Language>SFX</Language>
 													<AudioFile>FS_Grass Sneak_04.wav</AudioFile>
 													<MediaIDList>
@@ -1051,10 +1239,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass Sneak_04" ID="{9B441458-1638-4EA2-9EAF-95EEFA240DFA}" Platform="Linked"/>
+												<ActiveSource Name="FS_Grass Sneak_04" ID="{36584218-98AF-49B2-98C7-4DF0B41E992F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="FS_Grass Sneak_05" ID="{60348292-7790-43A6-A033-70555E4490FC}" ShortID="1044541390">
+										<Sound Name="FS_Grass Sneak_05" ID="{A33F2FE7-60C6-427C-AD33-7F94FAF4D8B5}" ShortID="865183106">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1064,7 +1252,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass Sneak_05" ID="{B87D37E5-FC53-414C-91A6-961260BB710D}">
+												<AudioFileSource Name="FS_Grass Sneak_05" ID="{9AFAD299-DF96-4579-958C-ADA9A5D27F51}">
 													<Language>SFX</Language>
 													<AudioFile>FS_Grass Sneak_05.wav</AudioFile>
 													<MediaIDList>
@@ -1073,7 +1261,29 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass Sneak_05" ID="{B87D37E5-FC53-414C-91A6-961260BB710D}" Platform="Linked"/>
+												<ActiveSource Name="FS_Grass Sneak_05" ID="{9AFAD299-DF96-4579-958C-ADA9A5D27F51}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FS_Grass Sneak_06" ID="{08E142C2-AB08-4E8B-BD16-E2DD8402B355}" ShortID="387030227">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FS_Grass Sneak_06" ID="{69CCDA2B-D4FD-41A7-A2F8-339DA04D3DD1}">
+													<Language>SFX</Language>
+													<AudioFile>FS_Grass Sneak_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="745316329"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FS_Grass Sneak_06" ID="{69CCDA2B-D4FD-41A7-A2F8-339DA04D3DD1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
