@@ -3,19 +3,18 @@ using System.Collections;
 
 public class Points : MonoBehaviour, IInteractable
 {
-    public int PlayerPointsTotal;
+  
+    public GameObject Kid; 
+    public Vector3 spawnPosition;
+    public GameObject InvisableWall;
+    public Vector3 WallSpawnPosition;
 
     public void InteractLeftClick()
     {
-        GameObject[] allPlants = GameObject.FindGameObjectsWithTag("Flower");
-        Debug.Log("Number of plants in the scene: " + allPlants.Length);
+        Instantiate(Kid, spawnPosition, Quaternion.identity);
+        Instantiate(InvisableWall, WallSpawnPosition, Quaternion.identity);
 
-        // Count all objects with the tag "Trap"
-        GameObject[] allTraps = GameObject.FindGameObjectsWithTag("Trap");
-        Debug.Log("Number of traps in the scene: " + allTraps.Length);
 
-        PlayerPointsTotal = allPlants.Length - allTraps.Length;
-        Debug.Log("TotalPoints: " + PlayerPointsTotal);
     }
 
     public void InteractRightClick()
