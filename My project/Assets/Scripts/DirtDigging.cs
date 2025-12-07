@@ -11,8 +11,14 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public bool CheckDirt;
     public bool PlantIsPlanted;
     public bool TrapIsPlaced;
+
+    public PlayersInventory playerInventory;
     void Start()
     {
+        if (playerInventory == null)
+        {
+            playerInventory = GetComponent<PlayersInventory>();
+        }
         rend = GetComponent<Renderer>();
         rend.material = Grass;
         CheckDirt = false;
@@ -24,10 +30,9 @@ public class DirtDigging : MonoBehaviour, IInteractable
     {
         Debug.Log("tileInteracted");
         
-        if(CheckDirt == true)
+        if(CheckDirt == true && PlantIsPlanted == false)
         {
-            Debug.Log("PlantCanBePlanted");
-            Instantiate(Plant, transform.position, Quaternion.identity);
+            Instantiate(Plant, transform.position, Quaternion.identity); // For example, plant flowers
             PlantIsPlanted = true;
         }
         else if (TrapIsPlaced == false)
@@ -46,12 +51,12 @@ public class DirtDigging : MonoBehaviour, IInteractable
                 rend.material = Grass;
                 CheckDirt = false;
             }
-            else if (CheckDirt == false)
+            else if (CheckDirt == false && TrapIsPlaced == false)
             {
-                Instantiate(Traps, transform.position, Quaternion.identity);
-                TrapIsPlaced = true;
+                 Instantiate(Traps, transform.position, Quaternion.identity);
+                 TrapIsPlaced = true;
+
             }
-            
         }
         
     }
