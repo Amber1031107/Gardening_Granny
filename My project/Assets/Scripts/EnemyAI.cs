@@ -72,7 +72,7 @@ public class EnemyAI : MonoBehaviour
         if (collision.gameObject.CompareTag("Flower"))
         {
             Destroy(collision.gameObject);
-            playerPoints += 2;
+            
         }
         else if (collision.gameObject.CompareTag("Trap"))
         {
@@ -81,7 +81,14 @@ public class EnemyAI : MonoBehaviour
             rb.AddForce(Vector3.up * blastForce, ForceMode.Impulse);
             Destroy(gameObject, disappearTime);
 
-            playerPoints -= 1;
+            GameObject[] allPlants = GameObject.FindGameObjectsWithTag("Flower");
+            Debug.Log("Number of plants in the scene: " + allPlants.Length);
+
+            // Count all objects with the tag "Trap"
+            GameObject[] allTraps = GameObject.FindGameObjectsWithTag("Trap");
+            Debug.Log("Number of traps in the scene: " + allTraps.Length);
+
+            playerPoints = (allPlants.Length + 1) - allTraps.Length;
 
             // Notify the ScoreUI
             if (scoreUI != null)
