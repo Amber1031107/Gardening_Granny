@@ -15,6 +15,7 @@ public class PlayersInventory : MonoBehaviour
     [SerializeField] GameObject Flower_Autumn_Item;
     [SerializeField] GameObject Flower_Winter_Item;
     [SerializeField] GameObject Trap_Item;
+    [SerializeField] GameObject Shovel_Item;
 
     private Dictionary<itemType, GameObject> itemSetActive = new Dictionary<itemType, GameObject>() { };
     private int selectedItem;
@@ -27,6 +28,7 @@ public class PlayersInventory : MonoBehaviour
         itemSetActive.Add(itemType.FlowerAutumn, Flower_Autumn_Item);
         itemSetActive.Add(itemType.FlowerWinter, Flower_Winter_Item);
         itemSetActive.Add(itemType.Trap, Trap_Item);
+        itemSetActive.Add(itemType.Shovel, Shovel_Item);
 
         NewItemSelected();
     }
@@ -83,6 +85,7 @@ public class PlayersInventory : MonoBehaviour
         Flower_Autumn_Item.SetActive(false);
         Flower_Winter_Item.SetActive(false);
         Trap_Item.SetActive(false);
+        Shovel_Item.SetActive(false);
 
         // Ensure selectItem is zero-indexed
         if (selectItem >= 1 && selectItem <= inventoryList.Count)

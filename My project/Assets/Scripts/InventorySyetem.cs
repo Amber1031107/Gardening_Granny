@@ -12,4 +12,4 @@ public class InventorySyetem : ScriptableObject
     public Sprite item_sprite;
 }
 
-public enum itemType {FlowerSpring, FlowerSummer, FlowerAutumn, FlowerWinter, Trap};
+public enum itemType {FlowerSpring, FlowerSummer, FlowerAutumn, FlowerWinter, Trap, Shovel};
