@@ -103,8 +103,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 20
   blastForce: 1000
-  disappearTime: 2
-  PlayerPointsTotal: 0
+  disappearTime: 3
+  playerPoints: 0
+  hasHitTrap: 0
 --- !u!65 &8665640152743085251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -151,5 +152,5 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
