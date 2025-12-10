@@ -31,6 +31,7 @@ public class EnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
+
         FindClosestPlant();
 
         if (target != null)
@@ -45,9 +46,15 @@ public class EnemyAI : MonoBehaviour
     void FindClosestPlant()
     {
         GameObject[] plants = GameObject.FindGameObjectsWithTag("Flower");
-        if (plants.Length == 0)
+        if (plants.Length <= 1)
         {
             target = null;
+            if (scoreUI != null)
+            {
+                scoreUI.ShowScore(playerPoints);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
             return;
         }
 
@@ -98,5 +105,6 @@ public class EnemyAI : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
             }
         }
+        
     }
 }
