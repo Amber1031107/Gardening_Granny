@@ -156,7 +156,7 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Planting" ID="{9702F2A2-EC4A-40ED-A1A8-C0526169B128}" ShortID="513968947">
+						<Folder Name="Player Actions" ID="{9702F2A2-EC4A-40ED-A1A8-C0526169B128}" ShortID="513968947">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Planting Plants" ID="{90C67818-9875-4963-9BF1-866A88CA384D}" ShortID="871031451">
 									<PropertyList>
@@ -295,6 +295,209 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" ShortID="38829140">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19EEE2D4-5E99-486A-BECB-FC4A98AEA827}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="16"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{72D2EE6F-F49A-4970-8ECA-C458C02101BC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-125"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Digging_01" ID="{E58A926C-51A1-4B17-9F9E-56BF64762F85}" ShortID="788089934">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Digging_01" ID="{485C9A1D-250E-4783-9A38-04C1A1A51DC6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Digging_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986757129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Digging_01" ID="{485C9A1D-250E-4783-9A38-04C1A1A51DC6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Digging_02" ID="{29135D43-A317-479B-BADE-018140475BD8}" ShortID="194262897">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Digging_02" ID="{CD36B4EC-8C59-4AB8-8B25-A2961AC428F7}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Digging_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="187818746"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Digging_02" ID="{CD36B4EC-8C59-4AB8-8B25-A2961AC428F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Digging_03" ID="{DCE97FFB-989A-4C03-A523-3166FC33E007}" ShortID="726249592">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Digging_03" ID="{EAFAEC2D-12D4-4BD2-B95D-023BF2D91AEA}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Digging_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="798636784"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Digging_03" ID="{EAFAEC2D-12D4-4BD2-B95D-023BF2D91AEA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Planting Plants_02" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ED8B454A-3CB8-4325-9591-BF5887421CCD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Planting02_01" ID="{1C877755-A8F1-430B-A14C-C1C0F186288A}" ShortID="430024041">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Planting02_01" ID="{A3650E74-AB2A-4EDD-9022-533856249014}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Planting02_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="991765364"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Planting02_01" ID="{A3650E74-AB2A-4EDD-9022-533856249014}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Planting02_02" ID="{013C2733-844F-4AA9-A9A9-FF974217DE67}" ShortID="946635647">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Planting02_02" ID="{336B6A62-C706-40AE-9B08-0881F43E3A4F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Planting02_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="525213712"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Planting02_02" ID="{336B6A62-C706-40AE-9B08-0881F43E3A4F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Planting02_03" ID="{BF3A1B81-4178-4D53-9F5C-AFBF8D4DE402}" ShortID="187431819">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Planting02_03" ID="{0E736451-9B12-43FA-9CF4-CCE6EB357136}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Planting02_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="183180462"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Planting02_03" ID="{0E736451-9B12-43FA-9CF4-CCE6EB357136}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Traps" ID="{0D579336-F3A8-4A4B-8159-910EF6EEF9DC}" ShortID="369778243">
@@ -322,8 +525,8 @@
 															<Modifier Name="" ID="{2FC58A1D-0F59-4CC9-B442-D08DDEC09690}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="125"/>
-																	<Property Name="Min" Type="Real64" Value="-125"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -355,6 +558,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0866374786813461"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_Bear Trap Place_01.wav</AudioFile>
 															<MediaIDList>
@@ -1362,6 +1569,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Plant Dig Up_01" ID="{2E69BCC8-7518-482B-BD01-2C62B27176A0}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_Plant Dig Up_01.wav</AudioFile>
 											<MediaIDList>
