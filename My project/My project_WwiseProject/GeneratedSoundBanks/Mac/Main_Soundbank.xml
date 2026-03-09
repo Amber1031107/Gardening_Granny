@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="154">
+	<SoundBanks>
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Language="SFX" Hash="{8C66FFD5-2DDF-D836-A18E-C5E214540D27}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<Media>
+				<File Id="738021387" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_City Amb.wav</ShortName>
+					<CachePath>34/{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4258653052" Name="Test_Event" ObjectPath="\Events\Default Work Unit\Test_Event" GUID="{67A922DB-96D9-425A-ABC2-CF1ABBBFC05B}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="738021387"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F6B8D263-90D6-A18B-1888-B59BD46A6FEE}</FileHash>
+</SoundBanksInfo>
