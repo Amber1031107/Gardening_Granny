@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a2c9e149038ee409fca413ebeac3d8, type: 3}
   m_Name: E5D780DA-8392-4073-938B-1CE72AAEB7D1
   m_EditorClassIdentifier: 
-  objectName: New_Auxiliary_Bus
-  id: 373392551
+  objectName: s
+  id: 84696428
   guid: E5D780DA-8392-4073-938B-1CE72AAEB7D1
