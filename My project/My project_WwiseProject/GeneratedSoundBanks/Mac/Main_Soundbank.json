@@ -10,46 +10,36 @@
     "Type": "User",
     "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
     "Language": "SFX",
-    "Hash": "{D134BC23-1D41-0AB6-C225-E7746AF24518}",
+    "Hash": "{8C66FFD5-2DDF-D836-A18E-C5E214540D27}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
      {
-      "Id": "288864463",
+      "Id": "738021387",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wind_BirdCalls_Extended.wav",
-      "CachePath": "EE/{EEC29F87-DAD7-2CAC-17A4-4FCFFCA904A5}.wem"
+      "ShortName": "Amb_City Amb.wav",
+      "CachePath": "34/{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "3157003241",
-      "Name": "Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\Test",
-      "GUID": "{A070DC48-D394-479F-8B6B-AE83154F22AC}",
-      "DurationType": "OneShot",
-      "DurationMin": "224.55759",
-      "DurationMax": "224.55759",
+      "Id": "4258653052",
+      "Name": "Test_Event",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test_Event",
+      "GUID": "{67A922DB-96D9-425A-ABC2-CF1ABBBFC05B}",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "288864463"
+        "Id": "738021387"
        }
       ]
-     }
-    ],
-    "Busses": [
-     {
-      "Id": "3803692087",
-      "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ]
    }
   ],
-  "FileHash": "{1F756BC3-7B78-D6C3-0666-DFD3DE02DB31}"
+  "FileHash": "{71AE7F6E-8956-30E9-EA7B-9CFBDFED6BBD}"
  }
 }
