@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_Event" ID="{67A922DB-96D9-425A-ABC2-CF1ABBBFC05B}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

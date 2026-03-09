@@ -16,6 +16,22 @@ namespace AK
         static const AkUniqueID TEST_EVENT = 4258653052U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace LOCATION
+        {
+            static const AkUniqueID GROUP = 1176052424U;
+
+            namespace STATE
+            {
+                static const AkUniqueID INSIDE = 3553349781U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OUTSIDE = 438105790U;
+            } // namespace STATE
+        } // namespace LOCATION
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -24,8 +40,16 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENT = 77978275U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID INSIDE = 3553349781U;
+        static const AkUniqueID OUTSIDE = 438105790U;
+        static const AkUniqueID S = 84696428U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

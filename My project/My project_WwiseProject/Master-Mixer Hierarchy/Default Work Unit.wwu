@@ -9,6 +9,75 @@
 							<ObjectRef Name="System" ID="{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}" WorkUnitID="{3043C1BE-86E6-4C6F-815F-84CC0D13161B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="s" ID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
+						<Bus Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
+							<ChildrenList>
+								<AuxBus Name="Inside" ID="{BAB30D57-8102-4140-9822-C216D6D9B22E}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
+												<CustomState Name="" ID="{7496B13D-4AC0-4F8D-9D5A-77058162BF20}" ShortID="1031388243"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
+												<CustomState Name="" ID="{C69B17A2-7EDA-4682-9FE4-74992F227AE4}" ShortID="179052749">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Inside" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+												<CustomState Name="" ID="{979428E2-D350-4814-B9B2-84A884B98541}" ShortID="311710084">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+								<AuxBus Name="Outside" ID="{025BEA4E-656B-488B-AA63-A04F5016FA98}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
+												<CustomState Name="" ID="{EC95F2DD-3D67-4F99-AD10-BE6ADFC83A25}" ShortID="692779745"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
+												<CustomState Name="" ID="{514CBAE6-1BCC-4564-A247-136182C9AE9F}" ShortID="252301458">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-4"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Inside" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+												<CustomState Name="" ID="{24963394-05D1-42DA-AD44-0D45CA62EE80}" ShortID="10475304">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
