@@ -10,7 +10,7 @@
    "SourceFilesRoot": "../../.cache",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "."
+   "ExternalSourcesOutputRoot": "../../../Assets/GeneratedSoundBanks/Windows"
   },
   "DefaultAlign": "16",
   "Settings": {
@@ -18,10 +18,10 @@
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
-   "SourceControlGeneratedFiles": "false",
+   "SourceControlGeneratedFiles": "true",
    "GenerateHeaderFile": "true",
    "GenerateContentTxtFile": "true",
-   "GenerateMetadataXML": "false",
+   "GenerateMetadataXML": "true",
    "GenerateMetadataJSON": "true",
    "GenerateAllBanksMetadata": "false",
    "GeneratePerBankMetadata": "true",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{EA2E5781-DFB6-7C99-72A7-746524237536}"
+  "FileHash": "{11811A17-902F-5611-8E82-350B50E0CA05}"
  }
 }

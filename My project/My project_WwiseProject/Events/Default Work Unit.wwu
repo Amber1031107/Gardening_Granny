@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{9742B465-B382-407B-9AAC-191C869FB136}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{9742B465-B382-407B-9AAC-191C869FB136}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{A070DC48-D394-479F-8B6B-AE83154F22AC}">
+				<Event Name="test_event" ID="{1155B730-9DE3-4881-9322-2F8FE13366D4}">
 					<ChildrenList>
-						<Action Name="" ID="{F6FACF93-1966-4D90-AACE-42441D5FF62D}" ShortID="675304796">
+						<Action Name="" ID="{4BB1D487-E207-4EF8-9AF8-AE4600F535EA}" ShortID="499413377">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="trial_SFX" ID="{852D346A-0D62-4B2D-AB92-5918F3D4F549}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+									<ObjectRef Name="Rain_Take001" ID="{F6669F42-4C80-4092-A130-5D5B2B3D4BEE}" WorkUnitID="{3DD749C5-2296-4DCB-8BA5-BD9DBA9E28D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Placement" ID="{D44503B1-4A6E-466F-89E5-B1D3FFFB147F}">
+					<ChildrenList>
+						<Action Name="" ID="{5CAB0C57-2FCB-472F-878B-ADAC43AECD74}" ShortID="915379307">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flint_and_Steel_Flint_And_Steel" ID="{3B42980A-ED9E-4592-BD14-39B32F254C23}" WorkUnitID="{3DD749C5-2296-4DCB-8BA5-BD9DBA9E28D3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

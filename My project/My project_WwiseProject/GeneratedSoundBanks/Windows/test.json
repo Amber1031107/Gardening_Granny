@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3157003241",
+    "Type": "User",
+    "GUID": "{A64CBA72-A8AD-4CAD-B27B-EDF80A823471}",
+    "Language": "SFX",
+    "Hash": "{153A7F2F-F8AC-0B85-D381-7ACE80D1B825}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\test",
+    "ShortName": "test",
+    "Path": "test.bnk",
+    "Media": [
+     {
+      "Id": "316474170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flint_and_Steel_Flint_And_Steel.wav",
+      "CachePath": "90/{90DEAE12-B1FB-1870-D528-5B44827D4BD5}.wem"
+     },
+     {
+      "Id": "807588875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rain_Take001.wav",
+      "CachePath": "18/{18E513C2-5CF1-2E28-4794-A4AD064F0337}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3406219770",
+      "Name": "Placement",
+      "ObjectPath": "\\Events\\Default Work Unit\\Placement",
+      "GUID": "{D44503B1-4A6E-466F-89E5-B1D3FFFB147F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.44793895",
+      "DurationMax": "0.44793895",
+      "MediaRefs": [
+       {
+        "Id": "316474170"
+       }
+      ]
+     },
+     {
+      "Id": "4258653052",
+      "Name": "test_event",
+      "ObjectPath": "\\Events\\Default Work Unit\\test_event",
+      "GUID": "{1155B730-9DE3-4881-9322-2F8FE13366D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "360",
+      "DurationMax": "360",
+      "MediaRefs": [
+       {
+        "Id": "807588875"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A3DBA995-8436-C7E1-5CEF-07885B762ABD}"
+ }
+}

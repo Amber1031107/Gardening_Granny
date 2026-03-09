@@ -2,21 +2,21 @@
  "ProjectInfo": {
   "Project": {
    "Name": "My project_WwiseProject",
-   "GUID": "{15A672A9-7612-4660-9A3C-D20BC80F92F6}",
+   "GUID": "{E0535D24-33A1-48CD-B424-7A352121EBFA}",
    "Generator": "2024.1.8.8898"
   },
   "CacheRoot": "../../../../My project_WwiseProject/.cache",
   "Platforms": [
    {
     "Name": "Mac",
-    "GUID": "{99857988-8414-44FE-8633-EDE883C435AC}",
+    "GUID": "{7E1F40C1-7D84-42EC-959D-8662A47BCBBE}",
     "BasePlatform": "Mac",
     "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
     "Path": "../../../../My project_WwiseProject/GeneratedSoundBanks/Mac"
    },
    {
     "Name": "Windows",
-    "GUID": "{E08FA497-5BAC-4AD7-BA33-3371C533D1DD}",
+    "GUID": "{C4C98164-D036-45D9-9D54-2228E281717D}",
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
     "Path": "../../../../My project_WwiseProject/GeneratedSoundBanks/Windows"
@@ -26,11 +26,11 @@
    {
     "Name": "English(US)",
     "Id": "684519430",
-    "GUID": "{A00C221B-44F3-4EFB-97E8-68318E887538}",
+    "GUID": "{1CEF3C6C-8A90-4D6B-8CDC-5D5954006DF1}",
     "Default": "true",
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{36FC482E-FB6E-B76C-23D0-4459F1ECFC7D}"
+  "FileHash": "{8FE20EB9-BFEE-0AC8-D825-E314DD13DF2C}"
  }
 }

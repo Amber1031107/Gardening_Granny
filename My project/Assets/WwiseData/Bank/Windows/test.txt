@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4258653052	test_event			\Default Work Unit\test_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	316474170	Flint_and_Steel_Flint_And_Steel	C:\Users\GregC\Desktop\Github_Repos\Gardening_Granny\Gardening_Granny\My project\My project_WwiseProject\.cache\90\{90DEAE12-B1FB-1870-D528-5B44827D4BD5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flint_and_Steel_Flint_And_Steel		43098
+	807588875	Rain_Take001	C:\Users\GregC\Desktop\Github_Repos\Gardening_Granny\Gardening_Granny\My project\My project_WwiseProject\.cache\18\{18E513C2-5CF1-2E28-4794-A4AD064F0337}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rain_Take001		69120160
+

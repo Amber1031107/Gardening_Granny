@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="My project_WwiseProject" GUID="{E0535D24-33A1-48CD-B424-7A352121EBFA}" Generator="2024.1.8.8898"/>
+	<CacheRoot>../../../My project_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{7E1F40C1-7D84-42EC-959D-8662A47BCBBE}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{C4C98164-D036-45D9-9D54-2228E281717D}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{1CEF3C6C-8A90-4D6B-8CDC-5D5954006DF1}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{9AA20630-30F0-861D-3B37-4A907BA5A4F4}</FileHash>
+</ProjectInfo>
