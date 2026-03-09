@@ -38,8 +38,45 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a46edeb468ce254e9db27117cacff81c
     GuidInternal: 
-    m_lastTime: -8584285541055628267
+    m_lastTime: -8584285520469841372
     List:
+    - name: Ambient
+      guid: 41a9bcfd17452b42a1f2724853bb7e71
+      id: 77978275
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a46edeb468ce254e9db27117cacff81c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambient
+        ObjectType: 2
+        guid: 41a9bcfd17452b42a1f2724853bb7e71
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient
+    - name: Inside
+      guid: 570db3ba028140419822c216d6d9b22e
+      id: 3553349781
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a46edeb468ce254e9db27117cacff81c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambient
+        ObjectType: 2
+        guid: 41a9bcfd17452b42a1f2724853bb7e71
+      - ElementName: Inside
+        ObjectType: 1
+        guid: 570db3ba028140419822c216d6d9b22e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +91,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Outside
+      guid: 4eea5b026b658b48aa63a04f5016fa98
+      id: 438105790
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a46edeb468ce254e9db27117cacff81c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambient
+        ObjectType: 2
+        guid: 41a9bcfd17452b42a1f2724853bb7e71
+      - ElementName: Outside
+        ObjectType: 1
+        guid: 4eea5b026b658b48aa63a04f5016fa98
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside
     - name: s
       guid: da80d7e592837340938b1ce72aaeb7d1
       id: 84696428
@@ -83,7 +140,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 96451de9c702914e80e51d74b3381a9a
     GuidInternal: 
-    m_lastTime: -8584285541055638299
+    m_lastTime: -8584285520386135918
     List:
     - name: Main_Soundbank
       guid: 2e0b4f13d6d2954ca537a42623ffd71d
@@ -173,8 +230,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 42cc54b5424bc9478f7c99529ad3e07c
     GuidInternal: 
-    m_lastTime: -8584285594318265709
-    List: []
+    m_lastTime: -8584285523396408974
+    List:
+    - name: Location
+      guid: 9d35017a8a715b44a4b7045c1abcb7f8
+      id: 1176052424
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42cc54b5424bc9478f7c99529ad3e07c
+      - ElementName: Location
+        ObjectType: 9
+        guid: 9d35017a8a715b44a4b7045c1abcb7f8
+      Path: States\Default Work Unit\Location
+      values:
+      - name: Inside
+        guid: 370a8a6b86f3a94db052c60add46267e
+        id: 3553349781
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Location
+          ObjectType: 9
+          guid: 9d35017a8a715b44a4b7045c1abcb7f8
+        - ElementName: Inside
+          ObjectType: 8
+          guid: 370a8a6b86f3a94db052c60add46267e
+      - name: None
+        guid: 35835a08fe8e4744810826b681d121ec
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Location
+          ObjectType: 9
+          guid: 9d35017a8a715b44a4b7045c1abcb7f8
+        - ElementName: None
+          ObjectType: 8
+          guid: 35835a08fe8e4744810826b681d121ec
+      - name: Outside
+        guid: 7fa5d0258d2c694a9f25b77b075ef5b7
+        id: 438105790
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Location
+          ObjectType: 9
+          guid: 9d35017a8a715b44a4b7045c1abcb7f8
+        - ElementName: Outside
+          ObjectType: 8
+          guid: 7fa5d0258d2c694a9f25b77b075ef5b7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
