@@ -35,7 +35,7 @@ public class Shop : MonoBehaviour, IInteractable
 
     void Start()
     {
-        MoneyAmount = 100;
+        MoneyAmount = 1000;
         storePrefab.SetActive(false);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
@@ -86,9 +86,9 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void InteractRightClick()
     {
-        // throw new System.NotImplementedException();
-        moneyAmount = moneyAmount + 20;
-        UpdateMoneyUI();
+        throw new System.NotImplementedException();
+        //moneyAmount = moneyAmount + 20;
+        //UpdateMoneyUI();
     }
 
     public void BuyPlant1()
