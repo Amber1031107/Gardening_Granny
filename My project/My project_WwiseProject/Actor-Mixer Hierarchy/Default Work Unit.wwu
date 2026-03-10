@@ -669,7 +669,11 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<SwitchContainer Name="Spring" ID="{3FC4E5B1-1016-4C7D-B2D3-050224A05BAD}" ShortID="1002191380">
+						<BlendContainer Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" ShortID="638716896">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -681,7 +685,7 @@
 							<ChildrenList>
 								<BlendContainer Name="Spring Day" ID="{CF495E68-A12E-43FF-B6C9-2CEAAF7472BB}" ShortID="455940529">
 									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="Color" Type="int16" Value="8"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -716,7 +720,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1665,69 +1669,7 @@
 									</StateInfo>
 								</BlendContainer>
 							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="Spring Day" ID="{CF495E68-A12E-43FF-B6C9-2CEAAF7472BB}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Spring Night" ID="{E00839CF-8D90-4AA0-9B68-CAC91756FF0C}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-							</GroupingInfo>
-						</SwitchContainer>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Music" ID="{B7B8CE4A-B308-4982-BCBC-5C426853DD44}" ShortID="838566026">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="3"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Sound Name="Spring Music" ID="{5897A1A4-114F-46D4-BA7C-E21F00B27CDB}" ShortID="774976295">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-								</Reference>
-							</ReferenceList>
-						</Sound>
-						<Sound Name="Kids Sequence Music" ID="{5FB00E3C-E1E9-491E-8145-6F0B79227BAB}" ShortID="677992470">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Kids Cutscene Music" ID="{911B6D98-24DF-4336-BE11-864979D58152}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="37.0507087223023"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Kids Cutscene Music.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="710391032"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Kids Cutscene Music" ID="{911B6D98-24DF-4336-BE11-864979D58152}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Kids Cutscene" ID="{DD64B773-0CBC-4A30-89C4-82E068A3DA4E}" ShortID="935939516">

@@ -58,6 +58,20 @@ namespace AK
 
     } // namespace STATES
 
+    namespace SWITCHES
+    {
+        namespace SPRINGSELECTOR
+        {
+            static const AkUniqueID GROUP = 1433035105U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID SPRING = 1296465106U;
+            } // namespace SWITCH
+        } // namespace SPRINGSELECTOR
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

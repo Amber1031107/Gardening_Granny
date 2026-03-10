@@ -32,6 +32,9 @@ public class Points : MonoBehaviour, IInteractable
             Instantiate(Kid, spawnPosition, Quaternion.identity);
             Instantiate(InvisableWall, WallSpawnPosition, Quaternion.identity);
             Fances.SetActive(false);
+
+            // Switch ambience to night
+            FindObjectOfType<SeasonAmbienceController>().SetNight();
         }
 
         

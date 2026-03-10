@@ -40,7 +40,7 @@
 						<Action Name="" ID="{AA20944F-85AF-4A14-A082-39E6EBAA0EE4}" ShortID="171363519">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Spring" ID="{3FC4E5B1-1016-4C7D-B2D3-050224A05BAD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+									<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
