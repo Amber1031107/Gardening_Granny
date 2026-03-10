@@ -18,6 +18,7 @@ public class Shop : MonoBehaviour, IInteractable
     public Button buybutton4;
     public Button buybutton5;
     public Button buybutton6;
+    public Button buyTrap1;
 
     public PlayersInventory playersInventory;
 
@@ -62,6 +63,8 @@ public class Shop : MonoBehaviour, IInteractable
         buybutton4.interactable = moneyAmount >= 20;
         buybutton5.interactable = moneyAmount >= 25;
         buybutton6.interactable = moneyAmount >= 30;
+        buyTrap1.interactable = moneyAmount >= 5;
+
     }
     public void TrapsButton()
     {

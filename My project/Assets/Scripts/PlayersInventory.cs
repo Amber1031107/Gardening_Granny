@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Playables;
 
 public class PlayersInventory : MonoBehaviour
 {
     [Header("General")]
+    // Ordered list of unique item types (one slot per item type)
     public List<itemType> inventoryList = new List<itemType>();
+    // How many of each item type the player currently owns
+    public Dictionary<itemType, int> itemCounts = new Dictionary<itemType, int>();
     public int selectItem;
 
     [Space(20)]
@@ -17,16 +19,11 @@ public class PlayersInventory : MonoBehaviour
     [SerializeField] GameObject Flower_Spring_Item_Flower4;
     [SerializeField] GameObject Flower_Spring_Item_Flower5;
     [SerializeField] GameObject Flower_Spring_Item_Flower6;
-   // [SerializeField] GameObject Flower_Summer_Item;
-   // [SerializeField] GameObject Flower_Autumn_Item;
-    //[SerializeField] GameObject Flower_Winter_Item;
     [SerializeField] GameObject Trap_Item;
     [SerializeField] GameObject Shovel_Item;
 
-    private Dictionary<itemType, GameObject> itemSetActive = new Dictionary<itemType, GameObject>() { };
-    private int selectedItem;
+    private Dictionary<itemType, GameObject> itemSetActive = new Dictionary<itemType, GameObject>();
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         itemSetActive.Add(itemType.FlowerSpringPlant1, Flower_Spring_Item_Flower1);
@@ -35,40 +32,96 @@ public class PlayersInventory : MonoBehaviour
         itemSetActive.Add(itemType.FlowerSpringPlant4, Flower_Spring_Item_Flower4);
         itemSetActive.Add(itemType.FlowerSpringPlant5, Flower_Spring_Item_Flower5);
         itemSetActive.Add(itemType.FlowerSpringPlant6, Flower_Spring_Item_Flower6);
-       // itemSetActive.Add(itemType.FlowerSummer, Flower_Summer_Item);
-       // itemSetActive.Add(itemType.FlowerAutumn, Flower_Autumn_Item);
-       // itemSetActive.Add(itemType.FlowerWinter, Flower_Winter_Item);
         itemSetActive.Add(itemType.Trap, Trap_Item);
         itemSetActive.Add(itemType.Shovel, Shovel_Item);
-        //adding shovel automatically to inventory 
+
+        // Shovel always starts in inventory — -1 means infinite uses
         inventoryList.Add(itemType.Shovel);
+        itemCounts[itemType.Shovel] = -1;
         selectItem = 1;
 
         DeactivateAll();
         NewItemSelected();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1)) SelectSlot(1);
         else if (Input.GetKeyDown(KeyCode.Alpha2)) SelectSlot(2);
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) SelectSlot(3); 
+        else if (Input.GetKeyDown(KeyCode.Alpha3)) SelectSlot(3);
         else if (Input.GetKeyDown(KeyCode.Alpha4)) SelectSlot(4);
         else if (Input.GetKeyDown(KeyCode.Alpha5)) SelectSlot(5);
         else if (Input.GetKeyDown(KeyCode.Alpha6)) SelectSlot(6);
         else if (Input.GetKeyDown(KeyCode.Alpha7)) SelectSlot(7);
         else if (Input.GetKeyDown(KeyCode.Alpha8)) SelectSlot(8);
     }
+
+   
+
     public void AddItem(itemType newItem)
     {
-        inventoryList.Add(newItem);
-        Debug.Log($"[Inventory] Added {newItem}. Inventory size: {inventoryList.Count}");
+        if (itemCounts.ContainsKey(newItem))
+        {
+            // Item already has a slot — just stack it
+            itemCounts[newItem]++;
+            Debug.Log($"[Inventory] {newItem} stacked to {itemCounts[newItem]}");
+        }
+        else
+        {
+            // Brand new item type — create a new slot
+            inventoryList.Add(newItem);
+            itemCounts[newItem] = 1;
+            Debug.Log($"[Inventory] New slot for {newItem}. Total slots: {inventoryList.Count}");
+        }
 
-        // Auto-select the newly purchased item so it appears in the hotbar immediately
-        selectItem = inventoryList.Count;
+        // Auto-switch to the bought item
+        selectItem = inventoryList.IndexOf(newItem) + 1;
         NewItemSelected();
     }
+
+   
+
+    public void ConsumeItem(itemType usedItem)
+    {
+        if (!itemCounts.ContainsKey(usedItem)) return;
+        if (itemCounts[usedItem] == -1) return; // infinite (Shovel)
+
+        itemCounts[usedItem]--;
+        Debug.Log($"[Inventory] {usedItem} remaining: {itemCounts[usedItem]}");
+
+        if (itemCounts[usedItem] <= 0)
+        {
+            inventoryList.Remove(usedItem);
+            itemCounts.Remove(usedItem);
+            Debug.Log($"[Inventory] {usedItem} depleted — slot removed.");
+
+            // Keep selection in range
+            if (selectItem > inventoryList.Count)
+                selectItem = Mathf.Max(1, inventoryList.Count);
+        }
+
+        NewItemSelected();
+    }
+
+    
+
+    public itemType? GetSelectedItemType()
+    {
+        int index = selectItem - 1;
+        if (index < 0 || index >= inventoryList.Count) return null;
+        return inventoryList[index];
+    }
+
+    // Returns remaining count of currently selected item (-1 = infinite)
+    public int GetSelectedItemCount()
+    {
+        var selected = GetSelectedItemType();
+        if (selected == null) return 0;
+        return itemCounts.TryGetValue(selected.Value, out int count) ? count : 0;
+    }
+
+    
+
     private void SelectSlot(int slot)
     {
         selectItem = slot;
@@ -78,30 +131,17 @@ public class PlayersInventory : MonoBehaviour
     private void NewItemSelected()
     {
         DeactivateAll();
-        //Flower_Spring_Item_Flower1.SetActive(false);
-        // Flower_Spring_Item_Flower2.SetActive(false);
-        // Flower_Spring_Item_Flower3.SetActive(false);
-        // Flower_Spring_Item_Flower4.SetActive(false);
-        //Flower_Spring_Item_Flower5.SetActive(false);
-        //Flower_Spring_Item_Flower6.SetActive(false);                        ||Most likely not needed but keeping incase||
-        // Flower_Summer_Item.SetActive(false);
-        //  Flower_Autumn_Item.SetActive(false);
-        // Flower_Winter_Item.SetActive(false);
-        //Trap_Item.SetActive(false);
-        //Shovel_Item.SetActive(false);
 
-        // Ensure selectItem is zero-indexed
         if (selectItem >= 1 && selectItem <= inventoryList.Count)
         {
-            GameObject go = itemSetActive[inventoryList[selectItem - 1]];
-            go.SetActive(true);
+            itemSetActive[inventoryList[selectItem - 1]].SetActive(true);
         }
-        else if (inventoryList.Count > 0)
+        else
         {
-            // Slot is out of range — just hold nothing (already deactivated)
             Debug.Log($"[Inventory] Slot {selectItem} is empty.");
         }
     }
+
     private void DeactivateAll()
     {
         foreach (var kvp in itemSetActive)
