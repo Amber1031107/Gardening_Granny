@@ -13,7 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID TEST_EVENT = 4258653052U;
+        static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
+        static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
     } // namespace EVENTS
 
     namespace STATES

@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Test" ID="{A070DC48-D394-479F-8B6B-AE83154F22AC}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F6FACF93-1966-4D90-AACE-42441D5FF62D}" ShortID="675304796">
 							<ReferenceList>
@@ -15,11 +18,29 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Test_Event" ID="{67A922DB-96D9-425A-ABC2-CF1ABBBFC05B}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{AC266EDE-9C0F-414E-AC60-92D2847CADD4}" ShortID="490397714">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Spring_AMB" ID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{AA20944F-85AF-4A14-A082-39E6EBAA0EE4}" ShortID="171363519">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spring" ID="{3FC4E5B1-1016-4C7D-B2D3-050224A05BAD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

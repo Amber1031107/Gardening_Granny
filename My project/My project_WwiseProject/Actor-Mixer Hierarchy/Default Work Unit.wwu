@@ -664,37 +664,12 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{1E862D1A-1C7B-48D9-B960-B6F1CCA56516}" ShortID="674770471">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<BlendContainer Name="Spring" ID="{CF495E68-A12E-43FF-B6C9-2CEAAF7472BB}" ShortID="455940529">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{9771668B-6DD5-46AF-B048-E66BE15C569D}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>4</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{5E227D71-CBCD-41FA-B7B8-CF7ABCE4D5C8}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
+						<SwitchContainer Name="Spring" ID="{3FC4E5B1-1016-4C7D-B2D3-050224A05BAD}" ShortID="1002191380">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -704,38 +679,31 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Bird Sounds" ID="{77CC0FAC-8CF1-443F-AEC7-AAD1529393AC}" ShortID="786316586">
+								<BlendContainer Name="Spring Day" ID="{CF495E68-A12E-43FF-B6C9-2CEAAF7472BB}" ShortID="455940529">
 									<PropertyList>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{EF103D94-A175-4D61-A2CC-5E924BA50404}">
+													<Modifier Name="" ID="{9771668B-6DD5-46AF-B048-E66BE15C569D}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="75"/>
-															<Property Name="Min" Type="Real64" Value="-75"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>-4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{1DAD5ADB-A397-46D6-AEAD-A77F2EECBB88}">
+													<Modifier Name="" ID="{5E227D71-CBCD-41FA-B7B8-CF7ABCE4D5C8}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
 															<Property Name="Min" Type="Real64" Value="-1"/>
 														</PropertyList>
 													</Modifier>
@@ -748,100 +716,484 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+											<ObjectRef Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_Birds Spring_01" ID="{33D78BCE-BD1F-4118-B5C4-1085C3BFAE35}" ShortID="952762450">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_01" ID="{97CC2761-410C-4250-8693-B4AEE650440F}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="128863012"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_01" ID="{97CC2761-410C-4250-8693-B4AEE650440F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_02" ID="{026FD4F0-8B4C-4F94-9C08-2817C82135B5}" ShortID="337725009">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_02" ID="{84CE3C60-2384-44ED-B2A5-1E30566B55F1}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="749633620"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_02" ID="{84CE3C60-2384-44ED-B2A5-1E30566B55F1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_03" ID="{BF02F252-21B5-4A2C-A738-F8DEE4291EF6}" ShortID="85205322">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_03" ID="{E828C632-4DB7-45C7-8899-4BA83DB4A323}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="878415752"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_03" ID="{E828C632-4DB7-45C7-8899-4BA83DB4A323}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_04" ID="{6CE4D8E8-255C-42EF-9D4E-6F70444BC131}" ShortID="909688759">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_04" ID="{F48DE68D-EF1D-40C8-A4DB-8852BBC8BDA2}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="34470463"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_04" ID="{F48DE68D-EF1D-40C8-A4DB-8852BBC8BDA2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_05" ID="{1CA482D3-73F0-4169-9023-5BFF437B8B90}" ShortID="234839649">
+										<RandomSequenceContainer Name="Bird Sounds" ID="{77CC0FAC-8CF1-443F-AEC7-AAD1529393AC}" ShortID="786316586">
 											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EF103D94-A175-4D61-A2CC-5E924BA50404}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="75"/>
+																	<Property Name="Min" Type="Real64" Value="-75"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1DAD5ADB-A397-46D6-AEAD-A77F2EECBB88}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_Birds Spring_01" ID="{33D78BCE-BD1F-4118-B5C4-1085C3BFAE35}" ShortID="952762450">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_01" ID="{97CC2761-410C-4250-8693-B4AEE650440F}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="128863012"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_01" ID="{97CC2761-410C-4250-8693-B4AEE650440F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_02" ID="{026FD4F0-8B4C-4F94-9C08-2817C82135B5}" ShortID="337725009">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_02" ID="{84CE3C60-2384-44ED-B2A5-1E30566B55F1}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="749633620"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_02" ID="{84CE3C60-2384-44ED-B2A5-1E30566B55F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_03" ID="{BF02F252-21B5-4A2C-A738-F8DEE4291EF6}" ShortID="85205322">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_03" ID="{E828C632-4DB7-45C7-8899-4BA83DB4A323}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="878415752"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_03" ID="{E828C632-4DB7-45C7-8899-4BA83DB4A323}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_04" ID="{6CE4D8E8-255C-42EF-9D4E-6F70444BC131}" ShortID="909688759">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_04" ID="{F48DE68D-EF1D-40C8-A4DB-8852BBC8BDA2}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="34470463"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_04" ID="{F48DE68D-EF1D-40C8-A4DB-8852BBC8BDA2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_05" ID="{1CA482D3-73F0-4169-9023-5BFF437B8B90}" ShortID="234839649">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_05" ID="{835BF37B-E838-4020-A2D3-0B2160AACB1E}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="804176017"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_05" ID="{835BF37B-E838-4020-A2D3-0B2160AACB1E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_06" ID="{F0352AE2-DED3-4606-B3D7-CC6256154C10}" ShortID="78072618">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_06" ID="{E2F3AB3D-7E2D-4464-A2EF-84E1953C433F}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046667742"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_06" ID="{E2F3AB3D-7E2D-4464-A2EF-84E1953C433F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_07" ID="{DC470898-2E2F-4600-B931-0D660F3B62BA}" ShortID="520927643">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_07" ID="{FB47F3E5-7881-4D11-BDA2-8172459D6FCF}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="260095195"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_07" ID="{FB47F3E5-7881-4D11-BDA2-8172459D6FCF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_08" ID="{61EB751A-4073-45EE-B2F1-DCDAC2D11C14}" ShortID="680692721">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_08" ID="{4662160E-CF84-4A68-9626-4670AE4B3638}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="633174091"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_08" ID="{4662160E-CF84-4A68-9626-4670AE4B3638}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_09" ID="{B8794BE1-6020-4CD2-BB0B-485623C97784}" ShortID="122939851">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_09" ID="{AF3816D3-CC39-47BE-95A1-68497D621E4D}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="403079355"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_09" ID="{AF3816D3-CC39-47BE-95A1-68497D621E4D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_10" ID="{1BA96F1B-DE98-479D-979C-AAF4CCB18A47}" ShortID="423676922">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_10" ID="{6316BA7C-4D75-4C20-AC0D-E2D4AF54E29F}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="817186541"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_10" ID="{6316BA7C-4D75-4C20-AC0D-E2D4AF54E29F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_11" ID="{7B0ED519-01CB-4B91-90E6-6253F14E88C1}" ShortID="83871984">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_11" ID="{3DD6B865-6FFA-46B7-8BA7-0B9B84D3B3E2}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="977423185"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_11" ID="{3DD6B865-6FFA-46B7-8BA7-0B9B84D3B3E2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_12" ID="{CBC95F3F-9EFF-4FE0-9B80-B1D38368F8F2}" ShortID="872724281">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_12" ID="{B86C8B22-1177-401D-8863-1C86643349A7}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="640225445"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_12" ID="{B86C8B22-1177-401D-8863-1C86643349A7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_13" ID="{0200D7D3-E0B4-4746-8F59-5D8A0120514B}" ShortID="426538974">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_13" ID="{C4B180F1-FAD9-46DD-9179-529CCA2020F5}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_13.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="861828819"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_13" ID="{C4B180F1-FAD9-46DD-9179-529CCA2020F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_14" ID="{BF807817-66A9-4357-AE58-F5877AC8F718}" ShortID="150408861">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_14" ID="{0387CDD2-42FE-495A-809F-16476A6E45B8}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_14.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="253876681"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_14" ID="{0387CDD2-42FE-495A-809F-16476A6E45B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_15" ID="{7260F97B-4D0E-4E99-8C72-4A9B754E6388}" ShortID="905423861">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_15" ID="{253DDE92-E33E-4E53-BC02-77FA7888D12D}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="433637960"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_15" ID="{253DDE92-E33E-4E53-BC02-77FA7888D12D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Birds Spring_16" ID="{E62DFD3B-B5E9-4B30-AB2D-1687C30D1600}" ShortID="10059552">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Birds Spring_16" ID="{C50E985A-3552-47AB-A783-4115C7F22709}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Birds Spring_16.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="458925649"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Birds Spring_16" ID="{C50E985A-3552-47AB-A783-4115C7F22709}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Breeze Gusts" ID="{AAAC8FCA-77A7-4661-A838-61C8FA9D5D16}" ShortID="796367935">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-2</Value>
@@ -857,23 +1209,152 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_05" ID="{835BF37B-E838-4020-A2D3-0B2160AACB1E}">
+												<Sound Name="Amb_Breeze Spring_01" ID="{957B5CE8-512E-47D0-A749-422E93549FE3}" ShortID="164954118">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Breeze Spring_01" ID="{E9CACEEA-6C26-4358-B008-FC9CD7268E75}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Breeze Spring_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="720278991"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Breeze Spring_01" ID="{E9CACEEA-6C26-4358-B008-FC9CD7268E75}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Breeze Spring_02" ID="{3E7C7B81-E007-47BB-A026-174BF1402E09}" ShortID="959413698">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Breeze Spring_02" ID="{A2AFDC29-2BF5-4D0C-A771-2FE4D424F837}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Breeze Spring_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147936951"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Breeze Spring_02" ID="{A2AFDC29-2BF5-4D0C-A771-2FE4D424F837}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Breeze Spring_03" ID="{8CAF6833-FCFF-4338-AE06-CD85E95C2D3F}" ShortID="420509435">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Breeze Spring_03" ID="{6D192DF8-1DB8-4EA1-9553-7CEE66BA115D}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Breeze Spring_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="767538386"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Breeze Spring_03" ID="{6D192DF8-1DB8-4EA1-9553-7CEE66BA115D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Breeze Spring_04" ID="{DCF5A81D-1AB3-44F5-B37C-3C9ECE9BD574}" ShortID="966945987">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Breeze Spring_04" ID="{FD6FDB4A-256E-4076-B223-B69F75345806}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Breeze Spring_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="393861057"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Breeze Spring_04" ID="{FD6FDB4A-256E-4076-B223-B69F75345806}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Breeze Spring_05" ID="{E737953B-2902-4A6E-A3FD-C6E2C40431EE}" ShortID="190767712">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Breeze Spring_05" ID="{F8EF2F27-9E7C-486A-8EF7-42B4DBFE3410}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Breeze Spring_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="631474963"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Breeze Spring_05" ID="{F8EF2F27-9E7C-486A-8EF7-42B4DBFE3410}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{CAD478ED-C583-43E6-ABC7-C0022C6EE9CE}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<Sound Name="Breeze" ID="{C5C4E1B3-E867-4743-A623-B780B29C6319}" ShortID="61163268">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_Birds Spring Amb" ID="{4C61AA77-4F6A-45BE-BA0A-A2322A4F4529}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_05.wav</AudioFile>
+													<AudioFile>Amb_Birds Spring Amb.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="804176017"/>
+														<MediaID ID="355788501"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_05" ID="{835BF37B-E838-4020-A2D3-0B2160AACB1E}" Platform="Linked"/>
+												<ActiveSource Name="Amb_Birds Spring Amb" ID="{4C61AA77-4F6A-45BE-BA0A-A2322A4F4529}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_Birds Spring_06" ID="{F0352AE2-DED3-4606-B3D7-CC6256154C10}" ShortID="78072618">
+										<Sound Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" ShortID="896952660">
 											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-4</Value>
+														<Value>2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -886,301 +1367,56 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_06" ID="{E2F3AB3D-7E2D-4464-A2EF-84E1953C433F}">
+												<AudioFileSource Name="Amb_City Amb" ID="{A8206C0D-2636-41DB-AD21-08EAD34E5B89}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_06.wav</AudioFile>
+													<AudioFile>Amb_City Amb.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1046667742"/>
+														<MediaID ID="738021387"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_06" ID="{E2F3AB3D-7E2D-4464-A2EF-84E1953C433F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_07" ID="{DC470898-2E2F-4600-B931-0D660F3B62BA}" ShortID="520927643">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_07" ID="{FB47F3E5-7881-4D11-BDA2-8172459D6FCF}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_07.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="260095195"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_07" ID="{FB47F3E5-7881-4D11-BDA2-8172459D6FCF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_08" ID="{61EB751A-4073-45EE-B2F1-DCDAC2D11C14}" ShortID="680692721">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_08" ID="{4662160E-CF84-4A68-9626-4670AE4B3638}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_08.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="633174091"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_08" ID="{4662160E-CF84-4A68-9626-4670AE4B3638}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_09" ID="{B8794BE1-6020-4CD2-BB0B-485623C97784}" ShortID="122939851">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_09" ID="{AF3816D3-CC39-47BE-95A1-68497D621E4D}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_09.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="403079355"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_09" ID="{AF3816D3-CC39-47BE-95A1-68497D621E4D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_10" ID="{1BA96F1B-DE98-479D-979C-AAF4CCB18A47}" ShortID="423676922">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_10" ID="{6316BA7C-4D75-4C20-AC0D-E2D4AF54E29F}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_10.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="817186541"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_10" ID="{6316BA7C-4D75-4C20-AC0D-E2D4AF54E29F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_11" ID="{7B0ED519-01CB-4B91-90E6-6253F14E88C1}" ShortID="83871984">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_11" ID="{3DD6B865-6FFA-46B7-8BA7-0B9B84D3B3E2}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_11.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="977423185"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_11" ID="{3DD6B865-6FFA-46B7-8BA7-0B9B84D3B3E2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_12" ID="{CBC95F3F-9EFF-4FE0-9B80-B1D38368F8F2}" ShortID="872724281">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_12" ID="{B86C8B22-1177-401D-8863-1C86643349A7}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_12.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="640225445"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_12" ID="{B86C8B22-1177-401D-8863-1C86643349A7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_13" ID="{0200D7D3-E0B4-4746-8F59-5D8A0120514B}" ShortID="426538974">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_13" ID="{C4B180F1-FAD9-46DD-9179-529CCA2020F5}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_13.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="861828819"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_13" ID="{C4B180F1-FAD9-46DD-9179-529CCA2020F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_14" ID="{BF807817-66A9-4357-AE58-F5877AC8F718}" ShortID="150408861">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_14" ID="{0387CDD2-42FE-495A-809F-16476A6E45B8}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_14.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="253876681"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_14" ID="{0387CDD2-42FE-495A-809F-16476A6E45B8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_15" ID="{7260F97B-4D0E-4E99-8C72-4A9B754E6388}" ShortID="905423861">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_15" ID="{253DDE92-E33E-4E53-BC02-77FA7888D12D}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_15.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="433637960"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_15" ID="{253DDE92-E33E-4E53-BC02-77FA7888D12D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Birds Spring_16" ID="{E62DFD3B-B5E9-4B30-AB2D-1687C30D1600}" ShortID="10059552">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Birds Spring_16" ID="{C50E985A-3552-47AB-A783-4115C7F22709}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Birds Spring_16.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="458925649"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Birds Spring_16" ID="{C50E985A-3552-47AB-A783-4115C7F22709}" Platform="Linked"/>
+												<ActiveSource Name="Amb_City Amb" ID="{A8206C0D-2636-41DB-AD21-08EAD34E5B89}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Breeze Gusts" ID="{AAAC8FCA-77A7-4661-A838-61C8FA9D5D16}" ShortID="796367935">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
+												<CustomState Name="" ID="{BDBF67F9-240B-4689-A58E-4DC0B5648A56}" ShortID="246792876">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
+												<CustomState Name="" ID="{17DD2B35-B9F4-4E26-90F0-878F1BB89956}" ShortID="304930874">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
+												<CustomState Name="" ID="{E3260FB5-12A1-4EEF-8D9F-39E206208F49}" ShortID="309275871"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</BlendContainer>
+								<BlendContainer Name="Spring Night" ID="{E00839CF-8D90-4AA0-9B68-CAC91756FF0C}" ShortID="1026615791">
 									<PropertyList>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1193,7 +1429,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Amb_Breeze Spring_01" ID="{957B5CE8-512E-47D0-A749-422E93549FE3}" ShortID="164954118">
+										<Sound Name="Main Loop" ID="{B66B0A16-D3BD-463E-AE7D-7F27D50E8EA8}" ShortID="28931332">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1203,19 +1447,27 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_Breeze Spring_01" ID="{E9CACEEA-6C26-4358-B008-FC9CD7268E75}">
+												<AudioFileSource Name="Amb_Night Spring Amb" ID="{1B8C100F-225C-4995-A711-F3002A379485}">
 													<Language>SFX</Language>
-													<AudioFile>Amb_Breeze Spring_01.wav</AudioFile>
+													<AudioFile>Amb_Night Spring Amb.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="720278991"/>
+														<MediaID ID="885330277"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Amb_Breeze Spring_01" ID="{E9CACEEA-6C26-4358-B008-FC9CD7268E75}" Platform="Linked"/>
+												<ActiveSource Name="Amb_Night Spring Amb" ID="{1B8C100F-225C-4995-A711-F3002A379485}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Amb_Breeze Spring_02" ID="{3E7C7B81-E007-47BB-A026-174BF1402E09}" ShortID="959413698">
+										<RandomSequenceContainer Name="Owl" ID="{671CD9C2-DA02-474D-B9D6-95FBD057E17C}" ShortID="451373924">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1225,149 +1477,212 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Amb_Breeze Spring_02" ID="{A2AFDC29-2BF5-4D0C-A771-2FE4D424F837}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Breeze Spring_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="147936951"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Amb_Owl2 01" ID="{1214C8A6-3090-4E14-B01A-A0EA2A85D6B3}" ShortID="941534169">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 01" ID="{10CFA16B-B77F-4E10-AFBA-7938A8C105D3}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="820213659"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 01" ID="{10CFA16B-B77F-4E10-AFBA-7938A8C105D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Owl2 02" ID="{CFC41293-289A-4F63-A42E-D261A5449AC7}" ShortID="851810970">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 02" ID="{F0A0112D-BE0E-4AF9-AB2E-75D902ACC7FB}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="432728295"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 02" ID="{F0A0112D-BE0E-4AF9-AB2E-75D902ACC7FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Owl2 03" ID="{EA8BD1A7-3BB1-4634-9740-819AD2346B09}" ShortID="629413280">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 03" ID="{CFAC5742-4591-4C39-93D3-84AD124AAA5D}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1012836"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 03" ID="{CFAC5742-4591-4C39-93D3-84AD124AAA5D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Owl2 04" ID="{CF4A9904-FC78-4CBF-9315-9E6F6E4B9DDD}" ShortID="721492738">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 04" ID="{BDA05CFF-903D-4281-B291-BF76022AEB67}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="921534118"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 04" ID="{BDA05CFF-903D-4281-B291-BF76022AEB67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Owl2 05" ID="{B86DDED3-60E5-48D3-B6B3-6856DD18511C}" ShortID="117200013">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 05" ID="{B25CED67-09E5-493D-8ADB-4D20FA104A3F}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="241852122"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 05" ID="{B25CED67-09E5-493D-8ADB-4D20FA104A3F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Owl2 06" ID="{8DB940EB-9801-4442-A815-25325215C2EE}" ShortID="317006618">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 06" ID="{493187A7-A1A1-4B18-A064-6B510611A3D4}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="20790822"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 06" ID="{493187A7-A1A1-4B18-A064-6B510611A3D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Owl2 07" ID="{9600D4F6-1A3D-4139-AFCB-0DEB0FC781A8}" ShortID="362115240">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Owl2 07" ID="{70A706FC-FE1A-4E3B-A19D-8AB7BC0D21CD}">
+															<Language>SFX</Language>
+															<AudioFile>Amb_Owl2 07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="577526996"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Owl2 07" ID="{70A706FC-FE1A-4E3B-A19D-8AB7BC0D21CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Breeze Spring_02" ID="{A2AFDC29-2BF5-4D0C-A771-2FE4D424F837}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Breeze Spring_03" ID="{8CAF6833-FCFF-4338-AE06-CD85E95C2D3F}" ShortID="420509435">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Breeze Spring_03" ID="{6D192DF8-1DB8-4EA1-9553-7CEE66BA115D}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Breeze Spring_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="767538386"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Breeze Spring_03" ID="{6D192DF8-1DB8-4EA1-9553-7CEE66BA115D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Breeze Spring_04" ID="{DCF5A81D-1AB3-44F5-B37C-3C9ECE9BD574}" ShortID="966945987">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Breeze Spring_04" ID="{FD6FDB4A-256E-4076-B223-B69F75345806}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Breeze Spring_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="393861057"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Breeze Spring_04" ID="{FD6FDB4A-256E-4076-B223-B69F75345806}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Amb_Breeze Spring_05" ID="{E737953B-2902-4A6E-A3FD-C6E2C40431EE}" ShortID="190767712">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Breeze Spring_05" ID="{F8EF2F27-9E7C-486A-8EF7-42B4DBFE3410}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Breeze Spring_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="631474963"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Breeze Spring_05" ID="{F8EF2F27-9E7C-486A-8EF7-42B4DBFE3410}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
-									<PositioningInfo>
-										<Panner Name="" ID="{CAD478ED-C583-43E6-ABC7-C0022C6EE9CE}"/>
-									</PositioningInfo>
-								</RandomSequenceContainer>
-								<Sound Name="Breeze" ID="{C5C4E1B3-E867-4743-A623-B780B29C6319}" ShortID="61163268">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_Birds Spring Amb" ID="{4C61AA77-4F6A-45BE-BA0A-A2322A4F4529}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_Birds Spring Amb.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="355788501"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_Birds Spring Amb" ID="{4C61AA77-4F6A-45BE-BA0A-A2322A4F4529}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" ShortID="896952660">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_City Amb" ID="{A8206C0D-2636-41DB-AD21-08EAD34E5B89}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_City Amb.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="738021387"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Amb_City Amb" ID="{A8206C0D-2636-41DB-AD21-08EAD34E5B89}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
+												<CustomState Name="" ID="{B6847813-715C-44D8-811A-EBB2BDE7FC48}" ShortID="598643433"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
+												<CustomState Name="" ID="{AE7F520A-5F0A-48BA-84D7-7BC8A99421AE}" ShortID="819410232">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
+												<CustomState Name="" ID="{545B9B90-A86B-4C16-A259-B24411E35656}" ShortID="863860817">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</BlendContainer>
 							</ChildrenList>
-						</BlendContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Spring Day" ID="{CF495E68-A12E-43FF-B6C9-2CEAAF7472BB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Spring Night" ID="{E00839CF-8D90-4AA0-9B68-CAC91756FF0C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{B7B8CE4A-B308-4982-BCBC-5C426853DD44}" ShortID="838566026">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="Spring Music" ID="{5897A1A4-114F-46D4-BA7C-E21F00B27CDB}" ShortID="774976295">
 							<ReferenceList>
@@ -1379,24 +1694,45 @@
 								</Reference>
 							</ReferenceList>
 						</Sound>
+						<Sound Name="Kids Sequence Music" ID="{5FB00E3C-E1E9-491E-8145-6F0B79227BAB}" ShortID="677992470">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Kids Cutscene Music" ID="{911B6D98-24DF-4336-BE11-864979D58152}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="37.0507087223023"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Kids Cutscene Music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="710391032"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Kids Cutscene Music" ID="{911B6D98-24DF-4336-BE11-864979D58152}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Kids Cutscene" ID="{DD64B773-0CBC-4A30-89C4-82E068A3DA4E}" ShortID="935939516">
 					<ChildrenList>
-						<Folder Name="Music" ID="{385E79AB-13FE-49BD-A013-A398790C3282}" ShortID="769382800">
-							<ChildrenList>
-								<Sound Name="Kids Sequence Music" ID="{5FB00E3C-E1E9-491E-8145-6F0B79227BAB}" ShortID="677992470">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-										</Reference>
-									</ReferenceList>
-								</Sound>
-							</ChildrenList>
-						</Folder>
+						<Folder Name="Music" ID="{385E79AB-13FE-49BD-A013-A398790C3282}" ShortID="769382800"/>
 						<Folder Name="Traps Activated" ID="{A74FA321-73A8-4E97-A3AD-8FF0D95BDD2E}" ShortID="979363378">
 							<ChildrenList>
 								<Sound Name="Bear Trap Activate" ID="{010A49AB-8AA1-4546-A7BC-FD45692DA453}" ShortID="831541676">
@@ -1769,226 +2105,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Ambience" ID="{13818D58-DD76-4FD3-8B82-747191FCBCB7}" ShortID="99464838">
-							<ChildrenList>
-								<BlendContainer Name="Spring" ID="{E00839CF-8D90-4AA0-9B68-CAC91756FF0C}" ShortID="1026615791">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Main Loop" ID="{B66B0A16-D3BD-463E-AE7D-7F27D50E8EA8}" ShortID="28931332">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Amb_Night Spring Amb" ID="{1B8C100F-225C-4995-A711-F3002A379485}">
-													<Language>SFX</Language>
-													<AudioFile>Amb_Night Spring Amb.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="885330277"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Amb_Night Spring Amb" ID="{1B8C100F-225C-4995-A711-F3002A379485}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<RandomSequenceContainer Name="Owl" ID="{671CD9C2-DA02-474D-B9D6-95FBD057E17C}" ShortID="451373924">
-											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>7</Value>
-													</ValueList>
-												</Property>
-												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Amb_Owl2 01" ID="{1214C8A6-3090-4E14-B01A-A0EA2A85D6B3}" ShortID="941534169">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 01" ID="{10CFA16B-B77F-4E10-AFBA-7938A8C105D3}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="820213659"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 01" ID="{10CFA16B-B77F-4E10-AFBA-7938A8C105D3}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Amb_Owl2 02" ID="{CFC41293-289A-4F63-A42E-D261A5449AC7}" ShortID="851810970">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 02" ID="{F0A0112D-BE0E-4AF9-AB2E-75D902ACC7FB}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="432728295"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 02" ID="{F0A0112D-BE0E-4AF9-AB2E-75D902ACC7FB}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Amb_Owl2 03" ID="{EA8BD1A7-3BB1-4634-9740-819AD2346B09}" ShortID="629413280">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 03" ID="{CFAC5742-4591-4C39-93D3-84AD124AAA5D}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1012836"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 03" ID="{CFAC5742-4591-4C39-93D3-84AD124AAA5D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Amb_Owl2 04" ID="{CF4A9904-FC78-4CBF-9315-9E6F6E4B9DDD}" ShortID="721492738">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 04" ID="{BDA05CFF-903D-4281-B291-BF76022AEB67}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="921534118"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 04" ID="{BDA05CFF-903D-4281-B291-BF76022AEB67}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Amb_Owl2 05" ID="{B86DDED3-60E5-48D3-B6B3-6856DD18511C}" ShortID="117200013">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 05" ID="{B25CED67-09E5-493D-8ADB-4D20FA104A3F}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 05.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="241852122"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 05" ID="{B25CED67-09E5-493D-8ADB-4D20FA104A3F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Amb_Owl2 06" ID="{8DB940EB-9801-4442-A815-25325215C2EE}" ShortID="317006618">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 06" ID="{493187A7-A1A1-4B18-A064-6B510611A3D4}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 06.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="20790822"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 06" ID="{493187A7-A1A1-4B18-A064-6B510611A3D4}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Amb_Owl2 07" ID="{9600D4F6-1A3D-4139-AFCB-0DEB0FC781A8}" ShortID="362115240">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Amb_Owl2 07" ID="{70A706FC-FE1A-4E3B-A19D-8AB7BC0D21CD}">
-															<Language>SFX</Language>
-															<AudioFile>Amb_Owl2 07.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="577526996"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Amb_Owl2 07" ID="{70A706FC-FE1A-4E3B-A19D-8AB7BC0D21CD}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

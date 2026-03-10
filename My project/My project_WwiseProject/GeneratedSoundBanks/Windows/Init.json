@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D12614E5-A7BF-D543-DCE7-8DAE2BC1FA26}",
+    "Hash": "{B2B14E6B-18B9-5583-6CB9-293121F59E12}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -39,7 +39,8 @@
       "Id": "77978275",
       "Name": "Ambient",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
-      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}"
+      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
+      "Color": "11"
      },
      {
       "Id": "3803692087",
@@ -59,13 +60,15 @@
       "Id": "438105790",
       "Name": "Outside",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
-      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}"
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
      },
      {
       "Id": "3553349781",
       "Name": "Inside",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
-      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}"
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
      }
     ],
     "StateGroups": [
@@ -98,6 +101,6 @@
     ]
    }
   ],
-  "FileHash": "{908EBA66-0CDD-CA36-6A4D-36D03311ECA6}"
+  "FileHash": "{58CE07D4-0701-6C46-73D5-728FF9BABB2D}"
  }
 }
