@@ -19,6 +19,8 @@ public class Shop : MonoBehaviour, IInteractable
     public Button buybutton5;
     public Button buybutton6;
 
+    public PlayersInventory playersInventory;
+
     private int moneyAmount;
     public int MoneyAmount
     {
@@ -54,64 +56,12 @@ public class Shop : MonoBehaviour, IInteractable
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
-        if (moneyAmount < 30)
-        {
-            buybutton6.interactable = false;
-        }
-        else
-        {
-            buybutton6.interactable = true;
-
-        }
-        if (moneyAmount < 25)
-        {
-            buybutton5.interactable = false;
-        }
-        else
-        {
-            buybutton5.interactable = true;
-
-        }
-        if (moneyAmount < 20)
-        {
-            buybutton4.interactable = false;
-        }
-        else
-        {
-
-            buybutton4.interactable = true;
-
-        }
-        if (moneyAmount < 15)
-        {
-            buybutton3.interactable = false;
-        }
-        else
-        {
-
-            buybutton3.interactable = true;
-
-        }
-        if (moneyAmount < 10)
-        {
-            buybutton2.interactable = false;
-        }
-        else
-        {
-
-            buybutton2.interactable = true;
-
-        }
-        if (moneyAmount < 5)
-        {
-            buybutton1.interactable = false;
-        }
-        else
-        {
-
-            buybutton1.interactable = true;
-
-        }
+        buybutton1.interactable = moneyAmount >= 5;
+        buybutton2.interactable = moneyAmount >= 10;
+        buybutton3.interactable = moneyAmount >= 15;
+        buybutton4.interactable = moneyAmount >= 20;
+        buybutton5.interactable = moneyAmount >= 25;
+        buybutton6.interactable = moneyAmount >= 30;
     }
     public void TrapsButton()
     {
@@ -140,45 +90,45 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void BuyPlant1()
     {
-        moneyAmount = moneyAmount - 5;
+        moneyAmount -= 5;
         UpdateMoneyUI();
-        
-        
+        playersInventory.AddItem(itemType.FlowerSpringPlant1);
     }
+
     public void BuyPlant2()
     {
-        moneyAmount = moneyAmount - 10;
+        moneyAmount -= 10;
         UpdateMoneyUI();
-        
-        
+        playersInventory.AddItem(itemType.FlowerSpringPlant2);
     }
+
     public void BuyPlant3()
     {
-        moneyAmount = moneyAmount - 15;
+        moneyAmount -= 15;
         UpdateMoneyUI();
-        
-        
+        playersInventory.AddItem(itemType.FlowerSpringPlant3);
     }
+
     public void BuyPlant4()
     {
-        moneyAmount = moneyAmount - 20;
+        moneyAmount -= 20;
         UpdateMoneyUI();
-        
-        
+        playersInventory.AddItem(itemType.FlowerSpringPlant4);
     }
+
+    // ── Traps (buttons 5–6) ───────────────────────────────────────────────────
+
     public void BuyPlant5()
     {
-        moneyAmount = moneyAmount - 25;
+        moneyAmount -= 25;
         UpdateMoneyUI();
-
-        
-        
+        playersInventory.AddItem(itemType.FlowerSpringPlant5);
     }
+
     public void BuyPlant6()
     {
-        moneyAmount = moneyAmount - 30;
+        moneyAmount -= 30;
         UpdateMoneyUI();
-        
-        
+        playersInventory.AddItem(itemType.FlowerSpringPlant6);
     }
 }

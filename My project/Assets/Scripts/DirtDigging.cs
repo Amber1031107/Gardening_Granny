@@ -40,7 +40,12 @@ public class DirtDigging : MonoBehaviour, IInteractable
         // Create mapping
         placeablePrefabs = new Dictionary<itemType, GameObject>()
         {
-            { itemType.FlowerSpring, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant1, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant2, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant3, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant4, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant5, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant6, FlowerSpringPrefab },
             { itemType.FlowerSummer, FlowerSummerPrefab },
             { itemType.FlowerAutumn, FlowerAutumnPrefab },
             { itemType.FlowerWinter, FlowerWinterPrefab },
