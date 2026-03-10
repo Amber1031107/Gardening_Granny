@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" SchemaVersion="133">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" PersistMode="Standalone">
 			<ChildrenList>
@@ -41,6 +41,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Spring" ID="{3FC4E5B1-1016-4C7D-B2D3-050224A05BAD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{01F383CD-6A77-494D-8F24-CF866FD7BC8D}">
+					<ChildrenList>
+						<Action Name="" ID="{54003320-80B1-40B6-A100-8A465D1CE6E2}" ShortID="892011015">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepsSwitch" ID="{1852C1AF-9DD5-4FAF-AF8F-DA7FD1C9CC19}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
