@@ -10,7 +10,12 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public Material Grass;
 
     [Header("Placeable Prefabs")]
-    public GameObject FlowerSpringPrefab;
+    public GameObject FlowerSpringPrefab_plant1;
+    public GameObject FlowerSpringPrefab_plant2;
+    public GameObject FlowerSpringPrefab_plant3;
+    public GameObject FlowerSpringPrefab_plant4;
+    public GameObject FlowerSpringPrefab_plant5;
+    public GameObject FlowerSpringPrefab_plant6;
     public GameObject FlowerSummerPrefab;
     public GameObject FlowerAutumnPrefab;
     public GameObject FlowerWinterPrefab;
@@ -40,12 +45,12 @@ public class DirtDigging : MonoBehaviour, IInteractable
         // Create mapping
         placeablePrefabs = new Dictionary<itemType, GameObject>()
         {
-            { itemType.FlowerSpringPlant1, FlowerSpringPrefab },
-            { itemType.FlowerSpringPlant2, FlowerSpringPrefab },
-            { itemType.FlowerSpringPlant3, FlowerSpringPrefab },
-            { itemType.FlowerSpringPlant4, FlowerSpringPrefab },
-            { itemType.FlowerSpringPlant5, FlowerSpringPrefab },
-            { itemType.FlowerSpringPlant6, FlowerSpringPrefab },
+            { itemType.FlowerSpringPlant1, FlowerSpringPrefab_plant1 },
+            { itemType.FlowerSpringPlant2, FlowerSpringPrefab_plant2 },
+            { itemType.FlowerSpringPlant3, FlowerSpringPrefab_plant3 },
+            { itemType.FlowerSpringPlant4, FlowerSpringPrefab_plant4 },
+            { itemType.FlowerSpringPlant5, FlowerSpringPrefab_plant5 },
+            { itemType.FlowerSpringPlant6, FlowerSpringPrefab_plant6 },
             { itemType.FlowerSummer, FlowerSummerPrefab },
             { itemType.FlowerAutumn, FlowerAutumnPrefab },
             { itemType.FlowerWinter, FlowerWinterPrefab },
@@ -71,6 +76,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
 
         bool holdingPlant = selected.ToString().Contains("Flower");
         bool holdingShovel = selected == itemType.Shovel;
+        bool holdingTrap = selected == itemType.Trap;
 
 
         if (holdingPlant)
@@ -83,7 +89,16 @@ public class DirtDigging : MonoBehaviour, IInteractable
             }
             return;
         }
-
+        if (holdingTrap)
+        {
+            if (!CheckDirt && !TrapIsPlaced)
+            {
+                GameObject prefab = placeablePrefabs[itemType.Trap];
+                Instantiate(prefab, transform.position, Quaternion.identity);
+                TrapIsPlaced = true;
+            }
+            return;
+        }
 
         if (holdingShovel)
         {
@@ -104,17 +119,6 @@ public class DirtDigging : MonoBehaviour, IInteractable
         bool holdingTrap = selected == itemType.Trap;
         bool holdingShovel = selected == itemType.Shovel;
 
-
-        if (holdingTrap)
-        {
-            if (!CheckDirt && !TrapIsPlaced)
-            {
-                GameObject prefab = placeablePrefabs[itemType.Trap];
-                Instantiate(prefab, transform.position, Quaternion.identity);
-                TrapIsPlaced = true;
-            }
-            return;
-        }
 
         if (holdingShovel)
         {
