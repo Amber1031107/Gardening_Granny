@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a46edeb468ce254e9db27117cacff81c
     GuidInternal: 
-    m_lastTime: -8584284727364849896
+    m_lastTime: -8584284635450171794
     List:
     - name: Ambient
       guid: 41a9bcfd17452b42a1f2724853bb7e71
@@ -91,6 +91,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 5ba01fd1eaf45f4994b0001baef56c33
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a46edeb468ce254e9db27117cacff81c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 1
+        guid: 5ba01fd1eaf45f4994b0001baef56c33
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
     - name: Outside
       guid: 4eea5b026b658b48aa63a04f5016fa98
       id: 438105790
@@ -140,7 +157,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 96451de9c702914e80e51d74b3381a9a
     GuidInternal: 
-    m_lastTime: -8584284692110005831
+    m_lastTime: -8584284635450101980
     List:
     - name: Main_Soundbank
       guid: 2e0b4f13d6d2954ca537a42623ffd71d
@@ -168,10 +185,10 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 418605df2ab06b409cef03f20c99a62d
     GuidInternal: 
-    m_lastTime: -8584284692110015803
+    m_lastTime: -8584284635450111953
     List:
     - name: Play_Spring_AMB
-      guid: e64fddeeadf0a44e99f69aff78ee0316
+      guid: f53a7db27050b24f88dae0c4caed77ab
       id: 378356484
       PathAndIcons:
       - ElementName: Events
@@ -182,25 +199,8 @@ MonoBehaviour:
         guid: 418605df2ab06b409cef03f20c99a62d
       - ElementName: Play_Spring_AMB
         ObjectType: 3
-        guid: e64fddeeadf0a44e99f69aff78ee0316
+        guid: f53a7db27050b24f88dae0c4caed77ab
       Path: Events\Default Work Unit\Play_Spring_AMB
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Stop_Spring_AMB
-      guid: 7adfcab84a3712458e2327e43a2ac430
-      id: 1702308546
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 418605df2ab06b409cef03f20c99a62d
-      - ElementName: Stop_Spring_AMB
-        ObjectType: 3
-        guid: 7adfcab84a3712458e2327e43a2ac430
-      Path: Events\Default Work Unit\Stop_Spring_AMB
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -264,7 +264,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 42cc54b5424bc9478f7c99529ad3e07c
     GuidInternal: 
-    m_lastTime: -8584284760231389708
+    m_lastTime: -8584284635450141874
     List:
     - name: Location
       guid: 9d35017a8a715b44a4b7045c1abcb7f8
@@ -329,6 +329,170 @@ MonoBehaviour:
         - ElementName: Outside
           ObjectType: 8
           guid: 7fa5d0258d2c694a9f25b77b075ef5b7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Season
+      guid: 3d1cd2d8c1b65541b331e61e23e2672d
+      id: 3381515358
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42cc54b5424bc9478f7c99529ad3e07c
+      - ElementName: Season
+        ObjectType: 9
+        guid: 3d1cd2d8c1b65541b331e61e23e2672d
+      Path: States\Default Work Unit\Season
+      values:
+      - name: Autumn
+        guid: 2bea63dee5ab1b4fbdec8a3220fc9541
+        id: 4010875483
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Season
+          ObjectType: 9
+          guid: 3d1cd2d8c1b65541b331e61e23e2672d
+        - ElementName: Autumn
+          ObjectType: 8
+          guid: 2bea63dee5ab1b4fbdec8a3220fc9541
+      - name: None
+        guid: f37b1143da3c0b4b86a4614f41d5bcc5
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Season
+          ObjectType: 9
+          guid: 3d1cd2d8c1b65541b331e61e23e2672d
+        - ElementName: None
+          ObjectType: 8
+          guid: f37b1143da3c0b4b86a4614f41d5bcc5
+      - name: Spring
+        guid: 31d5ab34efd9a640a876e4201019e0b4
+        id: 1296465106
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Season
+          ObjectType: 9
+          guid: 3d1cd2d8c1b65541b331e61e23e2672d
+        - ElementName: Spring
+          ObjectType: 8
+          guid: 31d5ab34efd9a640a876e4201019e0b4
+      - name: Summer
+        guid: 2654f65c450c234795aea2c44424e501
+        id: 3924562482
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Season
+          ObjectType: 9
+          guid: 3d1cd2d8c1b65541b331e61e23e2672d
+        - ElementName: Summer
+          ObjectType: 8
+          guid: 2654f65c450c234795aea2c44424e501
+      - name: Winter
+        guid: 4a9eec8befc8854ca440ebf3460d1c80
+        id: 2965343494
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: Season
+          ObjectType: 9
+          guid: 3d1cd2d8c1b65541b331e61e23e2672d
+        - ElementName: Winter
+          ObjectType: 8
+          guid: 4a9eec8befc8854ca440ebf3460d1c80
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: TimeOfDay
+      guid: 16f36b5d812c324498221199121ccbf7
+      id: 3729505769
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 42cc54b5424bc9478f7c99529ad3e07c
+      - ElementName: TimeOfDay
+        ObjectType: 9
+        guid: 16f36b5d812c324498221199121ccbf7
+      Path: States\Default Work Unit\TimeOfDay
+      values:
+      - name: Day
+        guid: 125b7547214be04ba710c41b1c55fc51
+        id: 311764537
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: TimeOfDay
+          ObjectType: 9
+          guid: 16f36b5d812c324498221199121ccbf7
+        - ElementName: Day
+          ObjectType: 8
+          guid: 125b7547214be04ba710c41b1c55fc51
+      - name: Night
+        guid: 774218363f81fc448b98dc3ed223b4e5
+        id: 1011622525
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: TimeOfDay
+          ObjectType: 9
+          guid: 16f36b5d812c324498221199121ccbf7
+        - ElementName: Night
+          ObjectType: 8
+          guid: 774218363f81fc448b98dc3ed223b4e5
+      - name: None
+        guid: 97a3dea9d170d24a80acc97023ad3c69
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 42cc54b5424bc9478f7c99529ad3e07c
+        - ElementName: TimeOfDay
+          ObjectType: 9
+          guid: 16f36b5d812c324498221199121ccbf7
+        - ElementName: None
+          ObjectType: 8
+          guid: 97a3dea9d170d24a80acc97023ad3c69
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []

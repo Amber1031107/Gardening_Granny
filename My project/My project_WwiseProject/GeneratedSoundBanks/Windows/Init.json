@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B2B14E6B-18B9-5583-6CB9-293121F59E12}",
+    "Hash": "{6DE71636-373D-E45B-41EE-D3F6E8EF519D}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -69,6 +69,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{D11FA05B-F4EA-495F-94B0-001BAEF56C33}",
+      "Color": "3"
      }
     ],
     "StateGroups": [
@@ -97,10 +104,74 @@
         "GUID": "{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"
        }
       ]
+     },
+     {
+      "Id": "3381515358",
+      "Name": "Season",
+      "ObjectPath": "\\States\\Default Work Unit\\Season",
+      "GUID": "{D8D21C3D-B6C1-4155-B331-E61E23E2672D}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\None",
+        "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
+       },
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Spring",
+        "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Winter",
+        "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Summer",
+        "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
+       },
+       {
+        "Id": "4010875483",
+        "Name": "Autumn",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Autumn",
+        "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
+       }
+      ]
+     },
+     {
+      "Id": "3729505769",
+      "Name": "TimeOfDay",
+      "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay",
+      "GUID": "{5D6BF316-2C81-4432-9822-1199121CCBF7}",
+      "States": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Day",
+        "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\None",
+        "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Night",
+        "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{58CE07D4-0701-6C46-73D5-728FF9BABB2D}"
+  "FileHash": "{F9F2101B-5E9B-70DC-0590-832B7FA9069C}"
  }
 }

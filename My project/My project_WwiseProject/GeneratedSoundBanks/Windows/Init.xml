@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B2B14E6B-18B9-5583-6CB9-293121F59E12}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6DE71636-373D-E45B-41EE-D3F6E8EF519D}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,6 +19,7 @@
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+				<AuxBus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}" Color="3"/>
 			</AuxBusses>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
@@ -28,8 +29,24 @@
 						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\Location\Inside" GUID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="3381515358" Name="Season" ObjectPath="\States\Default Work Unit\Season" GUID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Season\None" GUID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
+						<State Id="1296465106" Name="Spring" ObjectPath="\States\Default Work Unit\Season\Spring" GUID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
+						<State Id="2965343494" Name="Winter" ObjectPath="\States\Default Work Unit\Season\Winter" GUID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
+						<State Id="3924562482" Name="Summer" ObjectPath="\States\Default Work Unit\Season\Summer" GUID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
+						<State Id="4010875483" Name="Autumn" ObjectPath="\States\Default Work Unit\Season\Autumn" GUID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3729505769" Name="TimeOfDay" ObjectPath="\States\Default Work Unit\TimeOfDay" GUID="{5D6BF316-2C81-4432-9822-1199121CCBF7}">
+					<States>
+						<State Id="311764537" Name="Day" ObjectPath="\States\Default Work Unit\TimeOfDay\Day" GUID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\TimeOfDay\None" GUID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
+						<State Id="1011622525" Name="Night" ObjectPath="\States\Default Work Unit\TimeOfDay\Night" GUID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{468DCEF8-F34B-AE07-FF47-77EB18589714}</FileHash>
+	<FileHash>{C3785C30-7060-8BD9-C505-5959F6137370}</FileHash>
 </SoundBanksInfo>

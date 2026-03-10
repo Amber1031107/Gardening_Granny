@@ -14,7 +14,6 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
-        static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
     } // namespace EVENTS
 
     namespace STATES
@@ -30,6 +29,32 @@ namespace AK
                 static const AkUniqueID OUTSIDE = 438105790U;
             } // namespace STATE
         } // namespace LOCATION
+
+        namespace SEASON
+        {
+            static const AkUniqueID GROUP = 3381515358U;
+
+            namespace STATE
+            {
+                static const AkUniqueID AUTUMN = 4010875483U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SPRING = 1296465106U;
+                static const AkUniqueID SUMMER = 3924562482U;
+                static const AkUniqueID WINTER = 2965343494U;
+            } // namespace STATE
+        } // namespace SEASON
+
+        namespace TIMEOFDAY
+        {
+            static const AkUniqueID GROUP = 3729505769U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DAY = 311764537U;
+                static const AkUniqueID NIGHT = 1011622525U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace TIMEOFDAY
 
     } // namespace STATES
 
@@ -48,6 +73,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID INSIDE = 3553349781U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID OUTSIDE = 438105790U;
         static const AkUniqueID S = 84696428U;
     } // namespace AUX_BUSSES
