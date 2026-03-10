@@ -62,7 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 13d2dc061c782704c9bd3bf454654231, type: 3}
       propertyPath: m_Name
-      value: Spring_Flower_2
+      value: Spring_Flower_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13d2dc061c782704c9bd3bf454654231, type: 3}
+      propertyPath: m_TagString
+      value: Flower
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

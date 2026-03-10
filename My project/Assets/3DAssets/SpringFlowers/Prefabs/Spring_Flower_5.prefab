@@ -62,7 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ff6853e7ae1e69648a0fbb78b875858c, type: 3}
       propertyPath: m_Name
-      value: Spring_Flower_7
+      value: Spring_Flower_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff6853e7ae1e69648a0fbb78b875858c, type: 3}
+      propertyPath: m_TagString
+      value: Flower
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -71,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff6853e7ae1e69648a0fbb78b875858c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8138238585890980398}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff6853e7ae1e69648a0fbb78b875858c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1781194227200698956}
   m_SourcePrefab: {fileID: 100100000, guid: ff6853e7ae1e69648a0fbb78b875858c, type: 3}
 --- !u!1 &2675235942485013671 stripped
 GameObject:
@@ -99,3 +106,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1791067597425362102, guid: ff6853e7ae1e69648a0fbb78b875858c, type: 3}
+--- !u!114 &1781194227200698956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2675235942485013671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8766cb43009224b88ede7c04a73e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 5
