@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6DE71636-373D-E45B-41EE-D3F6E8EF519D}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4022872F-309F-E00D-B84A-58915E66BC92}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -46,7 +46,14 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1433035105" Name="SpringSelector" ObjectPath="\Switches\Default Work Unit\SpringSelector" GUID="{F0AD419A-11B3-41D5-B881-E09C2FE60B91}" Color="19">
+					<Switches>
+						<Switch Id="1296465106" Name="Spring" ObjectPath="\Switches\Default Work Unit\SpringSelector\Spring" GUID="{3A93A480-3BCA-4778-867F-A3AA264448D3}" Color="19"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C3785C30-7060-8BD9-C505-5959F6137370}</FileHash>
+	<FileHash>{CE4DEA7E-FB6E-B1B8-1B8A-883DB7FC0207}</FileHash>
 </SoundBanksInfo>

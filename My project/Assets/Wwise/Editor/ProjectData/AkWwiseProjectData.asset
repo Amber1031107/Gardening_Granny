@@ -185,7 +185,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 418605df2ab06b409cef03f20c99a62d
     GuidInternal: 
-    m_lastTime: -8584284635450111953
+    m_lastTime: -8584284549697549817
     List:
     - name: Play_Spring_AMB
       guid: f53a7db27050b24f88dae0c4caed77ab
@@ -264,7 +264,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 42cc54b5424bc9478f7c99529ad3e07c
     GuidInternal: 
-    m_lastTime: -8584284635450141874
+    m_lastTime: -8584284549697569759
     List:
     - name: Location
       guid: 9d35017a8a715b44a4b7045c1abcb7f8
@@ -508,8 +508,90 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 94823cf4bbf49f42bb87aeab041bb067
     GuidInternal: 
-    m_lastTime: -8584285594318255721
-    List: []
+    m_lastTime: -8584284533286536285
+    List:
+    - name: Seasons
+      guid: 9a41adf0b311d541b881e09c2fe60b91
+      id: 2823114633
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94823cf4bbf49f42bb87aeab041bb067
+      - ElementName: Seasons
+        ObjectType: 11
+        guid: 9a41adf0b311d541b881e09c2fe60b91
+      Path: Switches\Default Work Unit\Seasons
+      values:
+      - name: Autumn
+        guid: 624875b79906de48b209d6dc8a81752f
+        id: 4010875483
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 94823cf4bbf49f42bb87aeab041bb067
+        - ElementName: Seasons
+          ObjectType: 11
+          guid: 9a41adf0b311d541b881e09c2fe60b91
+        - ElementName: Autumn
+          ObjectType: 10
+          guid: 624875b79906de48b209d6dc8a81752f
+      - name: Spring
+        guid: 80a4933aca3b7847867fa3aa264448d3
+        id: 1296465106
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 94823cf4bbf49f42bb87aeab041bb067
+        - ElementName: Seasons
+          ObjectType: 11
+          guid: 9a41adf0b311d541b881e09c2fe60b91
+        - ElementName: Spring
+          ObjectType: 10
+          guid: 80a4933aca3b7847867fa3aa264448d3
+      - name: Summer
+        guid: b235ee5a4b62b240badd5b49b8ba7d05
+        id: 3924562482
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 94823cf4bbf49f42bb87aeab041bb067
+        - ElementName: Seasons
+          ObjectType: 11
+          guid: 9a41adf0b311d541b881e09c2fe60b91
+        - ElementName: Summer
+          ObjectType: 10
+          guid: b235ee5a4b62b240badd5b49b8ba7d05
+      - name: Winter
+        guid: 957472336ecaba45a72c493ddebc57c1
+        id: 2965343494
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 94823cf4bbf49f42bb87aeab041bb067
+        - ElementName: Seasons
+          ObjectType: 11
+          guid: 9a41adf0b311d541b881e09c2fe60b91
+        - ElementName: Winter
+          ObjectType: 10
+          guid: 957472336ecaba45a72c493ddebc57c1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -525,7 +607,7 @@ MonoBehaviour:
     m_lastTime: -8584285594318255721
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000a0000000b0000000e0000000f000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000a0000000b0000000e0000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

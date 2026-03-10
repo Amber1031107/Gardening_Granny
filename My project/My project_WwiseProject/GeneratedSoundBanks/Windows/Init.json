@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{6DE71636-373D-E45B-41EE-D3F6E8EF519D}",
+    "Hash": "{4022872F-309F-E00D-B84A-58915E66BC92}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -169,9 +169,27 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1433035105",
+      "Name": "SpringSelector",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SpringSelector",
+      "GUID": "{F0AD419A-11B3-41D5-B881-E09C2FE60B91}",
+      "Color": "19",
+      "Switches": [
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SpringSelector\\Spring",
+        "GUID": "{3A93A480-3BCA-4778-867F-A3AA264448D3}",
+        "Color": "19"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{F9F2101B-5E9B-70DC-0590-832B7FA9069C}"
+  "FileHash": "{06E94B42-7D39-DEE2-583A-1BF8717F170B}"
  }
 }
