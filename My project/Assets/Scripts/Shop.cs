@@ -131,4 +131,11 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(itemType.FlowerSpringPlant6);
     }
+
+    public void BuyTrap1()
+    {
+        moneyAmount -= 5;
+        UpdateMoneyUI();
+        playersInventory.AddItem(itemType.Trap);
+    }
 }
