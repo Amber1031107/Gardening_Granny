@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a46edeb468ce254e9db27117cacff81c
     GuidInternal: 
-    m_lastTime: -8584285520469841372
+    m_lastTime: -8584284727364849896
     List:
     - name: Ambient
       guid: 41a9bcfd17452b42a1f2724853bb7e71
@@ -140,7 +140,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 96451de9c702914e80e51d74b3381a9a
     GuidInternal: 
-    m_lastTime: -8584285520386135918
+    m_lastTime: -8584284692110005831
     List:
     - name: Main_Soundbank
       guid: 2e0b4f13d6d2954ca537a42623ffd71d
@@ -168,8 +168,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 418605df2ab06b409cef03f20c99a62d
     GuidInternal: 
-    m_lastTime: -8584285594327991758
+    m_lastTime: -8584284692110015803
     List:
+    - name: Play_Spring_AMB
+      guid: e64fddeeadf0a44e99f69aff78ee0316
+      id: 378356484
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: Play_Spring_AMB
+        ObjectType: 3
+        guid: e64fddeeadf0a44e99f69aff78ee0316
+      Path: Events\Default Work Unit\Play_Spring_AMB
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Spring_AMB
+      guid: 7adfcab84a3712458e2327e43a2ac430
+      id: 1702308546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: Stop_Spring_AMB
+        ObjectType: 3
+        guid: 7adfcab84a3712458e2327e43a2ac430
+      Path: Events\Default Work Unit\Stop_Spring_AMB
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Test
       guid: 48dc70a094d39f478b6bae83154f22ac
       id: 3157003241
@@ -202,8 +236,8 @@ MonoBehaviour:
         guid: db22a967d9965a42abc2cf1abbbfc05b
       Path: Events\Default Work Unit\Test_Event
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -230,7 +264,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 42cc54b5424bc9478f7c99529ad3e07c
     GuidInternal: 
-    m_lastTime: -8584285523396408974
+    m_lastTime: -8584284760231389708
     List:
     - name: Location
       guid: 9d35017a8a715b44a4b7045c1abcb7f8
@@ -327,7 +361,7 @@ MonoBehaviour:
     m_lastTime: -8584285594318255721
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000a0000000b000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000a0000000b0000000e0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

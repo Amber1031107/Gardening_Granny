@@ -10,6 +10,22 @@
 						<State Name="Inside" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}">
+					<ChildrenList>
+						<State Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
+						<State Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
+						<State Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
+						<State Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
+						<State Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}">
+					<ChildrenList>
+						<State Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
+						<State Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
+						<State Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

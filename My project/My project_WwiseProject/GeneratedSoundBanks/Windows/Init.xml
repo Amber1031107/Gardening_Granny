@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D12614E5-A7BF-D543-DCE7-8DAE2BC1FA26}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B2B14E6B-18B9-5583-6CB9-293121F59E12}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -12,13 +12,13 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="77978275" Name="Ambient" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}"/>
+				<Bus Id="77978275" Name="Ambient" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
-				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}"/>
-				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}"/>
+				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
+				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
 			</AuxBusses>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
@@ -31,5 +31,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5AE9642-CE36-FE7B-3E87-88CE34F13980}</FileHash>
+	<FileHash>{468DCEF8-F34B-AE07-FF47-77EB18589714}</FileHash>
 </SoundBanksInfo>

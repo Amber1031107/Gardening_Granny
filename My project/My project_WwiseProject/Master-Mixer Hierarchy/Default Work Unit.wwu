@@ -12,6 +12,16 @@
 					<ChildrenList>
 						<AuxBus Name="s" ID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 						<Bus Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
 							<ChildrenList>
 								<AuxBus Name="Inside" ID="{BAB30D57-8102-4140-9822-C216D6D9B22E}">
 									<StateInfo>
@@ -29,7 +39,7 @@
 												<StateRef Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
 												<CustomState Name="" ID="{C69B17A2-7EDA-4682-9FE4-74992F227AE4}" ShortID="179052749">
 													<PropertyList>
-														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="BusVolume" Type="Real64" Value="13"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -77,6 +87,12 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
+						<AuxBus Name="Music" ID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
