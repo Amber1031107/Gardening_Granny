@@ -1,133 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{C4FA7F92-BF08-2CEC-0A7F-18F684D5554B}">
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{7D4F7782-6CAB-FF29-7E8B-6F111FD1F16A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
-			<Media>
-				<File Id="34470463" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_04.wav</ShortName>
-					<CachePath>3F/{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem</CachePath>
-				</File>
-				<File Id="128863012" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_01.wav</ShortName>
-					<CachePath>CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem</CachePath>
-				</File>
-				<File Id="147936951" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Breeze Spring_02.wav</ShortName>
-					<CachePath>E6/{E6048A61-D0F4-73DA-D1C2-B28C267A7ACE}.wem</CachePath>
-				</File>
-				<File Id="253876681" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_14.wav</ShortName>
-					<CachePath>64/{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem</CachePath>
-				</File>
-				<File Id="260095195" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_07.wav</ShortName>
-					<CachePath>84/{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem</CachePath>
-				</File>
-				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
-					<CachePath>3F/{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem</CachePath>
-				</File>
-				<File Id="393861057" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Breeze Spring_04.wav</ShortName>
-					<CachePath>7E/{7EC04265-824E-43DF-0546-71FA6C755295}.wem</CachePath>
-				</File>
-				<File Id="403079355" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_09.wav</ShortName>
-					<CachePath>D7/{D79412BA-A357-B5E1-B237-93FE704DEC86}.wem</CachePath>
-				</File>
-				<File Id="433637960" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_15.wav</ShortName>
-					<CachePath>07/{0758BF7B-F160-3B0C-767F-12609310D383}.wem</CachePath>
-				</File>
-				<File Id="458925649" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_16.wav</ShortName>
-					<CachePath>21/{21903945-360E-4620-271D-8511BA50DC56}.wem</CachePath>
-				</File>
-				<File Id="631474963" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Breeze Spring_05.wav</ShortName>
-					<CachePath>B9/{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem</CachePath>
-				</File>
-				<File Id="633174091" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_08.wav</ShortName>
-					<CachePath>23/{23C7A52E-3CB2-66D9-4804-AFEF87E86907}.wem</CachePath>
-				</File>
-				<File Id="640225445" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_12.wav</ShortName>
-					<CachePath>D5/{D5B05581-CEC2-0694-2747-769211630B60}.wem</CachePath>
-				</File>
-				<File Id="720278991" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Breeze Spring_01.wav</ShortName>
-					<CachePath>D4/{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem</CachePath>
-				</File>
-				<File Id="738021387" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_City Amb.wav</ShortName>
-					<CachePath>34/{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem</CachePath>
-				</File>
-				<File Id="749633620" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_02.wav</ShortName>
-					<CachePath>A9/{A98EC5AB-3ECB-4D8C-01E5-018153FD8A63}.wem</CachePath>
-				</File>
-				<File Id="767538386" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Breeze Spring_03.wav</ShortName>
-					<CachePath>7A/{7A811B0A-5A97-6CB3-4BDF-0700672D562C}.wem</CachePath>
-				</File>
-				<File Id="804176017" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_05.wav</ShortName>
-					<CachePath>AE/{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem</CachePath>
-				</File>
-				<File Id="817186541" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_10.wav</ShortName>
-					<CachePath>C3/{C31D09DE-7694-3EFD-CB91-7F2449813FF3}.wem</CachePath>
-				</File>
-				<File Id="861828819" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_13.wav</ShortName>
-					<CachePath>A9/{A9980DE4-DD0E-A2EF-734D-0611C1AA2F74}.wem</CachePath>
-				</File>
-				<File Id="878415752" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_03.wav</ShortName>
-					<CachePath>C8/{C88D703C-AA12-3692-264F-25BAB273EA5E}.wem</CachePath>
-				</File>
-				<File Id="977423185" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_11.wav</ShortName>
-					<CachePath>C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem</CachePath>
-				</File>
-				<File Id="1046667742" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Amb_Birds Spring_06.wav</ShortName>
-					<CachePath>FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem</CachePath>
-				</File>
-			</Media>
 			<Events>
-				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{EEDD4FE6-F0AD-4EA4-99F6-9AFF78EE0316}" Color="19" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="34470463"/>
-						<MediaRef Id="128863012"/>
-						<MediaRef Id="147936951"/>
-						<MediaRef Id="253876681"/>
-						<MediaRef Id="260095195"/>
-						<MediaRef Id="355788501"/>
-						<MediaRef Id="393861057"/>
-						<MediaRef Id="403079355"/>
-						<MediaRef Id="433637960"/>
-						<MediaRef Id="458925649"/>
-						<MediaRef Id="631474963"/>
-						<MediaRef Id="633174091"/>
-						<MediaRef Id="640225445"/>
-						<MediaRef Id="720278991"/>
-						<MediaRef Id="738021387"/>
-						<MediaRef Id="749633620"/>
-						<MediaRef Id="767538386"/>
-						<MediaRef Id="804176017"/>
-						<MediaRef Id="817186541"/>
-						<MediaRef Id="861828819"/>
-						<MediaRef Id="878415752"/>
-						<MediaRef Id="977423185"/>
-						<MediaRef Id="1046667742"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1702308546" Name="Stop_Spring_AMB" ObjectPath="\Events\Default Work Unit\Stop_Spring_AMB" GUID="{B8CADF7A-374A-4512-8E23-27E43A2AC430}" Color="19" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<Busses>
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
@@ -137,6 +16,7 @@
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+				<AuxBus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}" Color="3"/>
 			</AuxBusses>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
@@ -149,5 +29,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4DF7FA82-5585-EA2A-7C96-3F13E5263777}</FileHash>
+	<FileHash>{D8E4B750-12A5-1BDF-9E3F-A3CED6C652E8}</FileHash>
 </SoundBanksInfo>

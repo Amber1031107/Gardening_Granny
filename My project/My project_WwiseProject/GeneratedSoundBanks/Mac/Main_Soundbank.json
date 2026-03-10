@@ -11,283 +11,17 @@
     "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{C4FA7F92-BF08-2CEC-0A7F-18F684D5554B}",
+    "Hash": "{7D4F7782-6CAB-FF29-7E8B-6F111FD1F16A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
-    "Media": [
-     {
-      "Id": "34470463",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_04.wav",
-      "CachePath": "3F/{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem"
-     },
-     {
-      "Id": "128863012",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_01.wav",
-      "CachePath": "CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem"
-     },
-     {
-      "Id": "147936951",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Breeze Spring_02.wav",
-      "CachePath": "E6/{E6048A61-D0F4-73DA-D1C2-B28C267A7ACE}.wem"
-     },
-     {
-      "Id": "253876681",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_14.wav",
-      "CachePath": "64/{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem"
-     },
-     {
-      "Id": "260095195",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_07.wav",
-      "CachePath": "84/{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem"
-     },
-     {
-      "Id": "355788501",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring Amb.wav",
-      "CachePath": "3F/{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem"
-     },
-     {
-      "Id": "393861057",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Breeze Spring_04.wav",
-      "CachePath": "7E/{7EC04265-824E-43DF-0546-71FA6C755295}.wem"
-     },
-     {
-      "Id": "403079355",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_09.wav",
-      "CachePath": "D7/{D79412BA-A357-B5E1-B237-93FE704DEC86}.wem"
-     },
-     {
-      "Id": "433637960",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_15.wav",
-      "CachePath": "07/{0758BF7B-F160-3B0C-767F-12609310D383}.wem"
-     },
-     {
-      "Id": "458925649",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_16.wav",
-      "CachePath": "21/{21903945-360E-4620-271D-8511BA50DC56}.wem"
-     },
-     {
-      "Id": "631474963",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Breeze Spring_05.wav",
-      "CachePath": "B9/{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem"
-     },
-     {
-      "Id": "633174091",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_08.wav",
-      "CachePath": "23/{23C7A52E-3CB2-66D9-4804-AFEF87E86907}.wem"
-     },
-     {
-      "Id": "640225445",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_12.wav",
-      "CachePath": "D5/{D5B05581-CEC2-0694-2747-769211630B60}.wem"
-     },
-     {
-      "Id": "720278991",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Breeze Spring_01.wav",
-      "CachePath": "D4/{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem"
-     },
-     {
-      "Id": "738021387",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_City Amb.wav",
-      "CachePath": "34/{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem"
-     },
-     {
-      "Id": "749633620",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_02.wav",
-      "CachePath": "A9/{A98EC5AB-3ECB-4D8C-01E5-018153FD8A63}.wem"
-     },
-     {
-      "Id": "767538386",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Breeze Spring_03.wav",
-      "CachePath": "7A/{7A811B0A-5A97-6CB3-4BDF-0700672D562C}.wem"
-     },
-     {
-      "Id": "804176017",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_05.wav",
-      "CachePath": "AE/{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem"
-     },
-     {
-      "Id": "817186541",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_10.wav",
-      "CachePath": "C3/{C31D09DE-7694-3EFD-CB91-7F2449813FF3}.wem"
-     },
-     {
-      "Id": "861828819",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_13.wav",
-      "CachePath": "A9/{A9980DE4-DD0E-A2EF-734D-0611C1AA2F74}.wem"
-     },
-     {
-      "Id": "878415752",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_03.wav",
-      "CachePath": "C8/{C88D703C-AA12-3692-264F-25BAB273EA5E}.wem"
-     },
-     {
-      "Id": "977423185",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_11.wav",
-      "CachePath": "C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem"
-     },
-     {
-      "Id": "1046667742",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Amb_Birds Spring_06.wav",
-      "CachePath": "FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem"
-     }
-    ],
     "Events": [
      {
       "Id": "378356484",
       "Name": "Play_Spring_AMB",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
-      "GUID": "{EEDD4FE6-F0AD-4EA4-99F6-9AFF78EE0316}",
-      "Color": "19",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "34470463"
-       },
-       {
-        "Id": "128863012"
-       },
-       {
-        "Id": "147936951"
-       },
-       {
-        "Id": "253876681"
-       },
-       {
-        "Id": "260095195"
-       },
-       {
-        "Id": "355788501"
-       },
-       {
-        "Id": "393861057"
-       },
-       {
-        "Id": "403079355"
-       },
-       {
-        "Id": "433637960"
-       },
-       {
-        "Id": "458925649"
-       },
-       {
-        "Id": "631474963"
-       },
-       {
-        "Id": "633174091"
-       },
-       {
-        "Id": "640225445"
-       },
-       {
-        "Id": "720278991"
-       },
-       {
-        "Id": "738021387"
-       },
-       {
-        "Id": "749633620"
-       },
-       {
-        "Id": "767538386"
-       },
-       {
-        "Id": "804176017"
-       },
-       {
-        "Id": "817186541"
-       },
-       {
-        "Id": "861828819"
-       },
-       {
-        "Id": "878415752"
-       },
-       {
-        "Id": "977423185"
-       },
-       {
-        "Id": "1046667742"
-       }
-      ]
-     },
-     {
-      "Id": "1702308546",
-      "Name": "Stop_Spring_AMB",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Spring_AMB",
-      "GUID": "{B8CADF7A-374A-4512-8E23-27E43A2AC430}",
-      "Color": "19",
-      "MaxAttenuation": "0",
+      "GUID": "{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}",
+      "Color": "11",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -328,6 +62,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{D11FA05B-F4EA-495F-94B0-001BAEF56C33}",
+      "Color": "3"
      }
     ],
     "StateGroups": [
@@ -360,6 +101,6 @@
     ]
    }
   ],
-  "FileHash": "{EE9A04DC-EB44-89BE-B0B3-41AE3CCCD3F7}"
+  "FileHash": "{1DE2D618-7218-059A-3943-F1E8B7B2BCFF}"
  }
 }

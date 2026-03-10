@@ -1,10 +1,20 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
+	3381515358	Season			\Default Work Unit\Season	
+	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
 
 State	ID	Name	State Group			Notes
 	438105790	Outside	Location			
 	748895195	None	Location			
 	3553349781	Inside	Location			
+	748895195	None	Season			
+	1296465106	Spring	Season			
+	2965343494	Winter	Season			
+	3924562482	Summer	Season			
+	4010875483	Autumn	Season			
+	311764537	Day	TimeOfDay			
+	748895195	None	TimeOfDay			
+	1011622525	Night	TimeOfDay			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
@@ -14,6 +24,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	84696428	s			\Default Work Unit\Master Audio Bus\s	
 	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
 	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
