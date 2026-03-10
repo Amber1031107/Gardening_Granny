@@ -5531,6 +5531,7 @@ MonoBehaviour:
   buybutton4: {fileID: 905346595}
   buybutton5: {fileID: 308922412}
   buybutton6: {fileID: 463591795}
+  buyTrap1: {fileID: 1492365308}
   playersInventory: {fileID: 953978091}
 --- !u!64 &1085665287
 MeshCollider:

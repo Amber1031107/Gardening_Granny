@@ -5,7 +5,6 @@ using UnityEngine;
 public class DirtDigging : MonoBehaviour, IInteractable
 {
     private Renderer rend;
-
     public Material Dirt;
     public Material Grass;
 
@@ -19,7 +18,6 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public GameObject FlowerSummerPrefab;
     public GameObject FlowerAutumnPrefab;
     public GameObject FlowerWinterPrefab;
-
     public GameObject TrapPrefab;
 
     private Dictionary<itemType, GameObject> placeablePrefabs;
@@ -37,12 +35,10 @@ public class DirtDigging : MonoBehaviour, IInteractable
 
         rend = GetComponent<Renderer>();
         rend.material = Grass;
-
         CheckDirt = false;
         PlantIsPlanted = false;
         TrapIsPlaced = false;
 
-        // Create mapping
         placeablePrefabs = new Dictionary<itemType, GameObject>()
         {
             { itemType.FlowerSpringPlant1, FlowerSpringPrefab_plant1 },
@@ -51,51 +47,48 @@ public class DirtDigging : MonoBehaviour, IInteractable
             { itemType.FlowerSpringPlant4, FlowerSpringPrefab_plant4 },
             { itemType.FlowerSpringPlant5, FlowerSpringPrefab_plant5 },
             { itemType.FlowerSpringPlant6, FlowerSpringPrefab_plant6 },
-            { itemType.FlowerSummer, FlowerSummerPrefab },
-            { itemType.FlowerAutumn, FlowerAutumnPrefab },
-            { itemType.FlowerWinter, FlowerWinterPrefab },
-            { itemType.Trap, TrapPrefab }
+            { itemType.FlowerSummer,       FlowerSummerPrefab },
+            { itemType.FlowerAutumn,       FlowerAutumnPrefab },
+            { itemType.FlowerWinter,       FlowerWinterPrefab },
+            { itemType.Trap,               TrapPrefab }
         };
     }
 
-    private itemType? GetSelectedItemType()
-    {
-        int index = playerInventory.selectItem - 1;
-
-        if (index < 0 || index >= playerInventory.inventoryList.Count)
-            return null;
-
-        return playerInventory.inventoryList[index];
-    }
-
-
     public void InteractLeftClick()
     {
-        var selected = GetSelectedItemType();
+        var selected = playerInventory.GetSelectedItemType();
         if (selected == null) return;
 
         bool holdingPlant = selected.ToString().Contains("Flower");
         bool holdingShovel = selected == itemType.Shovel;
         bool holdingTrap = selected == itemType.Trap;
 
-
         if (holdingPlant)
         {
             if (CheckDirt && !PlantIsPlanted)
             {
-                GameObject prefab = placeablePrefabs[selected.Value];
-                Instantiate(prefab, transform.position, Quaternion.identity);
+                // Check the player actually has stock left
+                if (playerInventory.GetSelectedItemCount() == 0) return;
+
+                Instantiate(placeablePrefabs[selected.Value], transform.position, Quaternion.identity);
                 PlantIsPlanted = true;
+
+                // Use one from the stack
+                playerInventory.ConsumeItem(selected.Value);
             }
             return;
         }
+
         if (holdingTrap)
         {
             if (!CheckDirt && !TrapIsPlaced)
             {
-                GameObject prefab = placeablePrefabs[itemType.Trap];
-                Instantiate(prefab, transform.position, Quaternion.identity);
+                if (playerInventory.GetSelectedItemCount() == 0) return;
+
+                Instantiate(placeablePrefabs[itemType.Trap], transform.position, Quaternion.identity);
                 TrapIsPlaced = true;
+
+                playerInventory.ConsumeItem(itemType.Trap);
             }
             return;
         }
@@ -106,19 +99,17 @@ public class DirtDigging : MonoBehaviour, IInteractable
             {
                 rend.material = Dirt;
                 CheckDirt = true;
+                // Shovel is infinite — no ConsumeItem call needed
             }
         }
     }
 
-
     public void InteractRightClick()
     {
-        var selected = GetSelectedItemType();
+        var selected = playerInventory.GetSelectedItemType();
         if (selected == null) return;
 
-        bool holdingTrap = selected == itemType.Trap;
         bool holdingShovel = selected == itemType.Shovel;
-
 
         if (holdingShovel)
         {
