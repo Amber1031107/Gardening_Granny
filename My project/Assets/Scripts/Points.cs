@@ -12,8 +12,21 @@ public class Points : MonoBehaviour, IInteractable
     public GameObject Fances;
     public Vector3 WallSpawnPosition;
 
+    public GameObject pointsPrefab;
+
+    [Header("PointsScoreBoardScreen")]
+    public TextMeshProUGUI moneyText;
+    public int incomeAmount;
+    public TextMeshProUGUI DaysLeft;
+    public int DaysLeftAmount;
+    public TextMeshProUGUI Rating;
+    public int RatingAmount;
+    public Light sun;
+
     [Header("Score")]
     public int totalPoints = 0;
+
+    public Shop shopscript;
 
     [Tooltip("Optional — drag in a TextMeshPro UI text to display the score")]
     public TextMeshProUGUI scoreText;
@@ -21,6 +34,7 @@ public class Points : MonoBehaviour, IInteractable
     void Start()
     {
         Fances.SetActive(true);
+        DaysLeftAmount = 3;
         UpdateScoreUI();
     }
 
@@ -54,6 +68,12 @@ public class Points : MonoBehaviour, IInteractable
             Instantiate(Kid, spawnPosition, Quaternion.identity);
             Instantiate(InvisableWall, WallSpawnPosition, Quaternion.identity);
             Fances.SetActive(false);
+           
+            //set sun to night
+            sun.intensity = 0.05f;
+            sun.color = new Color(0.4f, 0.5f, 0.8f); // cool blue
+            sun.transform.rotation = Quaternion.Euler(10f, 170f, 0f);
+            RenderSettings.ambientLight = new Color(0.02f, 0.02f, 0.05f);
 
             // Switch ambience to night
             FindObjectOfType<SeasonAmbienceController>().SetNight();
@@ -70,14 +90,53 @@ public class Points : MonoBehaviour, IInteractable
     {
         totalPoints += amount;
         Debug.Log($"[Points] +{amount} → Total: {totalPoints}");
+
+        if (shopscript == null)
+        {
+            Debug.LogError("[Points] shopscript is not assigned!");
+            return;
+        }
+        Fances.SetActive(true);
+
+        
         UpdateScoreUI();
     }
 
     private void UpdateScoreUI()
     {
+        shopscript.moneyAmount += 500;
+        DaysLeftAmount -= 1;
         if (scoreText != null)
             scoreText.text = "Score: " + totalPoints.ToString();
+
+        // Pull money directly from shop so both UIs always match
+        if (moneyText != null && shopscript != null)
+            moneyText.text = "$" + shopscript.moneyAmount.ToString();
+
+        if (DaysLeft != null)
+            DaysLeft.text = DaysLeftAmount.ToString();
+
+        shopscript.UpdateMoneyUI();
+
+        if (Rating != null)
+        {
+            // Fixed: no gaps between thresholds, use >= and <=
+            if (totalPoints >= 40)
+                Rating.text = "S";
+            else if (totalPoints >= 35)
+                Rating.text = "A";
+            else if (totalPoints >= 30)
+                Rating.text = "B";
+            else if (totalPoints >= 25)
+                Rating.text = "C";
+            else if (totalPoints >= 20)
+                Rating.text = "D";
+            else if (totalPoints >= 15)
+                Rating.text = "E";
+            else if (totalPoints >= 10)
+                Rating.text = "F";
+            else
+                Rating.text = "F"; // catch-all so it's never blank
+        }
     }
-
-
 }

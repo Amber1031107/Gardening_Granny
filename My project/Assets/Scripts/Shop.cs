@@ -22,7 +22,7 @@ public class Shop : MonoBehaviour, IInteractable
 
     public PlayersInventory playersInventory;
 
-    private int moneyAmount;
+    public int moneyAmount;
     public int MoneyAmount
     {
         get { return moneyAmount; }
@@ -41,7 +41,7 @@ public class Shop : MonoBehaviour, IInteractable
         PlantsShop.SetActive(false);
     }
 
-    void UpdateMoneyUI()
+    public void UpdateMoneyUI()
     {
         moneyText.text = "$" + moneyAmount.ToString();
         

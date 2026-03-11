@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1976389881500618482}
   m_Layer: 0
   m_Name: InvisableWall
-  m_TagString: Untagged
+  m_TagString: InvisableWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
