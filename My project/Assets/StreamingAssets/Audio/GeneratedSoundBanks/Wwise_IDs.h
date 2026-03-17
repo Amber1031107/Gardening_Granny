@@ -13,7 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
+        static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
+        static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
     } // namespace EVENTS
 
     namespace STATES
@@ -60,15 +64,18 @@ namespace AK
 
     namespace SWITCHES
     {
-        namespace SPRINGSELECTOR
+        namespace SEASONS
         {
-            static const AkUniqueID GROUP = 1433035105U;
+            static const AkUniqueID GROUP = 2823114633U;
 
             namespace SWITCH
             {
+                static const AkUniqueID AUTUMN = 4010875483U;
                 static const AkUniqueID SPRING = 1296465106U;
+                static const AkUniqueID SUMMER = 3924562482U;
+                static const AkUniqueID WINTER = 2965343494U;
             } // namespace SWITCH
-        } // namespace SPRINGSELECTOR
+        } // namespace SEASONS
 
     } // namespace SWITCHES
 
@@ -82,12 +89,12 @@ namespace AK
     {
         static const AkUniqueID AMBIENT = 77978275U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC_MASTER = 79554116U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
         static const AkUniqueID INSIDE = 3553349781U;
-        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID OUTSIDE = 438105790U;
         static const AkUniqueID S = 84696428U;
     } // namespace AUX_BUSSES

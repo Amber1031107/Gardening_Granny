@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{43644339-7ED2-D793-E1D3-413E79AF2F74}">
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -38,6 +38,10 @@
 					<ShortName>Amb_Birds Spring_07.wav</ShortName>
 					<CachePath>84/{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem</CachePath>
 				</File>
+				<File Id="312702700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kids Cutscene Music.wav</ShortName>
+					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
+				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
 					<CachePath>3F/{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem</CachePath>
@@ -61,6 +65,10 @@
 				<File Id="458925649" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_16.wav</ShortName>
 					<CachePath>21/{21903945-360E-4620-271D-8511BA50DC56}.wem</CachePath>
+				</File>
+				<File Id="472907063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PLACEHOLDERMUSIC.wav</ShortName>
+					<CachePath>89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem</CachePath>
 				</File>
 				<File Id="577526996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 07.wav</ShortName>
@@ -132,6 +140,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1551648488" Name="Play_Autumn_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Autumn_MUSIC" GUID="{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1012836"/>
@@ -167,16 +181,34 @@
 						<MediaRef Id="1046667742"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3643452717" Name="Play_Summer_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Summer_MUSIC" GUID="{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3439960413" Name="Play_Winter_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Winter_Music" GUID="{F81BF58E-500B-4783-8FF4-49F17A01D84C}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<Busses>
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
+				<Bus Id="79554116" Name="Music Master" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
-				<AuxBus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}" Color="3"/>
 			</AuxBusses>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
@@ -189,5 +221,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E6928C8D-ED1B-1EA2-8510-4DD050DDA674}</FileHash>
+	<FileHash>{E82AC769-FA6C-C126-7C24-15E49C6A2FA9}</FileHash>
 </SoundBanksInfo>

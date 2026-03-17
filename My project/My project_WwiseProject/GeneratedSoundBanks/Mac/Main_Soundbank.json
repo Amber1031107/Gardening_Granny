@@ -11,7 +11,7 @@
     "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{43644339-7ED2-D793-E1D3-413E79AF2F74}",
+    "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -81,6 +81,14 @@
       "CachePath": "84/{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem"
      },
      {
+      "Id": "312702700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Kids Cutscene Music.wav",
+      "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
+     },
+     {
       "Id": "355788501",
       "Language": "SFX",
       "Streaming": "false",
@@ -127,6 +135,14 @@
       "Location": "Memory",
       "ShortName": "Amb_Birds Spring_16.wav",
       "CachePath": "21/{21903945-360E-4620-271D-8511BA50DC56}.wem"
+     },
+     {
+      "Id": "472907063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PLACEHOLDERMUSIC.wav",
+      "CachePath": "89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem"
      },
      {
       "Id": "577526996",
@@ -267,6 +283,22 @@
     ],
     "Events": [
      {
+      "Id": "1551648488",
+      "Name": "Play_Autumn_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Autumn_MUSIC",
+      "GUID": "{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     },
+     {
       "Id": "378356484",
       "Name": "Play_Spring_AMB",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
@@ -368,6 +400,54 @@
         "Id": "1046667742"
        }
       ]
+     },
+     {
+      "Id": "474285493",
+      "Name": "Play_Spring_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Spring_MUSIC",
+      "GUID": "{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     },
+     {
+      "Id": "3643452717",
+      "Name": "Play_Summer_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Summer_MUSIC",
+      "GUID": "{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     },
+     {
+      "Id": "3439960413",
+      "Name": "Play_Winter_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Winter_Music",
+      "GUID": "{F81BF58E-500B-4783-8FF4-49F17A01D84C}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
      }
     ],
     "Busses": [
@@ -377,6 +457,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
+     },
+     {
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
      },
      {
       "Id": "3803692087",
@@ -405,13 +492,6 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
-     },
-     {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
-      "GUID": "{D11FA05B-F4EA-495F-94B0-001BAEF56C33}",
-      "Color": "3"
      }
     ],
     "StateGroups": [
@@ -444,6 +524,6 @@
     ]
    }
   ],
-  "FileHash": "{C670D47C-AA99-A77C-11D6-7ED5597C3BA6}"
+  "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CCEA66F3-E260-44EB-23F7-C6E7349C31AC}",
+    "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -43,6 +43,13 @@
       "Color": "11"
      },
      {
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -69,13 +76,6 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
-     },
-     {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
-      "GUID": "{D11FA05B-F4EA-495F-94B0-001BAEF56C33}",
-      "Color": "3"
      }
     ],
     "StateGroups": [
@@ -172,17 +172,38 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "1433035105",
-      "Name": "SpringSelector",
-      "ObjectPath": "\\Switches\\Default Work Unit\\SpringSelector",
+      "Id": "2823114633",
+      "Name": "Seasons",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Seasons",
       "GUID": "{F0AD419A-11B3-41D5-B881-E09C2FE60B91}",
       "Color": "19",
       "Switches": [
        {
         "Id": "1296465106",
         "Name": "Spring",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SpringSelector\\Spring",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Spring",
         "GUID": "{3A93A480-3BCA-4778-867F-A3AA264448D3}",
+        "Color": "19"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Winter",
+        "GUID": "{33727495-CA6E-45BA-A72C-493DDEBC57C1}",
+        "Color": "19"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Summer",
+        "GUID": "{5AEE35B2-624B-40B2-BADD-5B49B8BA7D05}",
+        "Color": "19"
+       },
+       {
+        "Id": "4010875483",
+        "Name": "Autumn",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Autumn",
+        "GUID": "{B7754862-0699-48DE-B209-D6DC8A81752F}",
         "Color": "19"
        }
       ]
@@ -190,6 +211,6 @@
     ]
    }
   ],
-  "FileHash": "{05393BE1-070F-BBF1-9F25-8FD10FAFF2ED}"
+  "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
  }
 }
