@@ -38,6 +38,9 @@
 					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{AA20944F-85AF-4A14-A082-39E6EBAA0EE4}" ShortID="171363519">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
@@ -142,6 +145,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Stop_Spring_AMB" ID="{49EF2038-A531-4766-A083-4E9702148610}">
+					<ChildrenList>
+						<Action Name="" ID="{C7A6F827-A18A-43EA-B85D-7F69C19DB84C}" ShortID="1030685474">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

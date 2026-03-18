@@ -17427,6 +17427,8 @@ GameObject:
   - component: {fileID: 1404064244}
   - component: {fileID: 1404064245}
   - component: {fileID: 1404064246}
+  - component: {fileID: 1404064247}
+  - component: {fileID: 1404064248}
   m_Layer: 0
   m_Name: Season Audio Manager
   m_TagString: Untagged
@@ -17456,7 +17458,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404064242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fd7082b18bc28741a8fb4b947207027, type: 3}
   m_Name: 
@@ -17484,7 +17486,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404064242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ed60823b640dc543b5a754ad55fb8bf, type: 3}
   m_Name: 
@@ -17505,6 +17507,63 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ef1d730f69e0fdb479a4b55dc6926f5e, type: 2}
+--- !u!114 &1404064247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404064242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b0a4cf1f36da64c8f496ad95273285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAmbience:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a8c382bd3541ef45a1381d90fbff5e3, type: 2}
+  dayState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1ab26f19605a97447b183208665533ea, type: 2}
+  nightState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ef1d730f69e0fdb479a4b55dc6926f5e, type: 2}
+--- !u!114 &1404064248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404064242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e82768d254a4f448bde1278280fdd37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 484df2800b340cb4c8f1a09dbc3cd5e0, type: 2}
+  dayState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1ab26f19605a97447b183208665533ea, type: 2}
+  nightState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ef1d730f69e0fdb479a4b55dc6926f5e, type: 2}
+  musicSource: {fileID: 1404064242}
 --- !u!1 &1416857306
 GameObject:
   m_ObjectHideFlags: 0

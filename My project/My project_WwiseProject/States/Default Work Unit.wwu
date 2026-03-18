@@ -32,7 +32,7 @@
 						<Transition>
 							<StartState Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 							<EndState Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
-							<Time>3</Time>
+							<Time>2</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>

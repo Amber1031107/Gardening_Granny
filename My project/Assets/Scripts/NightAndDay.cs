@@ -35,5 +35,10 @@ public class NightAndDay : MonoBehaviour
         sun.color = Color.white;
         sun.transform.rotation = Quaternion.Euler(50f, -30f, 0f);
         RenderSettings.ambientLight = new Color(0.2f, 0.2f, 0.2f);
+
+        FindObjectOfType<DayNightAudioController>().SetDay();
+
+        FindObjectOfType<MusicAudioController>().Play();   // start Spring music
+        FindObjectOfType<MusicAudioController>().SetDay(); // set Day state
     }
 }
