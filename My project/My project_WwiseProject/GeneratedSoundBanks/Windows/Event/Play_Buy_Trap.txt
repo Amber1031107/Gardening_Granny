@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3485936852	Play_Buy_Trap			\Default Work Unit\Play_Buy_Trap	
+

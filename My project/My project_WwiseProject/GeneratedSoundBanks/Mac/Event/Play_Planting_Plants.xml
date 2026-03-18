@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2764715416" Name="Play_Planting_Plants" ObjectPath="\Events\Default Work Unit\Play_Planting_Plants" GUID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}" Color="5" DurationType="OneShot" DurationMin="0.31995785" DurationMax="0.39160264">
+				<Event Id="2764715416" Name="Play_Planting_Plants" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Planting_Plants" GUID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}" Color="5" DurationType="OneShot" DurationMin="0.31995785" DurationMax="0.39160264">
 					<MediaRefs>
 						<MediaRef Id="183180462"/>
 						<MediaRef Id="525213712"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B56DBF37-40CB-F7AB-6BDE-3314FCF6DE83}</FileHash>
+	<FileHash>{7914C185-DA58-A026-4AD5-90740E64EAFE}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3731501872" Type="Event" GUID="{65043EEC-C581-4B55-98E6-A15E8D096CE4}" Language="SFX" Hash="{9AEB528C-2783-D67B-52E9-D9E4C099CDED}">
+			<ObjectPath>Play_Buy_Plant</ObjectPath>
+			<ShortName>Play_Buy_Plant</ShortName>
+			<Path>Event/Play_Buy_Plant.bnk</Path>
+			<Events>
+				<Event Id="3731501872" Name="Play_Buy_Plant" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_Buy_Plant" GUID="{65043EEC-C581-4B55-98E6-A15E8D096CE4}" Color="3" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{81A7487A-92C4-8CA6-A55E-BEE259B5FA22}</FileHash>
+</SoundBanksInfo>

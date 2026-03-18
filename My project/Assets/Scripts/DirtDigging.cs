@@ -77,6 +77,9 @@ public class DirtDigging : MonoBehaviour, IInteractable
                 if (playerInventory.GetSelectedItemCount() == 0) return;
 
                 Instantiate(placeablePrefabs[selected.Value], transform.position, Quaternion.identity);
+
+                plantEvent?.Post(gameObject);//Audio
+
                 PlantIsPlanted = true;
 
                 // Use one from the stack
@@ -92,6 +95,9 @@ public class DirtDigging : MonoBehaviour, IInteractable
                 if (playerInventory.GetSelectedItemCount() == 0) return;
 
                 Instantiate(placeablePrefabs[itemType.Trap], transform.position, Quaternion.identity);
+
+                trapEvent?.Post(gameObject); //Audio
+
                 TrapIsPlaced = true;
 
                 playerInventory.ConsumeItem(itemType.Trap);

@@ -47,7 +47,7 @@
      {
       "Id": "3203628969",
       "Name": "Play_Digging_Dirt",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Digging_Dirt",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Digging_Dirt",
       "GUID": "{8BCADC86-32C9-4215-9459-425866065C6B}",
       "Color": "7",
       "DurationType": "OneShot",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{1ECEC0D6-36C2-FCD8-81E3-5CE288E61D00}"
+  "FileHash": "{013C81DC-3FA1-C5C1-00D5-5E44B10A9C0A}"
  }
 }

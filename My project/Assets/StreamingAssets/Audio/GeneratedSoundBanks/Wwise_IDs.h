@@ -15,7 +15,10 @@ namespace AK
     {
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
         static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
+        static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
+        static const AkUniqueID PLAY_BUY_TRAP = 3485936852U;
         static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
+        static const AkUniqueID PLAY_NO_MONEY_LEFT = 2150464526U;
         static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
