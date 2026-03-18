@@ -1,4 +1,4 @@
-#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#if !(UNITY_QNX) // Disable under unsupported platforms.
 /*******************************************************************************
 The content of this file includes portions of the proprietary AUDIOKINETIC Wwise
 Technology released in source code form as part of the game integration package.
@@ -13,14 +13,25 @@ Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
 this file in accordance with the end user license agreement provided with the
 software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
-Copyright (c) 2025 Audiokinetic Inc.
+Copyright (c) 2026 Audiokinetic Inc.
 *******************************************************************************/
+
+using AK.Wwise.Unity.Logging;
+
+// Matches the values of AkRoomDistanceBehavior
+public enum AkRoomDistanceBehaviorLabel
+{
+    Subtract = AkRoomDistanceBehavior.AkRoomDistanceBehavior_Subtract,
+    Exclude = AkRoomDistanceBehavior.AkRoomDistanceBehavior_Exclude
+}
 
 [UnityEngine.AddComponentMenu("Wwise/Spatial Audio/AkRoom")]
 [UnityEngine.RequireComponent(typeof(UnityEngine.Collider))]
 [UnityEngine.DisallowMultipleComponent]
 /// @brief An AkRoom is an enclosed environment that can only communicate to the outside/other rooms with AkRoomPortals
 /// @details The AkRoom component uses its required Collider component to determine when AkRoomAwareObjects enter and exit the room using the OnTriggerEnter and OnTriggerExit callbacks.
+/// When using Spatial Audio Rooms and Portals, a default Room is automatically created to contain game objects that are currently not in a Room. This Room is typically used for the outdoors and is therefore called the Outdoors Room.
+/// Because the Outdoors Room is automatically created, you do not have to add it to a scene, but you can customize it by using static functions in the AkRoom class.
 public class AkRoom : AkTriggerHandler
 {
 	public static ulong INVALID_ROOM_ID = unchecked((ulong)(-1));
@@ -50,13 +61,20 @@ public class AkRoom : AkTriggerHandler
 	/// Loss value modeling transmission through walls.
 	public float transmissionLoss = 1;
 
-	/// Wwise Event to be posted on the room game object.
-	public AK.Wwise.Event roomToneEvent = new AK.Wwise.Event();
+	/// [Experimental] Determines how a room interacts with the distance calculation of other rooms that it overlaps or is nested within.
+	public AkRoomDistanceBehaviorLabel distanceBehavior = (AkRoomDistanceBehaviorLabel)AkRoomDistanceBehavior.AkRoomDistanceBehavior_Default;
+
+    /// Wwise Event to be posted on the room game object.
+    public AK.Wwise.Event roomToneEvent = new AK.Wwise.Event();
 
 	[UnityEngine.Range(0, 1)]
 	[UnityEngine.Tooltip("Send level for sounds that are posted on the room game object; adds reverb to ambience and room tones. Valid range: (0.f-1.f). A value of 0 disables the aux send.")]
 	/// Send level for sounds that are posted on the room game object; adds reverb to ambience and room tones. Valid range: (0.f-1.f). A value of 0 disables the aux send.
 	public float roomToneAuxSend = 0;
+
+	[UnityEngine.Tooltip("Set to true to set this room as static: a room that will not move nor will its properties change during gameplay. A non-static room will check the state of its transform and the state of its properties each frame and update the room in Wwise if there is a change.")]
+	/// Set to true to set this room as static: a room that will not move nor will its properties change during gameplay. A non-static room will check the state of its transform and the state of its properties each frame and update the room in Wwise if there is a change.
+	public bool isStatic = false;
 
 	/// This is the list of AkRoomAwareObjects that have entered this AkRoom
 	private System.Collections.Generic.List<AkRoomAwareObject> roomAwareObjectsEntered = new System.Collections.Generic.List<AkRoomAwareObject>();
@@ -68,9 +86,11 @@ public class AkRoom : AkTriggerHandler
 
 	private int previousRoomState;
 	private int previousTransformState;
+	private int previousGeometryTransformState;
 	private int previousGeometryState;
 
 	private bool bSentToWwise = false;
+	private bool bypassPortalSubtraction = false;
 	private bool isSolid = false;
 
 	private ulong geometryID = AkSurfaceReflector.INVALID_GEOMETRY_ID;
@@ -90,6 +110,8 @@ public class AkRoom : AkTriggerHandler
 			reverbAuxBus.IsValid() ? reverbAuxBus.GetHashCode() : 0,
 			reverbLevel.GetHashCode(),
 			transmissionLoss.GetHashCode(),
+			distanceBehavior.GetHashCode(),
+			priority.GetHashCode(),
 			roomToneEvent.IsValid() ? roomToneEvent.GetHashCode() : 0,
 			roomToneAuxSend.GetHashCode(),
 			transform.rotation.GetHashCode()
@@ -100,8 +122,17 @@ public class AkRoom : AkTriggerHandler
 
 	private int GetTransformState()
 	{
-		var scale = transform.lossyScale;
+		int[] hashCodes = new[] {
+			transform.position.GetHashCode(),
+			transform.lossyScale.GetHashCode(),
+			transform.rotation.GetHashCode()
+		};
 
+		return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
+	}
+
+	private int GetGeometryTransformState()
+	{
 		if (IsAssociatedGeometryFromCollider())
 		{
 			if (roomCollider == null)
@@ -111,53 +142,62 @@ public class AkRoom : AkTriggerHandler
 
 			if (roomCollider.GetType() == typeof(UnityEngine.BoxCollider))
 			{
-				scale = new UnityEngine.Vector3(
-					transform.lossyScale.x * ((UnityEngine.BoxCollider)roomCollider).size.x,
-					transform.lossyScale.y * ((UnityEngine.BoxCollider)roomCollider).size.y,
-					transform.lossyScale.z * ((UnityEngine.BoxCollider)roomCollider).size.z);
+				int[] hashCodes = new[] {
+					((UnityEngine.BoxCollider)roomCollider).center.GetHashCode(),
+					((UnityEngine.BoxCollider)roomCollider).size.GetHashCode(),
+				};
+
+				return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
 			}
 			else if (roomCollider.GetType() == typeof(UnityEngine.CapsuleCollider))
 			{
-				scale = GetCubeScaleFromCapsule(
-					transform.lossyScale,
-					((UnityEngine.CapsuleCollider)roomCollider).radius,
-					((UnityEngine.CapsuleCollider)roomCollider).height,
-					((UnityEngine.CapsuleCollider)roomCollider).direction);
+				int[] hashCodes = new[] {
+					((UnityEngine.CapsuleCollider)roomCollider).center.GetHashCode(),
+					((UnityEngine.CapsuleCollider)roomCollider).radius.GetHashCode(),
+					((UnityEngine.CapsuleCollider)roomCollider).height.GetHashCode(),
+					((UnityEngine.CapsuleCollider)roomCollider).direction.GetHashCode(),
+				};
+
+				return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
 			}
 			else if (roomCollider.GetType() == typeof(UnityEngine.SphereCollider))
 			{
-				scale = roomCollider.bounds.size;
+				int[] hashCodes = new[] {
+					((UnityEngine.SphereCollider)roomCollider).center.GetHashCode(),
+					((UnityEngine.SphereCollider)roomCollider).radius.GetHashCode(),
+				};
+
+				return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
 			}
 		}
 
-		int[] hashCodes = new[] {
-			transform.position.GetHashCode(),
-			transform.rotation.GetHashCode(),
-			scale.GetHashCode(),
-		};
-
-		return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
+		return 0;
 	}
 
 	private int GetGeometryState()
 	{
-		if (roomCollider == null)
+		if (IsAssociatedGeometryFromCollider())
 		{
-			roomCollider = GetComponent<UnityEngine.Collider>();
-		}
-		int colliderHash = roomCollider.GetHashCode();
+			if (roomCollider == null)
+			{
+				roomCollider = GetComponent<UnityEngine.Collider>();
+			}
+			int colliderHash = roomCollider.GetHashCode();
 
-		int meshHash = 0;
-		if (roomCollider.GetType() == typeof(UnityEngine.MeshCollider))
-		{
-			meshHash = ((UnityEngine.MeshCollider)roomCollider).sharedMesh.GetHashCode();
+			int meshHash = 0;
+			if (roomCollider.GetType() == typeof(UnityEngine.MeshCollider))
+			{
+				meshHash = ((UnityEngine.MeshCollider)roomCollider).sharedMesh.GetHashCode();
+			}
+
+			int[] hashCodes = new[] {
+				colliderHash,
+				meshHash
+			};
+			return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
 		}
 
-		int[] hashCodes = new[] {
-			colliderHash,
-			meshHash
-		};
-		return AK.Wwise.BaseType.CombineHashCodes(hashCodes);
+		return 0;
 	}
 
 	public bool TryEnter(AkRoomAwareObject roomAwareObject)
@@ -271,7 +311,7 @@ public class AkRoom : AkTriggerHandler
 		}
 		else
 		{
-			UnityEngine.Debug.LogWarning(name + " has an invalid collider for wet transmission. Wet Transmission will be disabled.");
+			WwiseLogger.Warning(name + " has an invalid collider for wet transmission. Wet Transmission will be disabled.");
 			geometryID = AkSurfaceReflector.INVALID_GEOMETRY_ID;
 		}
 	}
@@ -296,7 +336,7 @@ public class AkRoom : AkTriggerHandler
 		if (roomCollider.GetType() == typeof(UnityEngine.MeshCollider))
 		{
 			geometryID = GetID();
-			AkSurfaceReflector.SetGeometryInstance(geometryID, geometryID, transform, false, isSolid);
+			AkSurfaceReflector.SetGeometryInstance(geometryID, geometryID, transform, false, bypassPortalSubtraction, isSolid);
 		}
 		else if (roomCollider.GetType() == typeof(UnityEngine.BoxCollider) && AkInitializer.CubeGeometryData.numTriangles != 0)
 		{
@@ -309,7 +349,7 @@ public class AkRoom : AkTriggerHandler
 				transform.lossyScale.y * ((UnityEngine.BoxCollider)roomCollider).size.y,
 				transform.lossyScale.z * ((UnityEngine.BoxCollider)roomCollider).size.z);
 
-			AkUnitySoundEngine.SetGeometryInstance(geometryID, geometryInstanceTransform, geometryInstanceScale, geometryID, false, isSolid);
+			AkUnitySoundEngine.SetGeometryInstance(geometryID, geometryInstanceTransform, geometryInstanceScale, geometryID, false, bypassPortalSubtraction, isSolid);
 		}
 		else if (roomCollider.GetType() == typeof(UnityEngine.CapsuleCollider) && AkInitializer.CubeGeometryData.numTriangles != 0)
 		{
@@ -323,7 +363,7 @@ public class AkRoom : AkTriggerHandler
 				((UnityEngine.CapsuleCollider)roomCollider).height,
 				((UnityEngine.CapsuleCollider)roomCollider).direction);
 
-			AkUnitySoundEngine.SetGeometryInstance(geometryID, geometryInstanceTransform, geometryInstanceScale, geometryID, false, isSolid);
+			AkUnitySoundEngine.SetGeometryInstance(geometryID, geometryInstanceTransform, geometryInstanceScale, geometryID, false, bypassPortalSubtraction, isSolid);
 		}
 		else if (roomCollider.GetType() == typeof(UnityEngine.SphereCollider) && AkInitializer.SphereGeometryData.numTriangles != 0)
 		{
@@ -333,11 +373,11 @@ public class AkRoom : AkTriggerHandler
 			geometryInstanceTransform.Set(roomCollider.bounds.center, transform.forward, transform.up);
 			UnityEngine.Vector3 geometryInstanceScale = roomCollider.bounds.size;
 
-			AkUnitySoundEngine.SetGeometryInstance(geometryID, geometryInstanceTransform, geometryInstanceScale, geometryID, false, isSolid);
+			AkUnitySoundEngine.SetGeometryInstance(geometryID, geometryInstanceTransform, geometryInstanceScale, geometryID, false, bypassPortalSubtraction, isSolid);
 		}
 		else
 		{
-			UnityEngine.Debug.LogWarning(name + " has an invalid collider for wet transmission. Wet Transmission will be disabled.");
+			WwiseLogger.Warning(name + " has an invalid collider for wet transmission. Wet Transmission will be disabled.");
 			geometryID = AkSurfaceReflector.INVALID_GEOMETRY_ID;
 		}
 	}
@@ -360,8 +400,9 @@ public class AkRoom : AkTriggerHandler
 
 			RoomGameObj_AuxSendLevelToSelf = roomToneAuxSend,
 			RoomGameObj_KeepRegistered = roomToneEvent.IsValid(),
-			RoomPriority = priority
-		};
+			RoomPriority = priority,
+			DistanceBehavior = (AkRoomDistanceBehavior)distanceBehavior
+        };
 
 		if (bSentToWwise == false)
 		{
@@ -397,15 +438,15 @@ public class AkRoom : AkTriggerHandler
 
 	private void Update()
 	{
-		int currentTransformState = GetTransformState();
-		int currentGeometryState = GetGeometryState();
-		int currentRoomState = GetRoomState();
+		// don't update if is static
+		if (isStatic) return;
 
 		bool GeometryNeedsUpdate = false;
 		bool GeometryInstanceNeedsUpdate = false;
 		bool RoomNeedsUpdate = false;
 		bool PortalsNeedUpdate = false;
-
+		
+		int currentTransformState = GetTransformState();
 		if (previousTransformState != currentTransformState)
 		{
 			if (IsAssociatedGeometryFromCollider())
@@ -415,7 +456,21 @@ public class AkRoom : AkTriggerHandler
 			PortalsNeedUpdate = true;
 			previousTransformState = currentTransformState;
 		}
+		else
+		{
+			int currentGeometryTransformState = GetGeometryTransformState();
+			if (previousGeometryTransformState != currentGeometryTransformState)
+			{
+				if (IsAssociatedGeometryFromCollider())
+				{
+					GeometryInstanceNeedsUpdate = true;
+				}
+				PortalsNeedUpdate = true;
+				previousGeometryTransformState = currentGeometryTransformState;
+			}
+		}
 
+		int currentGeometryState = GetGeometryState();
 		if (previousGeometryState != currentGeometryState)
 		{
 			if (IsAssociatedGeometryFromCollider())
@@ -426,6 +481,7 @@ public class AkRoom : AkTriggerHandler
 			previousGeometryState = currentGeometryState;
 		}
 
+		int currentRoomState = GetRoomState();
 		if (previousRoomState != currentRoomState)
 		{
 			RoomNeedsUpdate = true;
@@ -435,7 +491,6 @@ public class AkRoom : AkTriggerHandler
 		if (GeometryNeedsUpdate)
 		{
 			SetGeometryFromCollider();
-			SetGeometryInstanceFromCollider();
 		}
 
 		if (GeometryInstanceNeedsUpdate)
@@ -492,6 +547,7 @@ public class AkRoom : AkTriggerHandler
 		AkSurfaceReflector surfaceReflectorComponent = gameObject.GetComponent<AkSurfaceReflector>();
 		if (surfaceReflectorComponent != null && surfaceReflectorComponent.enabled)
 		{
+			bypassPortalSubtraction = surfaceReflectorComponent.BypassPortalSubtraction;
 			isSolid = surfaceReflectorComponent.Solid;
 			geometryID = surfaceReflectorComponent.GetID();
 		}
@@ -517,6 +573,7 @@ public class AkRoom : AkTriggerHandler
 		// init update condition
 		previousRoomState = GetRoomState();
 		previousTransformState = GetTransformState();
+		previousGeometryTransformState = GetGeometryTransformState();
 		previousGeometryState = GetGeometryState();
 	}
 
@@ -602,7 +659,7 @@ public class AkRoom : AkTriggerHandler
 
 		if (transitionRegionWidth < 0.0f)
 		{
-			UnityEngine.Debug.LogWarning("SetReverbZone: Transition region width is a negative number. It has been clamped to 0.");
+			WwiseLogger.Warning("SetReverbZone: Transition region width is a negative number. It has been clamped to 0.");
 			transitionRegionWidth = 0.0f;
 		}
 
@@ -700,9 +757,16 @@ public class AkRoom : AkTriggerHandler
 	private static ulong INVALID_ROOM_GAMEOBJECT_ID = unchecked((ulong)(-4));
 	private static AkRoom.OutdoorsRoomParameters _currentOutdoorsRoomParameters = AkRoom.OutdoorsRoomParameters.Default;
 
-	static public AkRoom.OutdoorsRoomParameters currentOutdoorsRoomParameters { get { return _currentOutdoorsRoomParameters; } }
+    /// <summary>
+    /// The current Outdoors Room parameters.
+    /// </summary>
+    static public AkRoom.OutdoorsRoomParameters currentOutdoorsRoomParameters { get { return _currentOutdoorsRoomParameters; } }
 
-	public struct OutdoorsRoomParameters
+    /// <summary>
+    /// Structure containing the parameters of the Outdoors Room.
+	/// When using the Spatial Audio Rooms and Portal feature, a default Room is automatically created to place game objects that are currently not in a Room. This Room is typically used for outdoors and is therefore nicknamed the Outdoors Room.
+    /// </summary>
+    public struct OutdoorsRoomParameters
 	{
 		public OutdoorsRoomParameters(AK.Wwise.AuxBus in_reverbAuxBus, float in_reverbLevel, float in_transmissionLoss, float in_auxSendLevel, bool in_keepRegistered)
 		{
@@ -713,19 +777,38 @@ public class AkRoom : AkTriggerHandler
 			keepRegistered = in_keepRegistered;
 		}
 
-		public AK.Wwise.AuxBus reverbAuxBus;
-		public float reverbLevel;
-		public float transmissionLoss;
-		public float auxSendLevel;
-		public bool keepRegistered;
+        /// The reverb auxiliary bus used by the Outdoors Room.
+        public AK.Wwise.AuxBus reverbAuxBus;
 
-		public static OutdoorsRoomParameters Default
+        /// The reverb control value for the send to the reverb aux bus. Valid range: (0.f-1.f). Default value is 1.
+        public float reverbLevel;
+
+        /// Loss value modeling transmission through the outdoors room volume. Valid range: (0.f-1.f). Default value is 0.
+        public float transmissionLoss;
+
+        /// Send level for sounds that are posted on the outdoors room game object. This property adds reverb to ambience and room tones. Valid range: (0.f-1.f). A value of 0 disables the aux send. Default value is 0.
+        public float auxSendLevel;
+
+        /// If set to false, Spatial Audio registers the room object only when it is needed by the sound propagation system for the purposes of reverb,
+		/// and unregisters the game object when all reverb tails are finished.
+		/// We recommend that you set this property to true if you call PostEvent() for the purpose of ambience or room tones.
+        /// Default value is false.
+        public bool keepRegistered;
+
+        /// <summary>
+        /// Gets an OutdoorsRoomParameters structure with all parameters set to their Default values.
+        /// </summary>
+        public static OutdoorsRoomParameters Default
 		{
 			get { return new OutdoorsRoomParameters(null, 1.0f, .0f, .0f, false); }
 		}
 	}
 
-	static public void SetOutdoorsRoomParameters(OutdoorsRoomParameters in_outdoorsRoomParameters)
+    /// <summary>
+    /// Sets the parameters of the defaut Outdoors Room.
+    /// </summary>
+    /// <param name="in_outdoorsRoomParameters">Structure containing the new parameters of the Outdoors Room.</param>
+    static public void SetOutdoorsRoomParameters(OutdoorsRoomParameters in_outdoorsRoomParameters)
 	{
 		_currentOutdoorsRoomParameters = in_outdoorsRoomParameters;
 
@@ -742,7 +825,7 @@ public class AkRoom : AkTriggerHandler
 			shortID = _currentOutdoorsRoomParameters.reverbAuxBus.Id;
 			if (shortID == AK.Wwise.AuxBus.InvalidId)
 			{
-				UnityEngine.Debug.Log("AkRoom.SetOutdoorsRoomParameters : AuxBus passed in parameters has an invalid ShortId.");
+				WwiseLogger.Log("AkRoom.SetOutdoorsRoomParameters : AuxBus passed in parameters has an invalid ShortId.");
 			}
 		}
 		roomParams.ReverbAuxBus = shortID;
@@ -756,6 +839,11 @@ public class AkRoom : AkTriggerHandler
 		AkUnitySoundEngine.SetRoom(AkRoom.INVALID_ROOM_ID, roomParams, AkSurfaceReflector.INVALID_GEOMETRY_ID, "Outdoors");
 	}
 
+	/// <summary>
+	/// Posts an Event on the Outdoors Room.
+	/// </summary>
+	/// <param name="in_event">Envent to play.</param>
+	/// <returns></returns>
 	static public uint PostEventOutdoors(AK.Wwise.Event in_event)
 	{
 		if (!in_event.IsValid())
@@ -772,6 +860,9 @@ public class AkRoom : AkTriggerHandler
 		return in_event.Post(AkRoom.INVALID_ROOM_GAMEOBJECT_ID);
 	}
 
+	/// <summary>
+	/// Stops all sounds for the Outdoors Room.
+	/// </summary>
 	static public void StopOutdoors()
 	{
 		AkUnitySoundEngine.StopAll(AkRoom.INVALID_ROOM_GAMEOBJECT_ID);
@@ -805,4 +896,4 @@ public class AkRoom : AkTriggerHandler
 	}
 	#endregion
 }
-#endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#endif // #if !(UNITY_QNX) // Disable under unsupported platforms.

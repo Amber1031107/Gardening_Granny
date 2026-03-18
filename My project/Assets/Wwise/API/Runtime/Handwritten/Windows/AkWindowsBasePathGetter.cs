@@ -12,7 +12,7 @@ Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
 this file in accordance with the end user license agreement provided with the
 software or, alternatively, in accordance with the terms contained
 in a written agreement between you and Audiokinetic Inc.
-Copyright (c) 2025 Audiokinetic Inc.
+Copyright (c) 2026 Audiokinetic Inc.
 *******************************************************************************/
 
 ﻿#if UNITY_EDITOR_WIN || (UNITY_STANDALONE_WIN && !UNITY_EDITOR)
@@ -38,6 +38,18 @@ public partial class AkBasePathGetter
 	public static string GetDecodedBankPath()
 	{
 		return System.IO.Path.Combine(Instance.SoundBankBasePath, DecodedBankFolder);
+	}
+}
+#endif
+
+#if UNITY_EDITOR
+[UnityEditor.InitializeOnLoad]
+public partial class AkWindowsBasePathGetter
+{
+	static AkWindowsBasePathGetter()
+	{
+		AkBasePathGetter.AddTargetPlatform(UnityEditor.BuildTarget.StandaloneWindows, "Windows");
+		AkBasePathGetter.AddTargetPlatform(UnityEditor.BuildTarget.StandaloneWindows64, "Windows");
 	}
 }
 #endif
