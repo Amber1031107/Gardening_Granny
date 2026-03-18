@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3731501872	Play_Buy_Plant			\Default Work Unit\Play_Buy_Plant	
+

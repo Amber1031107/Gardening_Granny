@@ -23,7 +23,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3203628969" Name="Play_Digging_Dirt" ObjectPath="\Events\Default Work Unit\Play_Digging_Dirt" GUID="{8BCADC86-32C9-4215-9459-425866065C6B}" Color="7" DurationType="OneShot" DurationMin="0.35395283" DurationMax="0.40307748">
+				<Event Id="3203628969" Name="Play_Digging_Dirt" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Digging_Dirt" GUID="{8BCADC86-32C9-4215-9459-425866065C6B}" Color="7" DurationType="OneShot" DurationMin="0.35395283" DurationMax="0.40307748">
 					<MediaRefs>
 						<MediaRef Id="187818746"/>
 						<MediaRef Id="798636784"/>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D9E5BAB-FA79-F680-FD00-DC6C9192BC9D}</FileHash>
+	<FileHash>{6922B841-8E6C-F938-C044-EEC8343ABEF5}</FileHash>
 </SoundBanksInfo>

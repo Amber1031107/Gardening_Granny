@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2150464526",
+    "Type": "Event",
+    "GUID": "{D9A14EBA-DBA5-46D4-8BC3-6D12EE1A59C8}",
+    "Language": "SFX",
+    "Hash": "{6143E5AC-5F45-1581-DBFD-784D3E36A107}",
+    "ObjectPath": "Play_No_Money_Left",
+    "ShortName": "Play_No_Money_Left",
+    "Path": "Event/Play_No_Money_Left.bnk",
+    "Media": [
+     {
+      "Id": "107601812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "273658-Negative-Sound-Tone-Hit-4.wav",
+      "Path": "Media/107601812.wem",
+      "CachePath": "0A/{0A526D40-3E42-C451-09D8-201B3794FE7F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2150464526",
+      "Name": "Play_No_Money_Left",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI SOUNDS\\Play_No_Money_Left",
+      "GUID": "{D9A14EBA-DBA5-46D4-8BC3-6D12EE1A59C8}",
+      "Color": "3",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3887075",
+      "DurationMax": "0.3887075",
+      "MediaRefs": [
+       {
+        "Id": "107601812"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1B6D48E0-870F-8625-443D-9FEFB2C5333B}"
+ }
+}

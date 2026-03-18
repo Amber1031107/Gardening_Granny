@@ -29,7 +29,7 @@
      {
       "Id": "2554101686",
       "Name": "Play_Bear_Trap_Place",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bear_Trap_Place",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Bear_Trap_Place",
       "GUID": "{BFA4E2B6-9674-4B68-97E6-930AE455E068}",
       "Color": "13",
       "DurationType": "OneShot",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{AB7BF197-D294-729F-0F41-E7242AA111BF}"
+  "FileHash": "{187F0204-54B6-401E-6713-2F8C309F55C7}"
  }
 }

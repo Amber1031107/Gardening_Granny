@@ -159,51 +159,112 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Digging_Dirt" ID="{8BCADC86-32C9-4215-9459-425866065C6B}">
+				<Folder Name="UI SOUNDS" ID="{B4D7033C-A9BC-42D4-B310-262DCFC98566}" ShortID="845198889">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{48E17EC3-5B3F-4EDF-9109-E02BC661731F}" ShortID="581030521">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_No_Money_Left" ID="{D9A14EBA-DBA5-46D4-8BC3-6D12EE1A59C8}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{E3BAE1FF-319D-45A9-BCB1-6360CD78398D}" ShortID="736780218">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No Money Left" ID="{0C74DAC9-0EB9-473E-9AA3-CA0F94524DB0}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Buy_Trap" ID="{C1D96969-514C-44E4-9C92-109881BBCD05}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B02EDB7B-3568-4FA8-A225-423E46E5798A}" ShortID="215398386">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buy Trap" ID="{E52F499F-D4C8-4499-A085-D1BE3EDA9823}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Buy_Plant" ID="{65043EEC-C581-4B55-98E6-A15E8D096CE4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{79034FAB-6713-4945-9D80-BCDF52E9EDFA}" ShortID="402379766">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Planting_Plants" ID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}">
+				</Folder>
+				<Folder Name="PLAYER ACTIONS" ID="{7A0BACBF-47BE-42FC-BF4A-D217FE5DD756}" ShortID="783873349">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{D1611191-4CF8-4C26-95C5-7F4C43258EBE}" ShortID="195976045">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Bear_Trap_Place" ID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7A1B01F2-6F1D-4D43-8FCB-B15048764747}" ShortID="491883860">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Digging_Dirt" ID="{8BCADC86-32C9-4215-9459-425866065C6B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{48E17EC3-5B3F-4EDF-9109-E02BC661731F}" ShortID="581030521">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Planting_Plants" ID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="5"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D1611191-4CF8-4C26-95C5-7F4C43258EBE}" ShortID="195976045">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Bear_Trap_Place" ID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="13"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{7A1B01F2-6F1D-4D43-8FCB-B15048764747}" ShortID="491883860">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

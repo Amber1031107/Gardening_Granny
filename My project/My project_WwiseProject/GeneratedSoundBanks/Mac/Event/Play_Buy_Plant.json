@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3731501872",
+    "Type": "Event",
+    "GUID": "{65043EEC-C581-4B55-98E6-A15E8D096CE4}",
+    "Language": "SFX",
+    "Hash": "{9AEB528C-2783-D67B-52E9-D9E4C099CDED}",
+    "ObjectPath": "Play_Buy_Plant",
+    "ShortName": "Play_Buy_Plant",
+    "Path": "Event/Play_Buy_Plant.bnk",
+    "Events": [
+     {
+      "Id": "3731501872",
+      "Name": "Play_Buy_Plant",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI SOUNDS\\Play_Buy_Plant",
+      "GUID": "{65043EEC-C581-4B55-98E6-A15E8D096CE4}",
+      "Color": "3",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7BCFDBD0-5971-9007-6D31-5277AA18A1E6}"
+ }
+}

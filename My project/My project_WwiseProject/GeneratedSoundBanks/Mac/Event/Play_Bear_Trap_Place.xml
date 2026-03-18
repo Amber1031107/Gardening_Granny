@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2554101686" Name="Play_Bear_Trap_Place" ObjectPath="\Events\Default Work Unit\Play_Bear_Trap_Place" GUID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}" Color="13" DurationType="OneShot" DurationMin="0.4404278" DurationMax="0.49436352">
+				<Event Id="2554101686" Name="Play_Bear_Trap_Place" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Bear_Trap_Place" GUID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}" Color="13" DurationType="OneShot" DurationMin="0.4404278" DurationMax="0.49436352">
 					<MediaRefs>
 						<MediaRef Id="171821750"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{62835284-5C3D-4B83-A4CB-CA6AACE529F4}</FileHash>
+	<FileHash>{6AA16601-01CD-727A-FD22-2505A813BC96}</FileHash>
 </SoundBanksInfo>
