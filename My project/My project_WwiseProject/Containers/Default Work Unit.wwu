@@ -157,6 +157,10 @@
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Player Actions" ID="{9702F2A2-EC4A-40ED-A1A8-C0526169B128}" ShortID="513968947">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" ShortID="38829140">
 									<PropertyList>
@@ -270,8 +274,10 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Planting Plants_02" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
+								<RandomSequenceContainer Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
 									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -363,11 +369,11 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Traps" ID="{0D579336-F3A8-4A4B-8159-910EF6EEF9DC}" ShortID="369778243">
-							<ChildrenList>
 								<Folder Name="Traps Placing" ID="{33F53217-CFC7-46AB-A21B-365B8A4B753A}" ShortID="357617243">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="13"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" ShortID="873220915">
 											<PropertyList>
@@ -2059,30 +2065,14 @@
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
-												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
-												<StateGroupInfo Name="" ID="{036169D3-8ADB-49CB-95EF-DF55161EB544}" ShortID="816733909"/>
-											</StateGroupInfo>
-											<StateGroupInfo>
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
-												<CustomState Name="" ID="{FB815D55-6015-469F-BE44-78633C5D07E6}" ShortID="874721129"/>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{815B9597-27E1-437A-8B74-D0F34C4756CB}" ShortID="881014583">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
-												<CustomState Name="" ID="{A3ADF9D7-7120-4CBB-921A-2930EEA2E04C}" ShortID="197874341">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-108"/>
 													</PropertyList>
@@ -2093,32 +2083,8 @@
 												<CustomState Name="" ID="{3F9D315A-87D1-4F8E-8539-D65EA2E58CEB}" ShortID="85358723"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
-												<CustomState Name="" ID="{564640DD-2101-494E-B42A-107304F3E22E}" ShortID="264391035">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{9357E782-94F4-451A-A0C0-5D313423ED8C}" ShortID="391935208"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{F51C3962-8D3F-4E27-B1A0-39CF0543CFDB}" ShortID="289817887">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{393AA432-6578-4124-85B4-4C7ABBB6E4BC}" ShortID="1055533330">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2150,23 +2116,11 @@
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
-												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
-												<StateGroupInfo Name="" ID="{8834D555-5EDE-47F6-A2BB-132750EF1101}" ShortID="542499416"/>
-											</StateGroupInfo>
-											<StateGroupInfo>
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
-												<CustomState Name="" ID="{D4E1DEFB-8456-40C2-9BE4-A98D307FC239}" ShortID="798623734">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
 											<CustomState>
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{754DD062-A58E-47E6-AC0B-25F46AE64717}" ShortID="350891212">
@@ -2176,36 +2130,12 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
-												<CustomState Name="" ID="{0AE25CD6-0C6E-487B-8CAD-A1CBBE18B666}" ShortID="710540239"/>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{9CC8A9F0-B328-416A-BFC8-3281E6BEB1ED}" ShortID="772513962"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
-												<CustomState Name="" ID="{18DB3D1E-08E4-447A-A0C6-A7D5F7B1F1E6}" ShortID="943373351"/>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{B8ABBA82-F4C8-431A-88B3-44D4A493C67B}" ShortID="1009688893"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{7AECF027-17D5-4D10-A0E2-A87D879F9F72}" ShortID="455734104">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{0F0E0C08-2C03-401C-A0E8-B8CBD8AF478F}" ShortID="915876421">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2237,34 +2167,14 @@
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
-												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
-												<StateGroupInfo Name="" ID="{2B46BD08-B118-454A-95FB-1AD149AF14A1}" ShortID="923902902"/>
-											</StateGroupInfo>
-											<StateGroupInfo>
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
-												<CustomState Name="" ID="{2622B127-32B6-4354-99F5-C753117FBC42}" ShortID="585869397">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{5772A5C8-CD2B-4A2C-BACC-97D4A953F137}" ShortID="253708018">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
-												<CustomState Name="" ID="{9061CB27-E61D-42A5-A77F-D0005D84B057}" ShortID="388810587">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-108"/>
 													</PropertyList>
@@ -2275,28 +2185,8 @@
 												<CustomState Name="" ID="{26F1FF17-1D02-4A73-AC7F-CC395286E166}" ShortID="723883659"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
-												<CustomState Name="" ID="{333FD7C8-AFBA-451A-8362-CB218E53AA5A}" ShortID="856011538">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{0C728C15-81A6-4AE8-A6A4-4048AF4A258D}" ShortID="1035745848"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{D9A6ADAD-5C65-42F2-B231-69E5F83E9F85}" ShortID="860913599">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{869140A6-70D7-469C-A76C-EE270AD877B1}" ShortID="837059482"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2328,34 +2218,14 @@
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
-												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
-												<StateGroupInfo Name="" ID="{D0F07261-B51F-4A3E-911E-7726EF42CF30}" ShortID="1061499760"/>
-											</StateGroupInfo>
-											<StateGroupInfo>
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
-												<CustomState Name="" ID="{8CBF98EE-68BE-437E-8024-E5C8A73F7B55}" ShortID="828955553">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{335D9C93-9939-474D-B743-22831CC02FA2}" ShortID="867721052">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
-												<CustomState Name="" ID="{9906A422-3556-4118-8A0F-BC5480615B15}" ShortID="643575297">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-108"/>
 													</PropertyList>
@@ -2366,24 +2236,8 @@
 												<CustomState Name="" ID="{655107DB-C407-4565-A062-1A9F813D01B6}" ShortID="1029366144"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
-												<CustomState Name="" ID="{3ADD8BD2-9687-4D1B-9918-265DEFCB3A0C}" ShortID="796093735"/>
-											</CustomState>
-											<CustomState>
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{78B056FD-CE07-4FDB-B54E-94DA32EAA8B1}" ShortID="341148029"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{90D80BB8-99B7-4A3C-ACF9-191CD98765C2}" ShortID="31853414"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{01EF8ECC-4389-4582-BF96-B9741BB0D4D6}" ShortID="753605445">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2554101686	Play_Bear_Trap_Place			\Default Work Unit\Play_Bear_Trap_Place	
+

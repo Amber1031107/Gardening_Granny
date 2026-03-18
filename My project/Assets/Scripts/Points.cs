@@ -98,11 +98,7 @@ public class Points : MonoBehaviour, IInteractable
             var musicController = Object.FindFirstObjectByType<MusicAudioController>();
             if (musicController != null)
             {
-                // Start Spring music event
-                musicController.Play();
-
-                // Switch to night state
-                musicController.SetNight();
+                musicController.PlayNight();  // Starts night music from beginning
             }
             else
             {

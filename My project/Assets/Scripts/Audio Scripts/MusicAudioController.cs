@@ -3,39 +3,47 @@ using AK.Wwise;
 
 public class MusicAudioController : MonoBehaviour
 {
-    [Header("Wwise Music Event")]
-    public AK.Wwise.Event musicEvent; // Drag your Spring music event
+    [Header("Wwise Music Events")]
+    public AK.Wwise.Event dayMusicEvent;   // Assign your Day music event
+    public AK.Wwise.Event nightMusicEvent; // Assign your Night music event
 
-    [Header("Day/Night States")]
-    public State dayState;   // Selectable in Inspector
-    public State nightState; // Selectable in Inspector
+    [Header("Day/Night States (Optional)")]
+    public State dayState;   // Adjusts volume/filter/etc.
+    public State nightState;
 
     [Header("Audio Source Reference")]
-    public GameObject musicSource; // Usually the Season Audio Manager or child
+    public GameObject musicSource; // Usually the Season Audio Manager or a child
 
-    // --- Play / Stop Music ---
-    public void Play()
+    private bool isPlaying = false;
+
+    // --- Play Day music ---
+    public void PlayDay()
     {
-        if (musicEvent != null && musicSource != null)
-            musicEvent.Post(musicSource);
+        StopMusic();            // Stop any previous music
+        dayState?.SetValue();   // Optional: adjust Day state
+        dayMusicEvent?.Post(musicSource);
+        isPlaying = true;
     }
 
-    public void Stop()
+    // --- Play Night music ---
+    public void PlayNight()
     {
-        if (musicEvent != null && musicSource != null)
-            musicEvent.Stop(musicSource);
+        StopMusic();             // Stop any previous music
+        nightState?.SetValue();  // Optional: adjust Night state
+        nightMusicEvent?.Post(musicSource);
+        isPlaying = true;
     }
 
-    // --- Day / Night ---
-    public void SetDay()
+    // --- Stop music ---
+    public void StopMusic()
     {
-        if (dayState != null)
-            dayState.SetValue();
-    }
+        if (!isPlaying) return;
 
-    public void SetNight()
-    {
-        if (nightState != null)
-            nightState.SetValue();
+        if (dayMusicEvent != null)
+            dayMusicEvent.Stop(musicSource);
+        if (nightMusicEvent != null)
+            nightMusicEvent.Stop(musicSource);
+
+        isPlaying = false;
     }
 }
