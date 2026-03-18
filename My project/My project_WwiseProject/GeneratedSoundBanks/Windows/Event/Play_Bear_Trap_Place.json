@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2554101686",
+    "Type": "Event",
+    "GUID": "{BFA4E2B6-9674-4B68-97E6-930AE455E068}",
+    "Language": "SFX",
+    "Hash": "{DCC1DE5B-9E49-24D1-A069-1C3418AE5A59}",
+    "ObjectPath": "Play_Bear_Trap_Place",
+    "ShortName": "Play_Bear_Trap_Place",
+    "Path": "Event/Play_Bear_Trap_Place.bnk",
+    "Media": [
+     {
+      "Id": "171821750",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Bear Trap Place_NEW02.wav",
+      "Path": "Media/171821750.wem",
+      "CachePath": "FB/{FB3C44D3-EC3F-F7B0-5FC8-7D7E47583333}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2554101686",
+      "Name": "Play_Bear_Trap_Place",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bear_Trap_Place",
+      "GUID": "{BFA4E2B6-9674-4B68-97E6-930AE455E068}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4404278",
+      "DurationMax": "0.49436352",
+      "MediaRefs": [
+       {
+        "Id": "171821750"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AB7BF197-D294-729F-0F41-E7242AA111BF}"
+ }
+}

@@ -159,6 +159,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Digging_Dirt" ID="{8BCADC86-32C9-4215-9459-425866065C6B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{48E17EC3-5B3F-4EDF-9109-E02BC661731F}" ShortID="581030521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Planting_Plants" ID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D1611191-4CF8-4C26-95C5-7F4C43258EBE}" ShortID="195976045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bear_Trap_Place" ID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{7A1B01F2-6F1D-4D43-8FCB-B15048764747}" ShortID="491883860">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

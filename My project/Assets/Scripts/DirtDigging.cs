@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise; //Audio
 
 public class DirtDigging : MonoBehaviour, IInteractable
 {
@@ -19,6 +20,11 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public GameObject FlowerAutumnPrefab;
     public GameObject FlowerWinterPrefab;
     public GameObject TrapPrefab;
+
+    [Header("Audio")] //Audio
+    public AK.Wwise.Event digEvent;
+    public AK.Wwise.Event plantEvent;
+    public AK.Wwise.Event trapEvent;
 
     private Dictionary<itemType, GameObject> placeablePrefabs;
 
@@ -97,6 +103,8 @@ public class DirtDigging : MonoBehaviour, IInteractable
         {
             if (!CheckDirt && !TrapIsPlaced)
             {
+                digEvent?.Post(gameObject); //Audio
+
                 rend.material = Dirt;
                 CheckDirt = true;
                 // Shovel is infinite — no ConsumeItem call needed

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2764715416" Type="Event" GUID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}" Language="SFX" Hash="{036A2772-C368-52DA-3E22-F6F070A822FD}">
+			<ObjectPath>Play_Planting_Plants</ObjectPath>
+			<ShortName>Play_Planting_Plants</ShortName>
+			<Path>Event/Play_Planting_Plants.bnk</Path>
+			<Media>
+				<File Id="183180462" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Planting02_03.wav</ShortName>
+					<Path>Media/183180462.wem</Path>
+					<CachePath>E7/{E7F464DA-FB76-385B-88CF-0660EE2CD3BC}.wem</CachePath>
+				</File>
+				<File Id="525213712" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Planting02_02.wav</ShortName>
+					<Path>Media/525213712.wem</Path>
+					<CachePath>DB/{DB3F1BEF-030C-4D67-D8AB-5F360562FD12}.wem</CachePath>
+				</File>
+				<File Id="991765364" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Planting02_01.wav</ShortName>
+					<Path>Media/991765364.wem</Path>
+					<CachePath>D4/{D46AE5B4-2FCA-D42D-3D63-9E4D5423E108}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2764715416" Name="Play_Planting_Plants" ObjectPath="\Events\Default Work Unit\Play_Planting_Plants" GUID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}" Color="5" DurationType="OneShot" DurationMin="0.31995785" DurationMax="0.39160264">
+					<MediaRefs>
+						<MediaRef Id="183180462"/>
+						<MediaRef Id="525213712"/>
+						<MediaRef Id="991765364"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C5BD244E-7654-CF46-040B-B38EDD2ECA6F}</FileHash>
+</SoundBanksInfo>

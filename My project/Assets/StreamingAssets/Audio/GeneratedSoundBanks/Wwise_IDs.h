@@ -14,10 +14,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
+        static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
+        static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
+        static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+        static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
     } // namespace EVENTS
 
     namespace STATES
