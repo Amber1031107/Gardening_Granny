@@ -75,8 +75,39 @@ public class Points : MonoBehaviour, IInteractable
             sun.transform.rotation = Quaternion.Euler(10f, 170f, 0f);
             RenderSettings.ambientLight = new Color(0.02f, 0.02f, 0.05f);
 
-            // Switch ambience to night
-            FindObjectOfType<SeasonAmbienceController>().SetNight();
+            // --- AMBIENCE ---
+            var dayNightController = Object.FindFirstObjectByType<DayNightAudioController>();
+            if (dayNightController != null)
+            {
+                // Stop any currently playing Spring/day ambience
+                AkUnitySoundEngine.ExecuteActionOnEvent(
+                    "Play_SpringAmb",
+                    AkActionOnEventType.AkActionOnEventType_Stop,
+                    dayNightController.gameObject
+                );
+
+                // Switch to night state
+                dayNightController.SetNight();
+            }
+            else
+            {
+                Debug.LogWarning("DayNightAudioController not found in scene!");
+            }
+
+            // --- MUSIC ---
+            var musicController = Object.FindFirstObjectByType<MusicAudioController>();
+            if (musicController != null)
+            {
+                // Start Spring music event
+                musicController.Play();
+
+                // Switch to night state
+                musicController.SetNight();
+            }
+            else
+            {
+                Debug.LogWarning("MusicAudioController not found in scene!");
+            }
         }
     }
 
