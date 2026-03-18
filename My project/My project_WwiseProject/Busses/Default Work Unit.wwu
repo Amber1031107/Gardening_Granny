@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}" SchemaVersion="133">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}" PersistMode="Standalone">
 			<ChildrenList>
@@ -28,7 +28,7 @@
 										<StateGroupList>
 											<StateGroupInfo>
 												<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
-											</StateGroupInfo>
+											<StateGroupInfo Name="" ID="{BC7C0DF2-C9FD-4A42-A229-56E5464E9736}"/></StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -59,7 +59,7 @@
 										<StateGroupList>
 											<StateGroupInfo>
 												<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
-											</StateGroupInfo>
+											<StateGroupInfo Name="" ID="{FD2423F5-B210-4E4A-8964-DFB1A4CBE92C}"/></StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>

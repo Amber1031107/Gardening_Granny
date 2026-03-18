@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" SchemaVersion="123">
-	<AudioObjects>
+<WwiseDocument Type="WorkUnit" ID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" SchemaVersion="133">
+	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="trial_SFX" ID="{852D346A-0D62-4B2D-AB92-5918F3D4F549}" ShortID="870659225">
@@ -1388,7 +1388,7 @@
 										<StateGroupList>
 											<StateGroupInfo>
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
-											</StateGroupInfo>
+											<StateGroupInfo Name="" ID="{73CC2BF0-AC95-421C-8EA2-51B38160554E}"/></StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -1642,7 +1642,7 @@
 										<StateGroupList>
 											<StateGroupInfo>
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
-											</StateGroupInfo>
+											<StateGroupInfo Name="" ID="{C2EFE77F-527C-4E70-B403-F01143234261}"/></StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -2053,5 +2053,5 @@
 				</Folder>
 			</ChildrenList>
 		</WorkUnit>
-	</AudioObjects>
+	</Containers>
 </WwiseDocument>
