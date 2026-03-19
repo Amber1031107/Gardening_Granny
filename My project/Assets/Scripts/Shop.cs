@@ -29,6 +29,8 @@ public class Shop : MonoBehaviour, IInteractable
     public AK.Wwise.Event outOfMoneyEvent;
     public AK.Wwise.Event playComputerEvent;
 
+    public static bool shopIsOpen = false; //Shop stopping world interactions
+
 
     public int moneyAmount;
     public int MoneyAmount
@@ -62,6 +64,7 @@ public class Shop : MonoBehaviour, IInteractable
             storePrefab.SetActive(false);
             TrapsShop.SetActive(false);
             PlantsShop.SetActive(false);
+            shopIsOpen = false; //Retriggers world interaction
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
@@ -93,6 +96,7 @@ public class Shop : MonoBehaviour, IInteractable
         playComputerEvent?.Post(gameObject); //Audio
 
         storePrefab.SetActive(true);
+        Shop.shopIsOpen = true;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }

@@ -221,6 +221,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Cash_Register" ID="{0A882178-0F65-4818-AD05-22FB3DE40554}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{6E1C0CEB-BBC1-4AD5-B5E5-C6BA3E21DE58}" ShortID="1059333845">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cash Register" ID="{2800E4E0-56B3-4C78-9A75-83E099DDE9C8}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PLAYER ACTIONS" ID="{7A0BACBF-47BE-42FC-BF4A-D217FE5DD756}" ShortID="783873349">

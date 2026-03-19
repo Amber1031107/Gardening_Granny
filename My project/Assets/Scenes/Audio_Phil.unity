@@ -23361,6 +23361,10 @@ MonoBehaviour:
   Rating: {fileID: 1670600783}
   RatingAmount: 0
   sun: {fileID: 531340347}
+  cutsceneButtonEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4e05cb1937a62a241a7272ea3165f079, type: 2}
   totalPoints: 0
   shopscript: {fileID: 855982726}
   scoreText: {fileID: 933348804}

@@ -501,6 +501,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cut Scene Button" ID="{83E81C54-9CE4-4928-8A98-DF5483585380}" ShortID="556947623">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -509,6 +516,23 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Cut Scene Button" ID="{8028CE23-961A-4E87-913D-366566A41E27}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.10669621617295"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.232131217055334"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Cut Scene Button.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="307067782"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Cut Scene Button" ID="{8028CE23-961A-4E87-913D-366566A41E27}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
@@ -520,40 +544,6 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Sound Name="Cash In" ID="{2800E4E0-56B3-4C78-9A75-83E099DDE9C8}" ShortID="1033638977">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0165343915343915"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.418320105820106"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.128968253968254"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.67989417989418"/>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>-2.1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX_Cash Register.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="776291714"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" ShortID="945929694">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
@@ -722,6 +712,59 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="273658-Negative-Sound-Tone-Hit-4" ID="{33C4725B-8C91-4084-B6C9-B0C347836A64}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cash Register" ID="{2800E4E0-56B3-4C78-9A75-83E099DDE9C8}" ShortID="1033638977">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0165343915343915"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.418320105820106"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.128968253968254"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.67989417989418"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-2.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Cash Register.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="776291714"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Cash Register_v2" ID="{92EFE540-7090-4CCB-8E56-ABC7DCE26403}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.515378844711178"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.48312078019505"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Cash Register_v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="472422728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Cash Register_v2" ID="{92EFE540-7090-4CCB-8E56-ABC7DCE26403}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
