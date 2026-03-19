@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}",
     "Language": "SFX",
-    "Hash": "{036A2772-C368-52DA-3E22-F6F070A822FD}",
+    "Hash": "{482E1AF9-F67C-5881-9110-327884B610B8}",
     "ObjectPath": "Play_Planting_Plants",
     "ShortName": "Play_Planting_Plants",
     "Path": "Event/Play_Planting_Plants.bnk",
@@ -51,7 +51,7 @@
       "GUID": "{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}",
       "Color": "5",
       "DurationType": "OneShot",
-      "DurationMin": "0.31995785",
+      "DurationMin": "0.31084925",
       "DurationMax": "0.39160264",
       "MediaRefs": [
        {
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{79A3A6B1-A054-0DD6-7AB4-D413A3E756B0}"
+  "FileHash": "{B1DD672E-A4B9-FD23-DD95-D46D89E3DA02}"
  }
 }

@@ -26,6 +26,9 @@ namespace AK
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_SWITCH_TO_PLANT = 621229048U;
+        static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
+        static const AkUniqueID PLAY_SWITCH_WOOSH = 2384339563U;
         static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;

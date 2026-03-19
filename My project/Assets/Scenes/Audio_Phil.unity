@@ -2254,6 +2254,42 @@ MonoBehaviour:
     countText: {fileID: 715439464}
     nameText: {fileID: 1417320396}
     selectionHighlight: {fileID: 119638086}
+  select_FlowerSpringPlant1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+  select_FlowerSpringPlant2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+  select_FlowerSpringPlant3:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+  select_FlowerSpringPlant4:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+  select_FlowerSpringPlant5:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+  select_FlowerSpringPlant6:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+  select_Trap:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5766f18dd35e2ad4397656941f331e09, type: 2}
+  select_Shovel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8eb21ff8e23b74e458e846e19b7595e2, type: 2}
+  select_Default:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5766f18dd35e2ad4397656941f331e09, type: 2}
 --- !u!114 &213630862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7026,6 +7062,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: cb64212c3ebfe384997ab5fa139413f6, type: 2}
+  closeShopEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e1c0b2a414ac7734d92f4e37f367026c, type: 2}
   moneyAmount: 0
 --- !u!64 &855982727
 MeshCollider:

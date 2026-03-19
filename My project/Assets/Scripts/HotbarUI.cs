@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using AK.Wwise; 
 
 public class HotbarUI : MonoBehaviour
 {
@@ -22,7 +23,20 @@ public class HotbarUI : MonoBehaviour
     [Header("Hotbar Slots (assign in Inspector — one per slot)")]
     public List<HotbarSlot> slots;
 
+    [Header("Selection Audio")] //Audio
+    public AK.Wwise.Event select_FlowerSpringPlant1;
+    public AK.Wwise.Event select_FlowerSpringPlant2;
+    public AK.Wwise.Event select_FlowerSpringPlant3;
+    public AK.Wwise.Event select_FlowerSpringPlant4;
+    public AK.Wwise.Event select_FlowerSpringPlant5;
+    public AK.Wwise.Event select_FlowerSpringPlant6;
+    public AK.Wwise.Event select_Trap;
+    public AK.Wwise.Event select_Shovel;
+    public AK.Wwise.Event select_Default;
+
     private Dictionary<itemType, Sprite> iconMap;
+    private int lastSelectedIndex = -1;
+
 
     void Start()
     {
@@ -43,6 +57,7 @@ public class HotbarUI : MonoBehaviour
     void Update()
     {
         RefreshHotbar();
+        CheckSelectionChanged();
     }
 
     void RefreshHotbar()
@@ -72,7 +87,55 @@ public class HotbarUI : MonoBehaviour
             }
         }
     }
+
+
+   void CheckSelectionChanged()
+    {
+        if (playerInventory == null)
+            return;
+
+        if (playerInventory.selectItem != lastSelectedIndex)
+        {
+            lastSelectedIndex = playerInventory.selectItem;
+
+            // Don't play hotbar swap sound while shop is open
+            if (Shop.shopIsOpen)
+                return;
+
+            PlaySelectionSound();
+        }
+    }
+
+    void PlaySelectionSound()
+    {
+        int selectedIndex = playerInventory.selectItem - 1;
+
+        if (selectedIndex < 0 || selectedIndex >= playerInventory.inventoryList.Count)
+            return;
+
+        itemType selectedItem = playerInventory.inventoryList[selectedIndex];
+        AK.Wwise.Event selectionEvent = GetSelectionEvent(selectedItem);
+
+        selectionEvent?.Post(gameObject);
+    }
+
+    AK.Wwise.Event GetSelectionEvent(itemType item)
+    {
+        switch (item)
+        {
+            case itemType.FlowerSpringPlant1: return select_FlowerSpringPlant1;
+            case itemType.FlowerSpringPlant2: return select_FlowerSpringPlant2;
+            case itemType.FlowerSpringPlant3: return select_FlowerSpringPlant3;
+            case itemType.FlowerSpringPlant4: return select_FlowerSpringPlant4;
+            case itemType.FlowerSpringPlant5: return select_FlowerSpringPlant5;
+            case itemType.FlowerSpringPlant6: return select_FlowerSpringPlant6;
+            case itemType.Trap: return select_Trap;
+            case itemType.Shovel: return select_Shovel;
+            default: return select_Default;
+        }
+    }
 }
+
 
 [System.Serializable]
 public class HotbarSlot

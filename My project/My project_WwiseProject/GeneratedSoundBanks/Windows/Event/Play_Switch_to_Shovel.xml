@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2103328760" Type="Event" GUID="{AA6FE1FB-6F57-40E3-8857-942FB986201C}" Language="SFX" Hash="{0EE9E8B1-CDAF-5740-1D55-678BF8A5606E}">
+			<ObjectPath>Play_Switch_to_Shovel</ObjectPath>
+			<ShortName>Play_Switch_to_Shovel</ShortName>
+			<Path>Event/Play_Switch_to_Shovel.bnk</Path>
+			<Media>
+				<File Id="90065057" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Shovel_01.wav</ShortName>
+					<Path>Media/90065057.wem</Path>
+					<CachePath>2E/{2EE18CE0-0C25-0B89-D543-BCDB8775AA3C}.wem</CachePath>
+				</File>
+				<File Id="438713849" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Shovel_02.wav</ShortName>
+					<Path>Media/438713849.wem</Path>
+					<CachePath>8B/{8BB2019F-3136-05B1-F9A2-8236F7FB4CC2}.wem</CachePath>
+				</File>
+				<File Id="821634805" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Shovel_03.wav</ShortName>
+					<Path>Media/821634805.wem</Path>
+					<CachePath>66/{66C7FA57-11C6-7219-EF9A-462DF3721636}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2103328760" Name="Play_Switch_to_Shovel" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Shovel" GUID="{AA6FE1FB-6F57-40E3-8857-942FB986201C}" Color="12" DurationType="OneShot" DurationMin="0.43985417" DurationMax="0.4605625">
+					<MediaRefs>
+						<MediaRef Id="90065057"/>
+						<MediaRef Id="438713849"/>
+						<MediaRef Id="821634805"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4A592697-F2FD-3151-9CB8-3F8D4937B58A}</FileHash>
+</SoundBanksInfo>

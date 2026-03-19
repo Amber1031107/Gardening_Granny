@@ -28,6 +28,7 @@ public class Shop : MonoBehaviour, IInteractable
     public AK.Wwise.Event buyTrapEvent;
     public AK.Wwise.Event outOfMoneyEvent;
     public AK.Wwise.Event playComputerEvent;
+    public AK.Wwise.Event closeShopEvent;
 
     public static bool shopIsOpen = false; //Shop stopping world interactions
 
@@ -61,6 +62,11 @@ public class Shop : MonoBehaviour, IInteractable
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (Shop.shopIsOpen) //Audio
+            {
+                closeShopEvent?.Post(gameObject);
+            }
+
             storePrefab.SetActive(false);
             TrapsShop.SetActive(false);
             PlantsShop.SetActive(false);

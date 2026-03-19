@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2384339563" Type="Event" GUID="{D4FEA308-8B81-49AC-8B4C-93EAD1870618}" Language="SFX" Hash="{0F58D392-600F-E7CB-4989-E5F6A5CBF997}">
+			<ObjectPath>Play_Switch_Woosh</ObjectPath>
+			<ShortName>Play_Switch_Woosh</ShortName>
+			<Path>Event/Play_Switch_Woosh.bnk</Path>
+			<Media>
+				<File Id="354024591" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Woosh 03.wav</ShortName>
+					<Path>Media/354024591.wem</Path>
+					<CachePath>C4/{C4BE21F5-E42D-9B0B-2101-D3F3BEF3FE20}.wem</CachePath>
+				</File>
+				<File Id="779026541" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Woosh 04.wav</ShortName>
+					<Path>Media/779026541.wem</Path>
+					<CachePath>B9/{B959D2A3-6204-D9E9-B830-477823B02FAF}.wem</CachePath>
+				</File>
+				<File Id="852120740" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Woosh 02.wav</ShortName>
+					<Path>Media/852120740.wem</Path>
+					<CachePath>DB/{DBB46716-3A0B-9471-7862-7A5B2AEE834C}.wem</CachePath>
+				</File>
+				<File Id="907265109" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Woosh 01.wav</ShortName>
+					<Path>Media/907265109.wem</Path>
+					<CachePath>21/{2152A837-8B36-6E89-E464-72C7FF33ED34}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2384339563" Name="Play_Switch_Woosh" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Switch_Woosh" GUID="{D4FEA308-8B81-49AC-8B4C-93EAD1870618}" Color="19" DurationType="OneShot" DurationMin="0.18664853" DurationMax="0.26803774">
+					<MediaRefs>
+						<MediaRef Id="354024591"/>
+						<MediaRef Id="779026541"/>
+						<MediaRef Id="852120740"/>
+						<MediaRef Id="907265109"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{933AD730-4800-2EEF-35FB-3B68F31DEF91}</FileHash>
+</SoundBanksInfo>

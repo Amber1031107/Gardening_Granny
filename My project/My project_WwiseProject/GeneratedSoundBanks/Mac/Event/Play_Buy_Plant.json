@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{65043EEC-C581-4B55-98E6-A15E8D096CE4}",
     "Language": "SFX",
-    "Hash": "{D7AD78DF-E41B-FA1C-B8B5-61FD6CCB9F3F}",
+    "Hash": "{E8DF77DB-A588-3E44-50E8-0FC90B6FF96D}",
     "ObjectPath": "Play_Buy_Plant",
     "ShortName": "Play_Buy_Plant",
     "Path": "Event/Play_Buy_Plant.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{D558E8DF-3FAA-FEDB-60E2-DAF5D8D3EC42}"
+  "FileHash": "{150A974E-4E8B-88B0-7BDE-1D9935A7EC31}"
  }
 }

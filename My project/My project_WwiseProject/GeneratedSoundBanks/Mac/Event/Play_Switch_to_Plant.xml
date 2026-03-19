@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="621229048" Type="Event" GUID="{4AE5E551-CFBA-46DE-92F5-68ACF596FDC1}" Language="SFX" Hash="{99415B4C-4669-1E01-7910-51FC125C6CBF}">
+			<ObjectPath>Play_Switch_to_Plant</ObjectPath>
+			<ShortName>Play_Switch_to_Plant</ShortName>
+			<Path>Event/Play_Switch_to_Plant.bnk</Path>
+			<Media>
+				<File Id="61889795" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_02.wav</ShortName>
+					<Path>Media/61889795.wem</Path>
+					<CachePath>CF/{CFB48842-F55A-5687-A82D-E6F92D7EA644}.wem</CachePath>
+				</File>
+				<File Id="132157693" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_01.wav</ShortName>
+					<Path>Media/132157693.wem</Path>
+					<CachePath>AF/{AFC7A00C-CF45-C489-1D83-1CA01417C3CE}.wem</CachePath>
+				</File>
+				<File Id="347559739" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_03.wav</ShortName>
+					<Path>Media/347559739.wem</Path>
+					<CachePath>F4/{F4CF7EA3-45A0-1D90-8E4C-B664D41AED6D}.wem</CachePath>
+				</File>
+				<File Id="846592076" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_04.wav</ShortName>
+					<Path>Media/846592076.wem</Path>
+					<CachePath>C0/{C0F566D9-4986-C164-A488-E9F9A1542F2E}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="621229048" Name="Play_Switch_to_Plant" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Plant" GUID="{4AE5E551-CFBA-46DE-92F5-68ACF596FDC1}" Color="4" DurationType="OneShot" DurationMin="0.4556875" DurationMax="0.6169792">
+					<MediaRefs>
+						<MediaRef Id="61889795"/>
+						<MediaRef Id="132157693"/>
+						<MediaRef Id="347559739"/>
+						<MediaRef Id="846592076"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FB61FD6B-8770-80A8-40D7-EE66C2892CAB}</FileHash>
+</SoundBanksInfo>

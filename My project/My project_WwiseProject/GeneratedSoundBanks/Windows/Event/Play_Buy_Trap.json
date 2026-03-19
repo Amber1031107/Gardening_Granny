@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1D96969-514C-44E4-9C92-109881BBCD05}",
     "Language": "SFX",
-    "Hash": "{E7DE0F9B-2646-E44B-DE50-47C266B91023}",
+    "Hash": "{585D05E0-A90D-9AB8-FEA4-8559ED421518}",
     "ObjectPath": "Play_Buy_Trap",
     "ShortName": "Play_Buy_Trap",
     "Path": "Event/Play_Buy_Trap.bnk",
@@ -33,7 +33,7 @@
       "GUID": "{C1D96969-514C-44E4-9C92-109881BBCD05}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "0.2822875",
+      "DurationMin": "0.27031943",
       "DurationMax": "0.30783668",
       "MediaRefs": [
        {
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{5A435CEA-0506-C368-7D57-4ED85C26DE20}"
+  "FileHash": "{476463B5-D461-E657-D9BD-6767AC6EADAB}"
  }
 }

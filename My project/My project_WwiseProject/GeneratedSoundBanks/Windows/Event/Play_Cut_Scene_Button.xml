@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{7B550820-D128-AFA8-0DCA-F3A47CBBFBBD}">
+		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{0395510F-A3E6-0D1D-638A-B70B83519BA1}">
 			<ObjectPath>Play_Cut_Scene_Button</ObjectPath>
 			<ShortName>Play_Cut_Scene_Button</ShortName>
 			<Path>Event/Play_Cut_Scene_Button.bnk</Path>
@@ -11,15 +11,21 @@
 					<Path>Media/307067782.wem</Path>
 					<CachePath>A4/{A4FF8795-47F6-6D1D-9DA2-131A9931A032}.wem</CachePath>
 				</File>
+				<File Id="340222023" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_DayNight Transition.wav</ShortName>
+					<Path>Media/340222023.wem</Path>
+					<CachePath>6A/{6AC1E40B-F4F5-DA83-4799-4896C45E9B95}.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="0.23213121" DurationMax="0.23213121">
+				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="2.3505993" DurationMax="2.3505993">
 					<MediaRefs>
 						<MediaRef Id="307067782"/>
+						<MediaRef Id="340222023"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0D8A07F7-C911-0F8D-DA71-B1861A1448FA}</FileHash>
+	<FileHash>{A38BDA2D-80DE-4997-50BB-BA179B821385}</FileHash>
 </SoundBanksInfo>
