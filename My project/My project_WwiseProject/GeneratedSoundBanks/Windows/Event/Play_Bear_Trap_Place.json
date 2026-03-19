@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BFA4E2B6-9674-4B68-97E6-930AE455E068}",
     "Language": "SFX",
-    "Hash": "{DCC1DE5B-9E49-24D1-A069-1C3418AE5A59}",
+    "Hash": "{E897B58A-D051-185E-B647-1514690EA312}",
     "ObjectPath": "Play_Bear_Trap_Place",
     "ShortName": "Play_Bear_Trap_Place",
     "Path": "Event/Play_Bear_Trap_Place.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "SFX_Bear Trap Place_NEW02.wav",
       "Path": "Media/171821750.wem",
-      "CachePath": "FB/{FB3C44D3-EC3F-F7B0-5FC8-7D7E47583333}.wem"
+      "CachePath": "A2/{A2B7FD87-AFB3-E79D-784D-2A7D9A46FBF4}.wem"
      }
     ],
     "Events": [
@@ -33,8 +33,8 @@
       "GUID": "{BFA4E2B6-9674-4B68-97E6-930AE455E068}",
       "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "0.4404278",
-      "DurationMax": "0.49436352",
+      "DurationMin": "0.39516252",
+      "DurationMax": "0.44355494",
       "MediaRefs": [
        {
         "Id": "171821750"
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{187F0204-54B6-401E-6713-2F8C309F55C7}"
+  "FileHash": "{2BBAE9D4-CB93-AE87-242A-9C2BAA8CE160}"
  }
 }

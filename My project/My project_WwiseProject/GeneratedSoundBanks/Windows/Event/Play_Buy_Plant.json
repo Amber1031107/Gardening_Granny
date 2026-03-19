@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{65043EEC-C581-4B55-98E6-A15E8D096CE4}",
     "Language": "SFX",
-    "Hash": "{9AEB528C-2783-D67B-52E9-D9E4C099CDED}",
+    "Hash": "{D7AD78DF-E41B-FA1C-B8B5-61FD6CCB9F3F}",
     "ObjectPath": "Play_Buy_Plant",
     "ShortName": "Play_Buy_Plant",
     "Path": "Event/Play_Buy_Plant.bnk",
+    "Media": [
+     {
+      "Id": "554779189",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI ClickNEW.wav",
+      "Path": "Media/554779189.wem",
+      "CachePath": "7D/{7DE9631F-0BE7-6183-637C-A058C77DE46D}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "3731501872",
@@ -22,12 +33,17 @@
       "GUID": "{65043EEC-C581-4B55-98E6-A15E8D096CE4}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "554779189"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{FDEEE565-986F-FD38-A450-9CDA3F889DAB}"
+  "FileHash": "{7C49661E-2582-DF5F-9917-6461BC5C9C8E}"
  }
 }
