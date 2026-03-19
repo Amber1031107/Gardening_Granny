@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1984956505",
+    "Type": "Event",
+    "GUID": "{19690768-11C6-490B-BDDB-D33AB3068ADB}",
+    "Language": "SFX",
+    "Hash": "{F907156A-0F6B-30EF-1518-24C8AF7FE4C0}",
+    "ObjectPath": "Play_Computer",
+    "ShortName": "Play_Computer",
+    "Path": "Event/Play_Computer.bnk",
+    "Media": [
+     {
+      "Id": "1046125790",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Computer Click Chime Short Gap.wav",
+      "Path": "Media/1046125790.wem",
+      "CachePath": "B7/{B743C52B-FE21-AE60-56E2-8524ECA7E63B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1984956505",
+      "Name": "Play_Computer",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Computer",
+      "GUID": "{19690768-11C6-490B-BDDB-D33AB3068ADB}",
+      "Color": "23",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1811702",
+      "DurationMax": "2.1811702",
+      "MediaRefs": [
+       {
+        "Id": "1046125790"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E2DC68C5-8E3D-E629-68B9-2FF4755DDFC5}"
+ }
+}

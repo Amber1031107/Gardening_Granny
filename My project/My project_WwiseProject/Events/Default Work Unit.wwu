@@ -210,6 +210,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_UI_Click" ID="{E4F0772F-726B-4600-9AA4-8DC301D1EC7F}">
+							<ChildrenList>
+								<Action Name="" ID="{80C59E4C-9F87-4FCB-ADFE-5F6B0D2A2A08}" ShortID="770796910">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PLAYER ACTIONS" ID="{7A0BACBF-47BE-42FC-BF4A-D217FE5DD756}" ShortID="783873349">
@@ -258,6 +269,36 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Computer" ID="{19690768-11C6-490B-BDDB-D33AB3068ADB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{24CD3495-8BA0-4105-990C-DF0F155B8807}" ShortID="294612337">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Computer" ID="{5496AF47-EC83-47C3-97D3-0FDD740C3F48}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cut_Scene_Button" ID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{8026F4CF-5F07-489A-AFBF-A16C2050B89C}" ShortID="853603242">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cut Scene Button" ID="{83E81C54-9CE4-4928-8A98-DF5483585380}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

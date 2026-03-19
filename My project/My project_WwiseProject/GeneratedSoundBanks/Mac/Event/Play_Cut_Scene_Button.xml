@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{3DF6B775-6C3C-1895-D1B7-A034E4FE6A00}">
+			<ObjectPath>Play_Cut_Scene_Button</ObjectPath>
+			<ShortName>Play_Cut_Scene_Button</ShortName>
+			<Path>Event/Play_Cut_Scene_Button.bnk</Path>
+			<Events>
+				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{08650041-00B8-969D-2D30-4D6F8E43A51C}</FileHash>
+</SoundBanksInfo>
