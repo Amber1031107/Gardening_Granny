@@ -12,11 +12,15 @@ public class Interaction : MonoBehaviour
     public Transform InteractorSource;
     public float InteractRange;
 
-
     void Update()
     {
+
+        if (Shop.shopIsOpen)
+            return;
+
         if (Input.GetMouseButtonDown(0))
         {
+                      
             Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
             {
@@ -29,6 +33,7 @@ public class Interaction : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(1))
         {
+                     
             Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
             {

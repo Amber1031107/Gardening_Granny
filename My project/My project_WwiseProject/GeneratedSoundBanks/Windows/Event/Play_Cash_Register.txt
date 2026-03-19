@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1433988185	Play_Cash_Register			\Default Work Unit\UI SOUNDS\Play_Cash_Register	
+

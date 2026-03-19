@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
         static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
         static const AkUniqueID PLAY_BUY_TRAP = 3485936852U;
+        static const AkUniqueID PLAY_CASH_REGISTER = 1433988185U;
         static const AkUniqueID PLAY_COMPUTER = 1984956505U;
         static const AkUniqueID PLAY_CUT_SCENE_BUTTON = 588888374U;
         static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;

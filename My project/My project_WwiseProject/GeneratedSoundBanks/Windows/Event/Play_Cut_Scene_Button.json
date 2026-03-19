@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
     "Language": "SFX",
-    "Hash": "{3DF6B775-6C3C-1895-D1B7-A034E4FE6A00}",
+    "Hash": "{7B550820-D128-AFA8-0DCA-F3A47CBBFBBD}",
     "ObjectPath": "Play_Cut_Scene_Button",
     "ShortName": "Play_Cut_Scene_Button",
     "Path": "Event/Play_Cut_Scene_Button.bnk",
+    "Media": [
+     {
+      "Id": "307067782",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Cut Scene Button.wav",
+      "Path": "Media/307067782.wem",
+      "CachePath": "A4/{A4FF8795-47F6-6D1D-9DA2-131A9931A032}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "588888374",
@@ -22,12 +33,17 @@
       "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
       "Color": "23",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.23213121",
+      "DurationMax": "0.23213121",
+      "MediaRefs": [
+       {
+        "Id": "307067782"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{8EB7B611-7F98-0579-6509-375CC43440AD}"
+  "FileHash": "{501996B0-A1B0-927E-8BB8-618C614FD214}"
  }
 }

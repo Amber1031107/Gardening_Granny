@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using AK.Wwise;
 
 public class Points : MonoBehaviour, IInteractable
 {
@@ -23,6 +24,9 @@ public class Points : MonoBehaviour, IInteractable
     public int RatingAmount;
     public Light sun;
 
+    [Header("Audio")]
+    public AK.Wwise.Event cutsceneButtonEvent; //Audio
+
     [Header("Score")]
     public int totalPoints = 0;
 
@@ -40,6 +44,8 @@ public class Points : MonoBehaviour, IInteractable
 
     public void InteractLeftClick()
     {
+        cutsceneButtonEvent?.Post(gameObject); //Button Press Audio
+
         // ── Count plants and sum their point values ───────────────────────────
         GameObject[] allPlants = GameObject.FindGameObjectsWithTag("Flower");
         GameObject[] allTraps = GameObject.FindGameObjectsWithTag("Trap");
