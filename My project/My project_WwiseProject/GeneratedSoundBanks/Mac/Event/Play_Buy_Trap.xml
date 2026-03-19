@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3485936852" Type="Event" GUID="{C1D96969-514C-44E4-9C92-109881BBCD05}" Language="SFX" Hash="{E7DE0F9B-2646-E44B-DE50-47C266B91023}">
+		<SoundBank Id="3485936852" Type="Event" GUID="{C1D96969-514C-44E4-9C92-109881BBCD05}" Language="SFX" Hash="{585D05E0-A90D-9AB8-FEA4-8559ED421518}">
 			<ObjectPath>Play_Buy_Trap</ObjectPath>
 			<ShortName>Play_Buy_Trap</ShortName>
 			<Path>Event/Play_Buy_Trap.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3485936852" Name="Play_Buy_Trap" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_Buy_Trap" GUID="{C1D96969-514C-44E4-9C92-109881BBCD05}" Color="3" DurationType="OneShot" DurationMin="0.2822875" DurationMax="0.30783668">
+				<Event Id="3485936852" Name="Play_Buy_Trap" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_Buy_Trap" GUID="{C1D96969-514C-44E4-9C92-109881BBCD05}" Color="3" DurationType="OneShot" DurationMin="0.27031943" DurationMax="0.30783668">
 					<MediaRefs>
 						<MediaRef Id="974261825"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BE4EBEFD-6394-0786-83D1-9A2484033B72}</FileHash>
+	<FileHash>{8B8129FF-F528-7913-450C-BA6C3F8AFC2B}</FileHash>
 </SoundBanksInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1984956505" Type="Event" GUID="{19690768-11C6-490B-BDDB-D33AB3068ADB}" Language="SFX" Hash="{F907156A-0F6B-30EF-1518-24C8AF7FE4C0}">
+		<SoundBank Id="1984956505" Type="Event" GUID="{19690768-11C6-490B-BDDB-D33AB3068ADB}" Language="SFX" Hash="{EFDBEDCD-45D5-D149-AA15-DB3582051924}">
 			<ObjectPath>Play_Computer</ObjectPath>
 			<ShortName>Play_Computer</ShortName>
 			<Path>Event/Play_Computer.bnk</Path>
@@ -9,7 +9,7 @@
 				<File Id="1046125790" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SFX_Computer Click Chime Short Gap.wav</ShortName>
 					<Path>Media/1046125790.wem</Path>
-					<CachePath>B7/{B743C52B-FE21-AE60-56E2-8524ECA7E63B}.wem</CachePath>
+					<CachePath>BE/{BEA801AE-E86D-8B23-1D4E-A2927533138D}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{563721FA-ED0F-4D4D-C566-CE84928A25BB}</FileHash>
+	<FileHash>{B120E7BE-902A-FEEB-74A4-A960EACD54C6}</FileHash>
 </SoundBanksInfo>

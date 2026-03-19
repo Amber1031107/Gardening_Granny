@@ -317,6 +317,58 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3C63DC17-B615-4873-BBAC-AF0D76AD49C0}" ShortID="758174094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DayNight Transition" ID="{9243C956-CA8A-4B22-B8EC-02749E1A7603}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_Woosh" ID="{D4FEA308-8B81-49AC-8B4C-93EAD1870618}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5F44B0D4-F3CD-4F4C-9933-8727488B597C}" ShortID="529539378">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch Woosh" ID="{47651B6A-32DD-4C8B-BFBA-DA182A5A3067}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Shovel" ID="{AA6FE1FB-6F57-40E3-8857-942FB986201C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{51EE8394-D35E-4EF5-A8DC-5894738C5800}" ShortID="724251251">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Shovel" ID="{B86849A8-1710-4DEE-841E-DDF23FC17685}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Plant" ID="{4AE5E551-CFBA-46DE-92F5-68ACF596FDC1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{BCEC2673-48BA-4F15-8C6B-718F73BFD636}" ShortID="93074948">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Plant" ID="{66EADCF6-AEEA-4562-9369-291FC90FD49C}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>

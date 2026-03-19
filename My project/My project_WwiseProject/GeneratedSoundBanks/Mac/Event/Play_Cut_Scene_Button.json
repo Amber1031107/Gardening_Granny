@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
     "Language": "SFX",
-    "Hash": "{7B550820-D128-AFA8-0DCA-F3A47CBBFBBD}",
+    "Hash": "{0395510F-A3E6-0D1D-638A-B70B83519BA1}",
     "ObjectPath": "Play_Cut_Scene_Button",
     "ShortName": "Play_Cut_Scene_Button",
     "Path": "Event/Play_Cut_Scene_Button.bnk",
@@ -23,6 +23,15 @@
       "ShortName": "SFX_Cut Scene Button.wav",
       "Path": "Media/307067782.wem",
       "CachePath": "A4/{A4FF8795-47F6-6D1D-9DA2-131A9931A032}.wem"
+     },
+     {
+      "Id": "340222023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DayNight Transition.wav",
+      "Path": "Media/340222023.wem",
+      "CachePath": "6A/{6AC1E40B-F4F5-DA83-4799-4896C45E9B95}.wem"
      }
     ],
     "Events": [
@@ -33,17 +42,20 @@
       "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
       "Color": "23",
       "DurationType": "OneShot",
-      "DurationMin": "0.23213121",
-      "DurationMax": "0.23213121",
+      "DurationMin": "2.3505993",
+      "DurationMax": "2.3505993",
       "MediaRefs": [
        {
         "Id": "307067782"
+       },
+       {
+        "Id": "340222023"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{C1107C60-4038-4DBF-D156-0C482F43352B}"
+  "FileHash": "{69234383-F115-39C0-471C-8657CACCB3B6}"
  }
 }

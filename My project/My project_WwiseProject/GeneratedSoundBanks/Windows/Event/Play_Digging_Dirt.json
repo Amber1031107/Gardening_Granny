@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BCADC86-32C9-4215-9459-425866065C6B}",
     "Language": "SFX",
-    "Hash": "{924BE05F-6C87-1E1A-90F0-6E241EE4C268}",
+    "Hash": "{42E0C3E0-26E9-A4F0-FDFB-144198F64E0E}",
     "ObjectPath": "Play_Digging_Dirt",
     "ShortName": "Play_Digging_Dirt",
     "Path": "Event/Play_Digging_Dirt.bnk",
@@ -51,7 +51,7 @@
       "GUID": "{8BCADC86-32C9-4215-9459-425866065C6B}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.35395283",
+      "DurationMin": "0.3245762",
       "DurationMax": "0.40307748",
       "MediaRefs": [
        {
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{6B1C3300-FCDA-7CA4-843A-9FC92EB8D94F}"
+  "FileHash": "{74F7C329-10F5-CD5C-6B61-605A5F7D30F9}"
  }
 }
