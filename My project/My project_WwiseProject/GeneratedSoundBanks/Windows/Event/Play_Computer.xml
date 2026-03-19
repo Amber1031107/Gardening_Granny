@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1984956505" Type="Event" GUID="{19690768-11C6-490B-BDDB-D33AB3068ADB}" Language="SFX" Hash="{F907156A-0F6B-30EF-1518-24C8AF7FE4C0}">
+			<ObjectPath>Play_Computer</ObjectPath>
+			<ShortName>Play_Computer</ShortName>
+			<Path>Event/Play_Computer.bnk</Path>
+			<Media>
+				<File Id="1046125790" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Computer Click Chime Short Gap.wav</ShortName>
+					<Path>Media/1046125790.wem</Path>
+					<CachePath>B7/{B743C52B-FE21-AE60-56E2-8524ECA7E63B}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1984956505" Name="Play_Computer" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Computer" GUID="{19690768-11C6-490B-BDDB-D33AB3068ADB}" Color="23" DurationType="OneShot" DurationMin="2.1811702" DurationMax="2.1811702">
+					<MediaRefs>
+						<MediaRef Id="1046125790"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2AA93395-4270-B905-8001-62928405E4AD}</FileHash>
+</SoundBanksInfo>

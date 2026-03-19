@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1749424733" Type="Event" GUID="{E4F0772F-726B-4600-9AA4-8DC301D1EC7F}" Language="SFX" Hash="{2F1B270D-EC26-9C4C-6C04-DA58147D183C}">
+			<ObjectPath>Play_UI_Click</ObjectPath>
+			<ShortName>Play_UI_Click</ShortName>
+			<Path>Event/Play_UI_Click.bnk</Path>
+			<Media>
+				<File Id="475229616" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI Click 03.wav</ShortName>
+					<Path>Media/475229616.wem</Path>
+					<CachePath>DA/{DAA20522-3D99-5DC9-C7EF-855CD3F819ED}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_UI_Click" GUID="{E4F0772F-726B-4600-9AA4-8DC301D1EC7F}" Color="2" DurationType="OneShot" DurationMin="0.375" DurationMax="0.375">
+					<MediaRefs>
+						<MediaRef Id="475229616"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{87B6F510-F683-2D73-C7DE-FA70F40C728A}</FileHash>
+</SoundBanksInfo>
