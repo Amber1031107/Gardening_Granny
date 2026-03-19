@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D9A14EBA-DBA5-46D4-8BC3-6D12EE1A59C8}",
     "Language": "SFX",
-    "Hash": "{6143E5AC-5F45-1581-DBFD-784D3E36A107}",
+    "Hash": "{23355C96-5CE6-E1D3-B389-A692DCC3EEEF}",
     "ObjectPath": "Play_No_Money_Left",
     "ShortName": "Play_No_Money_Left",
     "Path": "Event/Play_No_Money_Left.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "273658-Negative-Sound-Tone-Hit-4.wav",
       "Path": "Media/107601812.wem",
-      "CachePath": "0A/{0A526D40-3E42-C451-09D8-201B3794FE7F}.wem"
+      "CachePath": "CA/{CAD8C9C3-23C5-D6B6-2F47-06587F823A46}.wem"
      }
     ],
     "Events": [
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{1B6D48E0-870F-8625-443D-9FEFB2C5333B}"
+  "FileHash": "{A3B9F045-31F3-C01F-1B36-5EFC258DBE01}"
  }
 }
