@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{2F1838BF-0786-C779-4E4F-96BFE8B7B96D}",
+    "Hash": "{9E67BDDF-81EC-E9C6-E1DD-9566A07779EF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "980414561",
+       "Name": "Room_Small (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "GUID": "{115C6A43-ACCE-441A-B094-5F77ED8D99B1}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -53,29 +63,32 @@
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "10"
      }
     ],
     "AuxBusses": [
      {
-      "Id": "84696428",
-      "Name": "s",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
-      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
-     },
+      "Id": "2675173306",
+      "Name": "House_Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb",
+      "GUID": "{283547EC-048D-43C2-A2BB-0ACADCE94D82}",
+      "Color": "4",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "980414561"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
      {
-      "Id": "438105790",
-      "Name": "Outside",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
-      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
-      "Color": "11"
-     },
-     {
-      "Id": "3553349781",
-      "Name": "Inside",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
-      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
-      "Color": "11"
+      "Id": "1493153371",
+      "Name": "PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
+      "GUID": "{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}"
      }
     ],
     "StateGroups": [
@@ -241,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{03016D10-D768-524E-EB44-881642B8DBCA}"
+  "FileHash": "{AEA1B1A0-145A-D032-7521-3A51CB6FDA72}"
  }
 }
