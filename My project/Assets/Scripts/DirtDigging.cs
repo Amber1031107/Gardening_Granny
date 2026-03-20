@@ -6,6 +6,8 @@ using AK.Wwise; //Audio
 public class DirtDigging : MonoBehaviour, IInteractable
 {
     private Renderer rend;
+    private FootstepSurfaceTag footstepTag; //Footstep Audio
+
     public Material Dirt;
     public Material Grass;
 
@@ -40,10 +42,15 @@ public class DirtDigging : MonoBehaviour, IInteractable
             playerInventory = FindAnyObjectByType<PlayersInventory>();
 
         rend = GetComponent<Renderer>();
+        footstepTag = GetComponent<FootstepSurfaceTag>(); //Footstep Audio
+
         rend.material = Grass;
         CheckDirt = false;
         PlantIsPlanted = false;
         TrapIsPlaced = false;
+
+        if (footstepTag != null)
+            footstepTag.surfaceType = FootstepSurface.Grass; //Footstep Audio
 
         placeablePrefabs = new Dictionary<itemType, GameObject>()
         {
@@ -113,6 +120,11 @@ public class DirtDigging : MonoBehaviour, IInteractable
 
                 rend.material = Dirt;
                 CheckDirt = true;
+
+                // Change footstep surface to Dirt
+                if (footstepTag != null)
+                    footstepTag.surfaceType = FootstepSurface.Dirt;
+
                 // Shovel is infinite — no ConsumeItem call needed
             }
         }
@@ -131,6 +143,10 @@ public class DirtDigging : MonoBehaviour, IInteractable
             {
                 rend.material = Grass;
                 CheckDirt = false;
+
+                // Change footstep surface back to Grass
+                if (footstepTag != null)
+                    footstepTag.surfaceType = FootstepSurface.Grass;
             }
         }
     }
