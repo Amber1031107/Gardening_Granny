@@ -107,6 +107,11 @@ namespace AK
 
     } // namespace SWITCHES
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID PLAYERSPEED = 1493153371U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -122,9 +127,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID INSIDE = 3553349781U;
-        static const AkUniqueID OUTSIDE = 438105790U;
-        static const AkUniqueID S = 84696428U;
+        static const AkUniqueID HOUSE_REVERB = 2675173306U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

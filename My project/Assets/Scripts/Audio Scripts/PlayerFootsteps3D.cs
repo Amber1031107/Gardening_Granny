@@ -4,22 +4,39 @@ using UnityEngine;
 [RequireComponent(typeof(AkGameObj))]
 public class PlayerFootsteps3D : MonoBehaviour
 {
-    [Header("Movement")]
+    [Header("References")]
     public CharacterController controller;
-    public float stepDistanceWalk = 2.0f;
-    public float stepDistanceRun = 1.2f;
-    public float runSpeedThreshold = 4.5f;
+
+    [Header("Normal Footsteps")]
+    public float stepDistanceWalk = 11f;
+    public float stepDistanceRun = 7f;
+    public float runSpeedThreshold = 6f;
+
+    [Header("Micro Shuffle")]
+    public float shuffleDistance = 0.0015f;
+    public float shuffleCooldownMin = 0.08f;
+    public float shuffleCooldownMax = 0.14f;
+
+    [Header("Frame Movement Split")]
+    public float tinyMovementMin = 0.00015f;
+    public float largeMovementMin = 0.0035f;
 
     [Header("Surface Detection")]
-    public float raycastDistance = 10.0f;
+    public float raycastDistance = 10f;
     public LayerMask surfaceLayers = ~0;
 
     [Header("Wwise")]
     public string switchGroupName = "Surfaces";
     public string eventName = "Play_Footsteps";
+    public string speedRtpcName = "PlayerSpeed";
+    public float rtpcSmoothing = 10f;
 
     private Vector3 lastPosition;
     private float distanceSinceLastStep;
+    private float distanceSinceLastShuffle;
+    private float shuffleCooldownTimer;
+    private float nextShuffleCooldown;
+    private float smoothedSpeed;
 
     private void Start()
     {
@@ -27,31 +44,71 @@ public class PlayerFootsteps3D : MonoBehaviour
             controller = GetComponent<CharacterController>();
 
         lastPosition = transform.position;
+        nextShuffleCooldown = Random.Range(shuffleCooldownMin, shuffleCooldownMax);
     }
 
     private void Update()
     {
+        // --- MOVEMENT DATA ---
+        Vector3 velocity = controller.velocity;
+        velocity.y = 0f;
+        float rawSpeed = velocity.magnitude;
+
         Vector3 delta = transform.position - lastPosition;
         delta.y = 0f;
-
         float movedDistance = delta.magnitude;
         lastPosition = transform.position;
 
-        float speed = movedDistance / Mathf.Max(Time.deltaTime, 0.0001f);
-        bool isMoving = speed > 1.0f;
-        bool isGrounded = controller != null && controller.isGrounded;
+        // --- RTPC (LOUDNESS ONLY) ---
+        smoothedSpeed = Mathf.Lerp(smoothedSpeed, rawSpeed, Time.deltaTime * rtpcSmoothing);
+        AkSoundEngine.SetRTPCValue(speedRtpcName, smoothedSpeed, gameObject);
 
-        if (!isMoving || !isGrounded)
+        // --- GROUNDED CHECK ---
+        bool isGrounded = controller != null && controller.isGrounded;
+        if (!isGrounded)
             return;
 
-        distanceSinceLastStep += movedDistance;
+        // --- TIMERS ---
+        shuffleCooldownTimer += Time.deltaTime;
 
-        float requiredStepDistance = speed >= runSpeedThreshold ? stepDistanceRun : stepDistanceWalk;
+        // ---------- NORMAL FOOTSTEPS ----------
+        bool largeMovementThisFrame = movedDistance > largeMovementMin;
 
-        if (distanceSinceLastStep >= requiredStepDistance)
+        if (largeMovementThisFrame)
+        {
+            distanceSinceLastStep += movedDistance;
+
+            float requiredStepDistance = rawSpeed >= runSpeedThreshold ? stepDistanceRun : stepDistanceWalk;
+
+            if (distanceSinceLastStep >= requiredStepDistance)
+            {
+                distanceSinceLastStep = 0f;
+                PlayFootstep();
+            }
+
+            // big movement should not also build shuffle
+            distanceSinceLastShuffle = 0f;
+        }
+        else
         {
             distanceSinceLastStep = 0f;
-            PlayFootstep();
+        }
+
+        // ---------- MICRO SHUFFLE ----------
+        bool tinyMovementThisFrame = movedDistance > tinyMovementMin && movedDistance <= largeMovementMin;
+
+        if (tinyMovementThisFrame)
+        {
+            distanceSinceLastShuffle += movedDistance;
+
+            if (distanceSinceLastShuffle >= shuffleDistance && shuffleCooldownTimer >= nextShuffleCooldown)
+            {
+                distanceSinceLastShuffle = 0f;
+                shuffleCooldownTimer = 0f;
+                nextShuffleCooldown = Random.Range(shuffleCooldownMin, shuffleCooldownMax);
+
+                PlayFootstep();
+            }
         }
     }
 
@@ -60,37 +117,22 @@ public class PlayerFootsteps3D : MonoBehaviour
         FootstepSurface surface = DetectSurface();
         AkSoundEngine.SetSwitch(switchGroupName, surface.ToString(), gameObject);
         AkSoundEngine.PostEvent(eventName, gameObject);
-
-        Debug.Log("Footstep surface: " + surface);
     }
 
     private FootstepSurface DetectSurface()
     {
         RaycastHit hit;
-        Vector3 origin = transform.position + Vector3.up * 0.2f;
-
-        Debug.DrawRay(origin, Vector3.down * raycastDistance, Color.red, 0.1f);
+        Vector3 origin = transform.position + controller.center;
 
         if (Physics.Raycast(origin, Vector3.down, out hit, raycastDistance, surfaceLayers))
         {
-            Debug.Log("Raycast hit: " + hit.collider.name);
-
             FootstepSurfaceTag tag = hit.collider.GetComponent<FootstepSurfaceTag>();
 
             if (tag == null)
                 tag = hit.collider.GetComponentInParent<FootstepSurfaceTag>();
 
             if (tag != null)
-            {
-                Debug.Log("Detected tagged surface: " + tag.surfaceType + " on " + hit.collider.name);
                 return tag.surfaceType;
-            }
-
-            Debug.Log("Hit collider had no FootstepSurfaceTag: " + hit.collider.name);
-        }
-        else
-        {
-            Debug.Log("Raycast hit nothing");
         }
 
         return FootstepSurface.Grass;
