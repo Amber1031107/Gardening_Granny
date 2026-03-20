@@ -21,11 +21,13 @@ namespace AK
         static const AkUniqueID PLAY_COMPUTER = 1984956505U;
         static const AkUniqueID PLAY_CUT_SCENE_BUTTON = 588888374U;
         static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_NO_MONEY_LEFT = 2150464526U;
         static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_SWITCH_TO_BEAR_TRAP = 3887442043U;
         static const AkUniqueID PLAY_SWITCH_TO_PLANT = 621229048U;
         static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
         static const AkUniqueID PLAY_SWITCH_WOOSH = 2384339563U;
@@ -90,6 +92,18 @@ namespace AK
                 static const AkUniqueID WINTER = 2965343494U;
             } // namespace SWITCH
         } // namespace SEASONS
+
+        namespace SURFACES
+        {
+            static const AkUniqueID GROUP = 3714303081U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace SURFACES
 
     } // namespace SWITCHES
 

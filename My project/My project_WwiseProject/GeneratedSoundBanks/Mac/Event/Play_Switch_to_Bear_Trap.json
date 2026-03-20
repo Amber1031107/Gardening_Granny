@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3887442043",
+    "Type": "Event",
+    "GUID": "{18D48368-3AF9-4B88-9D9E-5C7EADAB5FEE}",
+    "Language": "SFX",
+    "Hash": "{46AEBBB4-0E60-62EE-A5EF-459C6BBD8CEC}",
+    "ObjectPath": "Play_Switch_to_Bear_Trap",
+    "ShortName": "Play_Switch_to_Bear_Trap",
+    "Path": "Event/Play_Switch_to_Bear_Trap.bnk",
+    "Media": [
+     {
+      "Id": "64246085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Switch Bear Trap_01.wav",
+      "Path": "Media/64246085.wem",
+      "CachePath": "D5/{D5F1141A-5832-0C1A-17D4-DE6D58730E22}.wem"
+     },
+     {
+      "Id": "198195366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Switch Bear Trap_03.wav",
+      "Path": "Media/198195366.wem",
+      "CachePath": "D6/{D6FDF53B-1509-DBCB-B370-85439DDF5BBB}.wem"
+     },
+     {
+      "Id": "404728616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Switch Bear Trap_02.wav",
+      "Path": "Media/404728616.wem",
+      "CachePath": "F3/{F36299B2-03FC-2226-8286-EBA1FCCC40C0}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3887442043",
+      "Name": "Play_Switch_to_Bear_Trap",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Switch_to_Bear_Trap",
+      "GUID": "{18D48368-3AF9-4B88-9D9E-5C7EADAB5FEE}",
+      "Color": "7",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3024375",
+      "DurationMax": "0.36675",
+      "MediaRefs": [
+       {
+        "Id": "64246085"
+       },
+       {
+        "Id": "198195366"
+       },
+       {
+        "Id": "404728616"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A800F3C7-D5F6-8FE7-E098-6E7303411249}"
+ }
+}

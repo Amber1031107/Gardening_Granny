@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="2554101686" Type="Event" GUID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}" Language="SFX" Hash="{E897B58A-D051-185E-B647-1514690EA312}">
+		<SoundBank Id="2554101686" Type="Event" GUID="{BFA4E2B6-9674-4B68-97E6-930AE455E068}" Language="SFX" Hash="{74CE0377-6D8D-5F43-AA78-D9FDF8CDD532}">
 			<ObjectPath>Play_Bear_Trap_Place</ObjectPath>
 			<ShortName>Play_Bear_Trap_Place</ShortName>
 			<Path>Event/Play_Bear_Trap_Place.bnk</Path>
@@ -9,7 +9,7 @@
 				<File Id="171821750" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SFX_Bear Trap Place_NEW02.wav</ShortName>
 					<Path>Media/171821750.wem</Path>
-					<CachePath>A2/{A2B7FD87-AFB3-E79D-784D-2A7D9A46FBF4}.wem</CachePath>
+					<CachePath>B9/{B9D8BC48-BC1D-DF0D-5AE0-EC81381E70E0}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F9EB05FB-828A-FE4D-C5FA-3445C183BE19}</FileHash>
+	<FileHash>{E0816FC5-F080-3C69-33F5-636798F4264C}</FileHash>
 </SoundBanksInfo>

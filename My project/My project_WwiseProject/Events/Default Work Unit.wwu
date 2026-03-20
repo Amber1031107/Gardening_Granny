@@ -371,6 +371,40 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Switch_to_Bear_Trap" ID="{18D48368-3AF9-4B88-9D9E-5C7EADAB5FEE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5BE0DF6D-31F5-4F31-8166-552A4C4EFED3}" ShortID="393350771">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Bear Trap" ID="{3405821A-75AF-4A04-8712-5947A43A1E46}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ChHARACTER SOUNDS" ID="{E845AF78-FD7B-4259-9262-D4F50083D632}" ShortID="201104246">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Footsteps" ID="{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}">
+							<ChildrenList>
+								<Action Name="" ID="{BA761E87-139A-4D11-BCEA-AB7919DE36E8}" ShortID="512995281">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps Switcher" ID="{DD62B3A3-1574-4562-932E-7366DE1E138A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

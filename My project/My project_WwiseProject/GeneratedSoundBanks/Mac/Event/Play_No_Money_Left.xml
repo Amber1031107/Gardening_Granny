@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="2150464526" Type="Event" GUID="{D9A14EBA-DBA5-46D4-8BC3-6D12EE1A59C8}" Language="SFX" Hash="{23355C96-5CE6-E1D3-B389-A692DCC3EEEF}">
+		<SoundBank Id="2150464526" Type="Event" GUID="{D9A14EBA-DBA5-46D4-8BC3-6D12EE1A59C8}" Language="SFX" Hash="{4654D327-1E1A-571A-38AD-E078E8B66DE4}">
 			<ObjectPath>Play_No_Money_Left</ObjectPath>
 			<ShortName>Play_No_Money_Left</ShortName>
 			<Path>Event/Play_No_Money_Left.bnk</Path>
@@ -9,7 +9,7 @@
 				<File Id="107601812" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>273658-Negative-Sound-Tone-Hit-4.wav</ShortName>
 					<Path>Media/107601812.wem</Path>
-					<CachePath>CA/{CAD8C9C3-23C5-D6B6-2F47-06587F823A46}.wem</CachePath>
+					<CachePath>CC/{CC60BEE2-5834-0375-6A92-1FBCD2434CD1}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9876269B-EA2C-DF7F-5096-724D2A8DEE0D}</FileHash>
+	<FileHash>{23ABEE69-FCA2-63EB-9827-83F982809CA3}</FileHash>
 </SoundBanksInfo>

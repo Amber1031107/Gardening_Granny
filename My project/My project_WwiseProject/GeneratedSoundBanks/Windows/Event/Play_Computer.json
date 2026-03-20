@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{19690768-11C6-490B-BDDB-D33AB3068ADB}",
     "Language": "SFX",
-    "Hash": "{EFDBEDCD-45D5-D149-AA15-DB3582051924}",
+    "Hash": "{B6007A35-7637-E04D-D8FC-CFFFD5902DD4}",
     "ObjectPath": "Play_Computer",
     "ShortName": "Play_Computer",
     "Path": "Event/Play_Computer.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "SFX_Computer Click Chime Short Gap.wav",
       "Path": "Media/1046125790.wem",
-      "CachePath": "BE/{BEA801AE-E86D-8B23-1D4E-A2927533138D}.wem"
+      "CachePath": "5A/{5A10E329-30E0-B6A5-AA93-11587980200A}.wem"
      }
     ],
     "Events": [
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{C469F450-992B-EDBC-4C1D-FE77916C8FC5}"
+  "FileHash": "{9D0CDD26-5BEC-2DB6-572A-A7CFA6286F62}"
  }
 }

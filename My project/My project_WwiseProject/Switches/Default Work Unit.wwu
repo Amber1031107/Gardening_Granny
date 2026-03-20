@@ -15,6 +15,32 @@
 						<Switch Name="Winter" ID="{33727495-CA6E-45BA-A72C-493DDEBC57C1}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Surfaces" ID="{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Grass" ID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="Dirt" ID="{1D66F7B4-A293-4686-9E61-1544E4579905}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="Concrete" ID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
