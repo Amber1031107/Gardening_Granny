@@ -14,6 +14,7 @@
 						<ObjectRef Name="Play_Summer_MUSIC" ID="{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Winter_Music" ID="{F81BF58E-500B-4783-8FF4-49F17A01D84C}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Autumn_MUSIC" ID="{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Spring_MUSIC" ID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Spring_AMB" ID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" WorkUnitID="{DF058641-B02A-406B-9CEF-03F20C99A62D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

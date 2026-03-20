@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3887442043	Play_Switch_to_Bear_Trap			\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Bear_Trap	
+

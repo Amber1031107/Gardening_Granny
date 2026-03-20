@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0A882178-0F65-4818-AD05-22FB3DE40554}",
     "Language": "SFX",
-    "Hash": "{AA4F367D-26F8-B9D9-7C2E-0FF06CC624AE}",
+    "Hash": "{877B6471-AE1A-F251-1890-5FEFCE0B4F0D}",
     "ObjectPath": "Play_Cash_Register",
     "ShortName": "Play_Cash_Register",
     "Path": "Event/Play_Cash_Register.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "SFX_Cash Register_v2.wav",
       "Path": "Media/472422728.wem",
-      "CachePath": "A8/{A8E0B59F-E291-A64D-46D9-19ABC7E5C6B9}.wem"
+      "CachePath": "86/{867CC99A-1E2B-4D60-B887-154876589682}.wem"
      }
     ],
     "Events": [
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{E39217BF-80C1-372C-08ED-8F6C5C36E928}"
+  "FileHash": "{C161A42A-6F23-F5D9-2330-CC1F1944C038}"
  }
 }

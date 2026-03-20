@@ -55,8 +55,15 @@
 						<Switch Id="4010875483" Name="Autumn" ObjectPath="\Switches\Default Work Unit\Seasons\Autumn" GUID="{B7754862-0699-48DE-B209-D6DC8A81752F}" Color="19"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Default Work Unit\Surfaces" GUID="{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}" Color="4">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Surfaces\Concrete" GUID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}" Color="26"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{1D66F7B4-A293-4686-9E61-1544E4579905}" Color="8"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" Color="18"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{134EAFEA-D9BC-B1C6-9A2E-22C8FB680800}</FileHash>
+	<FileHash>{7504938C-9117-942D-DC63-0E4EC17163DB}</FileHash>
 </SoundBanksInfo>

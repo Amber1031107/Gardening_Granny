@@ -207,10 +207,40 @@
         "Color": "19"
        }
       ]
+     },
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces",
+      "GUID": "{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}",
+      "Color": "4",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Concrete",
+        "GUID": "{55F515DB-BB55-46F3-8FA0-9762C238BBB5}",
+        "Color": "26"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Dirt",
+        "GUID": "{1D66F7B4-A293-4686-9E61-1544E4579905}",
+        "Color": "8"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Grass",
+        "GUID": "{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}",
+        "Color": "18"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{AA182353-CF1D-7888-C704-26155542E32D}"
+  "FileHash": "{D3B2209C-CCEC-8236-8669-BB4F38453FAC}"
  }
 }
