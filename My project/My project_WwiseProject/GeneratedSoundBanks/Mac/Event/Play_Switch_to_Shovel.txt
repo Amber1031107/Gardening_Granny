@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2103328760	Play_Switch_to_Shovel			\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Shovel	
-

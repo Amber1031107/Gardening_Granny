@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dba5d1ce936628d40a1d85b458dc4489, type: 3}
-  m_Name: D4FEA308-8B81-49AC-8B4C-93EAD1870618
+  m_Name: 70426169-74FE-45A0-8999-6BD568863DD1
   m_EditorClassIdentifier: 
-  objectName: Play_Switch_Woosh
-  id: 2384339563
-  guid: D4FEA308-8B81-49AC-8B4C-93EAD1870618
-  IsInUserDefinedSoundBank: 1
+  objectName: Pause_Ambience_Bus
+  id: 1385805035
+  guid: 70426169-74FE-45A0-8999-6BD568863DD1
+  IsInUserDefinedSoundBank: 0

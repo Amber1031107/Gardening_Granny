@@ -30,6 +30,8 @@ public class Shop : MonoBehaviour, IInteractable
     public AK.Wwise.Event playComputerEvent;
     public AK.Wwise.Event closeShopEvent;
 
+    public DayNightAudioController audioController; //AmbienceStop
+
     public static bool shopIsOpen = false; //Shop stopping world interactions
 
 
@@ -65,6 +67,16 @@ public class Shop : MonoBehaviour, IInteractable
             if (Shop.shopIsOpen) //Audio
             {
                 closeShopEvent?.Post(gameObject);
+
+                if (audioController != null)
+                {
+                    Debug.Log("audioController exists on close");
+                    audioController.RestoreAmbienceAfterMenu();
+                }
+                else
+                {
+                    Debug.Log("audioController is NULL on close");
+                }
             }
 
             storePrefab.SetActive(false);
@@ -99,12 +111,25 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void InteractLeftClick()
     {
-        playComputerEvent?.Post(gameObject); //Audio
+        Debug.Log("SHOP OPEN FUNCTION RAN");
+
+        playComputerEvent?.Post(gameObject);
 
         storePrefab.SetActive(true);
         Shop.shopIsOpen = true;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+
+        if (audioController != null)
+        {
+            Debug.Log("audioController exists");
+            audioController.MuteAmbienceForMenu();
+        }
+        else
+        {
+            Debug.Log("audioController is NULL");
+        }
+
     }
     public void InteractRightClick()
     {

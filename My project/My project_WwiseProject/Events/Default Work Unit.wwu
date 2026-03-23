@@ -6,6 +6,7 @@
 				<Event Name="Test" ID="{A070DC48-D394-479F-8B6B-AE83154F22AC}">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool" Value="False"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F6FACF93-1966-4D90-AACE-42441D5FF62D}" ShortID="675304796">
@@ -20,30 +21,13 @@
 				<Event Name="Test_Event" ID="{67A922DB-96D9-425A-ABC2-CF1ABBBFC05B}">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool" Value="False"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{AC266EDE-9C0F-414E-AC60-92D2847CADD4}" ShortID="490397714">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Main Loop" ID="{34C620F5-BE04-4FD8-92E9-D82306554F29}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Spring_AMB" ID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="11"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{AA20944F-85AF-4A14-A082-39E6EBAA0EE4}" ShortID="171363519">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -145,20 +129,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Stop_Spring_AMB" ID="{49EF2038-A531-4766-A083-4E9702148610}">
-					<ChildrenList>
-						<Action Name="" ID="{C7A6F827-A18A-43EA-B85D-7F69C19DB84C}" ShortID="1030685474">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="UI SOUNDS" ID="{B4D7033C-A9BC-42D4-B310-262DCFC98566}" ShortID="845198889">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="2"/>
@@ -231,6 +201,36 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Cash Register" ID="{2800E4E0-56B3-4C78-9A75-83E099DDE9C8}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Pause_Menu_ON" ID="{5B907B93-6BCC-4323-89F2-410B185893C2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{6B509BAF-B5B1-4BF6-A357-153A8638449B}" ShortID="865181762">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pause Menu ON" ID="{9E6B0B13-FD4D-46AB-B159-3E8A2622D475}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Pause_Menu_OFF" ID="{A18F3DB0-AD45-425D-832E-0AFC279D9933}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{C6EC813D-CEFF-4943-8484-69572FD57DE9}" ShortID="731056510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pause Menu OFF" ID="{E913A69D-CE6C-40CD-BA27-986FA5907C32}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -326,21 +326,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Switch_Woosh" ID="{D4FEA308-8B81-49AC-8B4C-93EAD1870618}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{5F44B0D4-F3CD-4F4C-9933-8727488B597C}" ShortID="529539378">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch Woosh" ID="{47651B6A-32DD-4C8B-BFBA-DA182A5A3067}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Switch_to_Shovel" ID="{AA6FE1FB-6F57-40E3-8857-942FB986201C}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="12"/>
@@ -400,6 +385,158 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps Switcher" ID="{DD62B3A3-1574-4562-932E-7366DE1E138A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ENEMY SOUNDS" ID="{2A0FB3DD-BF57-4BAF-8C8B-A56C78EEB24E}" ShortID="91678807">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Digging_Up_Plant" ID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B43DD319-E579-44AF-A205-1D74D50D6AF1}" ShortID="1035747832">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Digging Up Plant" ID="{3EDE955A-6FE6-49D1-9AA0-606BDADEA2CD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bear_Trap_Fling" ID="{A218093A-C97E-4568-BF2C-6D3169561E91}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{8652E7A9-FDE5-4404-945C-05EB5CF62C12}" ShortID="638956159">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bear Trap Fling" ID="{016D16A8-EAFA-4BF8-BBAC-FB04DAA2FECB}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Grass_Sneak_Footsteps_Loop" ID="{EDE24D2D-A914-413C-AD90-31608069359E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1F24DA56-2719-4127-B52E-A5DD2BA5C90E}" ShortID="431247875">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass Sneak Footsteps Loop" ID="{0A04E679-33CE-4057-8879-4ABC04DF8439}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Grass_Sneak_Footsteps_Loop" ID="{D016101D-7CB4-40B6-A110-247BEB0C7A01}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{16C8811D-911D-4ECE-98E7-C9BB7E18A4BB}" ShortID="29101392">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grass Sneak Footsteps Loop" ID="{0A04E679-33CE-4057-8879-4ABC04DF8439}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMBIENCE" ID="{DC8152C3-60ED-4E01-86C5-4E1FAAE718F6}" ShortID="417015936">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stop_Spring_AMB" ID="{49EF2038-A531-4766-A083-4E9702148610}">
+							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{C7A6F827-A18A-43EA-B85D-7F69C19DB84C}" ShortID="1030685474">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spring_AMB" ID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{AA20944F-85AF-4A14-A082-39E6EBAA0EE4}" ShortID="171363519">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spring Amb" ID="{0DED6A25-7339-4C3D-9F1C-35666A8EFD4A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Ambience_Bus" ID="{70426169-74FE-45A0-8999-6BD568863DD1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{686AC76D-FE3A-418F-A156-C9C38A918852}" ShortID="669337825">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Ambience_Bus" ID="{F044A25C-BEA6-484B-BF73-19FFDA713DEB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{68CC1832-06BF-4DF0-B8D5-9C8D40B0528D}" ShortID="1069017530">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2764715416	Play_Planting_Plants			\Default Work Unit\PLAYER ACTIONS\Play_Planting_Plants	
-

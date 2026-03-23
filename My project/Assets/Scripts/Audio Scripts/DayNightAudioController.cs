@@ -2,16 +2,15 @@ using UnityEngine;
 
 public class DayNightAudioController : MonoBehaviour
 {
-    public AK.Wwise.Event playAmbience; // or playMusic
+    public AK.Wwise.Event playAmbience;
     public AK.Wwise.State dayState;
     public AK.Wwise.State nightState;
+    public AK.Wwise.RTPC ambienceMenuMute;
 
     void Start()
     {
-        // Start audio FIRST
         playAmbience.Post(gameObject);
-
-        // Then set day
+        ambienceMenuMute.SetGlobalValue(0f);
         SetDay();
     }
 
@@ -25,5 +24,17 @@ public class DayNightAudioController : MonoBehaviour
     {
         nightState.SetValue();
         Debug.Log("Audio NIGHT");
+    }
+
+    public void MuteAmbienceForMenu()
+    {
+        ambienceMenuMute.SetGlobalValue(1f);
+        Debug.Log("Ambience muted for menu");
+    }
+
+    public void RestoreAmbienceAfterMenu()
+    {
+        ambienceMenuMute.SetGlobalValue(0f);
+        Debug.Log("Ambience restored after menu");
     }
 }

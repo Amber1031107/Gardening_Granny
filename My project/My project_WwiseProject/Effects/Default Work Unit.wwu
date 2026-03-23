@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{06D47C5E-CB33-4189-8159-F7AEE8946691}" SchemaVersion="133">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{06D47C5E-CB33-4189-8159-F7AEE8946691}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{06D47C5E-CB33-4189-8159-F7AEE8946691}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Parametric_EQ" ID="{DD86D0BB-F9E2-4E34-8299-A2BB9A4D8955}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="60"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="12312.54"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1585.403"/>
+						<Property Name="GainBand2" Type="Real32" Value="1.438017"/>
+						<Property Name="GainBand3" Type="Real32" Value="2.479339"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="SFXUI_SidechainSend" ID="{611F524A-2A26-4C47-BDA7-FA49FD284709}" PluginName="Ak Sidechain Send" CompanyID="0" PluginID="193" PluginType="3"/>
+				<Effect Name="SFXUI_SidechainRecieve" ID="{44457C3C-DA52-49E1-B593-3711587BB45D}" PluginName="Ak Sidechain Receive" CompanyID="0" PluginID="194" PluginType="3"/>
+				<Effect Name="MusicDuckCompressor" ID="{2DA67634-D443-4C0D-A500-97CB45D5A318}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
+				<Effect Name="MusicDuckMeter" ID="{CECBE9F4-FCB0-485F-AF3E-3AF43C4C7F2F}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.01"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.15"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="GameParameter">
+							<ObjectRef Name="MusicDuck" ID="{B6B854D8-2035-4EA0-AB93-867F1548FE39}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+						</Reference>
+					</ReferenceList>
+				</Effect>
+				<Effect Name="New_Parametric_EQ_01" ID="{BBD97D0A-4F66-4085-AF77-5D9DCEE7A578}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="966.7682"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="247.0514"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2740.87"/>
+						<Property Name="GainBand2" Type="Real32" Value="-15.52941"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2.632751"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Parametric_EQ_02" ID="{A695C30E-71E4-47B3-87D8-22C0C75FC765}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="100.2016"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="90"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="300"/>
+						<Property Name="GainBand1" Type="Real32" Value="-8.737679"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Parametric_EQ_03" ID="{81A99DAE-78E5-45FA-9A40-EAF5546E27F3}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand2" Type="int32" Value="8"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="199.2851"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="46.23269"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="300"/>
+						<Property Name="GainBand1" Type="Real32" Value="-1.717011"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.7317249"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

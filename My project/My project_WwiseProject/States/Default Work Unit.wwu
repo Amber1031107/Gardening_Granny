@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{B554CC42-4B42-47C9-8F7C-99529AD3E07C}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
+					<PropertyList>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
 						<State Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
@@ -11,6 +14,10 @@
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
 						<State Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
@@ -21,7 +28,9 @@
 				</StateGroup>
 				<StateGroup Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>

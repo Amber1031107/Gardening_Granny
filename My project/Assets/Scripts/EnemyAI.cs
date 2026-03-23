@@ -10,6 +10,13 @@ public class EnemyAI : MonoBehaviour
     public int playerPoints = 0;
     public bool hasHitTrap = false;
 
+    public AK.Wwise.Event trapFlingSound; //Trap Audio
+    public AK.Wwise.Event plantPullSound;
+    public AK.Wwise.Event footstepLoopStart;
+    public AK.Wwise.Event footstepLoopStop;
+
+    private bool isMoving = false;
+
     private Rigidbody rb;
     private Transform target;
 
@@ -40,6 +47,22 @@ public class EnemyAI : MonoBehaviour
             Vector3 newPos = transform.position + direction * moveSpeed * Time.fixedDeltaTime;
             rb.MovePosition(newPos);
             transform.LookAt(target);
+
+            // START FOOTSTEPS
+            if (!isMoving)
+            {
+                footstepLoopStart.Post(gameObject);
+                isMoving = true;
+            }
+        }
+        else
+        {
+            // STOP FOOTSTEPS
+            if (isMoving)
+            {
+                footstepLoopStop.Post(gameObject);
+                isMoving = false;
+            }
         }
     }
 
@@ -78,11 +101,16 @@ public class EnemyAI : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Flower"))
         {
+            plantPullSound.Post(gameObject);
             Destroy(collision.gameObject);
             
         }
         else if (collision.gameObject.CompareTag("Trap"))
         {
+
+            trapFlingSound.Post(gameObject); //Trap Audio
+            footstepLoopStop.Post(gameObject);
+
             hasHitTrap = true;
             rb.useGravity = true;
             rb.AddForce(Vector3.up * blastForce, ForceMode.Impulse);
