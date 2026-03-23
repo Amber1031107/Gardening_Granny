@@ -4,10 +4,14 @@ using UnityEngine.SceneManagement;
 
 public class Tutorial : MonoBehaviour
 {
+
+    public AK.Wwise.Event uiClickSound; //Audio
+
     //public float delayTime = 5f;  // Time in seconds before changing the scene
-   // public string sceneName = "Tutorial";  // Name of the scene to load
-   public void Next()
+    // public string sceneName = "Tutorial";  // Name of the scene to load
+    public void Next()
    {
+        uiClickSound.Post(gameObject); //Audio
         SceneManager.LoadScene("Build");
    }
 

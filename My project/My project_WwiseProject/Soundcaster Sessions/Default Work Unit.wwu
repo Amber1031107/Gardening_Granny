@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{89000D6D-490C-493C-9E36-78FF914749E6}" SchemaVersion="133">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{89000D6D-490C-493C-9E36-78FF914749E6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{89000D6D-490C-493C-9E36-78FF914749E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music &amp; Amb" ID="{4FB32B8D-2DE7-4EA9-8367-C887AEEF4935}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Spring Music" ID="{ED66EE5E-D0D9-4273-B4A3-FC03AF89D987}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Spring Day" ID="{CF495E68-A12E-43FF-B6C9-2CEAAF7472BB}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Digging_01" ID="{E58A926C-51A1-4B17-9F9E-56BF64762F85}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cash Register" ID="{2800E4E0-56B3-4C78-9A75-83E099DDE9C8}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Computer" ID="{5496AF47-EC83-47C3-97D3-0FDD740C3F48}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

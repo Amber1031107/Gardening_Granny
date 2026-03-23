@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}" SchemaVersion="133">
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<SwitchGroup Name="Seasons" ID="{F0AD419A-11B3-41D5-B881-E09C2FE60B91}">
 					<PropertyList>

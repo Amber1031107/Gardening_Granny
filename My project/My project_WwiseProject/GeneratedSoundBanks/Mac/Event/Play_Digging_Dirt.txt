@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3203628969	Play_Digging_Dirt			\Default Work Unit\PLAYER ACTIONS\Play_Digging_Dirt	
-

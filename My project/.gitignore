@@ -15,6 +15,12 @@
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+# Wwise Generated SoundBanks
+My project/My project_WwiseProject/GeneratedSoundBanks/
+**/GeneratedSoundBanks/**
+!My project/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h
+My project/My project_WwiseProject/*.zip
+
 # Recordings can get excessive in size
 /[Rr]ecordings/
 

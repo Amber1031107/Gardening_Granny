@@ -5,8 +5,28 @@
 			<ChildrenList>
 				<GameParameter Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicDuck" ID="{B6B854D8-2035-4EA0-AB93-867F1548FE39}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Ambience_MenuMute" ID="{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	588888374	Play_Cut_Scene_Button			\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button	
-

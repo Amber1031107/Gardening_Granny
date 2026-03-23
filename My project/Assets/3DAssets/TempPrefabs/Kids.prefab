@@ -106,6 +106,22 @@ MonoBehaviour:
   disappearTime: 3
   playerPoints: 0
   hasHitTrap: 0
+  trapFlingSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c404c96572ab68b4199530488ed9e489, type: 2}
+  plantPullSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2310de2616050eb4885288b07e41c513, type: 2}
+  footstepLoopStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8dc9dfe7413112440a8be2f4e4bf51ec, type: 2}
+  footstepLoopStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 57eef18a35f9d9c4d90e2fa08d301bda, type: 2}
 --- !u!65 &8665640152743085251
 BoxCollider:
   m_ObjectHideFlags: 0
