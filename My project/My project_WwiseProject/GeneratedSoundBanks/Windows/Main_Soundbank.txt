@@ -1,27 +1,37 @@
 Event	ID	Name			Wwise Object Path	Notes
 	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
+	474285493	Play_Spring_MUSIC			\Default Work Unit\MUSIC\Play_Spring_MUSIC	
+	1551648488	Play_Autumn_MUSIC			\Default Work Unit\MUSIC\Play_Autumn_MUSIC	
+	3439960413	Play_Winter_Music			\Default Work Unit\MUSIC\Play_Winter_Music	
+	3643452717	Play_Summer_MUSIC			\Default Work Unit\MUSIC\Play_Summer_MUSIC	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
+	3381515358	Season			\Default Work Unit\Season	
 	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
 
 State	ID	Name	State Group			Notes
 	438105790	Outside	Location			
 	748895195	None	Location			
 	3553349781	Inside	Location			
+	748895195	None	Season			
+	1296465106	Spring	Season			
+	2965343494	Winter	Season			
+	3924562482	Summer	Season			
+	4010875483	Autumn	Season			
 	311764537	Day	TimeOfDay			
 	748895195	None	TimeOfDay			
 	1011622525	Night	TimeOfDay			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
+	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	84696428	s			\Default Work Unit\Master Audio Bus\s	
 	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
 	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
-	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1012836	Amb_Owl2 03	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
@@ -32,12 +42,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	241852122	Amb_Owl2 05	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\7B\{7BD9C0B7-2690-50F6-AB6B-5700145ADD38}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 05		144352
 	253876681	Amb_Birds Spring_14	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\64\{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_14		302508
 	260095195	Amb_Birds Spring_07	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\84\{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_07		95420
+	312702700	Night Music	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\06\{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Night Music\Night Music		13878312
 	355788501	Breeze	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\3F\{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze		23667068
 	393861057	Amb_Breeze Spring_04	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\7E\{7EC04265-824E-43DF-0546-71FA6C755295}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_04		2660160
 	403079355	Amb_Birds Spring_09	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\D7\{D79412BA-A357-B5E1-B237-93FE704DEC86}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_09		148016
 	432728295	Amb_Owl2 02	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\76\{763C7D7A-A47D-7001-1FCB-4B27A77648EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 02		133728
 	433637960	Amb_Birds Spring_15	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\07\{0758BF7B-F160-3B0C-767F-12609310D383}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_15		156232
 	458925649	Amb_Birds Spring_16	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\21\{21903945-360E-4620-271D-8511BA50DC56}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_16		215396
+	472907063	Winter Music	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\89\{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Day Music\Winter Music		3072096
 	577526996	Amb_Owl2 07	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\47\{4716F03C-6733-F07C-A2AF-61874428A630}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 07		130464
 	631474963	Amb_Breeze Spring_05	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\B9\{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_05		2642900
 	633174091	Amb_Birds Spring_08	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\23\{23C7A52E-3CB2-66D9-4804-AFEF87E86907}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_08		205536

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a46edeb468ce254e9db27117cacff81c
     GuidInternal: 
-    m_lastTime: -8584284071356076957
+    m_lastTime: -8584278787961474510
     List:
     - name: Ambient
       guid: 41a9bcfd17452b42a1f2724853bb7e71
@@ -91,9 +91,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
-    - name: Music
-      guid: 5ba01fd1eaf45f4994b0001baef56c33
-      id: 3991942870
+    - name: Music Master
+      guid: 2065f9110a96254789f6496f227595c2
+      id: 79554116
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -104,10 +104,10 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Music
-        ObjectType: 1
-        guid: 5ba01fd1eaf45f4994b0001baef56c33
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+      - ElementName: Music Master
+        ObjectType: 2
+        guid: 2065f9110a96254789f6496f227595c2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Master
     - name: Outside
       guid: 4eea5b026b658b48aa63a04f5016fa98
       id: 438105790
@@ -157,7 +157,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 96451de9c702914e80e51d74b3381a9a
     GuidInternal: 
-    m_lastTime: -8584284071347557844
+    m_lastTime: -8584278939033007055
     List:
     - name: Main_Soundbank
       guid: 2e0b4f13d6d2954ca537a42623ffd71d
@@ -185,8 +185,45 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 418605df2ab06b409cef03f20c99a62d
     GuidInternal: 
-    m_lastTime: -8584284071364554803
+    m_lastTime: -8584278939033046942
     List:
+    - name: MUSIC
+      guid: d693c5d6b04903489a1b8a81936b2671
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: d693c5d6b04903489a1b8a81936b2671
+      Path: Events\Default Work Unit\MUSIC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Autumn_MUSIC
+      guid: cf6737068e3a8e479af85fc7d3eff021
+      id: 1551648488
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: d693c5d6b04903489a1b8a81936b2671
+      - ElementName: Play_Autumn_MUSIC
+        ObjectType: 3
+        guid: cf6737068e3a8e479af85fc7d3eff021
+      Path: Events\Default Work Unit\MUSIC\Play_Autumn_MUSIC
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Spring_AMB
       guid: f53a7db27050b24f88dae0c4caed77ab
       id: 378356484
@@ -201,6 +238,66 @@ MonoBehaviour:
         ObjectType: 3
         guid: f53a7db27050b24f88dae0c4caed77ab
       Path: Events\Default Work Unit\Play_Spring_AMB
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Spring_MUSIC
+      guid: bf5fdd2bd2b2974c8ccdca985369e356
+      id: 474285493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: d693c5d6b04903489a1b8a81936b2671
+      - ElementName: Play_Spring_MUSIC
+        ObjectType: 3
+        guid: bf5fdd2bd2b2974c8ccdca985369e356
+      Path: Events\Default Work Unit\MUSIC\Play_Spring_MUSIC
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Summer_MUSIC
+      guid: b88b8b07736ae243bca76bb1fbe67951
+      id: 3643452717
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: d693c5d6b04903489a1b8a81936b2671
+      - ElementName: Play_Summer_MUSIC
+        ObjectType: 3
+        guid: b88b8b07736ae243bca76bb1fbe67951
+      Path: Events\Default Work Unit\MUSIC\Play_Summer_MUSIC
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Winter_Music
+      guid: 8ef51bf80b5083478ff449f17a01d84c
+      id: 3439960413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 418605df2ab06b409cef03f20c99a62d
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: d693c5d6b04903489a1b8a81936b2671
+      - ElementName: Play_Winter_Music
+        ObjectType: 3
+        guid: 8ef51bf80b5083478ff449f17a01d84c
+      Path: Events\Default Work Unit\MUSIC\Play_Winter_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -264,7 +361,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 42cc54b5424bc9478f7c99529ad3e07c
     GuidInternal: 
-    m_lastTime: -8584284071347543189
+    m_lastTime: -8584278939033017029
     List:
     - name: Location
       guid: 9d35017a8a715b44a4b7045c1abcb7f8
@@ -607,7 +704,7 @@ MonoBehaviour:
     m_lastTime: -8584284081862254486
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000a0000000b0000000e0000000f00000010000000
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000c0000000e0000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

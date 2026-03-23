@@ -46,6 +46,102 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="MUSIC" ID="{D6C593D6-49B0-4803-9A1B-8A81936B2671}" ShortID="642468574">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Autumn_MUSIC" ID="{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{52D4EE94-601F-4531-84B9-701EEE86889D}" ShortID="587305518">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Autumn Music" ID="{D89F9055-5462-4CA1-A553-B131C40B9903}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2280D67C-17C1-4D3B-99ED-91EAB17C2C23}" ShortID="260678206">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Night Music" ID="{52E0EADA-6522-4695-85A4-7C2055FE2250}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Winter_Music" ID="{F81BF58E-500B-4783-8FF4-49F17A01D84C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5088B73E-4BE1-456A-9B1C-73FD3F6D1040}" ShortID="659627890">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Winter Music" ID="{F47EEDB3-74D4-440A-9267-404399A032A9}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6B7549EA-24DA-45B2-8216-8A427B115867}" ShortID="723638914">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Night Music" ID="{52E0EADA-6522-4695-85A4-7C2055FE2250}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Summer_MUSIC" ID="{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A9E8C948-FAC4-44F0-B45B-53597682A4E6}" ShortID="197249002">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Summer Music" ID="{48F6E470-8422-41AB-8604-E6FEA19BACD8}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{272C6CA5-16E3-46AD-BE89-AAF981F43CA9}" ShortID="238426673">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Night Music" ID="{52E0EADA-6522-4695-85A4-7C2055FE2250}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spring_MUSIC" ID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{9E387C55-65AD-49E2-AF9D-F0257BF6C28D}" ShortID="133258772">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spring Music" ID="{ED66EE5E-D0D9-4273-B4A3-FC03AF89D987}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B82C5BC9-C595-4F56-8806-3050A8A50155}" ShortID="375435411">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Night Music" ID="{52E0EADA-6522-4695-85A4-7C2055FE2250}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
