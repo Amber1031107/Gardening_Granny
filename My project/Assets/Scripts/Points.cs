@@ -7,6 +7,17 @@ using AK.Wwise;
 public class Points : MonoBehaviour, IInteractable
 {
 
+    public bool kidSpawned = false;
+
+    [Header("Spawn Area")]
+    public Vector3 spawnAreaCenter;   // Centre of the random spawn zone
+    public Vector3 spawnAreaSize;     // Width/Height/Depth of the zone (like a box)
+
+
+
+    //public GameObject GameEndScreen;
+
+    [Header("Kid spawn stuff")]
     public GameObject Kid;
     public Vector3 spawnPosition;
     public GameObject InvisableWall;
@@ -16,6 +27,7 @@ public class Points : MonoBehaviour, IInteractable
     public GameObject pointsPrefab;
 
     [Header("PointsScoreBoardScreen")]
+    public GameObject scoreBoardPanel;
     public TextMeshProUGUI moneyText;
     public int incomeAmount;
     public TextMeshProUGUI DaysLeft;
@@ -39,14 +51,18 @@ public class Points : MonoBehaviour, IInteractable
     {
         Fances.SetActive(true);
         DaysLeftAmount = 3;
+
+        if (scoreBoardPanel != null)
+            scoreBoardPanel.SetActive(false);
+        //GameEndScreen.SetActive(false);
         UpdateScoreUI();
     }
 
     public void InteractLeftClick()
     {
-        cutsceneButtonEvent?.Post(gameObject); //Button Press Audio
 
-        // ── Count plants and sum their point values ───────────────────────────
+        cutsceneButtonEvent?.Post(gameObject);
+
         GameObject[] allPlants = GameObject.FindGameObjectsWithTag("Flower");
         GameObject[] allTraps = GameObject.FindGameObjectsWithTag("Trap");
 
@@ -55,7 +71,7 @@ public class Points : MonoBehaviour, IInteractable
         foreach (GameObject plant in allPlants)
         {
             PlantPoints pp = plant.GetComponent<PlantPoints>();
-            totalPoints += pp != null ? pp.pointValue : 1; // default 1 if no component
+            totalPoints += pp != null ? pp.pointValue : 1;
         }
 
         foreach (GameObject trap in allTraps)
@@ -69,39 +85,33 @@ public class Points : MonoBehaviour, IInteractable
 
         UpdateScoreUI();
 
-        if (placedCount > 1)
+        if (placedCount > 1 && !kidSpawned)  // ← Only runs if kid hasn't spawned yet
         {
-            Instantiate(Kid, spawnPosition, Quaternion.identity);
+            kidSpawned = true;  // ← Lock it immediately so it can never run again
+
+            // Random position within the defined box area
+            Vector3 randomSpawn = new Vector3(
+                Random.Range(spawnAreaCenter.x - spawnAreaSize.x / 2f, spawnAreaCenter.x + spawnAreaSize.x / 2f),
+                spawnAreaCenter.y,
+                Random.Range(spawnAreaCenter.z - spawnAreaSize.z / 2f, spawnAreaCenter.z + spawnAreaSize.z / 2f)
+            );
+
+            Instantiate(Kid, randomSpawn, Quaternion.identity);
             Instantiate(InvisableWall, WallSpawnPosition, Quaternion.identity);
             Fances.SetActive(false);
-           
-            //set sun to night
+
             sun.intensity = 0.05f;
-            sun.color = new Color(0.4f, 0.5f, 0.8f); // cool blue
+            sun.color = new Color(0.4f, 0.5f, 0.8f);
             sun.transform.rotation = Quaternion.Euler(10f, 170f, 0f);
             RenderSettings.ambientLight = new Color(0.02f, 0.02f, 0.05f);
 
-            // --- AMBIENCE ---
             var dayNightController = Object.FindFirstObjectByType<DayNightAudioController>();
-            if (dayNightController != null)
-            {
-                dayNightController.SetNight();
-            }
-            else
-            {
-                Debug.LogWarning("DayNightAudioController not found in scene!");
-            }
+            if (dayNightController != null) dayNightController.SetNight();
+            else Debug.LogWarning("DayNightAudioController not found in scene!");
 
-            // --- MUSIC ---
             var musicController = Object.FindFirstObjectByType<MusicAudioController>();
-            if (musicController != null)
-            {
-                musicController.PlayNight();  // Starts night music from beginning
-            }
-            else
-            {
-                Debug.LogWarning("MusicAudioController not found in scene!");
-            }
+            if (musicController != null) musicController.PlayNight();
+            else Debug.LogWarning("MusicAudioController not found in scene!");
         }
     }
 
@@ -121,10 +131,15 @@ public class Points : MonoBehaviour, IInteractable
             Debug.LogError("[Points] shopscript is not assigned!");
             return;
         }
-        Fances.SetActive(true);
 
-        
+        Fances.SetActive(true);
         UpdateScoreUI();
+
+        // Show the scoreboard panel
+        if (scoreBoardPanel != null)
+            scoreBoardPanel.SetActive(true);
+        else
+            Debug.LogWarning("[Points] scoreBoardPanel is not assigned!");
     }
 
     private void UpdateScoreUI()
@@ -140,6 +155,11 @@ public class Points : MonoBehaviour, IInteractable
 
         if (DaysLeft != null)
             DaysLeft.text = DaysLeftAmount.ToString();
+
+        if (DaysLeftAmount < 1)
+        {
+            // GameEndScreen.SetActive(true);
+        }
 
         shopscript.UpdateMoneyUI();
 

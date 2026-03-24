@@ -12,7 +12,7 @@ public class Tutorial : MonoBehaviour
     public void Next()
    {
         uiClickSound.Post(gameObject); //Audio
-        SceneManager.LoadScene("Build");
+        SceneManager.LoadScene("PhilBuild");
    }
 
     //void Start()
