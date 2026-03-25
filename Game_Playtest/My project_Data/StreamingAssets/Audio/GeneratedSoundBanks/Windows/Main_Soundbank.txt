@@ -1,9 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3157003241	Test			\Default Work Unit\Test	
-
-Audio Bus	ID	Name			Wwise Object Path	Notes
-	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	288864463	trial_SFX	C:\Users\Cam\Desktop\Gardening_Granny\My project\My project_WwiseProject\.cache\EE\{EEC29F87-DAD7-2CAC-17A4-4FCFFCA904A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\trial_SFX		43115200
-

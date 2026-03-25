@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2756808150",
+    "Type": "Event",
+    "GUID": "{5B907B93-6BCC-4323-89F2-410B185893C2}",
+    "Language": "SFX",
+    "Hash": "{E3F0F5FB-3390-84B7-031E-7243C9F6AEDA}",
+    "ObjectPath": "Play_Pause_Menu_ON",
+    "ShortName": "Play_Pause_Menu_ON",
+    "Path": "Event/Play_Pause_Menu_ON.bnk",
+    "Media": [
+     {
+      "Id": "172961020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Pause_ON.wav",
+      "Path": "Media/172961020.wem",
+      "CachePath": "45/{45211BCA-DEA8-34BE-D27C-4E114A0481D6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2756808150",
+      "Name": "Play_Pause_Menu_ON",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI SOUNDS\\Play_Pause_Menu_ON",
+      "GUID": "{5B907B93-6BCC-4323-89F2-410B185893C2}",
+      "Color": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1551875",
+      "DurationMax": "0.1551875",
+      "MediaRefs": [
+       {
+        "Id": "172961020"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{00BAE74D-718E-E3BF-D8F8-70F6B54DD8D6}"
+ }
+}

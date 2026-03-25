@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1702308546" Type="Event" GUID="{49EF2038-A531-4766-A083-4E9702148610}" Language="SFX" Hash="{3A2E82B0-C253-C049-873F-DC6754038C8F}">
+			<ObjectPath>Stop_Spring_AMB</ObjectPath>
+			<ShortName>Stop_Spring_AMB</ShortName>
+			<Path>Event/Stop_Spring_AMB.bnk</Path>
+			<Events>
+				<Event Id="1702308546" Name="Stop_Spring_AMB" ObjectPath="\Events\Default Work Unit\AMBIENCE\Stop_Spring_AMB" GUID="{49EF2038-A531-4766-A083-4E9702148610}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BEB9F4CD-3B43-413D-3558-A1C7DB0B7E55}</FileHash>
+</SoundBanksInfo>

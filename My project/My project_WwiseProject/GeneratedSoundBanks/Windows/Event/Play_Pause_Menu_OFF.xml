@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2321699868" Type="Event" GUID="{A18F3DB0-AD45-425D-832E-0AFC279D9933}" Language="SFX" Hash="{FF98E1B8-423A-EE55-894D-97DE070CEB07}">
+			<ObjectPath>Play_Pause_Menu_OFF</ObjectPath>
+			<ShortName>Play_Pause_Menu_OFF</ShortName>
+			<Path>Event/Play_Pause_Menu_OFF.bnk</Path>
+			<Media>
+				<File Id="776827659" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI_Pause_OFF.wav</ShortName>
+					<Path>Media/776827659.wem</Path>
+					<CachePath>56/{56737DFA-217F-5DE3-AC0D-C25CDD8E3162}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2321699868" Name="Play_Pause_Menu_OFF" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_Pause_Menu_OFF" GUID="{A18F3DB0-AD45-425D-832E-0AFC279D9933}" Color="20" DurationType="OneShot" DurationMin="0.137875" DurationMax="0.137875">
+					<MediaRefs>
+						<MediaRef Id="776827659"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8ED0C509-697B-BF73-51DF-35E40D9466DC}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="312763200" Type="Event" GUID="{D016101D-7CB4-40B6-A110-247BEB0C7A01}" Language="SFX" Hash="{CCEE2C12-5A29-FCF8-22EF-7AC773247CE5}">
+			<ObjectPath>Stop_Grass_Sneak_Footsteps_Loop</ObjectPath>
+			<ShortName>Stop_Grass_Sneak_Footsteps_Loop</ShortName>
+			<Path>Event/Stop_Grass_Sneak_Footsteps_Loop.bnk</Path>
+			<Events>
+				<Event Id="312763200" Name="Stop_Grass_Sneak_Footsteps_Loop" ObjectPath="\Events\Default Work Unit\ENEMY SOUNDS\Stop_Grass_Sneak_Footsteps_Loop" GUID="{D016101D-7CB4-40B6-A110-247BEB0C7A01}" Color="6" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7957DCF2-126F-CCFC-FDE5-A1D5CFBE8122}</FileHash>
+</SoundBanksInfo>

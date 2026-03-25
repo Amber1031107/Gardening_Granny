@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}">
+			<ObjectPath>Play_Digging_Up_Plant</ObjectPath>
+			<ShortName>Play_Digging_Up_Plant</ShortName>
+			<Path>Event/Play_Digging_Up_Plant.bnk</Path>
+			<Media>
+				<File Id="767701832" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Plant Dig Up_01_v2.wav</ShortName>
+					<Path>Media/767701832.wem</Path>
+					<CachePath>CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3054394219" Name="Play_Digging_Up_Plant" ObjectPath="\Events\Default Work Unit\ENEMY SOUNDS\Play_Digging_Up_Plant" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Color="12" DurationType="OneShot" DurationMin="0.26936084" DurationMax="0.2980126">
+					<MediaRefs>
+						<MediaRef Id="767701832"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C7F22A15-A0A1-56E6-3BD9-B6914C870DA4}</FileHash>
+</SoundBanksInfo>

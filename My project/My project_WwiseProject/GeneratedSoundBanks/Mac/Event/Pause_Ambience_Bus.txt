@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1385805035	Pause_Ambience_Bus			\Default Work Unit\AMBIENCE\Pause_Ambience_Bus	
+

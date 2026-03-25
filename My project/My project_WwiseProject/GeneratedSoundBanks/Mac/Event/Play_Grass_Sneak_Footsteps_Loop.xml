@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3018976446" Type="Event" GUID="{EDE24D2D-A914-413C-AD90-31608069359E}" Language="SFX" Hash="{103B02C5-F80D-A563-F0EB-862FFE7AA1DA}">
+			<ObjectPath>Play_Grass_Sneak_Footsteps_Loop</ObjectPath>
+			<ShortName>Play_Grass_Sneak_Footsteps_Loop</ShortName>
+			<Path>Event/Play_Grass_Sneak_Footsteps_Loop.bnk</Path>
+			<Media>
+				<File Id="326672972" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>FS_Grass Sneak Loop_v4.wav</ShortName>
+					<Path>Media/326672972.wem</Path>
+					<CachePath>23/{23758542-AD3B-3AC7-1EF4-7F447460DB5E}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3018976446" Name="Play_Grass_Sneak_Footsteps_Loop" ObjectPath="\Events\Default Work Unit\ENEMY SOUNDS\Play_Grass_Sneak_Footsteps_Loop" GUID="{EDE24D2D-A914-413C-AD90-31608069359E}" Color="6" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="326672972"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{324FE1B3-24F1-B9AA-CEFD-5AFD1F73CB52}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1433988185" Type="Event" GUID="{0A882178-0F65-4818-AD05-22FB3DE40554}" Language="SFX" Hash="{969205AF-EFB7-4B90-F7EC-B92CA3254F8A}">
+			<ObjectPath>Play_Cash_Register</ObjectPath>
+			<ShortName>Play_Cash_Register</ShortName>
+			<Path>Event/Play_Cash_Register.bnk</Path>
+			<Media>
+				<File Id="472422728" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Cash Register_v2.wav</ShortName>
+					<Path>Media/472422728.wem</Path>
+					<CachePath>86/{867CC99A-1E2B-4D60-B887-154876589682}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1433988185" Name="Play_Cash_Register" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_Cash_Register" GUID="{0A882178-0F65-4818-AD05-22FB3DE40554}" Color="3" DurationType="OneShot" DurationMin="1.4831208" DurationMax="1.4831208">
+					<MediaRefs>
+						<MediaRef Id="472422728"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7FDCC710-7B3D-C08C-2D97-AA18098B8F26}</FileHash>
+</SoundBanksInfo>

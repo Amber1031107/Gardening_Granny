@@ -1,0 +1,92 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2764715416",
+    "Type": "Event",
+    "GUID": "{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}",
+    "Language": "SFX",
+    "Hash": "{84B8BBA3-68D8-4B3B-98BA-6B641E5E5675}",
+    "ObjectPath": "Play_Planting_Plants",
+    "ShortName": "Play_Planting_Plants",
+    "Path": "Event/Play_Planting_Plants.bnk",
+    "Media": [
+     {
+      "Id": "183180462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Planting02_03.wav",
+      "Path": "Media/183180462.wem",
+      "CachePath": "9D/{9DE7DC78-376D-95A7-66D6-5F920919D21C}.wem"
+     },
+     {
+      "Id": "525213712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Planting02_02.wav",
+      "Path": "Media/525213712.wem",
+      "CachePath": "5B/{5BCFDC4D-6E4C-3ACA-E01C-4357CE7B1C2B}.wem"
+     },
+     {
+      "Id": "991765364",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Planting02_01.wav",
+      "Path": "Media/991765364.wem",
+      "CachePath": "96/{962F03C9-2ED6-5AA5-96D7-3D31E0B4DAA4}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3657550167",
+       "Name": "New_Parametric_EQ",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Parametric_EQ",
+       "GUID": "{DD86D0BB-F9E2-4E34-8299-A2BB9A4D8955}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2764715416",
+      "Name": "Play_Planting_Plants",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Planting_Plants",
+      "GUID": "{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}",
+      "Color": "5",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24466676",
+      "DurationMax": "0.33547184",
+      "MediaRefs": [
+       {
+        "Id": "183180462"
+       },
+       {
+        "Id": "525213712"
+       },
+       {
+        "Id": "991765364"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3657550167"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E5F95463-8571-2192-DBE4-DA436C47376C}"
+ }
+}

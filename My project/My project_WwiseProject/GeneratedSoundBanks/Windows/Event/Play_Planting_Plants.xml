@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2764715416" Type="Event" GUID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}" Language="SFX" Hash="{84B8BBA3-68D8-4B3B-98BA-6B641E5E5675}">
+			<ObjectPath>Play_Planting_Plants</ObjectPath>
+			<ShortName>Play_Planting_Plants</ShortName>
+			<Path>Event/Play_Planting_Plants.bnk</Path>
+			<Media>
+				<File Id="183180462" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Planting02_03.wav</ShortName>
+					<Path>Media/183180462.wem</Path>
+					<CachePath>9D/{9DE7DC78-376D-95A7-66D6-5F920919D21C}.wem</CachePath>
+				</File>
+				<File Id="525213712" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Planting02_02.wav</ShortName>
+					<Path>Media/525213712.wem</Path>
+					<CachePath>5B/{5BCFDC4D-6E4C-3ACA-E01C-4357CE7B1C2B}.wem</CachePath>
+				</File>
+				<File Id="991765364" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Planting02_01.wav</ShortName>
+					<Path>Media/991765364.wem</Path>
+					<CachePath>96/{962F03C9-2ED6-5AA5-96D7-3D31E0B4DAA4}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3657550167" Name="New_Parametric_EQ" ObjectPath="\Effects\Default Work Unit\New_Parametric_EQ" GUID="{DD86D0BB-F9E2-4E34-8299-A2BB9A4D8955}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2764715416" Name="Play_Planting_Plants" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Planting_Plants" GUID="{C1FA2771-7177-4A6D-9B65-29CBDA47C10E}" Color="5" DurationType="OneShot" DurationMin="0.24466676" DurationMax="0.33547184">
+					<MediaRefs>
+						<MediaRef Id="183180462"/>
+						<MediaRef Id="525213712"/>
+						<MediaRef Id="991765364"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3657550167"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4400E2AB-14AA-82BB-9423-09B5E4CC0049}</FileHash>
+</SoundBanksInfo>

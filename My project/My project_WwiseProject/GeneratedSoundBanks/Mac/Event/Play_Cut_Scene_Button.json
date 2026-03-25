@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "588888374",
+    "Type": "Event",
+    "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
+    "Language": "SFX",
+    "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
+    "ObjectPath": "Play_Cut_Scene_Button",
+    "ShortName": "Play_Cut_Scene_Button",
+    "Path": "Event/Play_Cut_Scene_Button.bnk",
+    "Media": [
+     {
+      "Id": "307067782",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Cut Scene Button.wav",
+      "Path": "Media/307067782.wem",
+      "CachePath": "40/{402C8F8C-57D0-3016-D5F3-ED17AB29DF71}.wem"
+     },
+     {
+      "Id": "340222023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_DayNight Transition.wav",
+      "Path": "Media/340222023.wem",
+      "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "588888374",
+      "Name": "Play_Cut_Scene_Button",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Cut_Scene_Button",
+      "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
+      "Color": "23",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3505993",
+      "DurationMax": "2.3505993",
+      "MediaRefs": [
+       {
+        "Id": "307067782"
+       },
+       {
+        "Id": "340222023"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CD62A9F3-E113-BB77-330A-1E34ECCE8C66}"
+ }
+}

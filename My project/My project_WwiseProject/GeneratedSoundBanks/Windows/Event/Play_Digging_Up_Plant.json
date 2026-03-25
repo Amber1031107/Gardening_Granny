@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3054394219",
+    "Type": "Event",
+    "GUID": "{4A3D9450-46C7-4342-B50D-108E6FB424D5}",
+    "Language": "SFX",
+    "Hash": "{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}",
+    "ObjectPath": "Play_Digging_Up_Plant",
+    "ShortName": "Play_Digging_Up_Plant",
+    "Path": "Event/Play_Digging_Up_Plant.bnk",
+    "Media": [
+     {
+      "Id": "767701832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Plant Dig Up_01_v2.wav",
+      "Path": "Media/767701832.wem",
+      "CachePath": "CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3054394219",
+      "Name": "Play_Digging_Up_Plant",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY SOUNDS\\Play_Digging_Up_Plant",
+      "GUID": "{4A3D9450-46C7-4342-B50D-108E6FB424D5}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26936084",
+      "DurationMax": "0.2980126",
+      "MediaRefs": [
+       {
+        "Id": "767701832"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1BDC0623-A83B-10CE-7FAD-FF8F1A58DE4C}"
+ }
+}

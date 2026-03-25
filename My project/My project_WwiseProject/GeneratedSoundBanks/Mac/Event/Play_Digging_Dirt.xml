@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3203628969" Type="Event" GUID="{8BCADC86-32C9-4215-9459-425866065C6B}" Language="SFX" Hash="{472C7D3A-A344-3E6D-9A82-7A68CABC9B6A}">
+			<ObjectPath>Play_Digging_Dirt</ObjectPath>
+			<ShortName>Play_Digging_Dirt</ShortName>
+			<Path>Event/Play_Digging_Dirt.bnk</Path>
+			<Media>
+				<File Id="100853048" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Digging_01_v2.wav</ShortName>
+					<Path>Media/100853048.wem</Path>
+					<CachePath>75/{7504A3F6-3611-BC5C-2DC4-5492AB87F0D4}.wem</CachePath>
+				</File>
+				<File Id="348204162" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Digging_02_v2.wav</ShortName>
+					<Path>Media/348204162.wem</Path>
+					<CachePath>99/{99FB123A-8B33-5C89-1D10-3BF06966A979}.wem</CachePath>
+				</File>
+				<File Id="833363733" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Digging_03_v2.wav</ShortName>
+					<Path>Media/833363733.wem</Path>
+					<CachePath>61/{6103D521-6D9E-55ED-01B7-C1CE9223F8E4}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3203628969" Name="Play_Digging_Dirt" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Digging_Dirt" GUID="{8BCADC86-32C9-4215-9459-425866065C6B}" Color="7" DurationType="OneShot" DurationMin="0.4606097" DurationMax="0.61099833">
+					<MediaRefs>
+						<MediaRef Id="100853048"/>
+						<MediaRef Id="348204162"/>
+						<MediaRef Id="833363733"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{22A5A260-3A85-86F4-6FF3-3EBB30ED14F8}</FileHash>
+</SoundBanksInfo>

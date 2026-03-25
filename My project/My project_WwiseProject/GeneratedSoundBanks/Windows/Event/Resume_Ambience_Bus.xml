@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="4093438092" Type="Event" GUID="{F044A25C-BEA6-484B-BF73-19FFDA713DEB}" Language="SFX" Hash="{22E682B1-A85B-C5CC-D8BC-BA8A898C71A8}">
+			<ObjectPath>Resume_Ambience_Bus</ObjectPath>
+			<ShortName>Resume_Ambience_Bus</ShortName>
+			<Path>Event/Resume_Ambience_Bus.bnk</Path>
+			<Events>
+				<Event Id="4093438092" Name="Resume_Ambience_Bus" ObjectPath="\Events\Default Work Unit\AMBIENCE\Resume_Ambience_Bus" GUID="{F044A25C-BEA6-484B-BF73-19FFDA713DEB}" Color="3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2CF07B7E-697E-D135-667E-5D8DD9EF3ADA}</FileHash>
+</SoundBanksInfo>
