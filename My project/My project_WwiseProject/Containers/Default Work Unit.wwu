@@ -1581,8 +1581,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_DayNight Transition" ID="{569EF1A7-533A-4428-B222-E362EB23032B}">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.227966841186737"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.553082191780822"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.055955497382199"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.35059931506849"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -3032,6 +3034,602 @@
 									</EffectSlot>
 								</ObjectList>
 							</ObjectLists>
+						</BlendContainer>
+						<BlendContainer Name="Summer Amb" ID="{36D36072-76B5-429B-8260-66B57D551269}" ShortID="402565748">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Dogs Barking" ID="{A1C46ADC-7C37-4EFF-ABE0-641D71D576EE}" ShortID="187919791">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EC1A4403-1C89-4E08-AFF5-B94063F410A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Dogs Barking Sequence" ID="{C231B111-68E6-42D0-86FF-BAF40A3EE345}" ShortID="740744602">
+											<PropertyList>
+												<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoopCount" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9EDF6B54-5325-47A9-A2D5-45E58E368066}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5DEA6534-C98C-4243-9700-69DD1BE3B494}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Dog Barking C" ID="{2E829941-2A2D-48AD-AF60-7D0092530662}" ShortID="1059612931">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Amb_Dogs Barking C01" ID="{B8F1E0CB-C125-48AA-ABD5-EE9EFA33CB40}" ShortID="355246982">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking C01" ID="{5D64D644-E1B5-4902-966B-37D473FCD8BC}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking C01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="607915926"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking C01" ID="{5D64D644-E1B5-4902-966B-37D473FCD8BC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking C02" ID="{CF0EBB39-8F9A-441C-BD81-7D02068634CC}" ShortID="925627480">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking C02" ID="{616A208A-9589-40EB-8049-F00C8DC4288A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking C02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="764033788"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking C02" ID="{616A208A-9589-40EB-8049-F00C8DC4288A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking C03" ID="{C491A2F3-2115-4791-B18D-751A5908B7D9}" ShortID="243042422">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking C03" ID="{8E8441E3-76AE-4181-9B8A-44751E597C2C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking C03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="884845617"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking C03" ID="{8E8441E3-76AE-4181-9B8A-44751E597C2C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking C04" ID="{B5AB86A7-D16C-47A2-B64F-832AA0D40ACB}" ShortID="339302735">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking C04" ID="{BED87D4A-D2B9-4CB4-A140-9C2960DCF55D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking C04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="558515104"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking C04" ID="{BED87D4A-D2B9-4CB4-A140-9C2960DCF55D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking C05" ID="{35CD5CD9-462D-4BB3-BA7A-4AA7A6834909}" ShortID="813623942">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking C05" ID="{02419857-8D42-4A29-80FA-55CF080F5C4C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking C05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="641488977"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking C05" ID="{02419857-8D42-4A29-80FA-55CF080F5C4C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking C06" ID="{01953816-FB41-434F-BAD8-19AB5EB7724E}" ShortID="1045267906">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking C06" ID="{A8571FCC-DB4A-45AD-8DD9-76E4DC75832C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking C06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="871075254"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking C06" ID="{A8571FCC-DB4A-45AD-8DD9-76E4DC75832C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Dog Barking A" ID="{24480CD1-C5B2-4EA7-BBD9-EAEC5EF6AA77}" ShortID="49499218">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8467D76A-3FE1-4D2C-8D97-10724026210B}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismLoopCount" Type="int32" Value="1">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F9F1CF80-2B7E-4EC8-9D63-26BCB7CA9F01}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="3"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Amb_Dogs Barking A01" ID="{5EED8922-BB92-4F0A-A5E7-443F32EAFEE8}" ShortID="587360069">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking A01" ID="{B484F1EB-30E2-4E66-87A2-52E9326376B2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking A01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="339764024"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking A01" ID="{B484F1EB-30E2-4E66-87A2-52E9326376B2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking A02" ID="{C4A20BB1-C469-492C-91A8-BA2A68E9E4E3}" ShortID="1064761667">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking A02" ID="{EAC0CD23-622A-4F93-812D-B287EDA24B5D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking A02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="518150151"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking A02" ID="{EAC0CD23-622A-4F93-812D-B287EDA24B5D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking A03" ID="{E9186496-15F4-4F1A-9C65-764821A050B1}" ShortID="385041506">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking A03" ID="{19603B05-D9DF-4130-828A-53E4B20B9168}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking A03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="347642694"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking A03" ID="{19603B05-D9DF-4130-828A-53E4B20B9168}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking A04" ID="{778420FC-1C02-43B7-A18B-6812F4B6E21E}" ShortID="1024784970">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking A04" ID="{6BE26F8E-593A-4C82-AF8C-CCE36FA5FC20}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking A04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="963316239"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking A04" ID="{6BE26F8E-593A-4C82-AF8C-CCE36FA5FC20}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking A05" ID="{3D2E2D4D-16C2-44D6-9387-8798A63611AE}" ShortID="745345834">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking A05" ID="{6501659D-078C-4F46-96BC-A8F24CE58E44}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking A05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="215818996"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking A05" ID="{6501659D-078C-4F46-96BC-A8F24CE58E44}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking A06" ID="{29680CAD-C318-4181-A05C-3BF2B6F69AFC}" ShortID="135457046">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking A06" ID="{8E7B9083-69E3-44DE-850B-03C28EB5EB28}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking A06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="668613579"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking A06" ID="{8E7B9083-69E3-44DE-850B-03C28EB5EB28}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Dog Barking B" ID="{281D7A80-9163-4CD0-8BB5-97C8FC202D93}" ShortID="868221147">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Amb_Dogs Barking B01" ID="{E6C7E974-0FE4-41B2-A0B0-6D87CFE026F3}" ShortID="615116727">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B01" ID="{6AA29381-ABC7-44FF-A6FF-894309DFB650}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="212137700"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B01" ID="{6AA29381-ABC7-44FF-A6FF-894309DFB650}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B02" ID="{57744F6B-6720-4ADE-8DC4-BEF3B1EDBECD}" ShortID="386843210">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B02" ID="{C87B2852-8455-4DEB-A5B0-213AE03554DD}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="42238554"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B02" ID="{C87B2852-8455-4DEB-A5B0-213AE03554DD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B03" ID="{E9F4782A-2FD1-45D2-887C-4544DC64BBC7}" ShortID="262402642">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B03" ID="{F02FFA50-4553-45A3-A57A-6917588FD279}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="762218952"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B03" ID="{F02FFA50-4553-45A3-A57A-6917588FD279}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B04" ID="{29728C64-328A-4C54-A466-FBA2B3CA2169}" ShortID="1068061055">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B04" ID="{20992599-EE12-4BEC-B900-52202C1DB04F}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="854982793"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B04" ID="{20992599-EE12-4BEC-B900-52202C1DB04F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B05" ID="{36EDD74A-4773-43E6-A3CC-3962BFFE11EE}" ShortID="621266644">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B05" ID="{98F62C7B-1371-4E1A-8FBF-480B0F97694E}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="391991950"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B05" ID="{98F62C7B-1371-4E1A-8FBF-480B0F97694E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B06" ID="{8AA5FF2A-95AD-44D7-956D-EFB0A1E14D3E}" ShortID="369210561">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B06" ID="{EF8FCE42-4368-4325-A1AF-0F9B23B0A655}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="243314666"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B06" ID="{EF8FCE42-4368-4325-A1AF-0F9B23B0A655}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B07" ID="{DA8EC256-0DB9-4AA7-958E-B32CED7A865C}" ShortID="84973077">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B07" ID="{131D45FC-FB42-4506-9982-EBA9932DE8FD}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B07.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="792014691"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B07" ID="{131D45FC-FB42-4506-9982-EBA9932DE8FD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Amb_Dogs Barking B08" ID="{2F0B726F-AB61-4B3E-A3C5-4507E2EB75F5}" ShortID="1009726011">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Amb_Dogs Barking B08" ID="{284C0C1C-761F-4A7A-AAB7-64D0006678D2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Amb_Dogs Barking B08.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="306489854"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Amb_Dogs Barking B08" ID="{284C0C1C-761F-4A7A-AAB7-64D0006678D2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</Folder>

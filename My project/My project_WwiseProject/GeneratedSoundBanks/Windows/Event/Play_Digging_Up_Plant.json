@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4A3D9450-46C7-4342-B50D-108E6FB424D5}",
     "Language": "SFX",
-    "Hash": "{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}",
+    "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
     "ObjectPath": "Play_Digging_Up_Plant",
     "ShortName": "Play_Digging_Up_Plant",
     "Path": "Event/Play_Digging_Up_Plant.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "SFX_Plant Dig Up_01_v2.wav",
       "Path": "Media/767701832.wem",
-      "CachePath": "CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem"
+      "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
      }
     ],
     "Events": [
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{1BDC0623-A83B-10CE-7FAD-FF8F1A58DE4C}"
+  "FileHash": "{5C8FD6AC-D817-27A2-53BC-019C448D5139}"
  }
 }

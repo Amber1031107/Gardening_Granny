@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1749424733" Type="Event" GUID="{E4F0772F-726B-4600-9AA4-8DC301D1EC7F}" Language="SFX" Hash="{7E23A3B4-2793-0052-FBFF-67F2549C1D30}">
+		<SoundBank Id="1749424733" Type="Event" GUID="{E4F0772F-726B-4600-9AA4-8DC301D1EC7F}" Language="SFX" Hash="{D2E84A35-F1E7-16DA-F1CC-8B5D5E6B8375}">
 			<ObjectPath>Play_UI_Click</ObjectPath>
 			<ShortName>Play_UI_Click</ShortName>
 			<Path>Event/Play_UI_Click.bnk</Path>
@@ -9,7 +9,7 @@
 				<File Id="199870249" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>UI_Click_v5.wav</ShortName>
 					<Path>Media/199870249.wem</Path>
-					<CachePath>61/{61755BF6-F147-70D9-BC9C-AEDD4307B530}.wem</CachePath>
+					<CachePath>0B/{0B17871E-C033-DD1C-EE1E-E6B204AF7399}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2C27BEF8-158D-927C-96F4-14D657C2399A}</FileHash>
+	<FileHash>{ED017610-1ADB-F759-F1E9-FB21AD74AAD0}</FileHash>
 </SoundBanksInfo>
