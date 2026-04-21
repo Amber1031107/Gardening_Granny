@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: PathwayFlowers
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Flower Path
+  displayName: Flower Path
   handPrefab: {fileID: 7449789240672324216, guid: 901bd9250dd6bfe4380bf31c8276cbe7, type: 3}
   placeablePrefab: {fileID: 4832622223958088028, guid: 677d120a52fa4ec46ac4f43dc7cae71a, type: 3}
   icon: {fileID: 21300000, guid: 35d2e7f72911ba640a46f854fb08d8a5, type: 3}
+  cost: 5
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

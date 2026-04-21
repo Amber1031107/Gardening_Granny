@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: PathwayRocks
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Rocky Path
+  displayName: Rocky Path
   handPrefab: {fileID: 5305622269942659786, guid: aa80c9da0bbc7254e8dac292a5772c7f, type: 3}
   placeablePrefab: {fileID: 5684833742494048936, guid: 8925ec4e2a272ff46b80b08bdc96fb8e, type: 3}
   icon: {fileID: 21300000, guid: aac8e6d1b50b1a04ab700066888404bb, type: 3}
+  cost: 5
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

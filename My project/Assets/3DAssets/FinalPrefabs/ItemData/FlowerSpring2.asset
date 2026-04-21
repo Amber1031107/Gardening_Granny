@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: FlowerSpring2
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Mushrooms
+  displayName: Mushrooms
   handPrefab: {fileID: 7495930040076144254, guid: 525adb7c2470c8f42af37adc80f5406f, type: 3}
   placeablePrefab: {fileID: 4521690575198259226, guid: a067860117cd7b245bb9605df246fef9, type: 3}
   icon: {fileID: -1622452316, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
+  cost: 10
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 1
   plantsOnGrass: 0
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

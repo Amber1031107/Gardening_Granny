@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: RockA
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Rock small
+  displayName: Rock small
   handPrefab: {fileID: 3476700286339231922, guid: a18dd905bd2c94e4bb20ad5db2577375, type: 3}
   placeablePrefab: {fileID: 5121362246619199802, guid: f9b6b3f08a6a55543ac95f0cf044978a, type: 3}
   icon: {fileID: 21300000, guid: e4973b644062c59448e35379815867cd, type: 3}
+  cost: 5
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: FlowerSpring4
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Drooping lillys
+  displayName: Drooping lillys
   handPrefab: {fileID: 1730416477577403783, guid: 9fa20fd7f731a58428444040c0cc618e, type: 3}
   placeablePrefab: {fileID: 3674881435534696332, guid: 52aee4b682e6500498f775078ba12f26, type: 3}
   icon: {fileID: 949611812, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
+  cost: 20
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 1
   plantsOnGrass: 0
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

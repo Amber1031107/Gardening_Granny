@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: PathwayWood
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Wooden Path
+  displayName: Wooden Path
   handPrefab: {fileID: 8437577084903292953, guid: b8705dbb8d7d7f44c8466db3b031c671, type: 3}
   placeablePrefab: {fileID: 3940583247587809222, guid: bd1f79a8ce2f8564dbe3dd7f7e91c167, type: 3}
   icon: {fileID: 21300000, guid: 430c046ee89135440b452681c0fc1916, type: 3}
+  cost: 5
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

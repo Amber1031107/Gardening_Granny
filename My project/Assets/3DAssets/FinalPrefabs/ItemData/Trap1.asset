@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: Trap1
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Trap
+  displayName: Trap
   handPrefab: {fileID: 1706956459259524824, guid: d8bb5394dca5796409139e47876405c1, type: 3}
-  placeablePrefab: {fileID: 919132149155446097, guid: 227e335220535924eaa8aa6411c0c2fb, type: 3}
+  placeablePrefab: {fileID: 7426407223624627365, guid: 1f76e0f370204474d89c19a863bdae29, type: 3}
   icon: {fileID: 21300000, guid: 5a370a5e2f118f14092847836c645339, type: 3}
+  cost: 5
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

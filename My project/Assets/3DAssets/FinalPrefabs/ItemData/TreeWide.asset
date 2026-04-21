@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: TreeWide
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Wider tree
+  displayName: Wider tree
   handPrefab: {fileID: 5085570905295676503, guid: ee5b6e7ceba590d4289b6f5bf209bde2, type: 3}
   placeablePrefab: {fileID: 5085570905295676503, guid: ee5b6e7ceba590d4289b6f5bf209bde2, type: 3}
   icon: {fileID: 21300000, guid: 30facdd8cba60b64882c7ba11301d205, type: 3}
+  cost: 25
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

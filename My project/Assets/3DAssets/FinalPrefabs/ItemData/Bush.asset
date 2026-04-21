@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: Bush
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Bush
+  displayName: Bush
   handPrefab: {fileID: 6918035936248293080, guid: d3bdc4366ad43df43bd60db2730a4c74, type: 3}
   placeablePrefab: {fileID: 6918035936248293080, guid: d3bdc4366ad43df43bd60db2730a4c74, type: 3}
   icon: {fileID: 21300000, guid: 53c2ecbe34babb14cb179a8adec486a0, type: 3}
+  cost: 5
   isInfinite: 0
-  plantsOnDirt: 1
-  plantsOnGrass: 0
+  isShovel: 0
+  plantsOnDirt: 0
+  plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

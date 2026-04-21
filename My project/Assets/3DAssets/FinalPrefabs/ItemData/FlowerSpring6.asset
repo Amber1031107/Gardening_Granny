@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: FlowerSpring6
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Staries
+  displayName: Staries
   handPrefab: {fileID: 5686374624817166400, guid: 136c3e282e0b8ad4a946c03528b13d8c, type: 3}
   placeablePrefab: {fileID: 8841642917160026815, guid: 25777f85d8364f940b855cd78a958f02, type: 3}
   icon: {fileID: -113883200, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
+  cost: 30
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 1
   plantsOnGrass: 0
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

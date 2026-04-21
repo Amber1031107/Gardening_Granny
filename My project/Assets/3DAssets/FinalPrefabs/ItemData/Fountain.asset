@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
   m_Name: Fountain
   m_EditorClassIdentifier: 
-  type: 0
+  itemID: Fountain
+  displayName: Fountain
   handPrefab: {fileID: 2081179620837687784, guid: 465a8effde1a29a48838516598d67e7d, type: 3}
   placeablePrefab: {fileID: 1585789517300038181, guid: 424c8793dead93443a0df66eb407413e, type: 3}
   icon: {fileID: 21300000, guid: 155af442f643f6a48858534518c6417f, type: 3}
+  cost: 40
   isInfinite: 0
+  isShovel: 0
   plantsOnDirt: 0
   plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
