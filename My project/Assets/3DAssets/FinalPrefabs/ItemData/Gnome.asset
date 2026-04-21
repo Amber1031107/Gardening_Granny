@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
+  m_Name: Gnome
+  m_EditorClassIdentifier: 
+  type: 0
+  handPrefab: {fileID: 5849577656619256339, guid: 92af1ef291313ab45a10d45a5c192901, type: 3}
+  placeablePrefab: {fileID: 1753518354341253196, guid: 27b03ac79a981c546bdd6ab0858ff673, type: 3}
+  icon: {fileID: 21300000, guid: 463b0b1e60c6fca468ed00e0c65066da, type: 3}
+  isInfinite: 0
+  plantsOnDirt: 0
+  plantsOnGrass: 1

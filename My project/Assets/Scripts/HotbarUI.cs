@@ -2,57 +2,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using AK.Wwise; 
+using AK.Wwise;
 
 public class HotbarUI : MonoBehaviour
 {
     [Header("References")]
     public PlayersInventory playerInventory;
 
-    [Header("Item Icons — drag each sprite to match its item type")]
-    public Sprite icon_FlowerSpringPlant1;
-    public Sprite icon_FlowerSpringPlant2;
-    public Sprite icon_FlowerSpringPlant3;
-    public Sprite icon_FlowerSpringPlant4;
-    public Sprite icon_FlowerSpringPlant5;
-    public Sprite icon_FlowerSpringPlant6;
-    public Sprite icon_Trap;
-    public Sprite icon_Shovel;
-    public Sprite icon_Default; // fallback if no icon is assigned
+    [Header("Fallback")]
+    public Sprite icon_Default;
 
-    [Header("Hotbar Slots (assign in Inspector — one per slot)")]
+    [Header("Hotbar Slots (assign in Inspector)")]
     public List<HotbarSlot> slots;
 
-    [Header("Selection Audio")] //Audio
-    public AK.Wwise.Event select_FlowerSpringPlant1;
-    public AK.Wwise.Event select_FlowerSpringPlant2;
-    public AK.Wwise.Event select_FlowerSpringPlant3;
-    public AK.Wwise.Event select_FlowerSpringPlant4;
-    public AK.Wwise.Event select_FlowerSpringPlant5;
-    public AK.Wwise.Event select_FlowerSpringPlant6;
-    public AK.Wwise.Event select_Trap;
-    public AK.Wwise.Event select_Shovel;
-    public AK.Wwise.Event select_Default;
-
-    private Dictionary<itemType, Sprite> iconMap;
     private int lastSelectedIndex = -1;
-
-
-    void Start()
-    {
-        // Build the icon lookup once
-        iconMap = new Dictionary<itemType, Sprite>()
-        {
-            { itemType.FlowerSpringPlant1, icon_FlowerSpringPlant1 },
-            { itemType.FlowerSpringPlant2, icon_FlowerSpringPlant2 },
-            { itemType.FlowerSpringPlant3, icon_FlowerSpringPlant3 },
-            { itemType.FlowerSpringPlant4, icon_FlowerSpringPlant4 },
-            { itemType.FlowerSpringPlant5, icon_FlowerSpringPlant5 },
-            { itemType.FlowerSpringPlant6, icon_FlowerSpringPlant6 },
-            { itemType.Trap,              icon_Trap },
-            { itemType.Shovel,            icon_Shovel },
-        };
-    }
 
     void Update()
     {
@@ -62,24 +25,28 @@ public class HotbarUI : MonoBehaviour
 
     void RefreshHotbar()
     {
+        // windowStart tells us which inventory index maps to slot 1
+        int windowStart = playerInventory.GetWindowStart();
+
         for (int i = 0; i < slots.Count; i++)
         {
-            bool hasItem = i < playerInventory.inventoryList.Count;
-            bool selected = playerInventory.selectItem == i + 1;
+            int inventoryIndex = windowStart + i;
+            bool hasItem = inventoryIndex < playerInventory.inventoryList.Count;
+            bool selected = playerInventory.selectItem == inventoryIndex + 1;
 
             if (hasItem)
             {
-                itemType item = playerInventory.inventoryList[i];
+                string itemID = playerInventory.inventoryList[inventoryIndex];
+                ItemData data = playerInventory.GetItemData(itemID);
 
-                int count = playerInventory.itemCounts.ContainsKey(item)
-                    ? playerInventory.itemCounts[item]
+                int count = playerInventory.itemCounts.ContainsKey(itemID)
+                    ? playerInventory.itemCounts[itemID]
                     : 0;
 
-                Sprite icon = iconMap.ContainsKey(item) && iconMap[item] != null
-                    ? iconMap[item]
-                    : icon_Default;
+                Sprite icon = (data != null && data.icon != null) ? data.icon : icon_Default;
+                string displayName = data != null ? data.displayName : itemID;
 
-                slots[i].SetSlot(item, icon, count, selected);
+                slots[i].SetSlot(displayName, icon, count, selected);
             }
             else
             {
@@ -88,19 +55,15 @@ public class HotbarUI : MonoBehaviour
         }
     }
 
-
-   void CheckSelectionChanged()
+    void CheckSelectionChanged()
     {
-        if (playerInventory == null)
-            return;
+        if (playerInventory == null) return;
 
         if (playerInventory.selectItem != lastSelectedIndex)
         {
             lastSelectedIndex = playerInventory.selectItem;
 
-            // Don't play hotbar swap sound while shop is open
-            if (Shop.shopIsOpen)
-                return;
+            if (Shop.shopIsOpen) return;
 
             PlaySelectionSound();
         }
@@ -108,34 +71,11 @@ public class HotbarUI : MonoBehaviour
 
     void PlaySelectionSound()
     {
-        int selectedIndex = playerInventory.selectItem - 1;
-
-        if (selectedIndex < 0 || selectedIndex >= playerInventory.inventoryList.Count)
-            return;
-
-        itemType selectedItem = playerInventory.inventoryList[selectedIndex];
-        AK.Wwise.Event selectionEvent = GetSelectionEvent(selectedItem);
-
-        selectionEvent?.Post(gameObject);
-    }
-
-    AK.Wwise.Event GetSelectionEvent(itemType item)
-    {
-        switch (item)
-        {
-            case itemType.FlowerSpringPlant1: return select_FlowerSpringPlant1;
-            case itemType.FlowerSpringPlant2: return select_FlowerSpringPlant2;
-            case itemType.FlowerSpringPlant3: return select_FlowerSpringPlant3;
-            case itemType.FlowerSpringPlant4: return select_FlowerSpringPlant4;
-            case itemType.FlowerSpringPlant5: return select_FlowerSpringPlant5;
-            case itemType.FlowerSpringPlant6: return select_FlowerSpringPlant6;
-            case itemType.Trap: return select_Trap;
-            case itemType.Shovel: return select_Shovel;
-            default: return select_Default;
-        }
+        ItemData data = playerInventory.GetSelectedItemData();
+        if (data == null) return;
+        data.selectionSound?.Post(gameObject);
     }
 }
-
 
 [System.Serializable]
 public class HotbarSlot
@@ -146,26 +86,22 @@ public class HotbarSlot
     public TextMeshProUGUI nameText;
     public Image selectionHighlight;
 
-    public void SetSlot(itemType item, Sprite icon, int count, bool selected)
+    public void SetSlot(string displayName, Sprite icon, int count, bool selected)
     {
         slotObject.SetActive(true);
 
-        // Set the icon sprite
         if (iconImage != null)
         {
             iconImage.sprite = icon;
             iconImage.enabled = icon != null;
         }
 
-        // Stack count — blank for infinite (shovel = -1)
         if (countText != null)
-            countText.text = count == -1 ? "" : "x" + count.ToString();
+            countText.text = count == -1 ? "" : "x" + count;
 
-        // Friendly name
         if (nameText != null)
-            nameText.text = FormatName(item.ToString());
+            nameText.text = displayName;
 
-        // Highlight selected slot
         if (selectionHighlight != null)
             selectionHighlight.enabled = selected;
     }
@@ -173,23 +109,5 @@ public class HotbarSlot
     public void ClearSlot()
     {
         slotObject.SetActive(false);
-    }
-
-    private string FormatName(string raw)
-    {
-        raw = raw.Replace("FlowerSpring", "Spring ");
-        raw = raw.Replace("FlowerSummer", "Summer ");
-        raw = raw.Replace("FlowerAutumn", "Autumn ");
-        raw = raw.Replace("FlowerWinter", "Winter ");
-
-        // Insert space before digits: "Plant1" → "Plant 1"
-        var sb = new System.Text.StringBuilder();
-        foreach (char c in raw)
-        {
-            if (char.IsDigit(c) && sb.Length > 0 && !char.IsDigit(sb[sb.Length - 1]))
-                sb.Append(' ');
-            sb.Append(c);
-        }
-        return sb.ToString().Trim();
     }
 }
