@@ -8,7 +8,7 @@ public class Tutorial : MonoBehaviour
    // public string sceneName = "Tutorial";  // Name of the scene to load
    public void Next()
    {
-        SceneManager.LoadScene("Build");
+        SceneManager.LoadScene("SpringSeason1");
    }
 
     //void Start()
