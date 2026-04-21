@@ -67,6 +67,7 @@ public class PlayersInventory : MonoBehaviour
 
     void Update()
     {
+        // ── Number keys ───────────────────────────────────────────────────────
         int visibleCount = Mathf.Min(MAX_VISIBLE, inventoryList.Count - windowStart);
         for (int i = 1; i <= visibleCount; i++)
         {
@@ -75,6 +76,19 @@ public class PlayersInventory : MonoBehaviour
                 SelectSlot(windowStart + i);
                 break;
             }
+        }
+
+        // ── Scroll wheel ──────────────────────────────────────────────────────
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0f)
+        {
+            // Scrolling down = move right, scrolling up = move left
+            int direction = scroll < 0f ? 1 : -1;
+            int newIndex = Mathf.Clamp((selectItem - 1) + direction, 0, inventoryList.Count - 1);
+
+            selectItem = newIndex + 1;
+            ScrollWindowToIndex(newIndex);
+            NewItemSelected();
         }
     }
 
