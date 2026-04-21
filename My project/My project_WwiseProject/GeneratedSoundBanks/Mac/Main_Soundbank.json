@@ -1,0 +1,529 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
+    "Color": "10",
+    "Language": "SFX",
+    "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
+    "ShortName": "Main_Soundbank",
+    "Path": "Main_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "1012836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 03.wav",
+      "CachePath": "D4/{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem"
+     },
+     {
+      "Id": "20790822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 06.wav",
+      "CachePath": "5A/{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem"
+     },
+     {
+      "Id": "34470463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_04.wav",
+      "CachePath": "3F/{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem"
+     },
+     {
+      "Id": "128863012",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_01.wav",
+      "CachePath": "CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem"
+     },
+     {
+      "Id": "147936951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Breeze Spring_02.wav",
+      "CachePath": "E6/{E6048A61-D0F4-73DA-D1C2-B28C267A7ACE}.wem"
+     },
+     {
+      "Id": "241852122",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 05.wav",
+      "CachePath": "7B/{7BD9C0B7-2690-50F6-AB6B-5700145ADD38}.wem"
+     },
+     {
+      "Id": "253876681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_14.wav",
+      "CachePath": "64/{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem"
+     },
+     {
+      "Id": "260095195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_07.wav",
+      "CachePath": "84/{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem"
+     },
+     {
+      "Id": "312702700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Kids Cutscene Music.wav",
+      "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
+     },
+     {
+      "Id": "355788501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring Amb.wav",
+      "CachePath": "3F/{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem"
+     },
+     {
+      "Id": "393861057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Breeze Spring_04.wav",
+      "CachePath": "7E/{7EC04265-824E-43DF-0546-71FA6C755295}.wem"
+     },
+     {
+      "Id": "403079355",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_09.wav",
+      "CachePath": "D7/{D79412BA-A357-B5E1-B237-93FE704DEC86}.wem"
+     },
+     {
+      "Id": "432728295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 02.wav",
+      "CachePath": "76/{763C7D7A-A47D-7001-1FCB-4B27A77648EA}.wem"
+     },
+     {
+      "Id": "433637960",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_15.wav",
+      "CachePath": "07/{0758BF7B-F160-3B0C-767F-12609310D383}.wem"
+     },
+     {
+      "Id": "458925649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_16.wav",
+      "CachePath": "21/{21903945-360E-4620-271D-8511BA50DC56}.wem"
+     },
+     {
+      "Id": "472907063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PLACEHOLDERMUSIC.wav",
+      "CachePath": "89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem"
+     },
+     {
+      "Id": "577526996",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 07.wav",
+      "CachePath": "47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem"
+     },
+     {
+      "Id": "631474963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Breeze Spring_05.wav",
+      "CachePath": "B9/{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem"
+     },
+     {
+      "Id": "633174091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_08.wav",
+      "CachePath": "23/{23C7A52E-3CB2-66D9-4804-AFEF87E86907}.wem"
+     },
+     {
+      "Id": "640225445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_12.wav",
+      "CachePath": "D5/{D5B05581-CEC2-0694-2747-769211630B60}.wem"
+     },
+     {
+      "Id": "720278991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Breeze Spring_01.wav",
+      "CachePath": "D4/{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem"
+     },
+     {
+      "Id": "738021387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_City Amb.wav",
+      "CachePath": "34/{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem"
+     },
+     {
+      "Id": "749633620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_02.wav",
+      "CachePath": "A9/{A98EC5AB-3ECB-4D8C-01E5-018153FD8A63}.wem"
+     },
+     {
+      "Id": "767538386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Breeze Spring_03.wav",
+      "CachePath": "7A/{7A811B0A-5A97-6CB3-4BDF-0700672D562C}.wem"
+     },
+     {
+      "Id": "804176017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_05.wav",
+      "CachePath": "AE/{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem"
+     },
+     {
+      "Id": "817186541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_10.wav",
+      "CachePath": "C3/{C31D09DE-7694-3EFD-CB91-7F2449813FF3}.wem"
+     },
+     {
+      "Id": "820213659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 01.wav",
+      "CachePath": "27/{27FA1E25-D32B-5341-1AE5-7A1A0A0A772F}.wem"
+     },
+     {
+      "Id": "861828819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_13.wav",
+      "CachePath": "A9/{A9980DE4-DD0E-A2EF-734D-0611C1AA2F74}.wem"
+     },
+     {
+      "Id": "878415752",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_03.wav",
+      "CachePath": "C8/{C88D703C-AA12-3692-264F-25BAB273EA5E}.wem"
+     },
+     {
+      "Id": "885330277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Night Spring Amb.wav",
+      "CachePath": "4A/{4A644631-9D56-5153-AF1E-ABC48C9C5D81}.wem"
+     },
+     {
+      "Id": "921534118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Owl2 04.wav",
+      "CachePath": "49/{49C8911B-3EC4-FC5A-5D93-0D0878E4C176}.wem"
+     },
+     {
+      "Id": "977423185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_11.wav",
+      "CachePath": "C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem"
+     },
+     {
+      "Id": "1046667742",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Amb_Birds Spring_06.wav",
+      "CachePath": "FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1551648488",
+      "Name": "Play_Autumn_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Autumn_MUSIC",
+      "GUID": "{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     },
+     {
+      "Id": "378356484",
+      "Name": "Play_Spring_AMB",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
+      "GUID": "{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}",
+      "Color": "11",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1012836"
+       },
+       {
+        "Id": "20790822"
+       },
+       {
+        "Id": "34470463"
+       },
+       {
+        "Id": "128863012"
+       },
+       {
+        "Id": "147936951"
+       },
+       {
+        "Id": "241852122"
+       },
+       {
+        "Id": "253876681"
+       },
+       {
+        "Id": "260095195"
+       },
+       {
+        "Id": "355788501"
+       },
+       {
+        "Id": "393861057"
+       },
+       {
+        "Id": "403079355"
+       },
+       {
+        "Id": "432728295"
+       },
+       {
+        "Id": "433637960"
+       },
+       {
+        "Id": "458925649"
+       },
+       {
+        "Id": "577526996"
+       },
+       {
+        "Id": "631474963"
+       },
+       {
+        "Id": "633174091"
+       },
+       {
+        "Id": "640225445"
+       },
+       {
+        "Id": "720278991"
+       },
+       {
+        "Id": "738021387"
+       },
+       {
+        "Id": "749633620"
+       },
+       {
+        "Id": "767538386"
+       },
+       {
+        "Id": "804176017"
+       },
+       {
+        "Id": "817186541"
+       },
+       {
+        "Id": "820213659"
+       },
+       {
+        "Id": "861828819"
+       },
+       {
+        "Id": "878415752"
+       },
+       {
+        "Id": "885330277"
+       },
+       {
+        "Id": "921534118"
+       },
+       {
+        "Id": "977423185"
+       },
+       {
+        "Id": "1046667742"
+       }
+      ]
+     },
+     {
+      "Id": "474285493",
+      "Name": "Play_Spring_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Spring_MUSIC",
+      "GUID": "{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     },
+     {
+      "Id": "3643452717",
+      "Name": "Play_Summer_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Summer_MUSIC",
+      "GUID": "{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     },
+     {
+      "Id": "3439960413",
+      "Name": "Play_Winter_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Winter_Music",
+      "GUID": "{F81BF58E-500B-4783-8FF4-49F17A01D84C}",
+      "Color": "26",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
+      "Color": "11"
+     },
+     {
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "84696428",
+      "Name": "s",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
+     },
+     {
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
+     },
+     {
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1176052424",
+      "Name": "Location",
+      "ObjectPath": "\\States\\Default Work Unit\\Location",
+      "GUID": "{7A01359D-718A-445B-A4B7-045C1ABCB7F8}",
+      "States": [
+       {
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Outside",
+        "GUID": "{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\None",
+        "GUID": "{085A8335-8EFE-4447-8108-26B681D121EC}"
+       },
+       {
+        "Id": "3553349781",
+        "Name": "Inside",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Inside",
+        "GUID": "{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
+ }
+}

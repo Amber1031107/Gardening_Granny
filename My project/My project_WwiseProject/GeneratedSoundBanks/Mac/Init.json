@@ -1,0 +1,216 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{4BF40DA4-EBC2-457D-92D1-F93F823C241C}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
+      "Color": "11"
+     },
+     {
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "84696428",
+      "Name": "s",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
+     },
+     {
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
+     },
+     {
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1176052424",
+      "Name": "Location",
+      "ObjectPath": "\\States\\Default Work Unit\\Location",
+      "GUID": "{7A01359D-718A-445B-A4B7-045C1ABCB7F8}",
+      "States": [
+       {
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Outside",
+        "GUID": "{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\None",
+        "GUID": "{085A8335-8EFE-4447-8108-26B681D121EC}"
+       },
+       {
+        "Id": "3553349781",
+        "Name": "Inside",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Inside",
+        "GUID": "{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"
+       }
+      ]
+     },
+     {
+      "Id": "3381515358",
+      "Name": "Season",
+      "ObjectPath": "\\States\\Default Work Unit\\Season",
+      "GUID": "{D8D21C3D-B6C1-4155-B331-E61E23E2672D}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\None",
+        "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
+       },
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Spring",
+        "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Winter",
+        "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Summer",
+        "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
+       },
+       {
+        "Id": "4010875483",
+        "Name": "Autumn",
+        "ObjectPath": "\\States\\Default Work Unit\\Season\\Autumn",
+        "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
+       }
+      ]
+     },
+     {
+      "Id": "3729505769",
+      "Name": "TimeOfDay",
+      "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay",
+      "GUID": "{5D6BF316-2C81-4432-9822-1199121CCBF7}",
+      "States": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Day",
+        "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\None",
+        "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Night",
+        "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2823114633",
+      "Name": "Seasons",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Seasons",
+      "GUID": "{F0AD419A-11B3-41D5-B881-E09C2FE60B91}",
+      "Color": "19",
+      "Switches": [
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Spring",
+        "GUID": "{3A93A480-3BCA-4778-867F-A3AA264448D3}",
+        "Color": "19"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Winter",
+        "GUID": "{33727495-CA6E-45BA-A72C-493DDEBC57C1}",
+        "Color": "19"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Summer",
+        "GUID": "{5AEE35B2-624B-40B2-BADD-5B49B8BA7D05}",
+        "Color": "19"
+       },
+       {
+        "Id": "4010875483",
+        "Name": "Autumn",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Autumn",
+        "GUID": "{B7754862-0699-48DE-B209-D6DC8A81752F}",
+        "Color": "19"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
+ }
+}

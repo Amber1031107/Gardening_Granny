@@ -14,26 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
-        static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
-        static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
-        static const AkUniqueID PLAY_BUY_TRAP = 3485936852U;
-        static const AkUniqueID PLAY_CASH_REGISTER = 1433988185U;
-        static const AkUniqueID PLAY_COMPUTER = 1984956505U;
-        static const AkUniqueID PLAY_CUT_SCENE_BUTTON = 588888374U;
-        static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
-        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
-        static const AkUniqueID PLAY_NO_MONEY_LEFT = 2150464526U;
-        static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
-        static const AkUniqueID PLAY_SWITCH_TO_BEAR_TRAP = 3887442043U;
-        static const AkUniqueID PLAY_SWITCH_TO_PLANT = 621229048U;
-        static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
-        static const AkUniqueID PLAY_SWITCH_WOOSH = 2384339563U;
-        static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
-        static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
     } // namespace EVENTS
 
     namespace STATES
@@ -93,24 +77,7 @@ namespace AK
             } // namespace SWITCH
         } // namespace SEASONS
 
-        namespace SURFACES
-        {
-            static const AkUniqueID GROUP = 3714303081U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID CONCRETE = 841620460U;
-                static const AkUniqueID DIRT = 2195636714U;
-                static const AkUniqueID GRASS = 4248645337U;
-            } // namespace SWITCH
-        } // namespace SURFACES
-
     } // namespace SWITCHES
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID PLAYERSPEED = 1493153371U;
-    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
@@ -127,7 +94,9 @@ namespace AK
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID HOUSE_REVERB = 2675173306U;
+        static const AkUniqueID INSIDE = 3553349781U;
+        static const AkUniqueID OUTSIDE = 438105790U;
+        static const AkUniqueID S = 84696428U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
