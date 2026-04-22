@@ -15,6 +15,7 @@
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+<<<<<<< HEAD
 #Game Test & Build Folders
 Game/
 Game_Playtest/
@@ -24,6 +25,13 @@ GameExhibitionTri32025/
 New folder/
 Build/
 Builds/
+=======
+# Wwise Generated SoundBanks
+My project/My project_WwiseProject/GeneratedSoundBanks/
+**/GeneratedSoundBanks/**
+!My project/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h
+My project/My project_WwiseProject/*.zip
+>>>>>>> MaybeBetterFixForPolishingPurposes
 
 # Recordings can get excessive in size
 /[Rr]ecordings/

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:My project/Assets/Wwise/API/Editor/WwiseWindows/BrowserIcons.meta
 guid: 7e6f9d822c0f04b41bc714c945616a2e
+========
+guid: 8dd2b753adbfda840ad1e2c6d0c6cdbc
+>>>>>>>> MaybeBetterFixForPolishingPurposes:My project/Assets/3DAssets/FinalPrefabs.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

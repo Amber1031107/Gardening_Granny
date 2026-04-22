@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
+  m_Name: TreePine
+  m_EditorClassIdentifier: 
+  itemID: Pine Tree
+  displayName: Pine Tree
+  handPrefab: {fileID: 5257382384598911947, guid: 70560d155b97b35409a4deadd3d91ed3, type: 3}
+  placeablePrefab: {fileID: 7942454381531933185, guid: 8bb9b8267795a6b4c8a25b438eaf88d5, type: 3}
+  icon: {fileID: 21300000, guid: 4f3f73d2a83ff3546a69f1a774c47358, type: 3}
+  cost: 15
+  isInfinite: 0
+  isShovel: 0
+  plantsOnDirt: 0
+  plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23fc744d5df42b1408f6afb2066626a9, type: 2}

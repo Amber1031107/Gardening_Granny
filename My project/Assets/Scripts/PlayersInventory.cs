@@ -1,126 +1,198 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayersInventory : MonoBehaviour
 {
     [Header("General")]
-    // Ordered list of unique item types (one slot per item type)
-    public List<itemType> inventoryList = new List<itemType>();
-    // How many of each item type the player currently owns
-    public Dictionary<itemType, int> itemCounts = new Dictionary<itemType, int>();
+    public List<string> inventoryList = new List<string>();
+    public Dictionary<string, int> itemCounts = new Dictionary<string, int>();
     public int selectItem;
 
-    [Space(20)]
-    [Header("Item gameobjects")]
-    [SerializeField] GameObject Flower_Spring_Item_Flower1;
-    [SerializeField] GameObject Flower_Spring_Item_Flower2;
-    [SerializeField] GameObject Flower_Spring_Item_Flower3;
-    [SerializeField] GameObject Flower_Spring_Item_Flower4;
-    [SerializeField] GameObject Flower_Spring_Item_Flower5;
-    [SerializeField] GameObject Flower_Spring_Item_Flower6;
-    [SerializeField] GameObject Trap_Item;
-    [SerializeField] GameObject Shovel_Item;
+    private const int MAX_VISIBLE = 8;
+    private int windowStart = 0;
 
-    private Dictionary<itemType, GameObject> itemSetActive = new Dictionary<itemType, GameObject>();
+    bool shovelAdded = false;
+
+    public int GetWindowStart() => windowStart;
+
+    [Header("Item Registry — drag all ItemData SOs here")]
+    [SerializeField] List<ItemData> itemRegistry;
+
+    private Dictionary<string, ItemData> itemDataMap = new Dictionary<string, ItemData>();
+    private Dictionary<string, GameObject> spawnedHandItems = new Dictionary<string, GameObject>();
+
+    [Header("Hand anchor")]
+    [SerializeField] Transform handAnchor;
 
     void Start()
     {
-        itemSetActive.Add(itemType.FlowerSpringPlant1, Flower_Spring_Item_Flower1);
-        itemSetActive.Add(itemType.FlowerSpringPlant2, Flower_Spring_Item_Flower2);
-        itemSetActive.Add(itemType.FlowerSpringPlant3, Flower_Spring_Item_Flower3);
-        itemSetActive.Add(itemType.FlowerSpringPlant4, Flower_Spring_Item_Flower4);
-        itemSetActive.Add(itemType.FlowerSpringPlant5, Flower_Spring_Item_Flower5);
-        itemSetActive.Add(itemType.FlowerSpringPlant6, Flower_Spring_Item_Flower6);
-        itemSetActive.Add(itemType.Trap, Trap_Item);
-        itemSetActive.Add(itemType.Shovel, Shovel_Item);
+        foreach (var data in itemRegistry)
+        {
+            if (string.IsNullOrEmpty(data.itemID))
+            {
+                Debug.LogWarning($"[Inventory] ItemData asset '{data.name}' has no itemID — skipping.");
+                continue;
+            }
+            if (!itemDataMap.ContainsKey(data.itemID))
+                itemDataMap[data.itemID] = data;
+            else
+                Debug.LogWarning($"[Inventory] Duplicate itemID '{data.itemID}' — skipping.");
+        }
 
-        // Shovel always starts in inventory — -1 means infinite uses
-        inventoryList.Add(itemType.Shovel);
-        itemCounts[itemType.Shovel] = -1;
+        // Add shovel — find it by the isShovel flag, no hardcoded ID needed
+        foreach (var data in itemRegistry)
+        {
+            if (data.isShovel)
+            {
+                if (string.IsNullOrEmpty(data.itemID))
+                {
+                    Debug.LogError($"[Inventory] Shovel ItemData '{data.name}' has no itemID set — shovel not added.");
+                    break;
+                }
+                inventoryList.Add(data.itemID);
+                itemCounts[data.itemID] = -1;
+                shovelAdded = true;
+                Debug.Log($"[Inventory] Shovel added with ID '{data.itemID}'");
+                break;
+            }
+        }
+
+        if (!shovelAdded)
+            Debug.LogError("[Inventory] No ItemData with isShovel = true found in registry. Did you forget to add it or tick the flag?");
+
         selectItem = 1;
-
         DeactivateAll();
         NewItemSelected();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) SelectSlot(1);
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) SelectSlot(2);
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) SelectSlot(3);
-        else if (Input.GetKeyDown(KeyCode.Alpha4)) SelectSlot(4);
-        else if (Input.GetKeyDown(KeyCode.Alpha5)) SelectSlot(5);
-        else if (Input.GetKeyDown(KeyCode.Alpha6)) SelectSlot(6);
-        else if (Input.GetKeyDown(KeyCode.Alpha7)) SelectSlot(7);
-        else if (Input.GetKeyDown(KeyCode.Alpha8)) SelectSlot(8);
+        // ── Number keys ───────────────────────────────────────────────────────
+        int visibleCount = Mathf.Min(MAX_VISIBLE, inventoryList.Count - windowStart);
+        for (int i = 1; i <= visibleCount; i++)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha0 + i))
+            {
+                SelectSlot(windowStart + i);
+                break;
+            }
+        }
+
+        // ── Scroll wheel ──────────────────────────────────────────────────────
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0f)
+        {
+            // Scrolling down = move right, scrolling up = move left
+            int direction = scroll < 0f ? 1 : -1;
+            int newIndex = Mathf.Clamp((selectItem - 1) + direction, 0, inventoryList.Count - 1);
+
+            selectItem = newIndex + 1;
+            ScrollWindowToIndex(newIndex);
+            NewItemSelected();
+        }
     }
 
-   
+    // ── Public API ────────────────────────────────────────────────────────────
 
-    public void AddItem(itemType newItem)
+    public void AddItem(string itemID)
     {
-        if (itemCounts.ContainsKey(newItem))
+        if (!itemDataMap.ContainsKey(itemID))
         {
-            // Item already has a slot — just stack it
-            itemCounts[newItem]++;
-            Debug.Log($"[Inventory] {newItem} stacked to {itemCounts[newItem]}");
+            Debug.LogWarning($"[Inventory] Unknown itemID '{itemID}'.");
+            return;
+        }
+
+        if (itemCounts.ContainsKey(itemID))
+        {
+            itemCounts[itemID]++;
+            Debug.Log($"[Inventory] {itemID} stacked to {itemCounts[itemID]}");
         }
         else
         {
-            // Brand new item type — create a new slot
-            inventoryList.Add(newItem);
-            itemCounts[newItem] = 1;
-            Debug.Log($"[Inventory] New slot for {newItem}. Total slots: {inventoryList.Count}");
+            inventoryList.Add(itemID);
+            itemCounts[itemID] = 1;
         }
 
-        // Auto-switch to the bought item
-        selectItem = inventoryList.IndexOf(newItem) + 1;
-        NewItemSelected();
+        int newIndex = inventoryList.IndexOf(itemID);
+
+        bool isVisible = newIndex >= windowStart && newIndex < windowStart + MAX_VISIBLE;
+        if (isVisible)
+        {
+            selectItem = newIndex + 1;
+            NewItemSelected();
+        }
+        else
+        {
+            // Just update counts/state without moving the window or selection
+            NewItemSelected();
+        }
     }
 
-   
-
-    public void ConsumeItem(itemType usedItem)
+    public void ConsumeItem(string itemID)
     {
-        if (!itemCounts.ContainsKey(usedItem)) return;
-        if (itemCounts[usedItem] == -1) return; // infinite (Shovel)
+        if (!itemCounts.ContainsKey(itemID)) return;
+        if (itemCounts[itemID] == -1) return;
 
-        itemCounts[usedItem]--;
-        Debug.Log($"[Inventory] {usedItem} remaining: {itemCounts[usedItem]}");
+        itemCounts[itemID]--;
 
-        if (itemCounts[usedItem] <= 0)
+        if (itemCounts[itemID] <= 0)
         {
-            inventoryList.Remove(usedItem);
-            itemCounts.Remove(usedItem);
-            Debug.Log($"[Inventory] {usedItem} depleted — slot removed.");
+            inventoryList.Remove(itemID);
+            itemCounts.Remove(itemID);
 
-            // Keep selection in range
+            if (spawnedHandItems.TryGetValue(itemID, out GameObject old))
+            {
+                Destroy(old);
+                spawnedHandItems.Remove(itemID);
+            }
+
+            if (windowStart > 0 && windowStart + MAX_VISIBLE > inventoryList.Count)
+                windowStart = Mathf.Max(0, inventoryList.Count - MAX_VISIBLE);
+
             if (selectItem > inventoryList.Count)
                 selectItem = Mathf.Max(1, inventoryList.Count);
+
+            if (inventoryList.Count > 0)
+                selectItem = Mathf.Clamp(selectItem, windowStart + 1, windowStart + MAX_VISIBLE);
         }
 
         NewItemSelected();
     }
 
-    
-
-    public itemType? GetSelectedItemType()
+    public string GetSelectedItemID()
     {
         int index = selectItem - 1;
         if (index < 0 || index >= inventoryList.Count) return null;
         return inventoryList[index];
     }
 
-    // Returns remaining count of currently selected item (-1 = infinite)
-    public int GetSelectedItemCount()
+    public ItemData GetSelectedItemData()
     {
-        var selected = GetSelectedItemType();
-        if (selected == null) return 0;
-        return itemCounts.TryGetValue(selected.Value, out int count) ? count : 0;
+        string id = GetSelectedItemID();
+        if (id == null) return null;
+        return itemDataMap.TryGetValue(id, out ItemData d) ? d : null;
     }
 
-    
+    public ItemData GetItemData(string itemID)
+    {
+        return itemDataMap.TryGetValue(itemID, out ItemData d) ? d : null;
+    }
+
+    public int GetSelectedItemCount()
+    {
+        string id = GetSelectedItemID();
+        if (id == null) return 0;
+        return itemCounts.TryGetValue(id, out int count) ? count : 0;
+    }
+
+    public int GetSelectedVisualSlot()
+    {
+        int index = selectItem - 1;
+        int visualSlot = index - windowStart + 1;
+        return (visualSlot >= 1 && visualSlot <= MAX_VISIBLE) ? visualSlot : -1;
+    }
+
+    // ── Internals ─────────────────────────────────────────────────────────────
 
     private void SelectSlot(int slot)
     {
@@ -132,19 +204,33 @@ public class PlayersInventory : MonoBehaviour
     {
         DeactivateAll();
 
-        if (selectItem >= 1 && selectItem <= inventoryList.Count)
+        string id = GetSelectedItemID();
+        if (id == null) return;
+
+        if (!itemDataMap.TryGetValue(id, out ItemData data)) return;
+
+        if (!spawnedHandItems.TryGetValue(id, out GameObject handObj) || handObj == null)
         {
-            itemSetActive[inventoryList[selectItem - 1]].SetActive(true);
+            if (data.handPrefab == null) return;
+            handObj = Instantiate(data.handPrefab, handAnchor);
+            spawnedHandItems[id] = handObj;
         }
-        else
-        {
-            Debug.Log($"[Inventory] Slot {selectItem} is empty.");
-        }
+
+        handObj.SetActive(true);
     }
 
     private void DeactivateAll()
     {
-        foreach (var kvp in itemSetActive)
-            kvp.Value.SetActive(false);
+        foreach (var kvp in spawnedHandItems)
+            if (kvp.Value != null)
+                kvp.Value.SetActive(false);
+    }
+
+    private void ScrollWindowToIndex(int index)
+    {
+        if (index < windowStart)
+            windowStart = index;
+        else if (index >= windowStart + MAX_VISIBLE)
+            windowStart = index - MAX_VISIBLE + 1;
     }
 }

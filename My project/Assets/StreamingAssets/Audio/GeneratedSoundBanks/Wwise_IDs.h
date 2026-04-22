@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+<<<<<<< HEAD
         static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
         static const AkUniqueID PLAY_BEAR_TRAP_FLING = 1734114213U;
@@ -41,6 +42,13 @@ namespace AK
         static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
         static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
+=======
+        static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
+        static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
+        static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
+        static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+>>>>>>> MaybeBetterFixForPolishingPurposes
     } // namespace EVENTS
 
     namespace STATES
@@ -99,6 +107,7 @@ namespace AK
                 static const AkUniqueID WINTER = 2965343494U;
             } // namespace SWITCH
         } // namespace SEASONS
+<<<<<<< HEAD
 
         namespace SURFACES
         {
@@ -111,6 +120,8 @@ namespace AK
                 static const AkUniqueID GRASS = 4248645337U;
             } // namespace SWITCH
         } // namespace SURFACES
+=======
+>>>>>>> MaybeBetterFixForPolishingPurposes
 
     } // namespace SWITCHES
 
@@ -132,12 +143,21 @@ namespace AK
         static const AkUniqueID AMBIENCE_MASTER = 143634621U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_MASTER = 79554116U;
+<<<<<<< HEAD
         static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
+=======
+>>>>>>> MaybeBetterFixForPolishingPurposes
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
+<<<<<<< HEAD
         static const AkUniqueID HOUSE_REVERB = 2675173306U;
+=======
+        static const AkUniqueID INSIDE = 3553349781U;
+        static const AkUniqueID OUTSIDE = 438105790U;
+        static const AkUniqueID S = 84696428U;
+>>>>>>> MaybeBetterFixForPolishingPurposes
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
