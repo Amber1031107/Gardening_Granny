@@ -1,17 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b97c6f7 (no message)
-=======
->>>>>>> 4581925 (no message)
-guid: 8eb9712b10736ee488d20d6e0abcae72
-=======
-<<<<<<< HEAD
 guid: 8eb9712b10736ee488d20d6e0abcae72
 PluginImporter:
   externalObjects: {}
@@ -28,15 +15,7 @@ PluginImporter:
       enabled: 0
       settings: {}
     Editor:
-<<<<<<< HEAD
-<<<<<<< HEAD
       enabled: 1
-=======
-      enabled: 0
->>>>>>> b97c6f7 (no message)
-=======
-      enabled: 0
->>>>>>> 4581925 (no message)
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
@@ -48,37 +27,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-guid: 8eb9712b10736ee488d20d6e0abcae72
->>>>>>> 67b769d (Fixed Wwise Issue)
-<<<<<<< HEAD
->>>>>>> 654bc1e (no message)
-=======
-=======
-guid: 8eb9712b10736ee488d20d6e0abcae72
->>>>>>> c9441e8 (rebase pt2 ig?)
-<<<<<<< HEAD
->>>>>>> ef11019 (no message)
-=======
-=======
->>>>>>> b97c6f7 (no message)
-<<<<<<< HEAD
->>>>>>> 5a75269 (no message)
-=======
-=======
-guid: 8eb9712b10736ee488d20d6e0abcae72
->>>>>>> 1fc8695 (no message)
-<<<<<<< HEAD
->>>>>>> 5437169 (no message)
-=======
-=======
->>>>>>> 4581925 (no message)
-<<<<<<< HEAD
->>>>>>> f86b449 (no message)
-=======
-=======
-guid: 8eb9712b10736ee488d20d6e0abcae72
->>>>>>> 03c9217 (no message)
->>>>>>> 0b2670c (no message)

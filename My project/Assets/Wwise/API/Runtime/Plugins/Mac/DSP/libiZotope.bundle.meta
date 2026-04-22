@@ -1,9 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: c64189e23f3841a41b056723227ddf85
-=======
-<<<<<<< HEAD
 guid: c64189e23f3841a41b056723227ddf85
 PluginImporter:
   externalObjects: {}
@@ -30,13 +25,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-guid: c64189e23f3841a41b056723227ddf85
->>>>>>> 67b769d (Fixed Wwise Issue)
-<<<<<<< HEAD
->>>>>>> 654bc1e (no message)
-=======
-=======
-guid: c64189e23f3841a41b056723227ddf85
->>>>>>> c9441e8 (rebase pt2 ig?)
->>>>>>> ef11019 (no message)
