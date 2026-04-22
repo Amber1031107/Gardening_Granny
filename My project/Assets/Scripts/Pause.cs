@@ -76,6 +76,7 @@ public class Pause : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void OpenHowToPlay()
     {
         PauseMenu.SetActive(false);
@@ -88,10 +89,17 @@ public class Pause : MonoBehaviour
         if (howToPlayPanel != null)
             howToPlayPanel.SetActive(true);
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+    public void OpenHowToPlay()
+    {
+        PauseMenu.SetActive(false);
+        howToPlayPanel.SetActive(true);
+>>>>>>> 620b465 (Got How to Play Working)
     }
 
     public void BackButton()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         howToPlayPanel.SetActive(false);
         PauseMenu.SetActive(true);
@@ -101,6 +109,10 @@ public class Pause : MonoBehaviour
         if (howToPlayPanel != null)
             howToPlayPanel.SetActive(false);
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+        howToPlayPanel.SetActive(false);
+        PauseMenu.SetActive(true);
+>>>>>>> 620b465 (Got How to Play Working)
     }
 
     public void MenuSCreen()
