@@ -423,6 +423,7 @@
 							<ChildrenList>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0bf64ce (no message)
 								<RandomSequenceContainer Name="Planting Plants" ID="{90C67818-9875-4963-9BF1-866A88CA384D}" ShortID="871031451">
@@ -1756,7 +1757,15 @@
 								<RandomSequenceContainer Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" ShortID="38829140">
 									<PropertyList>
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+								<RandomSequenceContainer Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" ShortID="38829140">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="8"/>
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
 												<ModifierInfo>
@@ -1769,6 +1778,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1796,6 +1806,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> e488188 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 =======
 >>>>>>> 2e5039c (test)
@@ -1829,7 +1841,13 @@
 =======
 =======
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -3013,6 +3031,7 @@
 											</ReferenceList>
 											<ChildrenList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<Sound Name="SFX_Bear Trap Place_01" ID="{0DBFBB96-842E-4962-A4D4-4BACA9056A32}" ShortID="201348575">
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -3061,7 +3080,13 @@
 =======
 												<Sound Name="SFX_Bear Trap Place_01" ID="{0DBFBB96-842E-4962-A4D4-4BACA9056A32}" ShortID="201348575">
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+												<Sound Name="SFX_Bear Trap Place" ID="{A91635E0-52A1-406A-9F21-22947D3289A0}" ShortID="511687138">
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -3071,6 +3096,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3108,6 +3134,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> e488188 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 														<AudioFileSource Name="SFX_Bear Trap Place_NEW01" ID="{576E86CE-E05D-496B-A267-E32F065495EF}">
 =======
 														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
@@ -3124,13 +3152,18 @@
 =======
 														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
 >>>>>>> 0bf64ce (no message)
+=======
+														<AudioFileSource Name="SFX_Bear Trap Place_NEW01" ID="{576E86CE-E05D-496B-A267-E32F065495EF}">
+>>>>>>> 5bc341c (no message)
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0866374786813461"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0135636790743414"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0683400753361048"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>SFX_Bear Trap Place_01.wav</AudioFile>
+															<AudioFile>SFX_Bear Trap Place_NEW01.wav</AudioFile>
 															<MediaIDList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3153,10 +3186,18 @@
 =======
 >>>>>>> f98d626 (no message)
 >>>>>>> 407e5fa (no message)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 																<MediaID ID="235247235"/>
 															</MediaIDList>
 														</AudioFileSource>
 														<AudioFileSource Name="SFX_Bear Trap Place_NEW02" ID="{FA69D777-6F0F-469E-907C-4CBB498A79EF}">
+<<<<<<< HEAD
 <<<<<<< HEAD
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.0411502889064766"/>
@@ -3170,11 +3211,17 @@
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 															<Language>SFX</Language>
 															<AudioFile>SFX_Bear Trap Place_NEW02.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="171821750"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3195,6 +3242,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 =======
 														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
 =======
@@ -3262,11 +3311,17 @@
 =======
 																<MediaID ID="193754569"/>
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3292,6 +3347,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> e488188 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 														<ActiveSource Name="SFX_Bear Trap Place_NEW02" ID="{FA69D777-6F0F-469E-907C-4CBB498A79EF}" Platform="Linked"/>
 =======
 														<ActiveSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}" Platform="Linked"/>
@@ -3332,7 +3389,13 @@
 =======
 														<ActiveSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}" Platform="Linked"/>
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+														<ActiveSource Name="SFX_Bear Trap Place_NEW02" ID="{FA69D777-6F0F-469E-907C-4CBB498A79EF}" Platform="Linked"/>
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -3976,6 +4039,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 						<Sound Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
@@ -3989,6 +4053,8 @@
 =======
 =======
 >>>>>>> e488188 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 						<Sound Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" ShortID="945929694">
 <<<<<<< HEAD
 							<PropertyList>
@@ -5105,6 +5171,9 @@
 =======
 						<Sound Name="Mouse Click Button" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
 >>>>>>> 0bf64ce (no message)
+=======
+						<Sound Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
+>>>>>>> 5bc341c (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -5113,25 +5182,6 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI Click" ID="{0911A520-E957-41C0-959D-1C30CC38C36D}">
-									<PropertyList>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>4.9</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>UI Click.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1030263877"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="UI Click" ID="{0911A520-E957-41C0-959D-1C30CC38C36D}" Platform="Linked"/>
-							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Mouse Click Plant Select" ID="{BDB7D56A-60CA-4C3C-A484-45612C944B5C}" ShortID="150366444">
 							<ReferenceList>
@@ -5165,6 +5215,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0165343915343915"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.418320105820106"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.128968253968254"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.67989417989418"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
 												<Value>-2.1</Value>
@@ -5184,8 +5239,11 @@
 						</Sound>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> bfd60f9 (no message)
 						<Sound Name="Player Select Plant" ID="{3C6DA30F-882C-4F35-BEDB-A25CB93CCCDD}" ShortID="856705421">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5293,9 +5351,12 @@
 								<ActiveSource Name="UI ClickNEW" ID="{D52E38F0-FC3E-409B-97D9-769658E6C2C6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> e488188 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{1E862D1A-1C7B-48D9-B960-B6F1CCA56516}" ShortID="674770471">
@@ -9206,6 +9267,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
@@ -9226,6 +9288,8 @@
 =======
 >>>>>>> e488188 (no message)
 =======
+>>>>>>> bfd60f9 (no message)
+=======
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -9234,13 +9298,19 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 				<Folder Name="Music" ID="{CEA7E042-CB94-4151-B942-C114FEBD0527}" ShortID="80254229">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="26"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9273,6 +9343,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 						<PropertyContainer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
 <<<<<<< HEAD
 =======
@@ -9363,7 +9435,13 @@
 =======
 						<PropertyContainer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+						<ActorMixer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -9376,6 +9454,7 @@
 								<Sound Name="Spring Music" ID="{ED66EE5E-D0D9-4273-B4A3-FC03AF89D987}" ShortID="477622219">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9413,7 +9492,12 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -9424,6 +9508,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9471,19 +9556,28 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{E5DC07C2-2725-49E3-A24D-83737C31328D}">
 											<Language>SFX</Language>
 											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="472907063"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9523,6 +9617,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
@@ -9607,10 +9703,13 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e97b253 (rebase)
 <<<<<<< HEAD
@@ -9660,11 +9759,17 @@
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9674,10 +9779,13 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
 												<CustomState Name="" ID="{FB815D55-6015-469F-BE44-78633C5D07E6}" ShortID="874721129"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9688,6 +9796,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -9701,7 +9811,12 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{815B9597-27E1-437A-8B74-D0F34C4756CB}" ShortID="881014583">
 													<PropertyList>
@@ -9714,11 +9829,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
 												<CustomState Name="" ID="{A3ADF9D7-7120-4CBB-921A-2930EEA2E04C}" ShortID="197874341">
 													<PropertyList>
@@ -9730,6 +9848,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -9737,6 +9856,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -9750,11 +9871,17 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{3F9D315A-87D1-4F8E-8539-D65EA2E58CEB}" ShortID="85358723"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9771,6 +9898,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
 												<CustomState Name="" ID="{564640DD-2101-494E-B42A-107304F3E22E}" ShortID="264391035">
 													<PropertyList>
@@ -9779,6 +9908,7 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
@@ -9810,6 +9940,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{9357E782-94F4-451A-A0C0-5D313423ED8C}" ShortID="391935208"/>
 											</CustomState>
@@ -9833,8 +9965,14 @@
 									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{E5DC07C2-2725-49E3-A24D-83737C31328D}" Platform="Linked"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Summer Music" ID="{48F6E470-8422-41AB-8604-E6FEA19BACD8}" ShortID="467919631">
@@ -9850,6 +9988,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9891,19 +10030,28 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{093EFB4B-5F95-4A18-A7BA-4825543D1656}">
 											<Language>SFX</Language>
 											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="472907063"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9943,6 +10091,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
@@ -10027,10 +10177,13 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e97b253 (rebase)
 <<<<<<< HEAD
@@ -10080,11 +10233,17 @@
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10094,6 +10253,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
 												<CustomState Name="" ID="{D4E1DEFB-8456-40C2-9BE4-A98D307FC239}" ShortID="798623734">
 													<PropertyList>
@@ -10105,6 +10266,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -10112,6 +10274,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -10125,7 +10289,12 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{754DD062-A58E-47E6-AC0B-25F46AE64717}" ShortID="350891212">
 													<PropertyList>
@@ -10138,15 +10307,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
 												<CustomState Name="" ID="{0AE25CD6-0C6E-487B-8CAD-A1CBBE18B666}" ShortID="710540239"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10157,6 +10330,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -10170,11 +10345,17 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{9CC8A9F0-B328-416A-BFC8-3281E6BEB1ED}" ShortID="772513962"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10191,10 +10372,13 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
 												<CustomState Name="" ID="{18DB3D1E-08E4-447A-A0C6-A7D5F7B1F1E6}" ShortID="943373351"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
@@ -10226,6 +10410,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{B8ABBA82-F4C8-431A-88B3-44D4A493C67B}" ShortID="1009688893"/>
 											</CustomState>
@@ -10249,8 +10435,14 @@
 									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{093EFB4B-5F95-4A18-A7BA-4825543D1656}" Platform="Linked"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Autumn Music" ID="{D89F9055-5462-4CA1-A553-B131C40B9903}" ShortID="726222514">
@@ -10270,6 +10462,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 										<AudioFileSource Name="Spring Music 44_1" ID="{8BBB01D7-21AD-488D-BFAB-AD5235FF010C}">
 											<Language>SFX</Language>
 											<AudioFile>Spring Music 44.1.wav</AudioFile>
@@ -10307,19 +10500,28 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{273657C8-900D-46DD-BD65-7A0A01F9DF8B}">
 											<Language>SFX</Language>
 											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="472907063"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10359,6 +10561,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
@@ -10443,10 +10647,13 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e97b253 (rebase)
 <<<<<<< HEAD
@@ -10496,11 +10703,17 @@
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10510,6 +10723,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
 												<CustomState Name="" ID="{2622B127-32B6-4354-99F5-C753117FBC42}" ShortID="585869397">
 													<PropertyList>
@@ -10521,6 +10736,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -10528,6 +10744,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -10541,7 +10759,12 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{5772A5C8-CD2B-4A2C-BACC-97D4A953F137}" ShortID="253708018">
 													<PropertyList>
@@ -10554,11 +10777,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
 												<CustomState Name="" ID="{9061CB27-E61D-42A5-A77F-D0005D84B057}" ShortID="388810587">
 													<PropertyList>
@@ -10570,6 +10796,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -10577,6 +10804,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -10590,11 +10819,17 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{26F1FF17-1D02-4A73-AC7F-CC395286E166}" ShortID="723883659"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10611,6 +10846,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
 												<CustomState Name="" ID="{333FD7C8-AFBA-451A-8362-CB218E53AA5A}" ShortID="856011538">
 													<PropertyList>
@@ -10619,6 +10856,7 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
@@ -10650,6 +10888,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{0C728C15-81A6-4AE8-A6A4-4048AF4A258D}" ShortID="1035745848"/>
 											</CustomState>
@@ -10669,8 +10909,14 @@
 									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{273657C8-900D-46DD-BD65-7A0A01F9DF8B}" Platform="Linked"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Winter Music" ID="{F47EEDB3-74D4-440A-9267-404399A032A9}" ShortID="84825854">
@@ -10686,6 +10932,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10727,19 +10974,28 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{B3420CD7-3619-407A-BB17-33C0F7623DAE}">
 											<Language>SFX</Language>
 											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="472907063"/>
+<<<<<<< HEAD
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10779,6 +11035,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
@@ -10863,10 +11121,13 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e97b253 (rebase)
 <<<<<<< HEAD
@@ -10916,11 +11177,17 @@
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10930,6 +11197,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Spring" ID="{34ABD531-D9EF-40A6-A876-E4201019E0B4}"/>
 												<CustomState Name="" ID="{8CBF98EE-68BE-437E-8024-E5C8A73F7B55}" ShortID="828955553">
 													<PropertyList>
@@ -10941,6 +11210,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -10948,6 +11218,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -10961,7 +11233,12 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{335D9C93-9939-474D-B743-22831CC02FA2}" ShortID="867721052">
 													<PropertyList>
@@ -10974,11 +11251,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f98d626 (no message)
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Summer" ID="{5CF65426-0C45-4723-95AE-A2C44424E501}"/>
 												<CustomState Name="" ID="{9906A422-3556-4118-8A0F-BC5480615B15}" ShortID="643575297">
 													<PropertyList>
@@ -10990,6 +11270,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -10997,6 +11278,8 @@
 =======
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 =======
 >>>>>>> e97b253 (rebase)
@@ -11010,11 +11293,17 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{655107DB-C407-4565-A062-1A9F813D01B6}" ShortID="1029366144"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11074,11 +11363,17 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 												<StateRef Name="None" ID="{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"/>
 												<CustomState Name="" ID="{3ADD8BD2-9687-4D1B-9918-265DEFCB3A0C}" ShortID="796093735"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
@@ -11159,6 +11454,8 @@
 >>>>>>> 44531e6 (no message)
 =======
 =======
+=======
+>>>>>>> 5bc341c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{78B056FD-CE07-4FDB-B54E-94DA32EAA8B1}" ShortID="341148029"/>
 											</CustomState>
@@ -11182,6 +11479,7 @@
 								</Sound>
 							</ChildrenList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						</ActorMixer>
 						<ActorMixer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
 >>>>>>> f98d626 (no message)
@@ -11192,7 +11490,14 @@
 						</PropertyContainer>
 						<PropertyContainer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+						</ActorMixer>
+						<ActorMixer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -11246,6 +11551,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 												<StateGroupInfo Name="" ID="{92D35B83-34A4-47AC-B832-E8590C414053}" ShortID="661247159"/>
 =======
@@ -11287,6 +11593,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 												<StateGroupInfo Name="" ID="{92D35B83-34A4-47AC-B832-E8590C414053}" ShortID="661247159"/>
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -11326,7 +11634,12 @@
 =======
 												<StateGroupInfo Name="" ID="{92D35B83-34A4-47AC-B832-E8590C414053}" ShortID="661247159"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
@@ -11374,6 +11687,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 =======
 =======
@@ -11393,6 +11707,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> bfd60f9 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -11506,7 +11822,15 @@
 =======
 =======
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+>>>>>>> 5bc341c (no message)
+>>>>>>> bfd60f9 (no message)
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>
