@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
@@ -115,5 +116,11 @@
 =======
   "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> 67b769d (Fixed Wwise Issue)
+>>>>>>> 654bc1e (no message)
  }
 }

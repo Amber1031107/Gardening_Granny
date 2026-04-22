@@ -1,2 +1,35 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 01ca163be7f85b84faa14e081eb80bb5
+=======
+<<<<<<< HEAD
+guid: 01ca163be7f85b84faa14e081eb80bb5
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 3
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    OSXUniversal:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+=======
+guid: 01ca163be7f85b84faa14e081eb80bb5
+>>>>>>> 67b769d (Fixed Wwise Issue)
+>>>>>>> 654bc1e (no message)

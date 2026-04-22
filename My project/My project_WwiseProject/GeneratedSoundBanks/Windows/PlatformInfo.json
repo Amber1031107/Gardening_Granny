@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
@@ -115,5 +116,11 @@
 =======
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> 67b769d (Fixed Wwise Issue)
+>>>>>>> 654bc1e (no message)
  }
 }
