@@ -10,6 +10,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
@@ -30,6 +31,12 @@ fileFormatVersion: 2
 =======
 >>>>>>> 0f02715 (Fixing up after rebase)
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> 0f02715 (Fixing up after rebase)
+=======
+>>>>>>> 59844dc (no message)
+>>>>>>> 261b14d (no message)
 guid: 8efc25f7a1069ef4d950c854faa30415
 PluginImporter:
   externalObjects: {}
@@ -47,10 +54,13 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       settings: {}
 =======
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 261b14d (no message)
       settings:
         Exclude Editor: 1
 >>>>>>> 9d3e3e7 (no message)
@@ -91,12 +101,24 @@ PluginImporter:
 =======
       settings: {}
     Editor:
+=======
+      settings:
+        Exclude Editor: 1
+    Editor:
+>>>>>>> 59844dc (no message)
       enabled: 0
       settings:
         CPU: x86
         DefaultValueInitialized: true
+<<<<<<< HEAD
 >>>>>>> 0f02715 (Fixing up after rebase)
+<<<<<<< HEAD
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+        OS: Windows
+>>>>>>> 59844dc (no message)
+>>>>>>> 261b14d (no message)
     Linux64:
       enabled: 0
       settings:
@@ -120,6 +142,7 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +178,8 @@ guid: 8efc25f7a1069ef4d950c854faa30415
 =======
 >>>>>>> b46e5f7 (no message)
 =======
+>>>>>>> 261b14d (no message)
+=======
 guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> 67b769d (Fixed Wwise Issue)
 <<<<<<< HEAD
@@ -174,4 +199,9 @@ guid: 8efc25f7a1069ef4d950c854faa30415
 =======
 guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> 855021a (no message)
+<<<<<<< HEAD
 >>>>>>> 44531e6 (no message)
+=======
+=======
+>>>>>>> 59844dc (no message)
+>>>>>>> 261b14d (no message)
