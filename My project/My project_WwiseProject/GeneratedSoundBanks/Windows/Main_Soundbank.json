@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -131,6 +132,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 >>>>>>> 19a21f4 (no message)
+=======
+>>>>>>> aa0a968 (no message)
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -199,12 +202,23 @@
 >>>>>>> 1d3a915 (no message)
 =======
 =======
+=======
+>>>>>>> 1862b01 (no message)
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+<<<<<<< HEAD
 >>>>>>> 9f18f85 (no message)
+<<<<<<< HEAD
 >>>>>>> 19a21f4 (no message)
+=======
+=======
+=======
+    "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
+>>>>>>> ff9a591 (Fixed Wwise Issue)
+>>>>>>> 1862b01 (no message)
+>>>>>>> aa0a968 (no message)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -470,6 +484,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -502,6 +517,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 >>>>>>> 19a21f4 (no message)
+=======
+>>>>>>> aa0a968 (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -643,11 +660,19 @@
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 >>>>>>> 93f1f27 (no message)
 =======
+=======
+>>>>>>> 1862b01 (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+<<<<<<< HEAD
 >>>>>>> 9f18f85 (no message)
+=======
+=======
+      "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
+>>>>>>> ff9a591 (Fixed Wwise Issue)
+>>>>>>> 1862b01 (no message)
      },
      {
       "Id": "355788501",
@@ -2178,10 +2203,14 @@
       "Id": "79554116",
       "Name": "Music Master",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
 =======
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
+>>>>>>> ff9a591 (Fixed Wwise Issue)
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
      },
@@ -2875,6 +2904,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -2938,6 +2968,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 >>>>>>> 19a21f4 (no message)
+=======
+>>>>>>> aa0a968 (no message)
   "FileHash": "{FFA0E3ED-5A49-70E3-BC1F-63FFD2B202D7}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -3006,11 +3038,22 @@
 >>>>>>> 1d3a915 (no message)
 =======
 =======
+=======
+>>>>>>> 1862b01 (no message)
   "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+<<<<<<< HEAD
 >>>>>>> 9f18f85 (no message)
+<<<<<<< HEAD
 >>>>>>> 19a21f4 (no message)
+=======
+=======
+=======
+  "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
+>>>>>>> ff9a591 (Fixed Wwise Issue)
+>>>>>>> 1862b01 (no message)
+>>>>>>> aa0a968 (no message)
  }
 }
