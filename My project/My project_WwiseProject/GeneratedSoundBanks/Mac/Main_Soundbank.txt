@@ -538,6 +538,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e97b253 (rebase)
 =======
@@ -604,10 +605,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> 1862b01 (no message)
 =======
 =======
+>>>>>>> 03de798 (no message)
+=======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+=======
+=======
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
 	1012836	Amb_Owl2 03	.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
 	20790822	Amb_Owl2 06	.cache\5A\{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 06		152544
 	34470463	Amb_Birds Spring_04	.cache\3F\{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_04		151300
@@ -617,6 +625,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	253876681	Amb_Birds Spring_14	.cache\64\{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_14		302508
 	260095195	Amb_Birds Spring_07	.cache\84\{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_07		95420
 	312702700	Night Music	.cache\C6\{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem		\Containers\Default Work Unit\Music\Night Music\Night Music		13878312
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -657,6 +666,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 6d3d0ae (no message)
+=======
+>>>>>>> 74561eb (rebase pt2 ig?)
 	355788501	Breeze	.cache\3F\{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze		23667068
 	393861057	Amb_Breeze Spring_04	.cache\7E\{7EC04265-824E-43DF-0546-71FA6C755295}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_04		2660160
 	403079355	Amb_Birds Spring_09	.cache\D7\{D79412BA-A357-B5E1-B237-93FE704DEC86}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_09		148016
@@ -665,13 +676,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	458925649	Amb_Birds Spring_16	.cache\21\{21903945-360E-4620-271D-8511BA50DC56}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_16		215396
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6d3d0ae (no message)
+=======
+>>>>>>> 74561eb (rebase pt2 ig?)
 	472907063	Winter Music	.cache\89\{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem		\Containers\Default Work Unit\Music\Day Music\Winter Music		3072096
 	577526996	Amb_Owl2 07	.cache\47\{4716F03C-6733-F07C-A2AF-61874428A630}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 07		130464
 	631474963	Amb_Breeze Spring_05	.cache\B9\{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_05		2642900
 	633174091	Amb_Birds Spring_08	.cache\23\{23C7A52E-3CB2-66D9-4804-AFEF87E86907}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_08		205536
 	640225445	Amb_Birds Spring_12	.cache\D5\{D5B05581-CEC2-0694-2747-769211630B60}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_12		282784
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	577526996	Amb_Owl2 07	.cache\47\{4716F03C-6733-F07C-A2AF-61874428A630}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 07		130464
@@ -684,10 +699,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 6d3d0ae (no message)
+=======
+>>>>>>> 74561eb (rebase pt2 ig?)
 	720278991	Amb_Breeze Spring_01	.cache\D4\{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_01		850424
 	738021387	Main Loop	.cache\34\{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Main Loop		13437648
 	749633620	Amb_Birds Spring_02	.cache\A9\{A98EC5AB-3ECB-4D8C-01E5-018153FD8A63}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_02		78984
 	767538386	Amb_Breeze Spring_03	.cache\7A\{7A811B0A-5A97-6CB3-4BDF-0700672D562C}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_03		1248568
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -695,6 +713,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 6d3d0ae (no message)
+=======
+>>>>>>> 74561eb (rebase pt2 ig?)
 	804176017	Amb_Birds Spring_05	.cache\AE\{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_05		175960
 	817186541	Amb_Birds Spring_10	.cache\C3\{C31D09DE-7694-3EFD-CB91-7F2449813FF3}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_10		205536
 	820213659	Amb_Owl2 01	.cache\27\{27FA1E25-D32B-5341-1AE5-7A1A0A0A772F}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 01		127648
@@ -702,6 +722,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	878415752	Amb_Birds Spring_03	.cache\C8\{C88D703C-AA12-3692-264F-25BAB273EA5E}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_03		177600
 	885330277	Main Loop	.cache\4A\{4A644631-9D56-5153-AF1E-ABC48C9C5D81}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Main Loop		10080096
 	921534118	Amb_Owl2 04	.cache\49\{49C8911B-3EC4-FC5A-5D93-0D0878E4C176}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 04		140896
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	977423185	Amb_Birds Spring_11	.cache\C5\{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_11		230192
@@ -836,6 +857,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	977423185	Amb_Birds Spring_11	.cache\C5\{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_11		230192
 	1046667742	Amb_Birds Spring_06	.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+	977423185	Amb_Birds Spring_11	.cache\C5\{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_11		230192
+	1046667742	Amb_Birds Spring_06	.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
+>>>>>>> 4b74875 (no message)
 

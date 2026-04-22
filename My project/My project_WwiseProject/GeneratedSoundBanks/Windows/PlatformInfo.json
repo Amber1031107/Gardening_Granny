@@ -9,8 +9,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
+=======
+>>>>>>> 4b74875 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
    "Name": "Windows",
    "BasePlatform": "Windows",
@@ -44,10 +47,14 @@
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4b74875 (no message)
 =======
    "Name": "Windows",
    "BasePlatform": "Windows",
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
@@ -68,6 +75,8 @@
 >>>>>>> 5437169 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 4b74875 (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -168,6 +177,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
@@ -213,6 +223,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> 63adbf9 (no message)
+=======
+>>>>>>> 4b74875 (no message)
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -251,6 +263,8 @@
 =======
 =======
 >>>>>>> 7f4b170 (no message)
+=======
+>>>>>>> 03de798 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 ========
@@ -272,7 +286,16 @@
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
+>>>>>>> 4b74875 (no message)
  }
 }

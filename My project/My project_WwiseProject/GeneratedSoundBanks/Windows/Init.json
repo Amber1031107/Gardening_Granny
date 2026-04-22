@@ -75,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -135,6 +136,8 @@
 >>>>>>> 34da449 (no message)
 =======
 >>>>>>> 63adbf9 (no message)
+=======
+>>>>>>> 4b74875 (no message)
     "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -205,6 +208,8 @@
 >>>>>>> 787f68f (no message)
 =======
 >>>>>>> 7f4b170 (no message)
+=======
+>>>>>>> 03de798 (no message)
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -245,8 +250,17 @@
 =======
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+    "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
+>>>>>>> 4b74875 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -456,6 +470,7 @@
 =======
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 44531e6 (no message)
 =======
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
@@ -471,6 +486,14 @@
 >>>>>>> 1d3a915 (no message)
 =======
 =======
+>>>>>>> 4b74875 (no message)
+=======
+=======
+      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
+      "Color": "11"
+     },
+     {
+>>>>>>> 74561eb (rebase pt2 ig?)
       "Id": "79554116",
       "Name": "Music Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
@@ -704,6 +727,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 =======
@@ -749,6 +773,8 @@
 >>>>>>> 787f68f (no message)
 >>>>>>> 34da449 (no message)
 =======
+=======
+>>>>>>> 4b74875 (no message)
 =======
 >>>>>>> 787f68f (no message)
 =======
@@ -797,6 +823,13 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+<<<<<<< HEAD
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 =======
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
@@ -1817,6 +1850,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1877,6 +1911,8 @@
 >>>>>>> 34da449 (no message)
 =======
 >>>>>>> 63adbf9 (no message)
+=======
+>>>>>>> 4b74875 (no message)
   "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1947,6 +1983,8 @@
 >>>>>>> 787f68f (no message)
 =======
 >>>>>>> 7f4b170 (no message)
+=======
+>>>>>>> 03de798 (no message)
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1987,7 +2025,16 @@
 =======
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+  "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
+>>>>>>> 4b74875 (no message)
  }
 }

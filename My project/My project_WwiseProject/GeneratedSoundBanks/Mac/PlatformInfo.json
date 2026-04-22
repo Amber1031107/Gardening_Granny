@@ -9,8 +9,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
+=======
+>>>>>>> 4b74875 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
    "Name": "Mac",
    "BasePlatform": "Mac",
@@ -44,10 +47,14 @@
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4b74875 (no message)
 =======
    "Name": "Mac",
    "BasePlatform": "Mac",
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
@@ -68,6 +75,8 @@
 >>>>>>> 5437169 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 4b74875 (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -168,6 +177,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
@@ -213,6 +223,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> 63adbf9 (no message)
+=======
+>>>>>>> 4b74875 (no message)
   "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
@@ -251,6 +263,8 @@
 =======
 =======
 >>>>>>> 7f4b170 (no message)
+=======
+>>>>>>> 03de798 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 ========
@@ -272,7 +286,16 @@
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> 74561eb (rebase pt2 ig?)
+>>>>>>> 03de798 (no message)
+>>>>>>> 4b74875 (no message)
  }
 }
