@@ -29,6 +29,7 @@ Project migration to XML Schema (XSD) version 133 is completed.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 654bc1e (no message)
 =======
@@ -64,6 +65,8 @@ Project migration to XML Schema (XSD) version 133 is completed.
 =======
 >>>>>>> 1d3a915 (no message)
 =======
+>>>>>>> 0838fe7 (no message)
+=======
 =======
 >>>>>>> 5fee5fe (pulling audio into programming)
 =======
@@ -78,7 +81,13 @@ Project migration to XML Schema (XSD) version 133 is completed.
 =======
 =======
 >>>>>>> 0bf64ce (no message)
+<<<<<<< HEAD
 >>>>>>> e488188 (no message)
+=======
+=======
+=======
+>>>>>>> f0c9004 (no message)
+>>>>>>> 0838fe7 (no message)
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu' was moved during the migration of your project. If your project is under source control the file has been marked for move, remember to commit the change.
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Audio Devices\Default Work Unit.wwu' was moved during the migration of your project. If your project is under source control the file has been marked for move, remember to commit the change.
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu' was moved during the migration of your project. If your project is under source control the file has been marked for move, remember to commit the change.
@@ -89,6 +98,7 @@ The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My proje
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Actor-Mixer Hierarchy' was deleted during the migration of your project. If your project is under source control the file has been marked for delete, remember to commit the change.
 The default work unit '\Sidechain Mixes\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
 Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +139,8 @@ Some new object properties have been added or obsolete properties deleted. The p
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> e488188 (no message)
+=======
+>>>>>>> 0838fe7 (no message)
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
@@ -175,4 +187,10 @@ Some new object properties have been added or obsolete properties deleted. The p
 =======
 =======
 >>>>>>> 93f1f27 (no message)
+<<<<<<< HEAD
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+>>>>>>> b4c89e6 (no message)
+>>>>>>> f0c9004 (no message)
+>>>>>>> 0838fe7 (no message)
