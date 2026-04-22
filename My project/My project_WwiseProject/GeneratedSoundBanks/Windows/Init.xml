@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{51BB7D6A-812C-D179-394B-C59C0AE18DB0}">
 =======
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{2352A3E1-54C5-8788-7094-120B284700ED}">
@@ -30,6 +31,9 @@
 =======
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{51BB7D6A-812C-D179-394B-C59C0AE18DB0}">
 >>>>>>> ef343c7 (no message)
+=======
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{2352A3E1-54C5-8788-7094-120B284700ED}">
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -76,6 +80,7 @@
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+<<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
@@ -117,6 +122,8 @@
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
 >>>>>>> ef343c7 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 			</AuxBusses>
 =======
 				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
@@ -208,6 +215,7 @@
 						<Switch Id="2965343494" Name="Winter" ObjectPath="\Switches\Default Work Unit\Seasons\Winter" GUID="{33727495-CA6E-45BA-A72C-493DDEBC57C1}" Color="19"/>
 						<Switch Id="3924562482" Name="Summer" ObjectPath="\Switches\Default Work Unit\Seasons\Summer" GUID="{5AEE35B2-624B-40B2-BADD-5B49B8BA7D05}" Color="19"/>
 						<Switch Id="4010875483" Name="Autumn" ObjectPath="\Switches\Default Work Unit\Seasons\Autumn" GUID="{B7754862-0699-48DE-B209-D6DC8A81752F}" Color="19"/>
+<<<<<<< HEAD
 					</Switches>
 				</SwitchGroup>
 <<<<<<< HEAD
@@ -232,11 +240,14 @@
 						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Surfaces\Concrete" GUID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}" Color="26"/>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{1D66F7B4-A293-4686-9E61-1544E4579905}" Color="8"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" Color="18"/>
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 	<FileHash>{324EDDAC-CDD4-718E-2D71-007D98FF0974}</FileHash>
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -255,4 +266,7 @@
 =======
 	<FileHash>{54AC6E56-0F13-DE8C-867F-6DFBCAC5ED0A}</FileHash>
 >>>>>>> ef343c7 (no message)
+=======
+	<FileHash>{BB4752C0-A863-F2A4-4AB3-E3EF7317E409}</FileHash>
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 </SoundBanksInfo>

@@ -87,11 +87,17 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
-						<AuxBus Name="Music" ID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}">
+						<Bus Name="Music Master" ID="{11F96520-960A-4725-89F6-496F227595C2}">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="26"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+<<<<<<< HEAD:My project/My project_WwiseProject/Busses/Default Work Unit.wwu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +115,9 @@
 =======
 						</AuxBus>
 >>>>>>> 0a7aa75 (no message)
+=======
+						</Bus>
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX):My project/My project_WwiseProject/Master-Mixer Hierarchy/Default Work Unit.wwu
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

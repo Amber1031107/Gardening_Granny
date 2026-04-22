@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
@@ -38,6 +39,9 @@
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
 >>>>>>> ef343c7 (no message)
+=======
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -135,6 +139,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -181,6 +186,9 @@
 =======
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 >>>>>>> ef343c7 (no message)
+=======
+					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
@@ -209,12 +217,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 				<File Id="472907063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PLACEHOLDERMUSIC.wav</ShortName>
 					<CachePath>89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f198644 (Git LFS Update)
@@ -222,6 +234,8 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 				<File Id="577526996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 07.wav</ShortName>
 					<CachePath>47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem</CachePath>
@@ -424,6 +438,7 @@
 					</MediaRefs>
 				</Event>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps" GUID="{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}" Color="15" DurationType="OneShot" DurationMin="0.33852082" DurationMax="0.7168791">
@@ -461,6 +476,8 @@
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 >>>>>>> 8efe417 (no message)
 =======
@@ -555,6 +572,24 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3643452717" Name="Play_Summer_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Summer_MUSIC" GUID="{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3439960413" Name="Play_Winter_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Winter_Music" GUID="{F81BF58E-500B-4783-8FF4-49F17A01D84C}" Color="26" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<Busses>
 <<<<<<< HEAD
@@ -590,6 +625,7 @@
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+<<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
@@ -601,6 +637,8 @@
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 			</AuxBusses>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
@@ -613,6 +651,7 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	<FileHash>{0D95F20A-DBDE-FEF1-CDED-3528BFA86B10}</FileHash>
@@ -722,4 +761,7 @@
 =======
 	<FileHash>{0D95F20A-DBDE-FEF1-CDED-3528BFA86B10}</FileHash>
 >>>>>>> ef343c7 (no message)
+=======
+	<FileHash>{BB9C27EC-923D-2279-EE53-909A8C1207DE}</FileHash>
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 </SoundBanksInfo>

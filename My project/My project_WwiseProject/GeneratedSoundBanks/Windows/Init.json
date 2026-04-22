@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -39,6 +40,9 @@
 =======
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 >>>>>>> ef343c7 (no message)
+=======
+    "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -105,6 +109,7 @@
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 >>>>>>> 74561eb (rebase pt2 ig?)
       "Id": "79554116",
       "Name": "Music Master",
@@ -166,6 +171,13 @@
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
 >>>>>>> 8efe417 (no message)
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      },
      {
       "Id": "3803692087",
@@ -218,6 +230,7 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
+<<<<<<< HEAD
 =======
       "Id": "2675173306",
       "Name": "House_Reverb",
@@ -269,6 +282,8 @@
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
 >>>>>>> 8efe417 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      }
     ],
     "StateGroups": [
@@ -533,6 +548,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -555,5 +571,8 @@
 =======
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 >>>>>>> ef343c7 (no message)
+=======
+  "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
  }
 }

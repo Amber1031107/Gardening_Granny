@@ -27,6 +27,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	84696428	s			\Default Work Unit\Master Audio Bus\s	
 	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
 	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
+<<<<<<< HEAD
 =======
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	441011833	MusicDuck			\Default Work Unit\MusicDuck	
@@ -52,6 +53,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
 	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
 >>>>>>> 8efe417 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

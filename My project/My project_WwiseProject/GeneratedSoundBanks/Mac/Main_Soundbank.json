@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -48,6 +49,9 @@
 =======
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 >>>>>>> ef343c7 (no message)
+=======
+    "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -197,6 +201,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -267,6 +272,9 @@
 =======
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 >>>>>>> ef343c7 (no message)
+=======
+      "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      },
      {
       "Id": "355788501",
@@ -320,8 +328,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
       "Id": "472907063",
       "Language": "SFX",
       "Streaming": "false",
@@ -331,12 +342,15 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
       "Id": "577526996",
       "Language": "SFX",
       "Streaming": "false",
@@ -666,10 +680,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
         "Id": "312702700"
        },
        {
         "Id": "472907063"
+<<<<<<< HEAD
 =======
         "Id": "132634063"
        },
@@ -782,6 +800,8 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
        }
       ]
      },
@@ -902,6 +922,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
       ]
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -920,6 +941,8 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      },
      {
       "Id": "474285493",
@@ -936,6 +959,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "472907063"
        }
       ]
@@ -963,6 +987,11 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+        "Id": "472907063"
+       }
+      ]
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      },
      {
       "Id": "3643452717",
@@ -976,6 +1005,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
         "Id": "132634063"
@@ -991,10 +1021,14 @@
 =======
         "Id": "312702700"
 >>>>>>> 8efe417 (no message)
+=======
+        "Id": "312702700"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
        },
        {
         "Id": "472907063"
        }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
@@ -1013,6 +1047,9 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+      ]
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      },
      {
       "Id": "3439960413",
@@ -1026,6 +1063,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
         "Id": "132634063"
@@ -1041,10 +1079,14 @@
 =======
         "Id": "312702700"
 >>>>>>> 8efe417 (no message)
+=======
+        "Id": "312702700"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
        },
        {
         "Id": "472907063"
        }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
@@ -1063,6 +1105,9 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+      ]
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      }
     ],
     "Busses": [
@@ -1083,6 +1128,7 @@
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 >>>>>>> 74561eb (rebase pt2 ig?)
 =======
 >>>>>>> c26099d (no message)
@@ -1155,6 +1201,13 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      },
      {
       "Id": "3803692087",
@@ -1214,6 +1267,7 @@
 <<<<<<< HEAD
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
+<<<<<<< HEAD
 =======
       "Id": "2675173306",
       "Name": "House_Reverb",
@@ -1325,6 +1379,8 @@
 >>>>>>> ef343c7 (no message)
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
      }
     ],
     "StateGroups": [
@@ -1380,6 +1436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 =======
   "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
@@ -1408,5 +1465,8 @@
 =======
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 >>>>>>> ef343c7 (no message)
+=======
+  "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
  }
 }

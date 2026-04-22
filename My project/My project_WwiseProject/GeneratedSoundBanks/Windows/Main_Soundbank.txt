@@ -2,18 +2,24 @@ Event	ID	Name			Wwise Object Path	Notes
 <<<<<<< HEAD
 <<<<<<< HEAD
 	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
+<<<<<<< HEAD
 =======
 	378356484	Play_Spring_AMB			\Default Work Unit\AMBIENCE\Play_Spring_AMB	
 >>>>>>> f198644 (Git LFS Update)
 =======
 	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
 >>>>>>> 8efe417 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 	474285493	Play_Spring_MUSIC			\Default Work Unit\MUSIC\Play_Spring_MUSIC	
 	1551648488	Play_Autumn_MUSIC			\Default Work Unit\MUSIC\Play_Autumn_MUSIC	
 	3439960413	Play_Winter_Music			\Default Work Unit\MUSIC\Play_Winter_Music	
 	3643452717	Play_Summer_MUSIC			\Default Work Unit\MUSIC\Play_Summer_MUSIC	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
@@ -29,6 +35,7 @@ State	ID	Name	State Group			Notes
 	2965343494	Winter	Season			
 	3924562482	Summer	Season			
 	4010875483	Autumn	Season			
+<<<<<<< HEAD
 =======
 	3854155799	Play_Footsteps			\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps	
 
@@ -60,6 +67,8 @@ State	ID	Name	State Group			Notes
 	3924562482	Summer	Season			
 	4010875483	Autumn	Season			
 >>>>>>> 8efe417 (no message)
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 	311764537	Day	TimeOfDay			
 	748895195	None	TimeOfDay			
 	1011622525	Night	TimeOfDay			
