@@ -296,7 +296,10 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6087949 (no message)
 <<<<<<< HEAD
 				<Attenuation Name="AMB Outdoor Wide" ID="{91500FBA-4576-4EFF-A3FB-603164DD7C45}" ShortID="565379647">
 					<PropertyList>
@@ -497,7 +500,12 @@
 				</Attenuation>
 =======
 >>>>>>> 2e5039c (test)
+<<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
+=======
+=======
+>>>>>>> 5fee5fe (pulling audio into programming)
+>>>>>>> 6087949 (no message)
 			</ChildrenList>
 		</WorkUnit>
 	</Attenuations>

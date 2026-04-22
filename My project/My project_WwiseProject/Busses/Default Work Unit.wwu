@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6087949 (no message)
 <<<<<<< HEAD
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
@@ -13,7 +16,12 @@
 					</PropertyList>
 =======
 >>>>>>> 2e5039c (test)
+<<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
+=======
+=======
+>>>>>>> 5fee5fe (pulling audio into programming)
+>>>>>>> 6087949 (no message)
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}" WorkUnitID="{3043C1BE-86E6-4C6F-815F-84CC0D13161B}"/>
@@ -21,16 +29,26 @@
 					</ReferenceList>
 					<ChildrenList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<AuxBus Name="s" ID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 						<Bus Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
 =======
+=======
+>>>>>>> 6087949 (no message)
 <<<<<<< HEAD
 						<Bus Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
 =======
 						<AuxBus Name="s" ID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 						<Bus Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
 >>>>>>> 2e5039c (test)
+<<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
+=======
+=======
+						<AuxBus Name="s" ID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
+						<Bus Name="Ambient" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
+>>>>>>> 5fee5fe (pulling audio into programming)
+>>>>>>> 6087949 (no message)
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="11"/>
 								<Property Name="Lowpass" Type="int16">
@@ -41,6 +59,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
 							</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 							<ChildrenList>
 								<AuxBus Name="Inside" ID="{BAB30D57-8102-4140-9822-C216D6D9B22E}">
@@ -107,6 +126,8 @@
 								</AuxBus>
 							</ChildrenList>
 =======
+=======
+>>>>>>> 6087949 (no message)
 <<<<<<< HEAD
 							<ObjectLists>
 								<ObjectList Name="RTPC">
@@ -143,18 +164,83 @@
 									</RTPC>
 								</ObjectList>
 							</ObjectLists>
+<<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
+=======
+=======
+							<ChildrenList>
+								<AuxBus Name="Inside" ID="{BAB30D57-8102-4140-9822-C216D6D9B22E}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
+											<StateGroupInfo Name="" ID="{BC7C0DF2-C9FD-4A42-A229-56E5464E9736}"/></StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
+												<CustomState Name="" ID="{7496B13D-4AC0-4F8D-9D5A-77058162BF20}" ShortID="1031388243"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
+												<CustomState Name="" ID="{C69B17A2-7EDA-4682-9FE4-74992F227AE4}" ShortID="179052749">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="13"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Inside" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+												<CustomState Name="" ID="{979428E2-D350-4814-B9B2-84A884B98541}" ShortID="311710084">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+								<AuxBus Name="Outside" ID="{025BEA4E-656B-488B-AA63-A04F5016FA98}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
+											<StateGroupInfo Name="" ID="{FD2423F5-B210-4E4A-8964-DFB1A4CBE92C}"/></StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
+												<CustomState Name="" ID="{EC95F2DD-3D67-4F99-AD10-BE6ADFC83A25}" ShortID="692779745"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
+												<CustomState Name="" ID="{514CBAE6-1BCC-4564-A247-136182C9AE9F}" ShortID="252301458">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-4"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Inside" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+												<CustomState Name="" ID="{24963394-05D1-42DA-AD44-0D45CA62EE80}" ShortID="10475304">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</AuxBus>
+							</ChildrenList>
+>>>>>>> 5fee5fe (pulling audio into programming)
+>>>>>>> 6087949 (no message)
 						</Bus>
-						<Bus Name="Music Master" ID="{11F96520-960A-4725-89F6-496F227595C2}">
+						<AuxBus Name="Music" ID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="Color" Type="int16" Value="3"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Busses/Default Work Unit.wwu
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +251,32 @@
 						</AuxBus>
 >>>>>>> 60800bb (no message)
 =======
+=======
+						</AuxBus>
+<<<<<<< HEAD
+						<Bus Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{80546FD3-92CB-4B36-9D58-DB0EAE965630}" ShortID="512200508">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+												<ObjectRef Name="MusicDuckMeter" ID="{CECBE9F4-FCB0-485F-AF3E-3AF43C4C7F2F}" WorkUnitID="{06D47C5E-CB33-4189-8159-F7AEE8946691}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+>>>>>>> 6087949 (no message)
 						</Bus>
 <<<<<<< HEAD
 >>>>>>> 8efe417 (no message)
@@ -263,7 +375,12 @@
 =======
 						</Bus>
 >>>>>>> 9a1dd63 (pt 2)
+<<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
+=======
+=======
+>>>>>>> 5fee5fe (pulling audio into programming)
+>>>>>>> 6087949 (no message)
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

@@ -2,8 +2,11 @@
 <WwiseDocument Type="WorkUnit" ID="{CE85BDE4-F9A0-472F-AC6D-4F3D19B03332}" SchemaVersion="133">
 	<SidechainMixes>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<WorkUnit Name="Default Work Unit" ID="{CE85BDE4-F9A0-472F-AC6D-4F3D19B03332}" PersistMode="Standalone"/>
 =======
+=======
+>>>>>>> 6087949 (no message)
 <<<<<<< HEAD
 		<WorkUnit Name="Default Work Unit" ID="{CE85BDE4-F9A0-472F-AC6D-4F3D19B03332}" PersistMode="Standalone">
 			<ChildrenList>
@@ -13,6 +16,12 @@
 =======
 		<WorkUnit Name="Default Work Unit" ID="{CE85BDE4-F9A0-472F-AC6D-4F3D19B03332}" PersistMode="Standalone"/>
 >>>>>>> 2e5039c (test)
+<<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
+=======
+=======
+		<WorkUnit Name="Default Work Unit" ID="{CE85BDE4-F9A0-472F-AC6D-4F3D19B03332}" PersistMode="Standalone"/>
+>>>>>>> 5fee5fe (pulling audio into programming)
+>>>>>>> 6087949 (no message)
 	</SidechainMixes>
 </WwiseDocument>
