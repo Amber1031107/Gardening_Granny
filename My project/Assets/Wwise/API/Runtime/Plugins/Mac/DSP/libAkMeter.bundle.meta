@@ -3,8 +3,11 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b97c6f7 (no message)
+=======
+>>>>>>> 4581925 (no message)
 guid: 8eb9712b10736ee488d20d6e0abcae72
 =======
 <<<<<<< HEAD
@@ -25,10 +28,14 @@ PluginImporter:
       settings: {}
     Editor:
 <<<<<<< HEAD
+<<<<<<< HEAD
       enabled: 1
 =======
       enabled: 0
 >>>>>>> b97c6f7 (no message)
+=======
+      enabled: 0
+>>>>>>> 4581925 (no message)
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
@@ -40,6 +47,7 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 guid: 8eb9712b10736ee488d20d6e0abcae72
@@ -61,4 +69,9 @@ guid: 8eb9712b10736ee488d20d6e0abcae72
 =======
 guid: 8eb9712b10736ee488d20d6e0abcae72
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 4581925 (no message)
+>>>>>>> f86b449 (no message)

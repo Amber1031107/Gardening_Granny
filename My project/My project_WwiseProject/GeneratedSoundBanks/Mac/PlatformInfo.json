@@ -10,10 +10,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+=======
+>>>>>>> fdf751e (no message)
+>>>>>>> f86b449 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
    "Name": "Mac",
    "BasePlatform": "Mac",
@@ -35,8 +40,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> f86b449 (no message)
 =======
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
    "Name": "Windows",
@@ -54,6 +62,7 @@
    "Name": "Mac",
    "BasePlatform": "Mac",
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
@@ -77,6 +86,10 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+=======
+>>>>>>> fdf751e (no message)
+>>>>>>> f86b449 (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -88,6 +101,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +124,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> 63adbf9 (no message)
+=======
+>>>>>>> f86b449 (no message)
    "AutoSoundBankDefinition": "true",
 =======
    "AutoSoundBankDefinition": "false",
@@ -144,7 +160,13 @@
 =======
    "AutoSoundBankDefinition": "false",
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+   "AutoSoundBankDefinition": "true",
+>>>>>>> 4581925 (no message)
+>>>>>>> f86b449 (no message)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -163,6 +185,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +248,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> f86b449 (no message)
   "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
@@ -265,11 +290,16 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+=======
+>>>>>>> fdf751e (no message)
+>>>>>>> 4581925 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 ========
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
+<<<<<<< HEAD
 =======
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -295,7 +325,15 @@
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> 03de798 (no message)
+<<<<<<< HEAD
 >>>>>>> 4b74875 (no message)
+=======
+=======
+=======
+>>>>>>> fdf751e (no message)
+>>>>>>> 4581925 (no message)
+>>>>>>> f86b449 (no message)
  }
 }
