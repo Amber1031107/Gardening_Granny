@@ -15,6 +15,9 @@ namespace AK
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7772bc0 (no message)
         static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
 <<<<<<< HEAD
@@ -79,6 +82,7 @@ namespace AK
         static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
         static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
+<<<<<<< HEAD
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 =======
 >>>>>>> 8efe417 (no message)
@@ -88,12 +92,18 @@ namespace AK
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
 >>>>>>> c26099d (no message)
 =======
+>>>>>>> 7772bc0 (no message)
+=======
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+<<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
     } // namespace EVENTS
 
     namespace STATES
@@ -166,7 +176,11 @@ namespace AK
             } // namespace SWITCH
         } // namespace SURFACES
 =======
+<<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 
     } // namespace SWITCHES
 
@@ -202,12 +216,18 @@ namespace AK
         static const AkUniqueID MUSIC_MASTER = 79554116U;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
         static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+        static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
+=======
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
     } // namespace BUSSES
 
     namespace AUX_BUSSES
@@ -218,7 +238,11 @@ namespace AK
         static const AkUniqueID INSIDE = 3553349781U;
         static const AkUniqueID OUTSIDE = 438105790U;
         static const AkUniqueID S = 84696428U;
+<<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

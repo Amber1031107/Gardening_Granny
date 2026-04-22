@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
@@ -54,6 +55,12 @@
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{12277D5A-B359-A37E-E687-B62F5B53E676}">
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{12277D5A-B359-A37E-E687-B62F5B53E676}">
+=======
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -172,6 +179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -182,6 +190,8 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 				</File>
 				<File Id="326278609" Language="SFX" Streaming="false" Location="Memory">
@@ -195,6 +205,7 @@
 				<File Id="327896736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spring Music 44.1.wav</ShortName>
 					<CachePath>FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem</CachePath>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -229,6 +240,11 @@
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
@@ -259,14 +275,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> 7772bc0 (no message)
 				<File Id="472907063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PLACEHOLDERMUSIC.wav</ShortName>
 					<CachePath>89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -279,6 +299,8 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
 				<File Id="577526996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 07.wav</ShortName>
 					<CachePath>47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem</CachePath>
@@ -490,6 +512,7 @@
 			<Events>
 				<Event Id="1551648488" Name="Play_Autumn_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Autumn_MUSIC" GUID="{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}" Color="26" DurationType="Infinite">
 					<MediaRefs>
+<<<<<<< HEAD
 						<MediaRef Id="132634063"/>
 						<MediaRef Id="312702700"/>
 					</MediaRefs>
@@ -557,6 +580,7 @@
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\AMBIENCE\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 =======
@@ -567,6 +591,15 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 					<MediaRefs>
 						<MediaRef Id="1012836"/>
 						<MediaRef Id="20790822"/>
@@ -668,6 +701,9 @@
 					</PluginRefs>
 				</Event>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7772bc0 (no message)
 				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="312702700"/>
@@ -694,6 +730,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 =======
 >>>>>>> c26099d (no message)
@@ -701,6 +738,8 @@
 			</Events>
 			<Busses>
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
 				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
 				<Bus Id="143634621" Name="Ambience Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambience Master" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 				<Bus Id="1279065646" Name="SFX &amp; UI Master (for music ducking)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX &amp; UI Master (for music ducking)" GUID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" Color="19">
@@ -831,11 +870,24 @@
 					</PluginRefs>
 				</AuxBus>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> ef343c7 (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+				<Bus Id="77978275" Name="Ambient" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
+				<Bus Id="79554116" Name="Music Master" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
+				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
+				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="441011833" Name="MusicDuck" ObjectPath="\Game Parameters\Default Work Unit\MusicDuck" GUID="{B6B854D8-2035-4EA0-AB93-867F1548FE39}" Color="24"/>
@@ -853,6 +905,7 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -893,4 +946,10 @@
 =======
 	<FileHash>{13259A0D-788A-CC1F-011B-2A1B074FA5FD}</FileHash>
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+	<FileHash>{13259A0D-788A-CC1F-011B-2A1B074FA5FD}</FileHash>
+=======
+	<FileHash>{BB9C27EC-923D-2279-EE53-909A8C1207DE}</FileHash>
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 </SoundBanksInfo>

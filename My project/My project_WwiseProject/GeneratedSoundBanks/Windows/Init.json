@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -51,6 +52,12 @@
 =======
     "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
 >>>>>>> f198644 (Git LFS Update)
+=======
+    "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
+=======
+    "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -161,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "79554116",
       "Name": "Music Master",
 <<<<<<< HEAD
@@ -177,6 +185,8 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
       "Id": "1279065646",
       "Name": "SFX & UI Master (for music ducking)",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX & UI Master (for music ducking)",
@@ -189,6 +199,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -207,6 +218,15 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      },
      {
       "Id": "3803692087",
@@ -322,12 +342,17 @@
       "Color": "21"
      },
      {
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
+=======
+<<<<<<< HEAD
+>>>>>>> 7772bc0 (no message)
       "Id": "4231187838",
       "Name": "Ambience_MenuMute",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_MenuMute",
       "GUID": "{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}",
       "Color": "13"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -341,6 +366,15 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      }
     ],
     "StateGroups": [
@@ -604,6 +638,7 @@
         "ObjectPath": "\\Switches\\Default Work Unit\\Seasons\\Autumn",
         "GUID": "{B7754862-0699-48DE-B209-D6DC8A81752F}",
         "Color": "19"
+<<<<<<< HEAD
        }
       ]
 <<<<<<< HEAD
@@ -640,6 +675,8 @@
         "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Grass",
         "GUID": "{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}",
         "Color": "18"
+=======
+>>>>>>> 9a1dd63 (pt 2)
        }
       ]
 <<<<<<< HEAD
@@ -652,6 +689,7 @@
     ]
    }
   ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,5 +731,11 @@
 =======
   "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
+=======
+  "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
  }
 }

@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -64,6 +65,12 @@
 =======
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+    "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
+=======
+    "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -234,6 +241,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -244,6 +252,8 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
      },
      {
@@ -269,6 +279,7 @@
       "Location": "Memory",
       "ShortName": "Spring Music 44.1.wav",
       "CachePath": "FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -315,6 +326,11 @@
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+      "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      },
      {
       "Id": "355788501",
@@ -370,10 +386,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> 7772bc0 (no message)
       "Id": "472907063",
       "Language": "SFX",
       "Streaming": "false",
@@ -382,6 +401,7 @@
       "CachePath": "89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -394,6 +414,8 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
       "Id": "577526996",
       "Language": "SFX",
       "Streaming": "false",
@@ -764,6 +786,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
         "Id": "312702700"
@@ -784,6 +807,8 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
         "Id": "132634063"
        },
        {
@@ -883,6 +908,7 @@
         ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
         "Id": "472907063"
@@ -893,6 +919,14 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
        }
       ]
      },
@@ -1017,6 +1051,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ]
 <<<<<<< HEAD
 =======
@@ -1024,6 +1059,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
       ],
       "PluginRefs": {
        "Custom": [
@@ -1032,6 +1069,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
@@ -1044,6 +1082,11 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+      ]
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      },
      {
       "Id": "474285493",
@@ -1062,10 +1105,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "472907063"
        }
       ]
 =======
+=======
+>>>>>>> 7772bc0 (no message)
         "Id": "327896736"
        }
 =======
@@ -1086,11 +1132,15 @@
       }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
 =======
         "Id": "472907063"
        }
       ]
+<<<<<<< HEAD
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
@@ -1101,6 +1151,9 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      },
      {
       "Id": "3643452717",
@@ -1116,8 +1169,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
+=======
+>>>>>>> 7772bc0 (no message)
         "Id": "132634063"
 >>>>>>> c26099d (no message)
 =======
@@ -1158,6 +1214,7 @@
       }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
       ]
@@ -1169,6 +1226,16 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      },
      {
       "Id": "3439960413",
@@ -1184,8 +1251,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
+=======
+>>>>>>> 7772bc0 (no message)
         "Id": "132634063"
 >>>>>>> c26099d (no message)
 =======
@@ -1226,6 +1296,7 @@
       }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
       ]
@@ -1237,6 +1308,16 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+        "Id": "312702700"
+       },
+       {
+        "Id": "472907063"
+       }
+      ]
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      }
     ],
     "Busses": [
@@ -1301,6 +1382,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "79554116",
       "Name": "Music Master",
 <<<<<<< HEAD
@@ -1319,6 +1401,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
       "Id": "1279065646",
       "Name": "SFX & UI Master (for music ducking)",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX & UI Master (for music ducking)",
@@ -1331,6 +1415,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
@@ -1352,6 +1437,15 @@
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      },
      {
       "Id": "3803692087",
@@ -1403,6 +1497,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "84696428",
       "Name": "s",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
@@ -1429,6 +1524,8 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 7772bc0 (no message)
       "Id": "2675173306",
       "Name": "House_Reverb",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb",
@@ -1442,9 +1539,32 @@
        ]
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+=======
+      "Id": "84696428",
+      "Name": "s",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
+     },
+     {
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
+     },
+     {
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
      }
     ],
     "GameParameters": [
@@ -1609,6 +1729,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 =======
   "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
@@ -1649,5 +1770,11 @@
 =======
   "FileHash": "{A1240334-16E4-3BB0-DCCB-00AA6AE6AFD7}"
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+  "FileHash": "{A1240334-16E4-3BB0-DCCB-00AA6AE6AFD7}"
+=======
+  "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
  }
 }

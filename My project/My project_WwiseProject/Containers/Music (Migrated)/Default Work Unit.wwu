@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
 =======
 >>>>>>> b4c89e6 (no message)
@@ -13,6 +14,8 @@
 >>>>>>> ef343c7 (no message)
 =======
 >>>>>>> b4c89e6 (no message)
+=======
+>>>>>>> 7772bc0 (no message)
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="133">
 	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone">
@@ -2035,13 +2038,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8efe417 (no message)
+=======
+=======
+>>>>>>> 7772bc0 (no message)
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="123">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone"/>
 	</InteractiveMusic>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX):My project/My project_WwiseProject/Interactive Music Hierarchy/Default Work Unit.wwu
 =======
@@ -2054,4 +2062,7 @@
 >>>>>>> ef343c7 (no message)
 =======
 >>>>>>> b4c89e6 (no message)
+=======
+>>>>>>> 9a1dd63 (pt 2)
+>>>>>>> 7772bc0 (no message)
 </WwiseDocument>
