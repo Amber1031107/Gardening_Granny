@@ -65,20 +65,16 @@ public class Pause : MonoBehaviour
         }
     }
 
-    public void HowToPlayButton()
+    public void OpenHowToPlay()
     {
-        uiClickSound.Post(gameObject);
-
-        if (howToPlayPanel != null)
-            howToPlayPanel.SetActive(true);
+        PauseMenu.SetActive(false);
+        howToPlayPanel.SetActive(true);
     }
 
     public void BackButton()
     {
-        uiClickSound.Post(gameObject);
-
-        if (howToPlayPanel != null)
-            howToPlayPanel.SetActive(false);
+        howToPlayPanel.SetActive(false);
+        PauseMenu.SetActive(true);
     }
 
     public void MenuSCreen()
