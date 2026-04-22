@@ -13,8 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
+<<<<<<< HEAD
 <<<<<<< HEAD
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
@@ -36,18 +36,19 @@ namespace AK
         static const AkUniqueID PLAY_PAUSE_MENU_OFF = 2321699868U;
         static const AkUniqueID PLAY_PAUSE_MENU_ON = 2756808150U;
         static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
+=======
+>>>>>>> 8efe417 (no message)
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
-        static const AkUniqueID PLAY_SWITCH_TO_BEAR_TRAP = 3887442043U;
-        static const AkUniqueID PLAY_SWITCH_TO_PLANT = 621229048U;
-        static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
-        static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+<<<<<<< HEAD
         static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
         static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+>>>>>>> 8efe417 (no message)
     } // namespace EVENTS
 
     namespace STATES
@@ -110,6 +111,7 @@ namespace AK
     } // namespace SWITCHES
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     namespace GAME_PARAMETERS
     {
@@ -119,6 +121,8 @@ namespace AK
     } // namespace GAME_PARAMETERS
 
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+>>>>>>> 8efe417 (no message)
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -127,10 +131,9 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID AMBIENCE_MASTER = 143634621U;
+        static const AkUniqueID AMBIENT = 77978275U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_MASTER = 79554116U;
-        static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

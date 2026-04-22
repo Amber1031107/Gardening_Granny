@@ -3,13 +3,14 @@
   "Platform": "Windows",
   "BasePlatform": "Windows",
   "SchemaVersion": "16",
-  "SoundBankVersion": "172",
+  "SoundBankVersion": "154",
   "SoundBanks": [
    {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,10 +24,14 @@
 =======
     "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
 >>>>>>> f198644 (Git LFS Update)
+=======
+    "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
+>>>>>>> 8efe417 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
      "Custom": [
@@ -50,11 +55,13 @@
       }
      ],
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
      "AudioDevices": [
       {
        "Id": "2317455096",
        "Name": "No_Output",
-       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
        "GUID": "{4BF40DA4-EBC2-457D-92D1-F93F823C241C}",
        "LibName": "No Output",
        "LibId": "11862023"
@@ -62,7 +69,7 @@
       {
        "Id": "3859886410",
        "Name": "System",
-       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
        "GUID": "{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}",
        "LibName": "System",
        "LibId": "11403271"
@@ -71,6 +78,7 @@
     },
     "Busses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Id": "77978275",
       "Name": "Ambient",
@@ -87,10 +95,16 @@
       "Name": "Ambience Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambience Master",
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+>>>>>>> 8efe417 (no message)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Id": "79554116",
       "Name": "Music Master",
@@ -119,10 +133,18 @@
        ]
       }
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 8efe417 (no message)
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
@@ -130,10 +152,15 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+>>>>>>> 8efe417 (no message)
      }
     ],
     "AuxBusses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Id": "84696428",
       "Name": "s",
@@ -175,21 +202,35 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicDuck",
       "GUID": "{B6B854D8-2035-4EA0-AB93-867F1548FE39}",
       "Color": "24"
+=======
+      "Id": "84696428",
+      "Name": "s",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
+>>>>>>> 8efe417 (no message)
      },
      {
-      "Id": "1493153371",
-      "Name": "PlayerSpeed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
-      "GUID": "{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}",
-      "Color": "21"
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
      },
      {
+<<<<<<< HEAD
       "Id": "4231187838",
       "Name": "Ambience_MenuMute",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_MenuMute",
       "GUID": "{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}",
       "Color": "13"
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
+>>>>>>> 8efe417 (no message)
      }
     ],
     "StateGroups": [
@@ -225,64 +266,87 @@
       "ObjectPath": "\\States\\Default Work Unit\\Season",
       "GUID": "{D8D21C3D-B6C1-4155-B331-E61E23E2672D}",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "Color": "19",
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\None",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
 =======
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
+>>>>>>> 8efe417 (no message)
        },
        {
         "Id": "1296465106",
         "Name": "Spring",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Spring",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
 =======
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
+>>>>>>> 8efe417 (no message)
        },
        {
         "Id": "2965343494",
         "Name": "Winter",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Winter",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
 =======
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
+>>>>>>> 8efe417 (no message)
        },
        {
         "Id": "3924562482",
         "Name": "Summer",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Summer",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
 =======
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
+>>>>>>> 8efe417 (no message)
        },
        {
         "Id": "4010875483",
         "Name": "Autumn",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Autumn",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
 =======
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
+>>>>>>> 8efe417 (no message)
        }
       ]
      },
@@ -292,42 +356,57 @@
       "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay",
       "GUID": "{5D6BF316-2C81-4432-9822-1199121CCBF7}",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "Color": "2",
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
       "States": [
        {
         "Id": "311764537",
         "Name": "Day",
         "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Day",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
 =======
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}",
         "Color": "2"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
+>>>>>>> 8efe417 (no message)
        },
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\None",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
 =======
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}",
         "Color": "2"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
+>>>>>>> 8efe417 (no message)
        },
        {
         "Id": "1011622525",
         "Name": "Night",
         "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Night",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
 =======
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}",
         "Color": "2"
 >>>>>>> f198644 (Git LFS Update)
+=======
+        "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
+>>>>>>> 8efe417 (no message)
        }
       ]
      }
@@ -370,6 +449,7 @@
        }
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      },
      {
@@ -402,10 +482,13 @@
        }
       ]
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
      }
     ]
    }
   ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,5 +502,8 @@
 =======
   "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
+>>>>>>> 8efe417 (no message)
  }
 }
