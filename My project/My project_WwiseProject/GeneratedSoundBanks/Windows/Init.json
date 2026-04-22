@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "SoundBankVersion": "172",
 =======
   "SoundBankVersion": "154",
@@ -40,12 +41,16 @@
 =======
   "SoundBankVersion": "154",
 >>>>>>> 787f68f (no message)
+=======
+  "SoundBankVersion": "172",
+>>>>>>> 7f4b170 (no message)
   "SoundBanks": [
    {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +133,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> 34da449 (no message)
+=======
+>>>>>>> 63adbf9 (no message)
     "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -196,6 +203,8 @@
 >>>>>>> 756b11d (no message)
 =======
 >>>>>>> 787f68f (no message)
+=======
+>>>>>>> 7f4b170 (no message)
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -227,8 +236,17 @@
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
 >>>>>>> 8efe417 (no message)
+<<<<<<< HEAD
 >>>>>>> 787f68f (no message)
+<<<<<<< HEAD
 >>>>>>> 34da449 (no message)
+=======
+=======
+=======
+    "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
+>>>>>>> 6d3d0ae (no message)
+>>>>>>> 7f4b170 (no message)
+>>>>>>> 63adbf9 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -308,6 +326,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
@@ -336,6 +355,9 @@
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
 >>>>>>> 787f68f (no message)
+=======
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+>>>>>>> 7f4b170 (no message)
        "GUID": "{4BF40DA4-EBC2-457D-92D1-F93F823C241C}",
        "LibName": "No Output",
        "LibId": "11862023"
@@ -352,6 +374,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        "ObjectPath": "\\Devices\\Default Work Unit\\System",
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
@@ -380,6 +403,9 @@
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
 >>>>>>> 787f68f (no message)
+=======
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+>>>>>>> 7f4b170 (no message)
        "GUID": "{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}",
        "LibName": "System",
        "LibId": "11403271"
@@ -462,9 +488,16 @@
 =======
       "Id": "77978275",
       "Name": "Ambient",
+<<<<<<< HEAD
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
 >>>>>>> 8efe417 (no message)
+<<<<<<< HEAD
 >>>>>>> 34da449 (no message)
+=======
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
+>>>>>>> 6d3d0ae (no message)
+>>>>>>> 63adbf9 (no message)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
@@ -527,7 +560,7 @@
 =======
       "Id": "79554116",
       "Name": "Music Master",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
 >>>>>>> 8efe417 (no message)
@@ -670,6 +703,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 =======
@@ -714,6 +748,12 @@
 =======
 >>>>>>> 787f68f (no message)
 >>>>>>> 34da449 (no message)
+=======
+=======
+>>>>>>> 787f68f (no message)
+=======
+>>>>>>> 7f4b170 (no message)
+>>>>>>> 63adbf9 (no message)
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,6 +810,9 @@
 =======
 =======
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+>>>>>>> 6d3d0ae (no message)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 >>>>>>> 8efe417 (no message)
 >>>>>>> 787f68f (no message)
@@ -1019,14 +1062,14 @@
 =======
       "Id": "84696428",
       "Name": "s",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
       "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
 >>>>>>> 8efe417 (no message)
      },
      {
       "Id": "438105790",
       "Name": "Outside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
       "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
       "Color": "11"
      },
@@ -1047,7 +1090,7 @@
 =======
       "Id": "3553349781",
       "Name": "Inside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
 >>>>>>> 8efe417 (no message)
@@ -1773,6 +1816,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1831,6 +1875,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> 34da449 (no message)
+=======
+>>>>>>> 63adbf9 (no message)
   "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1899,6 +1945,8 @@
 >>>>>>> 756b11d (no message)
 =======
 >>>>>>> 787f68f (no message)
+=======
+>>>>>>> 7f4b170 (no message)
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1930,7 +1978,16 @@
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
 >>>>>>> 8efe417 (no message)
+<<<<<<< HEAD
 >>>>>>> 787f68f (no message)
+<<<<<<< HEAD
 >>>>>>> 34da449 (no message)
+=======
+=======
+=======
+  "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
+>>>>>>> 6d3d0ae (no message)
+>>>>>>> 7f4b170 (no message)
+>>>>>>> 63adbf9 (no message)
  }
 }

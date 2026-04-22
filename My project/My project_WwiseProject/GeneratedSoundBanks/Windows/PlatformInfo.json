@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    "AutoSoundBankDefinition": "false",
 =======
    "AutoSoundBankDefinition": "true",
@@ -98,6 +99,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 63adbf9 (no message)
    "AutoSoundBankDefinition": "true",
 =======
    "AutoSoundBankDefinition": "false",
@@ -126,7 +129,13 @@
 =======
    "AutoSoundBankDefinition": "true",
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+   "AutoSoundBankDefinition": "false",
+>>>>>>> 7f4b170 (no message)
+>>>>>>> 63adbf9 (no message)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -145,6 +154,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +211,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 63adbf9 (no message)
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -237,6 +249,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 =======
+=======
+>>>>>>> 7f4b170 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 ========
@@ -249,7 +263,16 @@
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> 6d3d0ae (no message)
+>>>>>>> 7f4b170 (no message)
+>>>>>>> 63adbf9 (no message)
  }
 }
