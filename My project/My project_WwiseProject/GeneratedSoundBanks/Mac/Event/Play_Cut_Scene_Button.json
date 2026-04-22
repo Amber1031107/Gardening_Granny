@@ -11,10 +11,14 @@
     "GUID": "{66554DA9-A3D9-40B5-BE0C-84A6F9965940}",
     "Language": "SFX",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
 =======
     "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
 >>>>>>> f198644 (Git LFS Update)
+=======
+    "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
     "ObjectPath": "Play_Cut_Scene_Button",
     "ShortName": "Play_Cut_Scene_Button",
     "Path": "Event/Play_Cut_Scene_Button.bnk",
@@ -36,10 +40,14 @@
       "ShortName": "SFX_DayNight Transition.wav",
       "Path": "Media/340222023.wem",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
 =======
       "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
      }
     ],
     "Events": [
@@ -51,12 +59,17 @@
       "Color": "23",
       "DurationType": "OneShot",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "DurationMin": "2.2946439",
       "DurationMax": "2.2946439",
 =======
       "DurationMin": "2.3505993",
       "DurationMax": "2.3505993",
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "DurationMin": "2.2946439",
+      "DurationMax": "2.2946439",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
       "MediaRefs": [
        {
         "Id": "307067782"
@@ -70,9 +83,13 @@
    }
   ],
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{1BB07EF7-0A65-53EC-2EB1-B324D49774C1}"
 =======
   "FileHash": "{CD62A9F3-E113-BB77-330A-1E34ECCE8C66}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{1BB07EF7-0A65-53EC-2EB1-B324D49774C1}"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
  }
 }

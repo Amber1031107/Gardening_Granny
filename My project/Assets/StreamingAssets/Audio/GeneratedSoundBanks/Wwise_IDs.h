@@ -13,11 +13,41 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
+<<<<<<< HEAD
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+=======
+        static const AkUniqueID PLAY_BEAR_TRAP_FLING = 1734114213U;
+        static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
+        static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
+        static const AkUniqueID PLAY_BUY_TRAP = 3485936852U;
+        static const AkUniqueID PLAY_CASH_REGISTER = 1433988185U;
+        static const AkUniqueID PLAY_COMPUTER = 1984956505U;
+        static const AkUniqueID PLAY_CUT_SCENE_BUTTON = 588888374U;
+        static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
+        static const AkUniqueID PLAY_DIGGING_UP_PLANT = 3054394219U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_GRASS_SNEAK_FOOTSTEPS_LOOP = 3018976446U;
+        static const AkUniqueID PLAY_NO_MONEY_LEFT = 2150464526U;
+        static const AkUniqueID PLAY_PAUSE_MENU_OFF = 2321699868U;
+        static const AkUniqueID PLAY_PAUSE_MENU_ON = 2756808150U;
+        static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
+        static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
+        static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
+        static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_SWITCH_TO_BEAR_TRAP = 3887442043U;
+        static const AkUniqueID PLAY_SWITCH_TO_PLANT = 621229048U;
+        static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
+        static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
+        static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+        static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
+        static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
+        static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
     } // namespace EVENTS
 
     namespace STATES
@@ -79,6 +109,16 @@ namespace AK
 
     } // namespace SWITCHES
 
+<<<<<<< HEAD
+=======
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID AMBIENCE_MENUMUTE = 4231187838U;
+        static const AkUniqueID MUSICDUCK = 441011833U;
+        static const AkUniqueID PLAYERSPEED = 1493153371U;
+    } // namespace GAME_PARAMETERS
+
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -87,9 +127,10 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID AMBIENT = 77978275U;
+        static const AkUniqueID AMBIENCE_MASTER = 143634621U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_MASTER = 79554116U;
+        static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

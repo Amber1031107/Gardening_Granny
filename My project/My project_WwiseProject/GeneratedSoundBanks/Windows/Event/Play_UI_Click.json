@@ -11,10 +11,14 @@
     "GUID": "{E4F0772F-726B-4600-9AA4-8DC301D1EC7F}",
     "Language": "SFX",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{D2E84A35-F1E7-16DA-F1CC-8B5D5E6B8375}",
 =======
     "Hash": "{7E23A3B4-2793-0052-FBFF-67F2549C1D30}",
 >>>>>>> f198644 (Git LFS Update)
+=======
+    "Hash": "{D2E84A35-F1E7-16DA-F1CC-8B5D5E6B8375}",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
     "ObjectPath": "Play_UI_Click",
     "ShortName": "Play_UI_Click",
     "Path": "Event/Play_UI_Click.bnk",
@@ -27,10 +31,14 @@
       "ShortName": "UI_Click_v5.wav",
       "Path": "Media/199870249.wem",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "0B/{0B17871E-C033-DD1C-EE1E-E6B204AF7399}.wem"
 =======
       "CachePath": "61/{61755BF6-F147-70D9-BC9C-AEDD4307B530}.wem"
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "CachePath": "0B/{0B17871E-C033-DD1C-EE1E-E6B204AF7399}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
      }
     ],
     "Events": [
@@ -53,9 +61,13 @@
    }
   ],
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{17C00C15-7B16-DC02-4056-93ED6E0D6911}"
 =======
   "FileHash": "{E4DBDA17-4D7B-F5D9-45E9-375C63C05937}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{17C00C15-7B16-DC02-4056-93ED6E0D6911}"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
  }
 }

@@ -11,10 +11,14 @@
     "GUID": "{4A3D9450-46C7-4342-B50D-108E6FB424D5}",
     "Language": "SFX",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
 =======
     "Hash": "{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}",
 >>>>>>> f198644 (Git LFS Update)
+=======
+    "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
     "ObjectPath": "Play_Digging_Up_Plant",
     "ShortName": "Play_Digging_Up_Plant",
     "Path": "Event/Play_Digging_Up_Plant.bnk",
@@ -27,10 +31,14 @@
       "ShortName": "SFX_Plant Dig Up_01_v2.wav",
       "Path": "Media/767701832.wem",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
 =======
       "CachePath": "CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem"
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
      }
     ],
     "Events": [
@@ -53,9 +61,13 @@
    }
   ],
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{74536497-4B9C-D8AD-67B4-60D3F23F6969}"
 =======
   "FileHash": "{A91BB19F-9ACC-CB44-4F7F-04A5A84C4409}"
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{74536497-4B9C-D8AD-67B4-60D3F23F6969}"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
  }
 }
