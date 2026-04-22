@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
@@ -46,6 +47,9 @@
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{F1BFD328-A3CC-0A15-98F1-042200324B4B}">
+>>>>>>> f198644 (Git LFS Update)
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -65,19 +69,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="53202029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass_04.wav</ShortName>
 					<CachePath>44/{4483EF53-4E9B-5CEF-4DF1-E03E1FC2F7C2}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="128863012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_01.wav</ShortName>
 					<CachePath>CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem</CachePath>
@@ -85,9 +95,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="132634063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spring Music 44.1.wav</ShortName>
 					<CachePath>BC/{BC1DB1D0-8D04-3D26-5CB1-946A6F33415C}.wem</CachePath>
@@ -97,11 +110,14 @@
 					<CachePath>B6/{B6936AE9-E370-1ED9-59C5-E25F966E43CA}.wem</CachePath>
 				</File>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="147936951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_02.wav</ShortName>
 					<CachePath>E6/{E6048A61-D0F4-73DA-D1C2-B28C267A7ACE}.wem</CachePath>
@@ -113,19 +129,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="246889118" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass_02.wav</ShortName>
 					<CachePath>FF/{FF98C9BF-2E1F-077C-644A-CD9513712524}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="253876681" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_14.wav</ShortName>
 					<CachePath>64/{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem</CachePath>
@@ -145,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -153,6 +176,8 @@
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 				</File>
 				<File Id="326278609" Language="SFX" Streaming="false" Location="Memory">
@@ -166,6 +191,7 @@
 				<File Id="327896736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spring Music 44.1.wav</ShortName>
 					<CachePath>FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem</CachePath>
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -197,6 +223,8 @@
 =======
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
@@ -226,6 +254,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
@@ -244,6 +273,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="577526996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 07.wav</ShortName>
 					<CachePath>47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem</CachePath>
@@ -251,9 +282,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="605369206" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Rock01.wav</ShortName>
 					<CachePath>0C/{0CC925BF-2D09-E222-B64F-D1D32C5CBC2D}.wem</CachePath>
@@ -263,11 +297,14 @@
 					<CachePath>F0/{F08A943D-EDBF-8DDE-581D-E01F5C036C29}.wem</CachePath>
 				</File>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="631474963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_05.wav</ShortName>
 					<CachePath>B9/{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem</CachePath>
@@ -283,19 +320,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="661201764" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_A04.wav</ShortName>
 					<CachePath>7C/{7C5B6292-0C0A-7793-FB12-3B2202703C6E}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="720278991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_01.wav</ShortName>
 					<CachePath>D4/{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem</CachePath>
@@ -315,19 +358,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="769204516" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Rock02.wav</ShortName>
 					<CachePath>42/{4235D687-DB65-E3C0-0F7D-D0B36A0EC0D3}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="804176017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_05.wav</ShortName>
 					<CachePath>AE/{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem</CachePath>
@@ -359,19 +408,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="925054752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_A02.wav</ShortName>
 					<CachePath>D1/{D1106CFB-946E-31DE-3DCE-9D28E7265A5A}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="977423185" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_11.wav</ShortName>
 					<CachePath>C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem</CachePath>
@@ -379,19 +434,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="988108994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass_03.wav</ShortName>
 					<CachePath>D9/{D9890019-D577-A0CD-6F5C-707003B70933}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="1046667742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_06.wav</ShortName>
 					<CachePath>FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem</CachePath>
@@ -399,12 +460,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<File Id="1062463723" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_A03.wav</ShortName>
 					<CachePath>4C/{4CF3AB96-ADB8-5325-ACBD-D61A31521280}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 			</Media>
 			<Plugins>
 				<Custom>
@@ -429,6 +496,7 @@
 					</PluginRefs>
 				</Event>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 =======
 				<File Id="1062463723" Language="SFX" Streaming="false" Location="Memory">
@@ -449,6 +517,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps" GUID="{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}" Color="15" DurationType="OneShot" DurationMin="0.33852082" DurationMax="0.7168791">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -482,6 +552,7 @@
 				</Event>
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\AMBIENCE\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 =======
@@ -490,6 +561,8 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 					<MediaRefs>
 						<MediaRef Id="1012836"/>
 						<MediaRef Id="20790822"/>
@@ -526,20 +599,26 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="126004133"/>
 						</Custom>
 					</PluginRefs>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 				</Event>
 				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
 					<MediaRefs>
@@ -547,10 +626,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<MediaRef Id="472907063"/>
 =======
 						<MediaRef Id="327896736"/>
 >>>>>>> c26099d (no message)
+=======
+						<MediaRef Id="327896736"/>
+>>>>>>> f198644 (Git LFS Update)
 					</MediaRefs>
 					<PluginRefs>
 						<ShareSets>
@@ -580,6 +663,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+<<<<<<< HEAD
 				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="312702700"/>
@@ -609,6 +693,10 @@
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 =======
 >>>>>>> c26099d (no message)
+=======
+			</Events>
+			<Busses>
+>>>>>>> f198644 (Git LFS Update)
 				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
 				<Bus Id="143634621" Name="Ambience Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambience Master" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 				<Bus Id="1279065646" Name="SFX &amp; UI Master (for music ducking)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX &amp; UI Master (for music ducking)" GUID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" Color="19">
@@ -621,6 +709,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="10"/>
 			</Busses>
 			<AuxBusses>
+<<<<<<< HEAD
 <<<<<<< HEAD
 				<AuxBus Id="84696428" Name="s" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
@@ -728,6 +817,8 @@
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
 				<AuxBus Id="2675173306" Name="House_Reverb" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\House_Reverb" GUID="{283547EC-048D-43C2-A2BB-0ACADCE94D82}" Color="4">
 					<PluginRefs>
 						<Custom>
@@ -735,9 +826,12 @@
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> ef343c7 (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="441011833" Name="MusicDuck" ObjectPath="\Game Parameters\Default Work Unit\MusicDuck" GUID="{B6B854D8-2035-4EA0-AB93-867F1548FE39}" Color="24"/>
@@ -755,6 +849,7 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,4 +882,7 @@
 =======
 	<FileHash>{1B55DF76-9665-0B9E-4FEE-8DA0E40DCA68}</FileHash>
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+	<FileHash>{D3CFF9E1-2B2F-273E-FD33-C0C31794B909}</FileHash>
+>>>>>>> f198644 (Git LFS Update)
 </SoundBanksInfo>

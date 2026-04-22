@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
@@ -37,6 +38,10 @@
 >>>>>>> ef343c7 (no message)
 =======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+   "Name": "Windows",
+   "BasePlatform": "Windows",
+>>>>>>> f198644 (Git LFS Update)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -48,7 +53,11 @@
   },
   "DefaultAlign": "16",
   "Settings": {
+<<<<<<< HEAD
    "AutoSoundBankDefinition": "false",
+=======
+   "AutoSoundBankDefinition": "true",
+>>>>>>> f198644 (Git LFS Update)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -67,6 +76,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,5 +112,8 @@
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+  "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
+>>>>>>> f198644 (Git LFS Update)
  }
 }

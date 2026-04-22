@@ -18,6 +18,7 @@ State	ID	Name	State Group			Notes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
@@ -29,10 +30,13 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	441011833	MusicDuck			\Default Work Unit\MusicDuck	
 	4231187838	Ambience_MenuMute			\Default Work Unit\Ambience_MenuMute	
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -42,11 +46,21 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 <<<<<<< HEAD
+=======
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
+	143634621	Ambience Master			\Default Work Unit\Master Audio Bus\Ambience Master	
+	1279065646	SFX & UI Master (for music ducking)			\Default Work Unit\Master Audio Bus\SFX & UI Master (for music ducking)	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+>>>>>>> f198644 (Git LFS Update)
 	2675173306	House_Reverb			\Default Work Unit\Master Audio Bus\House_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	980414561	Room_Small (Custom)	Wwise RoomVerb			
 	1111163968	MusicDuckMeter	Wwise Meter			
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 	84696428	s			\Default Work Unit\Master Audio Bus\s	
@@ -55,6 +69,8 @@ Effect plug-ins	ID	Name	Type				Notes
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

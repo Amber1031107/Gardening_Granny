@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
 =======
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
@@ -26,6 +27,9 @@
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
 >>>>>>> f8dbe17 (no message)
 >>>>>>> c26099d (no message)
+=======
+		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
+>>>>>>> f198644 (Git LFS Update)
 			<ObjectPath>Play_Cut_Scene_Button</ObjectPath>
 			<ShortName>Play_Cut_Scene_Button</ShortName>
 			<Path>Event/Play_Cut_Scene_Button.bnk</Path>
@@ -42,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
@@ -52,11 +57,14 @@
 			<Events>
 				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="2.2946439" DurationMax="2.2946439">
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
 					<CachePath>21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="2.3505993" DurationMax="2.3505993">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -79,6 +87,8 @@
 				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="2.2946439" DurationMax="2.2946439">
 >>>>>>> f8dbe17 (no message)
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
 					<MediaRefs>
 						<MediaRef Id="307067782"/>
 						<MediaRef Id="340222023"/>
@@ -91,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{1A13B755-9A75-5685-DC80-21D0C7A36ACD}</FileHash>
 =======
 	<FileHash>{31424A31-3553-7BD6-B49E-1DB7CD25DCA6}</FileHash>
@@ -112,4 +123,7 @@
 	<FileHash>{1A13B755-9A75-5685-DC80-21D0C7A36ACD}</FileHash>
 >>>>>>> f8dbe17 (no message)
 >>>>>>> c26099d (no message)
+=======
+	<FileHash>{31424A31-3553-7BD6-B49E-1DB7CD25DCA6}</FileHash>
+>>>>>>> f198644 (Git LFS Update)
 </SoundBanksInfo>

@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -56,6 +57,9 @@
 =======
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+    "Hash": "{F1BFD328-A3CC-0A15-98F1-042200324B4B}",
+>>>>>>> f198644 (Git LFS Update)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -88,9 +92,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "53202029",
       "Language": "SFX",
       "Streaming": "false",
@@ -100,11 +107,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "128863012",
       "Language": "SFX",
       "Streaming": "false",
@@ -116,9 +126,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "132634063",
       "Language": "SFX",
       "Streaming": "false",
@@ -136,11 +149,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "147936951",
       "Language": "SFX",
       "Streaming": "false",
@@ -160,9 +176,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "246889118",
       "Language": "SFX",
       "Streaming": "false",
@@ -172,11 +191,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "253876681",
       "Language": "SFX",
       "Streaming": "false",
@@ -207,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -215,6 +238,8 @@
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
      },
      {
@@ -240,6 +265,7 @@
       "Location": "Memory",
       "ShortName": "Spring Music 44.1.wav",
       "CachePath": "FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem"
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -283,6 +309,8 @@
 =======
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "355788501",
@@ -337,6 +365,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
@@ -359,6 +388,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "577526996",
       "Language": "SFX",
       "Streaming": "false",
@@ -370,9 +401,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "605369206",
       "Language": "SFX",
       "Streaming": "false",
@@ -390,11 +424,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "631474963",
       "Language": "SFX",
       "Streaming": "false",
@@ -422,9 +459,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "661201764",
       "Language": "SFX",
       "Streaming": "false",
@@ -434,11 +474,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "720278991",
       "Language": "SFX",
       "Streaming": "false",
@@ -474,9 +517,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "769204516",
       "Language": "SFX",
       "Streaming": "false",
@@ -486,11 +532,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "804176017",
       "Language": "SFX",
       "Streaming": "false",
@@ -550,9 +599,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "925054752",
       "Language": "SFX",
       "Streaming": "false",
@@ -562,11 +614,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "977423185",
       "Language": "SFX",
       "Streaming": "false",
@@ -578,9 +633,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "988108994",
       "Language": "SFX",
       "Streaming": "false",
@@ -590,11 +648,14 @@
      },
      {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "1046667742",
       "Language": "SFX",
       "Streaming": "false",
@@ -604,9 +665,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      }
     ],
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "1062463723",
@@ -617,6 +681,7 @@
       "CachePath": "4C/{4CF3AB96-ADB8-5325-ACBD-D61A31521280}.wem"
      }
     ],
+<<<<<<< HEAD
 =======
      },
      {
@@ -629,6 +694,8 @@
      }
     ],
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
     "Plugins": {
      "Custom": [
       {
@@ -668,6 +735,7 @@
      ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
      }
@@ -675,6 +743,8 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
     "Events": [
      {
       "Id": "1551648488",
@@ -685,6 +755,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,6 +778,8 @@
        {
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
         "Id": "132634063"
        },
        {
@@ -756,7 +829,10 @@
         ]
        },
        {
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "3714303081",
@@ -802,6 +878,7 @@
          }
         ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
         "Id": "472907063"
@@ -810,6 +887,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
        }
       ]
      },
@@ -819,6 +898,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
 =======
       "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCE\\Play_Spring_AMB",
@@ -829,6 +909,9 @@
 =======
       "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCE\\Play_Spring_AMB",
 >>>>>>> c26099d (no message)
+=======
+      "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCE\\Play_Spring_AMB",
+>>>>>>> f198644 (Git LFS Update)
       "GUID": "{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}",
       "Color": "11",
       "DurationType": "Infinite",
@@ -929,11 +1012,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ]
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       ],
       "PluginRefs": {
        "Custom": [
@@ -943,6 +1029,7 @@
        ]
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
       ]
@@ -951,6 +1038,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "474285493",
@@ -968,6 +1057,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "472907063"
        }
       ]
@@ -978,6 +1068,10 @@
         "Id": "327896736"
        }
 >>>>>>> c26099d (no message)
+=======
+        "Id": "327896736"
+       }
+>>>>>>> f198644 (Git LFS Update)
       ],
       "PluginRefs": {
        "ShareSets": [
@@ -986,6 +1080,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -1000,6 +1095,8 @@
        }
       ]
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "3643452717",
@@ -1014,14 +1111,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
         "Id": "132634063"
 >>>>>>> c26099d (no message)
+=======
+        "Id": "132634063"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "312702700"
        }
+<<<<<<< HEAD
 <<<<<<< HEAD
       ]
 =======
@@ -1040,6 +1142,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       ],
       "PluginRefs": {
        "ShareSets": [
@@ -1048,6 +1152,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -1058,6 +1163,8 @@
 =======
       ]
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "3439960413",
@@ -1072,14 +1179,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
         "Id": "132634063"
 >>>>>>> c26099d (no message)
+=======
+        "Id": "132634063"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "312702700"
        }
+<<<<<<< HEAD
 <<<<<<< HEAD
       ]
 =======
@@ -1098,6 +1210,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       ],
       "PluginRefs": {
        "ShareSets": [
@@ -1106,6 +1220,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -1116,10 +1231,13 @@
 =======
       ]
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
      }
     ],
     "Busses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1143,6 +1261,8 @@
 >>>>>>> 74561eb (rebase pt2 ig?)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "79554116",
       "Name": "Music Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
@@ -1153,6 +1273,7 @@
       "Id": "143634621",
       "Name": "Ambience Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambience Master",
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -1166,10 +1287,13 @@
 >>>>>>> 6d3d0ae (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,6 +1313,8 @@
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "1279065646",
       "Name": "SFX & UI Master (for music ducking)",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX & UI Master (for music ducking)",
@@ -1201,6 +1327,7 @@
         }
        ]
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -1219,10 +1346,13 @@
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1256,10 +1386,16 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
 >>>>>>> c26099d (no message)
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "10"
+>>>>>>> f198644 (Git LFS Update)
      }
     ],
     "AuxBusses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,6 +1423,8 @@
       "Color": "11"
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> f198644 (Git LFS Update)
       "Id": "2675173306",
       "Name": "House_Reverb",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb",
@@ -1299,7 +1437,10 @@
         }
        ]
       }
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
      }
     ],
     "GameParameters": [
@@ -1348,6 +1489,7 @@
         "Color": "8"
        },
        {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "Id": "3553349781",
         "Name": "Inside",
@@ -1424,11 +1566,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Grass",
         "GUID": "{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}",
         "Color": "18"
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -1439,12 +1584,15 @@
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> f198644 (Git LFS Update)
        }
       ]
      }
     ]
    }
   ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1490,5 +1638,8 @@
 =======
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+  "FileHash": "{72D08D46-8899-2D2A-7CE3-C6EC4DCC2CF7}"
+>>>>>>> f198644 (Git LFS Update)
  }
 }

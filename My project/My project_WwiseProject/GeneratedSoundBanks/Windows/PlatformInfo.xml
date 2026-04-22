@@ -12,6 +12,7 @@
 	<Settings>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
 =======
 		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
@@ -19,6 +20,9 @@
 =======
 		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
 >>>>>>> 6d3d0ae (no message)
+=======
+		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
+>>>>>>> f198644 (Git LFS Update)
 		<CopyLooseStreamedMediaFiles>true</CopyLooseStreamedMediaFiles>
 		<SubFoldersForGeneratedFiles>false</SubFoldersForGeneratedFiles>
 		<RemoveUnusedGeneratedFiles>true</RemoveUnusedGeneratedFiles>
@@ -40,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{8DADC2B2-E650-EF22-EE7A-1997350F88C0}</FileHash>
 =======
 	<FileHash>{2F26F1F1-6481-FDB7-9510-6A5EC406CEE0}</FileHash>
@@ -50,4 +55,7 @@
 =======
 	<FileHash>{8DADC2B2-E650-EF22-EE7A-1997350F88C0}</FileHash>
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+	<FileHash>{2F26F1F1-6481-FDB7-9510-6A5EC406CEE0}</FileHash>
+>>>>>>> f198644 (Git LFS Update)
 </PlatformInfo>
