@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
 <<<<<<< HEAD
@@ -139,7 +140,15 @@
 	<SoundBanks>
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
+>>>>>>> 93f1f27 (no message)
+>>>>>>> 1d3a915 (no message)
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -351,6 +360,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -379,6 +389,8 @@
 >>>>>>> 5437169 (no message)
 =======
 >>>>>>> bfd60f9 (no message)
+=======
+>>>>>>> 1d3a915 (no message)
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -480,6 +492,9 @@
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
 >>>>>>> 5bc341c (no message)
+=======
+					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
+>>>>>>> 93f1f27 (no message)
 				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
@@ -1231,6 +1246,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 =======
 >>>>>>> c26099d (no message)
@@ -1258,6 +1274,8 @@
 >>>>>>> 5437169 (no message)
 =======
 >>>>>>> bfd60f9 (no message)
+=======
+>>>>>>> 1d3a915 (no message)
 				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
 				<Bus Id="143634621" Name="Ambience Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambience Master" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 				<Bus Id="1279065646" Name="SFX &amp; UI Master (for music ducking)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX &amp; UI Master (for music ducking)" GUID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" Color="19">
@@ -1471,7 +1489,20 @@
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
+				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="84696428" Name="s" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
+				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
+				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+>>>>>>> 93f1f27 (no message)
+>>>>>>> 1d3a915 (no message)
 			</AuxBusses>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
@@ -1484,6 +1515,7 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1538,6 +1570,8 @@
 >>>>>>> 5437169 (no message)
 =======
 >>>>>>> bfd60f9 (no message)
+=======
+>>>>>>> 1d3a915 (no message)
 	<FileHash>{3E7746D9-342A-D15A-7154-00F370BCB2CD}</FileHash>
 =======
 	<FileHash>{E82AC769-FA6C-C126-7C24-15E49C6A2FA9}</FileHash>
@@ -1656,5 +1690,11 @@
 =======
 	<FileHash>{E82AC769-FA6C-C126-7C24-15E49C6A2FA9}</FileHash>
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+	<FileHash>{1B55DF76-9665-0B9E-4FEE-8DA0E40DCA68}</FileHash>
+>>>>>>> 93f1f27 (no message)
+>>>>>>> 1d3a915 (no message)
 </SoundBanksInfo>

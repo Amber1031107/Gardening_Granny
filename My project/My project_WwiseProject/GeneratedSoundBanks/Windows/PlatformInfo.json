@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    "AutoSoundBankDefinition": "false",
 =======
    "AutoSoundBankDefinition": "true",
@@ -80,6 +81,8 @@
 >>>>>>> 5a75269 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> 1d3a915 (no message)
    "AutoSoundBankDefinition": "true",
 =======
    "AutoSoundBankDefinition": "false",
@@ -96,7 +99,13 @@
 =======
    "AutoSoundBankDefinition": "false",
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+   "AutoSoundBankDefinition": "false",
+>>>>>>> 93f1f27 (no message)
+>>>>>>> 1d3a915 (no message)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -115,6 +124,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +175,8 @@
 >>>>>>> 5a75269 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> 1d3a915 (no message)
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -191,6 +203,12 @@
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> 93f1f27 (no message)
+>>>>>>> 1d3a915 (no message)
  }
 }
