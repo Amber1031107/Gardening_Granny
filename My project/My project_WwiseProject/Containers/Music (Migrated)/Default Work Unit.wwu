@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
 =======
 >>>>>>> b4c89e6 (no message)
@@ -45,6 +46,8 @@
 =======
 >>>>>>> 1d3a915 (no message)
 =======
+>>>>>>> 19a21f4 (no message)
+=======
 >>>>>>> cfb9e52 (pt3)
 =======
 >>>>>>> 3226c72 (pt3)
@@ -63,7 +66,13 @@
 =======
 =======
 >>>>>>> 93f1f27 (no message)
+<<<<<<< HEAD
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+<<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
+>>>>>>> 9f18f85 (no message)
+>>>>>>> 19a21f4 (no message)
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="133">
 	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone">
@@ -4678,6 +4687,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 8b6791b (no message)
@@ -4696,6 +4706,8 @@
 =======
 >>>>>>> 1d3a915 (no message)
 =======
+>>>>>>> 19a21f4 (no message)
+=======
 =======
 >>>>>>> e97b253 (rebase)
 <<<<<<< HEAD
@@ -4713,11 +4725,18 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+=======
+>>>>>>> 9f18f85 (no message)
+>>>>>>> 19a21f4 (no message)
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="123">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone"/>
 	</InteractiveMusic>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4744,6 +4763,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> bfd60f9 (no message)
+=======
+>>>>>>> 19a21f4 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 <<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
@@ -4790,5 +4811,11 @@
 =======
 =======
 >>>>>>> 93f1f27 (no message)
+<<<<<<< HEAD
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX):My project/My project_WwiseProject/Interactive Music Hierarchy/Default Work Unit.wwu
+>>>>>>> 9f18f85 (no message)
+>>>>>>> 19a21f4 (no message)
 </WwiseDocument>

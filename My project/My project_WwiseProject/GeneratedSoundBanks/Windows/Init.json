@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -112,6 +113,8 @@
 >>>>>>> bfd60f9 (no message)
 =======
 >>>>>>> 1d3a915 (no message)
+=======
+>>>>>>> 19a21f4 (no message)
     "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -170,7 +173,16 @@
 =======
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 >>>>>>> 93f1f27 (no message)
+<<<<<<< HEAD
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+    "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
+=======
+    "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+>>>>>>> 9f18f85 (no message)
+>>>>>>> 19a21f4 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -362,7 +374,11 @@
 >>>>>>> 62545f0 (no message)
       "Id": "79554116",
       "Name": "Music Master",
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
      },
@@ -1201,6 +1217,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1251,6 +1268,8 @@
 >>>>>>> bfd60f9 (no message)
 =======
 >>>>>>> 1d3a915 (no message)
+=======
+>>>>>>> 19a21f4 (no message)
   "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1309,6 +1328,15 @@
 =======
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 >>>>>>> 93f1f27 (no message)
+<<<<<<< HEAD
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+  "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
+=======
+  "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+>>>>>>> 9f18f85 (no message)
+>>>>>>> 19a21f4 (no message)
  }
 }
