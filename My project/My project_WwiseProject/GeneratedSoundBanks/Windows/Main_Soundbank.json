@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "SoundBankVersion": "172",
 =======
   "SoundBankVersion": "154",
@@ -24,6 +25,9 @@
 =======
   "SoundBankVersion": "154",
 >>>>>>> f98d626 (no message)
+=======
+  "SoundBankVersion": "172",
+>>>>>>> 1fc8695 (no message)
   "SoundBanks": [
    {
     "Id": "2228651116",
@@ -31,6 +35,7 @@
     "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
     "Color": "10",
     "Language": "SFX",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +112,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> 5437169 (no message)
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -153,7 +160,13 @@
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+    "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
+>>>>>>> 1fc8695 (no message)
+>>>>>>> 5437169 (no message)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -415,6 +428,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -439,6 +453,8 @@
 >>>>>>> 44531e6 (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> 5437169 (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -570,6 +586,9 @@
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
 >>>>>>> f98d626 (no message)
+=======
+      "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
+>>>>>>> 1fc8695 (no message)
      },
      {
       "Id": "355788501",
@@ -2260,7 +2279,7 @@
 =======
       "Id": "79554116",
       "Name": "Music Master",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
 >>>>>>> f98d626 (no message)
@@ -2269,6 +2288,7 @@
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2319,6 +2339,8 @@
 >>>>>>> 44531e6 (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> 5437169 (no message)
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2358,6 +2380,9 @@
 =======
 =======
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+>>>>>>> 1fc8695 (no message)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 >>>>>>> f98d626 (no message)
 >>>>>>> 407e5fa (no message)
@@ -2503,21 +2528,21 @@
 =======
       "Id": "84696428",
       "Name": "s",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
       "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
 >>>>>>> f98d626 (no message)
      },
      {
       "Id": "438105790",
       "Name": "Outside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
       "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
       "Color": "11"
      },
      {
       "Id": "3553349781",
       "Name": "Inside",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
      }
@@ -2763,6 +2788,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -2818,6 +2844,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> 5437169 (no message)
   "FileHash": "{FFA0E3ED-5A49-70E3-BC1F-63FFD2B202D7}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -2864,6 +2892,12 @@
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+  "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
+>>>>>>> 1fc8695 (no message)
+>>>>>>> 5437169 (no message)
  }
 }

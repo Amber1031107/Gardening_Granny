@@ -437,6 +437,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e97b253 (rebase)
 =======
@@ -488,6 +489,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> c9441e8 (rebase pt2 ig?)
 =======
 >>>>>>> 855021a (no message)
+=======
+>>>>>>> 1fc8695 (no message)
 	1012836	Amb_Owl2 03	.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
 	20790822	Amb_Owl2 06	.cache\5A\{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 06		152544
 	34470463	Amb_Birds Spring_04	.cache\3F\{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_04		151300
@@ -523,6 +526,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1046667742	Amb_Birds Spring_06	.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 67b769d (Fixed Wwise Issue)
 <<<<<<< HEAD
 >>>>>>> 654bc1e (no message)
@@ -549,5 +553,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 1fc8695 (no message)
+>>>>>>> 5437169 (no message)
 
