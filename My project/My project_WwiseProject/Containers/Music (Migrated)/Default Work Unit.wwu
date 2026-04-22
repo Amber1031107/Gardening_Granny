@@ -146,6 +146,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -197,6 +198,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -249,12 +252,19 @@
 =======
 														<MediaID ID="472907063"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+														<MediaID ID="843154542"/>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Sequences">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +317,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -392,7 +404,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													
 												<MusicTrackSequence Name="" ID="{734CE13E-2176-417C-9997-F7896F9EB1D6}">
 																<ObjectLists>
@@ -408,6 +425,7 @@
 																				</MusicClip></ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -452,6 +470,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -495,12 +515,18 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +579,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -631,7 +659,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											
 											
 										<MusicCue Name="Entry Cue" ID="{10CA6CE3-1645-46F7-932A-7B69F0EED3F0}"/><MusicCue Name="Exit Cue" ID="{669281FE-55E2-4CA8-874B-A86FD9179B28}">
@@ -640,6 +673,7 @@
 															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +718,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -727,7 +763,12 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="Summer Music" ID="{555F0C61-60B3-43B0-AB01-FBFF4F6D80EE}" ShortID="817442449">
@@ -784,6 +825,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -835,6 +877,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -887,12 +931,19 @@
 =======
 														<MediaID ID="472907063"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+														<MediaID ID="843154542"/>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Sequences">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -945,6 +996,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -1030,7 +1083,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													
 												<MusicTrackSequence Name="" ID="{289E7251-CF93-4D81-9D91-AF1DE620D65F}">
 																<ObjectLists>
@@ -1046,6 +1104,7 @@
 																				</MusicClip></ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1149,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -1133,12 +1194,18 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,6 +1258,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -1269,7 +1338,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											
 											
 										<MusicCue Name="Entry Cue" ID="{60817B8E-8C0A-41FC-838B-7B707076F5F4}"/><MusicCue Name="Exit Cue" ID="{39CBB411-651C-46E0-B575-15951304B3AB}">
@@ -1278,6 +1352,7 @@
 															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1397,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -1365,7 +1442,12 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="Autumn Music" ID="{3FE2C662-E73F-4288-826F-88C166FB0AC6}" ShortID="375065201">
@@ -1422,6 +1504,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -1473,6 +1556,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -1525,12 +1610,19 @@
 =======
 														<MediaID ID="472907063"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+														<MediaID ID="843154542"/>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Sequences">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1583,6 +1675,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -1668,7 +1762,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													
 												<MusicTrackSequence Name="" ID="{A54159C3-0892-44B0-B547-6B2A2E234697}">
 																<ObjectLists>
@@ -1684,6 +1783,7 @@
 																				</MusicClip></ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1728,6 +1828,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -1771,12 +1873,18 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1829,6 +1937,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -1907,7 +2017,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											
 											
 										<MusicCue Name="Entry Cue" ID="{3876FC77-D11C-4450-8093-4B40C9429EFE}"/><MusicCue Name="Exit Cue" ID="{8D6E3E9C-2211-413D-85C0-05E1F7FD1BBC}">
@@ -1916,6 +2031,7 @@
 															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1960,6 +2076,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -2003,7 +2121,12 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="Winter Music" ID="{0AE3AC98-6982-4AC6-B7DC-18D921802F0E}" ShortID="855712792">
@@ -2060,6 +2183,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -2111,6 +2235,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 														<MediaID ID="472907063"/>
 =======
 														<MediaID ID="843154542"/>
@@ -2163,12 +2289,19 @@
 =======
 														<MediaID ID="472907063"/>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+														<MediaID ID="843154542"/>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Sequences">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2221,6 +2354,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -2306,7 +2441,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													
 												<MusicTrackSequence Name="" ID="{2783E2C8-3E63-43EF-8002-F0DA889C3D33}">
 																<ObjectLists>
@@ -2322,6 +2462,7 @@
 																				</MusicClip></ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2366,6 +2507,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -2409,12 +2552,18 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,6 +2616,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -2545,7 +2696,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											
 											
 										<MusicCue Name="Entry Cue" ID="{D417D23D-EB86-4FEF-89D7-A026FC37593E}"/><MusicCue Name="Exit Cue" ID="{6D462A7E-5F64-4979-8B8B-DBA99292AD76}">
@@ -2554,6 +2710,7 @@
 															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2598,6 +2755,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -2641,7 +2800,12 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
@@ -2670,6 +2834,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
@@ -2690,6 +2855,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 										<StateGroupInfo Name="" ID="{CF88BF66-6354-4488-BFC4-37679D89EA35}" ShortID="647715907"/>
 									</StateGroupInfo>
 =======
@@ -2791,7 +2958,13 @@
 										<StateGroupInfo Name="" ID="{CF88BF66-6354-4488-BFC4-37679D89EA35}" ShortID="647715907"/>
 									</StateGroupInfo>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+									<StateGroupInfo Name="" ID="{CF88BF66-6354-4488-BFC4-37679D89EA35}"/></StateGroupInfo>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
@@ -2839,6 +3012,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
@@ -2870,6 +3044,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -2931,11 +3107,17 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									
 								<PluginInnerObject Name="" ID="{2DB6B463-5BB1-44C4-9C50-954C4BA1AB9D}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89"><ReferenceList><Reference Name="Argument">
 										<ObjectRef Name="Seasons" ID="{F0AD419A-11B3-41D5-B881-E09C2FE60B91}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
 									</Reference></ReferenceList></PluginInnerObject></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2957,6 +3139,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 5fee5fe (pulling audio into programming)
 =======
 >>>>>>> 3226c72 (pt3)
@@ -3274,73 +3458,64 @@
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
 >>>>>>> 1fc8695 (no message)
+=======
+>>>>>>> 0bf64ce (no message)
 								<ObjectList Name="Entries">
-									<MultiSwitchEntry Name="" ID="{9B1B3872-3864-4817-A08D-0CC66B59FA23}">
-										<ReferenceList>
-											<Reference Name="AudioNode">
-												<ObjectRef Name="Autumn Music" ID="{3FE2C662-E73F-4288-826F-88C166FB0AC6}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
-											</Reference>
-										</ReferenceList>
-										<ObjectLists>
-											<ObjectList Name="EntryPath">
-												<PluginInnerObject Name="" ID="{B26B53B9-C10F-4982-B8B9-68D091F59A3F}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
-													<ReferenceList>
-														<Reference Name="EntryPathObject">
+									
+									
+									
+									
+								<MultiSwitchEntry Name="" ID="{9B1B3872-3864-4817-A08D-0CC66B59FA23}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Autumn Music" ID="{3FE2C662-E73F-4288-826F-88C166FB0AC6}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														
+													<PluginInnerObject Name="" ID="{B26B53B9-C10F-4982-B8B9-68D091F59A3F}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88"><ReferenceList><Reference Name="EntryPathObject">
 															<ObjectRef Name="Autumn" ID="{B7754862-0699-48DE-B209-D6DC8A81752F}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
-														</Reference>
-													</ReferenceList>
-												</PluginInnerObject>
-											</ObjectList>
-										</ObjectLists>
-									</MultiSwitchEntry>
-									<MultiSwitchEntry Name="" ID="{0FE6B28A-7873-4496-BF36-A4DC4536FF81}">
-										<ReferenceList>
-											<Reference Name="AudioNode">
-												<ObjectRef Name="Spring Music" ID="{7C8D247E-FDD6-45F5-B494-47B072B1CF3C}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
-											</Reference>
-										</ReferenceList>
-										<ObjectLists>
-											<ObjectList Name="EntryPath">
-												<PluginInnerObject Name="" ID="{5BCE1CAD-357C-400C-BCFE-85A5AAB40534}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
-													<ReferenceList>
-														<Reference Name="EntryPathObject">
+														</Reference></ReferenceList></PluginInnerObject></ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry><MultiSwitchEntry Name="" ID="{0FE6B28A-7873-4496-BF36-A4DC4536FF81}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Spring Music" ID="{7C8D247E-FDD6-45F5-B494-47B072B1CF3C}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														
+													<PluginInnerObject Name="" ID="{5BCE1CAD-357C-400C-BCFE-85A5AAB40534}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88"><ReferenceList><Reference Name="EntryPathObject">
 															<ObjectRef Name="Spring" ID="{3A93A480-3BCA-4778-867F-A3AA264448D3}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
-														</Reference>
-													</ReferenceList>
-												</PluginInnerObject>
-											</ObjectList>
-										</ObjectLists>
-									</MultiSwitchEntry>
-									<MultiSwitchEntry Name="" ID="{8D4DF8B0-9FC2-4F65-AB9F-10655C40BAFA}">
-										<ReferenceList>
-											<Reference Name="AudioNode">
-												<ObjectRef Name="Summer Music" ID="{555F0C61-60B3-43B0-AB01-FBFF4F6D80EE}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
-											</Reference>
-										</ReferenceList>
-										<ObjectLists>
-											<ObjectList Name="EntryPath">
-												<PluginInnerObject Name="" ID="{56BA80AD-D335-48F6-AEA9-BA70114F968E}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
-													<ReferenceList>
-														<Reference Name="EntryPathObject">
+														</Reference></ReferenceList></PluginInnerObject></ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry><MultiSwitchEntry Name="" ID="{8D4DF8B0-9FC2-4F65-AB9F-10655C40BAFA}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Summer Music" ID="{555F0C61-60B3-43B0-AB01-FBFF4F6D80EE}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														
+													<PluginInnerObject Name="" ID="{56BA80AD-D335-48F6-AEA9-BA70114F968E}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88"><ReferenceList><Reference Name="EntryPathObject">
 															<ObjectRef Name="Summer" ID="{5AEE35B2-624B-40B2-BADD-5B49B8BA7D05}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
-														</Reference>
-													</ReferenceList>
-												</PluginInnerObject>
-											</ObjectList>
-										</ObjectLists>
-									</MultiSwitchEntry>
-									<MultiSwitchEntry Name="" ID="{DD6E7F09-8D4D-41D3-8632-EC8355F495C7}">
-										<ReferenceList>
-											<Reference Name="AudioNode">
-												<ObjectRef Name="Winter Music" ID="{0AE3AC98-6982-4AC6-B7DC-18D921802F0E}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
-											</Reference>
-										</ReferenceList>
-										<ObjectLists>
-											<ObjectList Name="EntryPath">
-												<PluginInnerObject Name="" ID="{6594712F-1BF2-45D6-A64E-FC7D44017927}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
-													<ReferenceList>
-														<Reference Name="EntryPathObject">
+														</Reference></ReferenceList></PluginInnerObject></ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry><MultiSwitchEntry Name="" ID="{DD6E7F09-8D4D-41D3-8632-EC8355F495C7}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="Winter Music" ID="{0AE3AC98-6982-4AC6-B7DC-18D921802F0E}" WorkUnitID="{711C0931-B438-406F-A8E8-E853B3311E91}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														
+													<PluginInnerObject Name="" ID="{6594712F-1BF2-45D6-A64E-FC7D44017927}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88"><ReferenceList><Reference Name="EntryPathObject">
 															<ObjectRef Name="Winter" ID="{33727495-CA6E-45BA-A72C-493DDEBC57C1}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 														</Reference></ReferenceList></PluginInnerObject></ObjectList>
@@ -3492,7 +3667,15 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+														</Reference></ReferenceList></PluginInnerObject></ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry></ObjectList>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 							</ObjectLists>
 						</MusicSwitchContainer>
 						<MusicSegment Name="Night Music" ID="{3138A18B-7E50-4C79-A7E2-613D84E71390}" ShortID="719390419">
@@ -3565,6 +3748,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
@@ -3596,6 +3780,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -3681,7 +3867,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 											
 										<MusicTrackSequence Name="" ID="{B8168578-CB1A-4210-813F-F878A1665EFE}">
 														<ObjectLists>
@@ -3697,6 +3888,7 @@
 																		</MusicClip></ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3741,6 +3933,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -3784,7 +3978,12 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									</ObjectLists>
 								</MusicTrack>
 							</ChildrenList>
@@ -3813,6 +4012,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
@@ -3833,6 +4033,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 										<StateGroupInfo Name="" ID="{A69CA239-24BB-4387-9B44-3EE6100516C5}" ShortID="44696655"/>
 									</StateGroupInfo>
 =======
@@ -3934,7 +4136,13 @@
 										<StateGroupInfo Name="" ID="{A69CA239-24BB-4387-9B44-3EE6100516C5}" ShortID="44696655"/>
 									</StateGroupInfo>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+									<StateGroupInfo Name="" ID="{A69CA239-24BB-4387-9B44-3EE6100516C5}"/></StateGroupInfo>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
@@ -3982,6 +4190,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
@@ -4013,6 +4222,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 67b769d (Fixed Wwise Issue)
 =======
@@ -4091,7 +4302,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 									
 									
 								<MusicCue Name="Entry Cue" ID="{C8231182-D3C3-472F-BFFF-F27E1EE7A479}"/><MusicCue Name="Exit Cue" ID="{76E8BC97-6397-415D-827C-BB25BC148ECC}">
@@ -4100,6 +4316,7 @@
 													<Property Name="TimeMs" Type="Real64" Value="71999.9999999999"/>
 												</PropertyList>
 											</MusicCue></ObjectList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4144,6 +4361,8 @@
 >>>>>>> 801a362 (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> e488188 (no message)
 >>>>>>> 2e5039c (test)
 =======
 >>>>>>> cfb9e52 (pt3)
@@ -4187,7 +4406,12 @@
 =======
 =======
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>

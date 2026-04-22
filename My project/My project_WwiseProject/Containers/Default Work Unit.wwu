@@ -422,6 +422,9 @@
 						<Folder Name="Player Actions" ID="{9702F2A2-EC4A-40ED-A1A8-C0526169B128}" ShortID="513968947">
 							<ChildrenList>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0bf64ce (no message)
 								<RandomSequenceContainer Name="Planting Plants" ID="{90C67818-9875-4963-9BF1-866A88CA384D}" ShortID="871031451">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -441,9 +444,13 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+<<<<<<< HEAD
 >>>>>>> 4ecf037 (no message)
 										</Reference>
 >>>>>>> f8dbe17 (no message)
+=======
+										</Reference>
+>>>>>>> 0bf64ce (no message)
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
@@ -560,6 +567,7 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -1740,7 +1748,15 @@
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="8"/>
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Digging Dirt" ID="{82584128-08A1-4642-BB06-DA4232AA60EF}" ShortID="38829140">
+									<PropertyList>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
 												<ModifierInfo>
@@ -1753,6 +1769,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1777,6 +1794,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> e488188 (no message)
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 =======
 >>>>>>> 2e5039c (test)
@@ -1805,7 +1824,12 @@
 =======
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2974,8 +2998,11 @@
 											</ReferenceList>
 											<ChildrenList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<Sound Name="SFX_Bear Trap Place_01" ID="{0DBFBB96-842E-4962-A4D4-4BACA9056A32}" ShortID="201348575">
 =======
+=======
+>>>>>>> e488188 (no message)
 												<Sound Name="SFX_Bear Trap Place" ID="{A91635E0-52A1-406A-9F21-22947D3289A0}" ShortID="511687138">
 <<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
@@ -3028,7 +3055,13 @@
 =======
 												<Sound Name="SFX_Bear Trap Place" ID="{A91635E0-52A1-406A-9F21-22947D3289A0}" ShortID="511687138">
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+												<Sound Name="SFX_Bear Trap Place_01" ID="{0DBFBB96-842E-4962-A4D4-4BACA9056A32}" ShortID="201348575">
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -3038,6 +3071,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3072,6 +3106,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> e488188 (no message)
 														<AudioFileSource Name="SFX_Bear Trap Place_NEW01" ID="{576E86CE-E05D-496B-A267-E32F065495EF}">
 =======
 														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
@@ -3085,14 +3121,17 @@
 =======
 														<AudioFileSource Name="SFX_Bear Trap Place_NEW01" ID="{576E86CE-E05D-496B-A267-E32F065495EF}">
 >>>>>>> f98d626 (no message)
+=======
+														<AudioFileSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}">
+>>>>>>> 0bf64ce (no message)
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0135636790743414"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0866374786813461"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0683400753361048"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>SFX_Bear Trap Place_NEW01.wav</AudioFile>
+															<AudioFile>SFX_Bear Trap Place_01.wav</AudioFile>
 															<MediaIDList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3108,6 +3147,8 @@
 <<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
 =======
+=======
+>>>>>>> e488188 (no message)
 <<<<<<< HEAD
 =======
 >>>>>>> f98d626 (no message)
@@ -3215,11 +3256,18 @@
 =======
 =======
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+																<MediaID ID="193754569"/>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3242,6 +3290,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> e488188 (no message)
 														<ActiveSource Name="SFX_Bear Trap Place_NEW02" ID="{FA69D777-6F0F-469E-907C-4CBB498A79EF}" Platform="Linked"/>
 =======
 														<ActiveSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}" Platform="Linked"/>
@@ -3276,7 +3326,13 @@
 =======
 														<ActiveSource Name="SFX_Bear Trap Place_NEW02" ID="{FA69D777-6F0F-469E-907C-4CBB498A79EF}" Platform="Linked"/>
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+														<ActiveSource Name="SFX_Bear Trap Place_01" ID="{E536F694-F5A0-4F70-9F6B-73269F1B0965}" Platform="Linked"/>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -3919,6 +3975,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 						<Sound Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
@@ -3930,6 +3987,8 @@
 						<Sound Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
 >>>>>>> b4c89e6 (no message)
 =======
+=======
+>>>>>>> e488188 (no message)
 						<Sound Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" ShortID="945929694">
 <<<<<<< HEAD
 							<PropertyList>
@@ -5043,6 +5102,9 @@
 =======
 						<Sound Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
 >>>>>>> f98d626 (no message)
+=======
+						<Sound Name="Mouse Click Button" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
+>>>>>>> 0bf64ce (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -5051,6 +5113,25 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI Click" ID="{0911A520-E957-41C0-959D-1C30CC38C36D}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>4.9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI Click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030263877"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI Click" ID="{0911A520-E957-41C0-959D-1C30CC38C36D}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Mouse Click Plant Select" ID="{BDB7D56A-60CA-4C3C-A484-45612C944B5C}" ShortID="150366444">
 							<ReferenceList>
@@ -5084,11 +5165,6 @@
 							<ChildrenList>
 								<AudioFileSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0165343915343915"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.418320105820106"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.128968253968254"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.67989417989418"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
 												<Value>-2.1</Value>
@@ -5106,6 +5182,7 @@
 								<ActiveSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
 =======
@@ -5217,6 +5294,8 @@
 							</ActiveSourceList>
 						</Sound>
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> e488188 (no message)
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{1E862D1A-1C7B-48D9-B960-B6F1CCA56516}" ShortID="674770471">
@@ -6147,6 +6226,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
@@ -6165,6 +6245,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 												<StateGroupInfo Name="" ID="{721A9C68-8989-424F-AAB1-39267B2F3D4E}" ShortID="878590231"/>
 =======
 >>>>>>> 51b2374 (no message)
@@ -6256,7 +6338,13 @@
 												<StateGroupInfo Name="" ID="{721A9C68-8989-424F-AAB1-39267B2F3D4E}" ShortID="878590231"/>
 											</StateGroupInfo>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+											<StateGroupInfo Name="" ID="{73CC2BF0-AC95-421C-8EA2-51B38160554E}"/></StateGroupInfo>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -6565,6 +6653,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
@@ -6583,6 +6672,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 5437169 (no message)
+=======
+>>>>>>> e488188 (no message)
 												<StateGroupInfo Name="" ID="{E19C1B0C-43FF-4A8E-9FCE-8A0B8C2E40D3}" ShortID="126922916"/>
 =======
 >>>>>>> 51b2374 (no message)
@@ -6674,7 +6765,13 @@
 												<StateGroupInfo Name="" ID="{E19C1B0C-43FF-4A8E-9FCE-8A0B8C2E40D3}" ShortID="126922916"/>
 											</StateGroupInfo>
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+											<StateGroupInfo Name="" ID="{C2EFE77F-527C-4E70-B403-F01143234261}"/></StateGroupInfo>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -9108,6 +9205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
@@ -9125,6 +9223,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> e488188 (no message)
 =======
 >>>>>>> 9a1dd63 (pt 2)
 =======
@@ -11401,7 +11501,12 @@
 					</ChildrenList>
 				</Folder>
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

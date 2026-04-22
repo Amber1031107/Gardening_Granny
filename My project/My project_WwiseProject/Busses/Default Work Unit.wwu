@@ -356,16 +356,12 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="Music Master" ID="{11F96520-960A-4725-89F6-496F227595C2}">
+						<AuxBus Name="Music" ID="{D11FA05B-F4EA-495F-94B0-001BAEF56C33}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="Color" Type="int16" Value="3"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,7 +397,13 @@
 =======
 						</Bus>
 >>>>>>> f98d626 (no message)
+<<<<<<< HEAD
 >>>>>>> 407e5fa (no message)
+=======
+=======
+						</AuxBus>
+>>>>>>> 0bf64ce (no message)
+>>>>>>> e488188 (no message)
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
