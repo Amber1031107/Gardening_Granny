@@ -8,6 +8,7 @@ public class Pause : MonoBehaviour
     public GameObject PauseMenu;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject ControlsMenu;
 =======
     public GameObject howToPlayPanel;
@@ -15,6 +16,12 @@ public class Pause : MonoBehaviour
 =======
     public GameObject howToPlayPanel;
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+    public GameObject howToPlayPanel;
+=======
+    public GameObject ControlsMenu;
+>>>>>>> 0f02715 (Fixing up after rebase)
+>>>>>>> b46e5f7 (no message)
 
     public AK.Wwise.Event pauseOnSound;
     public AK.Wwise.Event pauseOffSound;
@@ -25,6 +32,7 @@ public class Pause : MonoBehaviour
     void Start()
     {
         PauseMenu.SetActive(false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         ControlsMenu.SetActive(false);
@@ -38,6 +46,14 @@ public class Pause : MonoBehaviour
         if (howToPlayPanel != null)
             howToPlayPanel.SetActive(false);
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(false);
+=======
+        ControlsMenu.SetActive(false);
+>>>>>>> 0f02715 (Fixing up after rebase)
+>>>>>>> b46e5f7 (no message)
     }
 
     void Update()
@@ -129,15 +145,24 @@ public class Pause : MonoBehaviour
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+=======
+>>>>>>> b46e5f7 (no message)
 
     public void ControlScreen()
     {
         ControlsMenu.SetActive(true);
     }
 }
+<<<<<<< HEAD
 =======
 }
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
 }
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+>>>>>>> 0f02715 (Fixing up after rebase)
+>>>>>>> b46e5f7 (no message)

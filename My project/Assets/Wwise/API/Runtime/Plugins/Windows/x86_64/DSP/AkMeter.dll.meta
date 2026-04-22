@@ -8,6 +8,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
@@ -18,6 +19,10 @@ fileFormatVersion: 2
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> ef11019 (no message)
+=======
+=======
+>>>>>>> 0f02715 (Fixing up after rebase)
+>>>>>>> b46e5f7 (no message)
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 PluginImporter:
   externalObjects: {}
@@ -42,6 +47,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         OS: Windows
 <<<<<<< HEAD
@@ -55,6 +61,11 @@ PluginImporter:
 >>>>>>> 33591fd (no message)
 =======
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+        OS: Windows
+=======
+>>>>>>> 0f02715 (Fixing up after rebase)
+>>>>>>> b46e5f7 (no message)
     Linux64:
       enabled: 0
       settings:
@@ -82,6 +93,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> ff9a591 (Fixed Wwise Issue)
@@ -102,6 +114,8 @@ guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
 =======
+>>>>>>> b46e5f7 (no message)
+=======
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> 67b769d (Fixed Wwise Issue)
 <<<<<<< HEAD
@@ -110,4 +124,9 @@ guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 =======
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+>>>>>>> 0f02715 (Fixing up after rebase)
+>>>>>>> b46e5f7 (no message)
