@@ -12,6 +12,7 @@
     "Language": "SFX",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
 =======
     "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
@@ -19,10 +20,36 @@
 =======
     "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+    "Hash": "{A6E9FFD9-6D25-CEE0-3A7C-AC95E31992F8}",
+>>>>>>> f198644 (Git LFS Update)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+<<<<<<< HEAD
+=======
+     "Custom": [
+      {
+       "Id": "980414561",
+       "Name": "Room_Small (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "GUID": "{115C6A43-ACCE-441A-B094-5F77ED8D99B1}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1111163968",
+       "Name": "MusicDuckMeter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\MusicDuckMeter",
+       "GUID": "{CECBE9F4-FCB0-485F-AF3E-3AF43C4C7F2F}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ],
+>>>>>>> f198644 (Git LFS Update)
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -44,13 +71,27 @@
     },
     "Busses": [
      {
+<<<<<<< HEAD
       "Id": "77978275",
       "Name": "Ambient",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+     },
+     {
+      "Id": "143634621",
+      "Name": "Ambience Master",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambience Master",
+>>>>>>> f198644 (Git LFS Update)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
      {
+<<<<<<< HEAD
       "Id": "79554116",
       "Name": "Music Master",
 <<<<<<< HEAD
@@ -64,16 +105,36 @@
 >>>>>>> ff9a591 (Fixed Wwise Issue)
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
+=======
+      "Id": "1279065646",
+      "Name": "SFX & UI Master (for music ducking)",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\SFX & UI Master (for music ducking)",
+      "GUID": "{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}",
+      "Color": "19",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1111163968"
+        }
+       ]
+      }
+>>>>>>> f198644 (Git LFS Update)
      },
      {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+<<<<<<< HEAD
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+=======
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "10"
+>>>>>>> f198644 (Git LFS Update)
      }
     ],
     "AuxBusses": [
      {
+<<<<<<< HEAD
       "Id": "84696428",
       "Name": "s",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
@@ -92,6 +153,43 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
+=======
+      "Id": "2675173306",
+      "Name": "House_Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb",
+      "GUID": "{283547EC-048D-43C2-A2BB-0ACADCE94D82}",
+      "Color": "4",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "980414561"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "441011833",
+      "Name": "MusicDuck",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicDuck",
+      "GUID": "{B6B854D8-2035-4EA0-AB93-867F1548FE39}",
+      "Color": "24"
+     },
+     {
+      "Id": "1493153371",
+      "Name": "PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
+      "GUID": "{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}",
+      "Color": "21"
+     },
+     {
+      "Id": "4231187838",
+      "Name": "Ambience_MenuMute",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_MenuMute",
+      "GUID": "{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}",
+      "Color": "13"
+>>>>>>> f198644 (Git LFS Update)
      }
     ],
     "StateGroups": [
@@ -126,36 +224,65 @@
       "Name": "Season",
       "ObjectPath": "\\States\\Default Work Unit\\Season",
       "GUID": "{D8D21C3D-B6C1-4155-B331-E61E23E2672D}",
+<<<<<<< HEAD
+=======
+      "Color": "19",
+>>>>>>> f198644 (Git LFS Update)
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\None",
+<<<<<<< HEAD
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
+=======
+        "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}",
+        "Color": "19"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "1296465106",
         "Name": "Spring",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Spring",
+<<<<<<< HEAD
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
+=======
+        "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}",
+        "Color": "19"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "2965343494",
         "Name": "Winter",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Winter",
+<<<<<<< HEAD
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
+=======
+        "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}",
+        "Color": "19"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "3924562482",
         "Name": "Summer",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Summer",
+<<<<<<< HEAD
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
+=======
+        "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}",
+        "Color": "19"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "4010875483",
         "Name": "Autumn",
         "ObjectPath": "\\States\\Default Work Unit\\Season\\Autumn",
+<<<<<<< HEAD
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
+=======
+        "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}",
+        "Color": "19"
+>>>>>>> f198644 (Git LFS Update)
        }
       ]
      },
@@ -164,24 +291,43 @@
       "Name": "TimeOfDay",
       "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay",
       "GUID": "{5D6BF316-2C81-4432-9822-1199121CCBF7}",
+<<<<<<< HEAD
+=======
+      "Color": "2",
+>>>>>>> f198644 (Git LFS Update)
       "States": [
        {
         "Id": "311764537",
         "Name": "Day",
         "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Day",
+<<<<<<< HEAD
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
+=======
+        "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}",
+        "Color": "2"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\None",
+<<<<<<< HEAD
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
+=======
+        "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}",
+        "Color": "2"
+>>>>>>> f198644 (Git LFS Update)
        },
        {
         "Id": "1011622525",
         "Name": "Night",
         "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Night",
+<<<<<<< HEAD
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
+=======
+        "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}",
+        "Color": "2"
+>>>>>>> f198644 (Git LFS Update)
        }
       ]
      }
@@ -223,10 +369,44 @@
         "Color": "19"
        }
       ]
+<<<<<<< HEAD
+=======
+     },
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces",
+      "GUID": "{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}",
+      "Color": "4",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Concrete",
+        "GUID": "{55F515DB-BB55-46F3-8FA0-9762C238BBB5}",
+        "Color": "26"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Dirt",
+        "GUID": "{1D66F7B4-A293-4686-9E61-1544E4579905}",
+        "Color": "8"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Grass",
+        "GUID": "{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}",
+        "Color": "18"
+       }
+      ]
+>>>>>>> f198644 (Git LFS Update)
      }
     ]
    }
   ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
@@ -236,5 +416,8 @@
 =======
   "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+  "FileHash": "{9A2E1CBB-D307-F01D-46DB-16DC78E3E0D7}"
+>>>>>>> f198644 (Git LFS Update)
  }
 }
