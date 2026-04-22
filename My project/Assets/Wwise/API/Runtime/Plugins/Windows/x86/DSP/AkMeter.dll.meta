@@ -15,6 +15,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
@@ -45,6 +46,8 @@ fileFormatVersion: 2
 =======
 >>>>>>> 63adbf9 (no message)
 =======
+>>>>>>> cb4da1d (no message)
+=======
 >>>>>>> 0f02715 (Fixing up after rebase)
 =======
 >>>>>>> 59844dc (no message)
@@ -63,7 +66,14 @@ fileFormatVersion: 2
 =======
 =======
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+>>>>>>> a666e1c (no message)
+>>>>>>> bf6d414 (no message)
+>>>>>>> cb4da1d (no message)
 guid: 8efc25f7a1069ef4d950c854faa30415
 PluginImporter:
   externalObjects: {}
@@ -147,6 +157,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0f02715 (Fixing up after rebase)
 <<<<<<< HEAD
 >>>>>>> b46e5f7 (no message)
@@ -167,7 +178,17 @@ PluginImporter:
         OS: Windows
 >>>>>>> e7eb6f0 (Updates after playtesting)
 >>>>>>> 3a79e98 (no message)
+<<<<<<< HEAD
 >>>>>>> f4f8a07 (no message)
+=======
+=======
+=======
+        OS: Windows
+>>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+>>>>>>> a666e1c (no message)
+>>>>>>> bf6d414 (no message)
+>>>>>>> cb4da1d (no message)
     Linux64:
       enabled: 0
       settings:
@@ -200,10 +221,13 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 858d6f4 (no message)
 =======
 >>>>>>> aa0a968 (no message)
+=======
+>>>>>>> cb4da1d (no message)
 =======
 guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> ff9a591 (Fixed Wwise Issue)
@@ -275,6 +299,8 @@ guid: 8efc25f7a1069ef4d950c854faa30415
 =======
 =======
 =======
+>>>>>>> bf6d414 (no message)
+=======
 guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 <<<<<<< HEAD
@@ -286,5 +312,13 @@ guid: 8efc25f7a1069ef4d950c854faa30415
 =======
 guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+>>>>>>> a666e1c (no message)
+>>>>>>> bf6d414 (no message)
+>>>>>>> cb4da1d (no message)

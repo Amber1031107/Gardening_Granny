@@ -15,6 +15,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
@@ -41,6 +42,8 @@ fileFormatVersion: 2
 =======
 >>>>>>> 63adbf9 (no message)
 =======
+>>>>>>> cb4da1d (no message)
+=======
 >>>>>>> 0f02715 (Fixing up after rebase)
 =======
 >>>>>>> 59844dc (no message)
@@ -59,7 +62,14 @@ fileFormatVersion: 2
 =======
 =======
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+>>>>>>> a666e1c (no message)
+>>>>>>> bf6d414 (no message)
+>>>>>>> cb4da1d (no message)
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 PluginImporter:
   externalObjects: {}
@@ -88,6 +98,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         OS: Windows
 <<<<<<< HEAD
@@ -111,6 +122,8 @@ PluginImporter:
 >>>>>>> 858d6f4 (no message)
 =======
 >>>>>>> f4f8a07 (no message)
+=======
+>>>>>>> cb4da1d (no message)
         OS: Windows
 =======
 >>>>>>> 0f02715 (Fixing up after rebase)
@@ -130,7 +143,17 @@ PluginImporter:
         OS: Windows
 >>>>>>> e7eb6f0 (Updates after playtesting)
 >>>>>>> 3a79e98 (no message)
+<<<<<<< HEAD
 >>>>>>> f4f8a07 (no message)
+=======
+=======
+=======
+        OS: Windows
+>>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+>>>>>>> a666e1c (no message)
+>>>>>>> bf6d414 (no message)
+>>>>>>> cb4da1d (no message)
     Linux64:
       enabled: 0
       settings:
@@ -154,6 +177,7 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +213,8 @@ guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> 858d6f4 (no message)
 =======
 >>>>>>> aa0a968 (no message)
+=======
+>>>>>>> cb4da1d (no message)
 =======
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> 67b769d (Fixed Wwise Issue)
@@ -230,6 +256,8 @@ guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 =======
 =======
 =======
+>>>>>>> bf6d414 (no message)
+=======
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 <<<<<<< HEAD
@@ -241,5 +269,13 @@ guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 =======
 guid: 31a2668c6e6cf1c4d85c2b5db98b926a
 >>>>>>> 6d3d0ae (no message)
+<<<<<<< HEAD
 >>>>>>> 7f4b170 (no message)
+<<<<<<< HEAD
 >>>>>>> 63adbf9 (no message)
+=======
+=======
+=======
+>>>>>>> a666e1c (no message)
+>>>>>>> bf6d414 (no message)
+>>>>>>> cb4da1d (no message)
