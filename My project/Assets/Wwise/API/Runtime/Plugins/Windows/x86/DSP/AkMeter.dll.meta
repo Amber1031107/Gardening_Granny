@@ -3,10 +3,13 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> 9d3e3e7 (no message)
+=======
+>>>>>>> ef343c7 (no message)
 guid: 8efc25f7a1069ef4d950c854faa30415
 PluginImporter:
   externalObjects: {}
@@ -68,6 +71,7 @@ PluginImporter:
   assetBundleVariant: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> ff9a591 (Fixed Wwise Issue)
@@ -78,3 +82,8 @@ guid: 8efc25f7a1069ef4d950c854faa30415
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> 9d3e3e7 (no message)
+=======
+=======
+guid: 8efc25f7a1069ef4d950c854faa30415
+>>>>>>> 1fc8695 (no message)
+>>>>>>> ef343c7 (no message)

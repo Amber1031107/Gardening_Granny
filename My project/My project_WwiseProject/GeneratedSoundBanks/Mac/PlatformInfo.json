@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
@@ -29,6 +30,10 @@
 >>>>>>> 74561eb (rebase pt2 ig?)
 =======
 >>>>>>> fdf751e (no message)
+=======
+   "Name": "Mac",
+   "BasePlatform": "Mac",
+>>>>>>> ef343c7 (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -40,7 +45,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
-   "AutoSoundBankDefinition": "true",
+   "AutoSoundBankDefinition": "false",
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -59,6 +64,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,5 +92,8 @@
 >>>>>>> 74561eb (rebase pt2 ig?)
 =======
 >>>>>>> fdf751e (no message)
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> ef343c7 (no message)
  }
 }
