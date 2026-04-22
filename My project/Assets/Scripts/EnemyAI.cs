@@ -339,11 +339,41 @@ public class EnemyAI : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+=======
+    }
+
+    private IEnumerator RunAway()
+    {
+        currentPath = null;
+        target = null;
+        StopFootsteps();
+
+        Vector3 runDirection = (transform.position - Vector3.zero).normalized;
+        runDirection.y = 0f;
+
+        footstepLoopStart.Post(gameObject);
+        isMoving = true;
+
+        float runTimer = 0f;
+        while (runTimer < disappearTime)
+        {
+            runTimer += Time.fixedDeltaTime;
+            Vector3 newPos = transform.position + runDirection * moveSpeed * Time.fixedDeltaTime;
+            rb.MovePosition(newPos);
+            transform.LookAt(transform.position + runDirection);
+            yield return new WaitForFixedUpdate();
+        }
+
+        TriggerEscape(flung: false);
+>>>>>>> cfde5dc (Area update, took out builds)
+>>>>>>> 27cfc40 (no message)
     }
 
     private IEnumerator RunAway()
