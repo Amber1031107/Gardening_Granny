@@ -29,7 +29,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
-   "AutoSoundBankDefinition": "true",
+   "AutoSoundBankDefinition": "false",
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -49,6 +49,7 @@
    "PrintObjectColor": "true"
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 ========
@@ -61,5 +62,8 @@
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> 6d3d0ae (no message)
  }
 }

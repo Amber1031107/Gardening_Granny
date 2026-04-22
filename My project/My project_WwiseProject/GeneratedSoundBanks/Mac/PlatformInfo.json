@@ -29,7 +29,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
-   "AutoSoundBankDefinition": "true",
+   "AutoSoundBankDefinition": "false",
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -49,6 +49,7 @@
    "PrintObjectColor": "true"
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 ========
@@ -61,5 +62,8 @@
   "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> 6d3d0ae (no message)
  }
 }

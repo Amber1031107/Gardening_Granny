@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 7b242084d8d9887409dca80a365b72dd
 PluginImporter:
   externalObjects: {}
@@ -46,3 +47,6 @@ PluginImporter:
 =======
 guid: 7b242084d8d9887409dca80a365b72dd
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+guid: 7b242084d8d9887409dca80a365b72dd
+>>>>>>> 6d3d0ae (no message)
