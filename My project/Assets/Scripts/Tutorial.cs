@@ -9,10 +9,15 @@ public class Tutorial : MonoBehaviour
    public void Next()
    {
 <<<<<<< HEAD
+<<<<<<< HEAD
         SceneManager.LoadScene("SpringSeason1");
 =======
         SceneManager.LoadScene("Build");
 >>>>>>> b4c89e6 (no message)
+=======
+        uiClickSound.Post(gameObject); //Audio
+        SceneManager.LoadScene("PhilBuild");
+>>>>>>> e7eb6f0 (Updates after playtesting)
    }
 
     //void Start()

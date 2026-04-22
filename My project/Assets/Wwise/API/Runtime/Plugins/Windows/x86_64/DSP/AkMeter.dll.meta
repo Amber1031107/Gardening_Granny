@@ -20,6 +20,10 @@ PluginImporter:
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
+<<<<<<< HEAD
+=======
+        OS: Windows
+>>>>>>> e7eb6f0 (Updates after playtesting)
     Linux64:
       enabled: 0
       settings:

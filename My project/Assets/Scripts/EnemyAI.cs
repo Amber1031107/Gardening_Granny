@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using System.Collections;
 using System.Collections.Generic;
@@ -336,6 +336,34 @@ public class EnemyAI : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
 
         Destroy(gameObject, disappearTime);
+<<<<<<< HEAD
+    }
+
+    private IEnumerator RunAway()
+    {
+        currentPath = null;
+        target = null;
+        StopFootsteps();
+
+        Vector3 runDirection = (transform.position - Vector3.zero).normalized;
+        runDirection.y = 0f;
+
+        footstepLoopStart.Post(gameObject);
+        isMoving = true;
+
+        float runTimer = 0f;
+        while (runTimer < disappearTime)
+        {
+            runTimer += Time.fixedDeltaTime;
+            Vector3 newPos = transform.position + runDirection * moveSpeed * Time.fixedDeltaTime;
+            rb.MovePosition(newPos);
+            transform.LookAt(transform.position + runDirection);
+            yield return new WaitForFixedUpdate();
+        }
+
+        TriggerEscape(flung: false);
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
     }
 
     private IEnumerator RunAway()

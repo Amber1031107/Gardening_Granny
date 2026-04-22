@@ -6,9 +6,13 @@ public class Pause : MonoBehaviour
 {
     public GameObject storePrefab;
     public GameObject PauseMenu;
+<<<<<<< HEAD
     public GameObject ControlsMenu;
+=======
+    public GameObject howToPlayPanel;
+>>>>>>> e7eb6f0 (Updates after playtesting)
 
-    public AK.Wwise.Event pauseOnSound; //Audio
+    public AK.Wwise.Event pauseOnSound;
     public AK.Wwise.Event pauseOffSound;
     public AK.Wwise.Event uiClickSound;
     public AK.Wwise.Event pauseAmbience;
@@ -17,7 +21,13 @@ public class Pause : MonoBehaviour
     void Start()
     {
         PauseMenu.SetActive(false);
+<<<<<<< HEAD
         ControlsMenu.SetActive(false);
+=======
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(false);
+>>>>>>> e7eb6f0 (Updates after playtesting)
     }
 
     void Update()
@@ -26,48 +36,70 @@ public class Pause : MonoBehaviour
         {
             if (storePrefab.activeSelf)
             {
-                // First escape — close the store, don't open pause menu
                 storePrefab.SetActive(false);
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
             }
             else
             {
-                // Store is closed — toggle pause menu
                 bool isPaused = PauseMenu.activeSelf;
                 PauseMenu.SetActive(!isPaused);
                 Cursor.visible = !isPaused;
                 Cursor.lockState = isPaused ? CursorLockMode.Locked : CursorLockMode.None;
-                Time.timeScale = isPaused ? 1f : 0f; // optional: freeze game when paused
+                Time.timeScale = isPaused ? 1f : 0f;
 
                 if (!isPaused)
                 {
-                    pauseOnSound.Post(gameObject);   // Audio
+                    pauseOnSound.Post(gameObject);
                     pauseAmbience.Post(gameObject);
                 }
                 else
                 {
                     pauseOffSound.Post(gameObject);
-                    resumeAmbience.Post(gameObject); // Audio
+                    resumeAmbience.Post(gameObject);
+
+                    if (howToPlayPanel != null)
+                        howToPlayPanel.SetActive(false);
                 }
             }
         }
-
     }
+
+    public void HowToPlayButton()
+    {
+        uiClickSound.Post(gameObject);
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(true);
+    }
+
+    public void BackButton()
+    {
+        uiClickSound.Post(gameObject);
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(false);
+    }
+
     public void MenuSCreen()
     {
-        uiClickSound.Post(gameObject); //Audio
+        uiClickSound.Post(gameObject);
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void QuitGame ()
+    public void QuitGame()
     {
-        uiClickSound.Post(gameObject); //Audio
+        uiClickSound.Post(gameObject);
         Application.Quit();
     }
+<<<<<<< HEAD
 
     public void ControlScreen()
     {
         ControlsMenu.SetActive(true);
     }
 }
+=======
+}
+>>>>>>> e7eb6f0 (Updates after playtesting)
