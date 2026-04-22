@@ -12,6 +12,7 @@ public class Points : MonoBehaviour, IInteractable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public bool kidSpawned = false;
 
@@ -19,18 +20,28 @@ public class Points : MonoBehaviour, IInteractable
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
     public bool kidSpawned = false;
 
 =======
 >>>>>>> cfde5dc (Area update, took out builds)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
+=======
+=======
+>>>>>>> f4f8a07 (no message)
 =======
     public bool kidSpawned = false;
 
 >>>>>>> e7eb6f0 (Updates after playtesting)
+<<<<<<< HEAD
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     [Header("Spawn Area")]
     public Vector3 spawnAreaCenter;   // Centre of the random spawn zone
     public Vector3 spawnAreaSize;     // Width/Height/Depth of the zone (like a box)

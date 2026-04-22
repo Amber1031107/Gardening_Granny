@@ -79,6 +79,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         OS: Windows
 <<<<<<< HEAD
@@ -100,6 +101,8 @@ PluginImporter:
 =======
 =======
 >>>>>>> 858d6f4 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
         OS: Windows
 =======
 >>>>>>> 0f02715 (Fixing up after rebase)
@@ -111,7 +114,15 @@ PluginImporter:
 =======
 =======
 >>>>>>> cd50569 (no message)
+<<<<<<< HEAD
 >>>>>>> 858d6f4 (no message)
+=======
+=======
+=======
+        OS: Windows
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     Linux64:
       enabled: 0
       settings:

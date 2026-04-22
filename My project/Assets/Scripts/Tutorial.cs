@@ -20,6 +20,7 @@ public class Tutorial : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         SceneManager.LoadScene("SpringSeason1");
 =======
         SceneManager.LoadScene("Build");
@@ -61,6 +62,8 @@ public class Tutorial : MonoBehaviour
 >>>>>>> 858d6f4 (no message)
 =======
 >>>>>>> 0838fe7 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
         uiClickSound.Post(gameObject); //Audio
         SceneManager.LoadScene("PhilBuild");
 =======
@@ -90,12 +93,24 @@ public class Tutorial : MonoBehaviour
 >>>>>>> 858d6f4 (no message)
 =======
 =======
+=======
+>>>>>>> 3a79e98 (no message)
         SceneManager.LoadScene("SpringSeason1");
 =======
         SceneManager.LoadScene("Build");
 >>>>>>> b4c89e6 (no message)
+<<<<<<< HEAD
 >>>>>>> f0c9004 (no message)
+<<<<<<< HEAD
 >>>>>>> 0838fe7 (no message)
+=======
+=======
+=======
+        uiClickSound.Post(gameObject); //Audio
+        SceneManager.LoadScene("PhilBuild");
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
    }
 
     //void Start()

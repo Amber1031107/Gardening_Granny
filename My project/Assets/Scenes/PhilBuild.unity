@@ -5097,6 +5097,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -5105,11 +5106,16 @@ RectTransform:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 13593}
   m_LocalScale: {x: 3.5685875, y: 6.116872, z: 0.5603636}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -5118,6 +5124,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 620b465 (Got How to Play Working)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 >>>>>>> 59844dc (no message)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5130,6 +5138,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 084da1a (no message)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_LocalPosition: {x: 0, y: 0, z: 13593}
@@ -5144,6 +5153,11 @@ RectTransform:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773508632}
@@ -5156,6 +5170,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 620b465 (Got How to Play Working)
 =======
@@ -5172,6 +5187,12 @@ RectTransform:
 =======
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 084da1a (no message)
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 1758, y: 303}
@@ -5182,6 +5203,11 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
 =======
 >>>>>>> a2de440 (no message)
 =======
@@ -5201,10 +5227,13 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
 >>>>>>> 620b465 (Got How to Play Working)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 >>>>>>> 59844dc (no message)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5212,6 +5241,7 @@ RectTransform:
 =======
 =======
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -5224,6 +5254,11 @@ RectTransform:
 =======
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401881524
 MonoBehaviour:
@@ -5256,6 +5291,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -5264,6 +5300,10 @@ MonoBehaviour:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     The objective is to plant your garden and set traps
     to protectt it from the pesky kids from across the road wanting to destroy them.
 
@@ -5297,6 +5337,7 @@ MonoBehaviour:
 =======
     In the house you will find a computer, left click on
     it to open a shop menu.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5343,6 +5384,8 @@ MonoBehaviour:
 =======
 >>>>>>> a2de440 (no message)
 =======
+>>>>>>> f4f8a07 (no message)
+=======
     The objective is to plant your garden and set traps
     to protectt it from the pesky kids from across the road wanting to destroy them.
 >>>>>>> 084da1a (no message)
@@ -5384,6 +5427,7 @@ MonoBehaviour:
     Move with W, S, A, D and Space Bar to
     jump'
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
     In the house you will find a computer, left click on
@@ -5465,6 +5509,27 @@ MonoBehaviour:
     jump'
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+
+
+    You will only be able to plant plants on dirt and
+    can only place traps on grass
+
+
+    Left click to turn the ground to dirt and
+    right click to turn it back to grass
+
+
+    to start the cut scene and first part
+    of the game press the button on the wall in the house (Only after you have planted
+    all of your plants)
+
+
+    Traps are negative points so use them wisely'
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5481,6 +5546,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -5489,11 +5555,16 @@ MonoBehaviour:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     rgba: 4280427046
   m_fontColor: {r: 0.1509434, g: 0.13314347, b: 0.13314347, a: 1}
 =======
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -5502,6 +5573,8 @@ MonoBehaviour:
   m_fontColor: {r: 0.1509434, g: 0.13314347, b: 0.13314347, a: 1}
 >>>>>>> 620b465 (Got How to Play Working)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 >>>>>>> 59844dc (no message)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5514,6 +5587,7 @@ MonoBehaviour:
   m_fontColor: {r: 0.1509434, g: 0.13314347, b: 0.13314347, a: 1}
 >>>>>>> 084da1a (no message)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
     rgba: 4294967295
@@ -5528,6 +5602,11 @@ MonoBehaviour:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5552,6 +5631,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -5560,11 +5640,16 @@ MonoBehaviour:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_fontSize: 32
   m_fontSizeBase: 32
 =======
   m_fontSize: 36
   m_fontSizeBase: 36
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -5573,6 +5658,8 @@ MonoBehaviour:
   m_fontSizeBase: 32
 >>>>>>> 620b465 (Got How to Play Working)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 >>>>>>> 59844dc (no message)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5585,6 +5672,7 @@ MonoBehaviour:
   m_fontSizeBase: 32
 >>>>>>> 084da1a (no message)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_fontSize: 36
@@ -5599,6 +5687,11 @@ MonoBehaviour:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5643,6 +5736,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
 =======
   m_margin: {x: -2366.0332, y: -99.49058, z: -67.043045, w: -326.2409}
@@ -5655,6 +5749,8 @@ MonoBehaviour:
 >>>>>>> b7b0233 (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
   m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
 =======
   m_margin: {x: -2366.0332, y: -99.49058, z: -67.043045, w: -326.2409}
@@ -5666,6 +5762,7 @@ MonoBehaviour:
 =======
   m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_margin: {x: -2366.0332, y: -99.49058, z: -67.043045, w: -326.2409}
@@ -5684,6 +5781,14 @@ MonoBehaviour:
   m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+  m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
+=======
+  m_margin: {x: -2366.0332, y: -99.49058, z: -67.043045, w: -326.2409}
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9628,6 +9733,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -688}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9640,6 +9746,8 @@ RectTransform:
 >>>>>>> b7b0233 (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
   m_LocalPosition: {x: 0, y: 0, z: -688}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9651,6 +9759,7 @@ RectTransform:
 =======
   m_LocalPosition: {x: 0, y: 0, z: -688}
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9669,6 +9778,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -688}
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -688}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9686,6 +9803,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -6, y: -2}
 =======
   m_AnchoredPosition: {x: 0, y: 0}
@@ -9698,6 +9816,8 @@ RectTransform:
 >>>>>>> b7b0233 (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
   m_AnchoredPosition: {x: -6, y: -2}
 =======
   m_AnchoredPosition: {x: 0, y: 0}
@@ -9709,6 +9829,7 @@ RectTransform:
 =======
   m_AnchoredPosition: {x: -6, y: -2}
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_AnchoredPosition: {x: 0, y: 0}
@@ -9727,6 +9848,14 @@ RectTransform:
   m_AnchoredPosition: {x: -6, y: -2}
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+  m_AnchoredPosition: {x: -6, y: -2}
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &773508633
@@ -11884,6 +12013,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -11892,11 +12022,16 @@ RectTransform:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 2845}
   m_LocalScale: {x: 4.0056, y: 5.6461887, z: 4.7571}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -11905,6 +12040,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 620b465 (Got How to Play Working)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 >>>>>>> 59844dc (no message)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11917,6 +12054,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 084da1a (no message)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_LocalPosition: {x: 0, y: 0, z: 2845}
@@ -11931,6 +12069,11 @@ RectTransform:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 421476275}
@@ -11946,6 +12089,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -11954,11 +12098,16 @@ RectTransform:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_AnchoredPosition: {x: 0, y: -359}
   m_SizeDelta: {x: 100, y: 100}
 =======
   m_AnchoredPosition: {x: -323, y: 0}
   m_SizeDelta: {x: 160, y: 30}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -11967,6 +12116,8 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
 >>>>>>> 620b465 (Got How to Play Working)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 >>>>>>> 59844dc (no message)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11979,6 +12130,7 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
 >>>>>>> 084da1a (no message)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   m_AnchoredPosition: {x: -323, y: 0}
@@ -11993,6 +12145,11 @@ RectTransform:
 >>>>>>> 261b14d (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998521741
 MonoBehaviour:
@@ -22359,6 +22516,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_MethodName: OpenHowToPlay
 =======
         m_MethodName: HowToPlayButton
@@ -22371,6 +22529,8 @@ MonoBehaviour:
 >>>>>>> b7b0233 (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
         m_MethodName: OpenHowToPlay
 =======
         m_MethodName: HowToPlayButton
@@ -22382,6 +22542,7 @@ MonoBehaviour:
 =======
         m_MethodName: OpenHowToPlay
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
         m_MethodName: HowToPlayButton
@@ -22400,6 +22561,14 @@ MonoBehaviour:
         m_MethodName: OpenHowToPlay
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+        m_MethodName: OpenHowToPlay
+=======
+        m_MethodName: HowToPlayButton
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22744,6 +22913,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   scoreBoardPanel: {fileID: 600189600}
 =======
   scoreBoardPanel: {fileID: 0}
@@ -22756,6 +22926,8 @@ MonoBehaviour:
 >>>>>>> b7b0233 (no message)
 =======
 >>>>>>> a2de440 (no message)
+=======
+>>>>>>> f4f8a07 (no message)
   scoreBoardPanel: {fileID: 600189600}
 =======
   scoreBoardPanel: {fileID: 0}
@@ -22767,6 +22939,7 @@ MonoBehaviour:
 =======
   scoreBoardPanel: {fileID: 600189600}
 >>>>>>> 084da1a (no message)
+<<<<<<< HEAD
 >>>>>>> b7b0233 (no message)
 =======
   scoreBoardPanel: {fileID: 0}
@@ -22785,6 +22958,14 @@ MonoBehaviour:
   scoreBoardPanel: {fileID: 600189600}
 >>>>>>> 084da1a (no message)
 >>>>>>> a2de440 (no message)
+=======
+=======
+  scoreBoardPanel: {fileID: 600189600}
+=======
+  scoreBoardPanel: {fileID: 0}
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
   moneyText: {fileID: 98348005}
   incomeAmount: 0
   DaysLeft: {fileID: 1999107312}

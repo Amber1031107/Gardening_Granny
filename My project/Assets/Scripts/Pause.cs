@@ -9,6 +9,7 @@ public class Pause : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject ControlsMenu;
 =======
     public GameObject howToPlayPanel;
@@ -17,11 +18,22 @@ public class Pause : MonoBehaviour
     public GameObject howToPlayPanel;
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
     public GameObject howToPlayPanel;
 =======
     public GameObject ControlsMenu;
 >>>>>>> 0f02715 (Fixing up after rebase)
+<<<<<<< HEAD
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+    public GameObject ControlsMenu;
+=======
+    public GameObject howToPlayPanel;
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
 
     public AK.Wwise.Event pauseOnSound;
     public AK.Wwise.Event pauseOffSound;
@@ -35,6 +47,7 @@ public class Pause : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ControlsMenu.SetActive(false);
 =======
 
@@ -47,13 +60,26 @@ public class Pause : MonoBehaviour
             howToPlayPanel.SetActive(false);
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
+=======
+>>>>>>> f4f8a07 (no message)
 
         if (howToPlayPanel != null)
             howToPlayPanel.SetActive(false);
 =======
         ControlsMenu.SetActive(false);
 >>>>>>> 0f02715 (Fixing up after rebase)
+<<<<<<< HEAD
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+        ControlsMenu.SetActive(false);
+=======
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(false);
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     }
 
     void Update()
@@ -93,6 +119,9 @@ public class Pause : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f4f8a07 (no message)
     public void OpenHowToPlay()
     {
         PauseMenu.SetActive(false);
@@ -104,6 +133,7 @@ public class Pause : MonoBehaviour
 
         if (howToPlayPanel != null)
             howToPlayPanel.SetActive(true);
+<<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
     public void OpenHowToPlay()
@@ -111,12 +141,18 @@ public class Pause : MonoBehaviour
         PauseMenu.SetActive(false);
         howToPlayPanel.SetActive(true);
 >>>>>>> 620b465 (Got How to Play Working)
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     }
 
     public void BackButton()
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f4f8a07 (no message)
         howToPlayPanel.SetActive(false);
         PauseMenu.SetActive(true);
 =======
@@ -124,11 +160,15 @@ public class Pause : MonoBehaviour
 
         if (howToPlayPanel != null)
             howToPlayPanel.SetActive(false);
+<<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
         howToPlayPanel.SetActive(false);
         PauseMenu.SetActive(true);
 >>>>>>> 620b465 (Got How to Play Working)
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
     }
 
     public void MenuSCreen()
@@ -146,16 +186,24 @@ public class Pause : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+}
+=======
+=======
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
 
     public void ControlScreen()
     {
         ControlsMenu.SetActive(true);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 }
@@ -166,3 +214,11 @@ public class Pause : MonoBehaviour
 =======
 >>>>>>> 0f02715 (Fixing up after rebase)
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 0f02715 (Fixing up after rebase)
+=======
+=======
+}
+>>>>>>> e7eb6f0 (Updates after playtesting)
+>>>>>>> 3a79e98 (no message)
+>>>>>>> f4f8a07 (no message)
