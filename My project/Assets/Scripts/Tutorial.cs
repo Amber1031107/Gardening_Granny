@@ -8,7 +8,11 @@ public class Tutorial : MonoBehaviour
    // public string sceneName = "Tutorial";  // Name of the scene to load
    public void Next()
    {
+<<<<<<< HEAD
         SceneManager.LoadScene("SpringSeason1");
+=======
+        SceneManager.LoadScene("Build");
+>>>>>>> b4c89e6 (no message)
    }
 
     //void Start()
