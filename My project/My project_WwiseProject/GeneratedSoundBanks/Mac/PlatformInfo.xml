@@ -10,52 +10,7 @@
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
-=======
 		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
->>>>>>> f198644 (Git LFS Update)
-=======
-		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
->>>>>>> 6d3d0ae (no message)
-=======
-		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
->>>>>>> f198644 (Git LFS Update)
-=======
-=======
->>>>>>> fd4ca8c (no message)
-=======
->>>>>>> 63adbf9 (no message)
-		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
-=======
-		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
->>>>>>> c9441e8 (rebase pt2 ig?)
-<<<<<<< HEAD
->>>>>>> ef11019 (no message)
-=======
-=======
-=======
->>>>>>> 7f4b170 (no message)
-		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
-=======
-		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
->>>>>>> f198644 (Git LFS Update)
-<<<<<<< HEAD
->>>>>>> 756b11d (no message)
-<<<<<<< HEAD
->>>>>>> fd4ca8c (no message)
-=======
-=======
-=======
-		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
->>>>>>> 6d3d0ae (no message)
->>>>>>> 7f4b170 (no message)
->>>>>>> 63adbf9 (no message)
 		<CopyLooseStreamedMediaFiles>true</CopyLooseStreamedMediaFiles>
 		<SubFoldersForGeneratedFiles>false</SubFoldersForGeneratedFiles>
 		<RemoveUnusedGeneratedFiles>true</RemoveUnusedGeneratedFiles>
@@ -74,63 +29,5 @@
 		<PrintObjectPath>true</PrintObjectPath>
 		<PrintObjectColor>true</PrintObjectColor>
 	</Settings>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
-=======
 	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
->>>>>>> f198644 (Git LFS Update)
-=======
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
->>>>>>> 6d3d0ae (no message)
-=======
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
->>>>>>> ff9a591 (Fixed Wwise Issue)
-=======
-	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
->>>>>>> f198644 (Git LFS Update)
-=======
-=======
->>>>>>> ef11019 (no message)
-=======
->>>>>>> fd4ca8c (no message)
-=======
->>>>>>> 63adbf9 (no message)
-	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
-=======
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
->>>>>>> 67b769d (Fixed Wwise Issue)
-<<<<<<< HEAD
->>>>>>> 654bc1e (no message)
-=======
-=======
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
->>>>>>> c9441e8 (rebase pt2 ig?)
-<<<<<<< HEAD
->>>>>>> ef11019 (no message)
-=======
-=======
-=======
->>>>>>> 7f4b170 (no message)
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
-=======
-	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
->>>>>>> f198644 (Git LFS Update)
-<<<<<<< HEAD
->>>>>>> 756b11d (no message)
-<<<<<<< HEAD
->>>>>>> fd4ca8c (no message)
-=======
-=======
-=======
-	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
->>>>>>> 6d3d0ae (no message)
->>>>>>> 7f4b170 (no message)
->>>>>>> 63adbf9 (no message)
 </PlatformInfo>
