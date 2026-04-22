@@ -39,6 +39,7 @@
 	</Settings>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
 =======
 	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
@@ -46,4 +47,7 @@
 =======
 	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
 >>>>>>> 6d3d0ae (no message)
+=======
+	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
+>>>>>>> ff9a591 (Fixed Wwise Issue)
 </PlatformInfo>

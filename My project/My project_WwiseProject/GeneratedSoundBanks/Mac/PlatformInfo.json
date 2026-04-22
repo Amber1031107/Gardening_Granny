@@ -10,6 +10,7 @@
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
    "Name": "Mac",
    "BasePlatform": "Mac",
+<<<<<<< HEAD
 ========
    "Name": "Windows",
    "BasePlatform": "Windows",
@@ -34,6 +35,8 @@
    "Name": "Mac",
    "BasePlatform": "Mac",
 >>>>>>> ef343c7 (no message)
+=======
+>>>>>>> ff9a591 (Fixed Wwise Issue)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -69,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
@@ -95,5 +99,8 @@
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 >>>>>>> ef343c7 (no message)
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> ff9a591 (Fixed Wwise Issue)
  }
 }
