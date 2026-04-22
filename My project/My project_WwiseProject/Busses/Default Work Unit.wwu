@@ -370,6 +370,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						</AuxBus>
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -421,6 +422,8 @@
 >>>>>>> 787f68f (no message)
 =======
 >>>>>>> add46cc (no message)
+=======
+>>>>>>> c585586 (no message)
 						</Bus>
 =======
 						</AuxBus>
@@ -443,8 +446,17 @@
 =======
 						</AuxBus>
 >>>>>>> 47b9640 (no message)
+<<<<<<< HEAD
 >>>>>>> add46cc (no message)
+<<<<<<< HEAD
 >>>>>>> 1f674f2 (no message)
+=======
+=======
+=======
+						</AuxBus>
+>>>>>>> 0a7aa75 (no message)
+>>>>>>> c585586 (no message)
+>>>>>>> 89aca70 (no message)
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

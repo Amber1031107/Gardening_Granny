@@ -18,7 +18,11 @@ EditorBuildSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - enabled: 0
+=======
+  - enabled: 1
+>>>>>>> c585586 (no message)
     path: Assets/Scenes/Build.unity
     guid: fa0d5570a890a6f4ebcb029b3eaff537
 <<<<<<< HEAD
@@ -92,6 +96,7 @@ EditorBuildSettings:
 >>>>>>> 3a79e98 (no message)
     path: Assets/Scenes/Build.unity
     guid: fa0d5570a890a6f4ebcb029b3eaff537
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +154,8 @@ EditorBuildSettings:
 >>>>>>> 7eddacc (no message)
 =======
 >>>>>>> b171235 (no message)
+=======
+>>>>>>> c585586 (no message)
   - enabled: 1
     path: Assets/Scenes/SpringSeason1.unity
     guid: 46e800d8b8af73241b2d0654ca2d3862
@@ -174,6 +181,8 @@ EditorBuildSettings:
 =======
 =======
 >>>>>>> 9d3e3e7 (no message)
+=======
+>>>>>>> 0a7aa75 (no message)
   - enabled: 1
     path: Assets/Scenes/PhilBuild.unity
     guid: 9ff869ba5ba037b45af72229cf8f9488
@@ -193,9 +202,20 @@ EditorBuildSettings:
     path: Assets/Scenes/PhilBuild.unity
     guid: 9ff869ba5ba037b45af72229cf8f9488
 >>>>>>> 59844dc (no message)
+<<<<<<< HEAD
 >>>>>>> 9d3e3e7 (no message)
+<<<<<<< HEAD
 >>>>>>> b171235 (no message)
+<<<<<<< HEAD
 >>>>>>> 8ee8629 (no message)
+=======
+=======
+=======
+=======
+>>>>>>> 4ecf037 (no message)
+>>>>>>> 0a7aa75 (no message)
+>>>>>>> c585586 (no message)
+>>>>>>> 89aca70 (no message)
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
