@@ -4,10 +4,13 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> 9d3e3e7 (no message)
+=======
+>>>>>>> 33591fd (no message)
 guid: 26cadfaf291af9c4c974f39d4b3aafba
 PluginImporter:
   externalObjects: {}
@@ -25,10 +28,14 @@ PluginImporter:
       settings: {}
     Editor:
 <<<<<<< HEAD
+<<<<<<< HEAD
       enabled: 1
 =======
       enabled: 0
 >>>>>>> 9d3e3e7 (no message)
+=======
+      enabled: 1
+>>>>>>> 33591fd (no message)
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
@@ -57,6 +64,7 @@ PluginImporter:
   assetBundleVariant: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 guid: 26cadfaf291af9c4c974f39d4b3aafba
 >>>>>>> ff9a591 (Fixed Wwise Issue)
@@ -70,3 +78,5 @@ guid: 26cadfaf291af9c4c974f39d4b3aafba
 =======
 guid: 26cadfaf291af9c4c974f39d4b3aafba
 >>>>>>> ef343c7 (no message)
+=======
+>>>>>>> 33591fd (no message)
