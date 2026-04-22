@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3887442043" Type="Event" GUID="{18D48368-3AF9-4B88-9D9E-5C7EADAB5FEE}" Language="SFX" Hash="{DCEE2FFF-A305-7961-CDE3-33AFA18BF8AE}">
+			<ObjectPath>Play_Switch_to_Bear_Trap</ObjectPath>
+			<ShortName>Play_Switch_to_Bear_Trap</ShortName>
+			<Path>Event/Play_Switch_to_Bear_Trap.bnk</Path>
+			<Media>
+				<File Id="64246085" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Bear Trap_01.wav</ShortName>
+					<Path>Media/64246085.wem</Path>
+					<CachePath>E2/{E24261AB-682D-2AFB-0206-E1105E8C2758}.wem</CachePath>
+				</File>
+				<File Id="198195366" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Bear Trap_03.wav</ShortName>
+					<Path>Media/198195366.wem</Path>
+					<CachePath>6C/{6C273F24-E80D-B6E2-8E62-C681308B8113}.wem</CachePath>
+				</File>
+				<File Id="404728616" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Bear Trap_02.wav</ShortName>
+					<Path>Media/404728616.wem</Path>
+					<CachePath>D8/{D8D1E5E1-846D-6CAA-005F-8A9F3A3BEE4F}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3887442043" Name="Play_Switch_to_Bear_Trap" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Bear_Trap" GUID="{18D48368-3AF9-4B88-9D9E-5C7EADAB5FEE}" Color="7" DurationType="OneShot" DurationMin="0.29305762" DurationMax="0.36213872">
+					<MediaRefs>
+						<MediaRef Id="64246085"/>
+						<MediaRef Id="198195366"/>
+						<MediaRef Id="404728616"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3FAD0B56-81D9-4B16-9897-A8BF83BF0A95}</FileHash>
+</SoundBanksInfo>

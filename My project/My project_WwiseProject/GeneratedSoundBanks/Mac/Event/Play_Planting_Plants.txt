@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2764715416	Play_Planting_Plants			\Default Work Unit\PLAYER ACTIONS\Play_Planting_Plants	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3657550167	New_Parametric_EQ	Wwise Parametric EQ			
+

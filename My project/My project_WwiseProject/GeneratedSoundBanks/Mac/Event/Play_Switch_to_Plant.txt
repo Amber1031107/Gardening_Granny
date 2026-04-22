@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	621229048	Play_Switch_to_Plant			\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Plant	
+

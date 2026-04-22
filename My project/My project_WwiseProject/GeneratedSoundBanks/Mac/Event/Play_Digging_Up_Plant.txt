@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3054394219	Play_Digging_Up_Plant			\Default Work Unit\ENEMY SOUNDS\Play_Digging_Up_Plant	
+

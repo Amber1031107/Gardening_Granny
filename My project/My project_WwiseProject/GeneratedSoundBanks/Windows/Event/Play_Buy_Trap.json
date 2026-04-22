@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3485936852",
+    "Type": "Event",
+    "GUID": "{C1D96969-514C-44E4-9C92-109881BBCD05}",
+    "Language": "SFX",
+    "Hash": "{8D0360D9-E4FD-C9A1-542F-368C541D4661}",
+    "ObjectPath": "Play_Buy_Trap",
+    "ShortName": "Play_Buy_Trap",
+    "Path": "Event/Play_Buy_Trap.bnk",
+    "Media": [
+     {
+      "Id": "974261825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Shop_Trap Select.wav",
+      "Path": "Media/974261825.wem",
+      "CachePath": "AE/{AEE0832F-4368-5226-F2CB-FDB535BC2817}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3485936852",
+      "Name": "Play_Buy_Trap",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI SOUNDS\\Play_Buy_Trap",
+      "GUID": "{C1D96969-514C-44E4-9C92-109881BBCD05}",
+      "Color": "3",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21878068",
+      "DurationMax": "0.24914494",
+      "MediaRefs": [
+       {
+        "Id": "974261825"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{897729DA-6D4D-253E-7741-F4360A37887F}"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2103328760",
+    "Type": "Event",
+    "GUID": "{AA6FE1FB-6F57-40E3-8857-942FB986201C}",
+    "Language": "SFX",
+    "Hash": "{B123C3F2-7255-9C05-3A40-2A21C471BD54}",
+    "ObjectPath": "Play_Switch_to_Shovel",
+    "ShortName": "Play_Switch_to_Shovel",
+    "Path": "Event/Play_Switch_to_Shovel.bnk",
+    "Media": [
+     {
+      "Id": "90065057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Switch Shovel_01.wav",
+      "Path": "Media/90065057.wem",
+      "CachePath": "7F/{7FD4B28C-1FBE-DC82-E0D4-DC243F0B5A1A}.wem"
+     },
+     {
+      "Id": "438713849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Switch Shovel_02.wav",
+      "Path": "Media/438713849.wem",
+      "CachePath": "04/{04CF0CC8-162C-4971-1BA7-736B4932F551}.wem"
+     },
+     {
+      "Id": "821634805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Switch Shovel_03.wav",
+      "Path": "Media/821634805.wem",
+      "CachePath": "30/{30920735-6D8F-31B1-A73F-DCAE7C940EBF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2103328760",
+      "Name": "Play_Switch_to_Shovel",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER ACTIONS\\Play_Switch_to_Shovel",
+      "GUID": "{AA6FE1FB-6F57-40E3-8857-942FB986201C}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "0.43432373",
+      "DurationMax": "0.45361352",
+      "MediaRefs": [
+       {
+        "Id": "90065057"
+       },
+       {
+        "Id": "438713849"
+       },
+       {
+        "Id": "821634805"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A73DB2E0-163A-6FE7-F180-8F27FB09AFDE}"
+ }
+}

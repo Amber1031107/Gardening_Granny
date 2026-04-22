@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1385805035" Type="Event" GUID="{70426169-74FE-45A0-8999-6BD568863DD1}" Language="SFX" Hash="{FE9882AF-21A0-AA04-6901-36D28A15767D}">
+			<ObjectPath>Pause_Ambience_Bus</ObjectPath>
+			<ShortName>Pause_Ambience_Bus</ShortName>
+			<Path>Event/Pause_Ambience_Bus.bnk</Path>
+			<Events>
+				<Event Id="1385805035" Name="Pause_Ambience_Bus" ObjectPath="\Events\Default Work Unit\AMBIENCE\Pause_Ambience_Bus" GUID="{70426169-74FE-45A0-8999-6BD568863DD1}" Color="3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F74E320E-CA24-FBE3-6381-C1B72BBAE221}</FileHash>
+</SoundBanksInfo>

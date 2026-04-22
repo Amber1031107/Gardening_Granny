@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1734114213" Type="Event" GUID="{A218093A-C97E-4568-BF2C-6D3169561E91}" Language="SFX" Hash="{E11F3FBA-FA29-9FD7-F7EF-519297FE7512}">
+			<ObjectPath>Play_Bear_Trap_Fling</ObjectPath>
+			<ShortName>Play_Bear_Trap_Fling</ShortName>
+			<Path>Event/Play_Bear_Trap_Fling.bnk</Path>
+			<Media>
+				<File Id="407603785" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Trap Snap Fling_01.wav</ShortName>
+					<Path>Media/407603785.wem</Path>
+					<CachePath>7F/{7F495DEC-FD4A-28AA-314E-E8F6097776AE}.wem</CachePath>
+				</File>
+				<File Id="842763039" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Trap Snap Fling_03.wav</ShortName>
+					<Path>Media/842763039.wem</Path>
+					<CachePath>2F/{2F0585B9-8916-59EA-CF15-55D537EBFCBE}.wem</CachePath>
+				</File>
+				<File Id="1012928164" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Trap Snap Fling_02.wav</ShortName>
+					<Path>Media/1012928164.wem</Path>
+					<CachePath>CA/{CADE8654-0FAF-D537-8EB7-4BBCD75BDFFD}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="29232600" Name="New_Parametric_EQ_02" ObjectPath="\Effects\Default Work Unit\New_Parametric_EQ_02" GUID="{A695C30E-71E4-47B3-87D8-22C0C75FC765}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1734114213" Name="Play_Bear_Trap_Fling" ObjectPath="\Events\Default Work Unit\ENEMY SOUNDS\Play_Bear_Trap_Fling" GUID="{A218093A-C97E-4568-BF2C-6D3169561E91}" Color="22" DurationType="OneShot" DurationMin="1.6129827" DurationMax="1.9212458">
+					<MediaRefs>
+						<MediaRef Id="407603785"/>
+						<MediaRef Id="842763039"/>
+						<MediaRef Id="1012928164"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="29232600"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2B7166AA-92E3-C4A4-EAAE-8101B5B376E3}</FileHash>
+</SoundBanksInfo>

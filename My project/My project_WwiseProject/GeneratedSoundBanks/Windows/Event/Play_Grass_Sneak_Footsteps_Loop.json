@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3018976446",
+    "Type": "Event",
+    "GUID": "{EDE24D2D-A914-413C-AD90-31608069359E}",
+    "Language": "SFX",
+    "Hash": "{103B02C5-F80D-A563-F0EB-862FFE7AA1DA}",
+    "ObjectPath": "Play_Grass_Sneak_Footsteps_Loop",
+    "ShortName": "Play_Grass_Sneak_Footsteps_Loop",
+    "Path": "Event/Play_Grass_Sneak_Footsteps_Loop.bnk",
+    "Media": [
+     {
+      "Id": "326672972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Grass Sneak Loop_v4.wav",
+      "Path": "Media/326672972.wem",
+      "CachePath": "23/{23758542-AD3B-3AC7-1EF4-7F447460DB5E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3018976446",
+      "Name": "Play_Grass_Sneak_Footsteps_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY SOUNDS\\Play_Grass_Sneak_Footsteps_Loop",
+      "GUID": "{EDE24D2D-A914-413C-AD90-31608069359E}",
+      "Color": "6",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "326672972"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{64C8E1F6-189E-2B11-6C26-548628D78FE7}"
+ }
+}

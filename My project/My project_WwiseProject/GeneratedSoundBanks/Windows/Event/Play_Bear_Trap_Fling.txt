@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1734114213	Play_Bear_Trap_Fling			\Default Work Unit\ENEMY SOUNDS\Play_Bear_Trap_Fling	
+
+Effect plug-ins	ID	Name	Type				Notes
+	29232600	New_Parametric_EQ_02	Wwise Parametric EQ			
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3731501872" Type="Event" GUID="{65043EEC-C581-4B55-98E6-A15E8D096CE4}" Language="SFX" Hash="{87932C6F-6341-B26F-F288-DA36671AC3A3}">
+			<ObjectPath>Play_Buy_Plant</ObjectPath>
+			<ShortName>Play_Buy_Plant</ShortName>
+			<Path>Event/Play_Buy_Plant.bnk</Path>
+			<Media>
+				<File Id="554779189" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI ClickNEW.wav</ShortName>
+					<Path>Media/554779189.wem</Path>
+					<CachePath>91/{91611D4E-FCC1-D143-1E27-54ABFF7E1DBA}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3731501872" Name="Play_Buy_Plant" ObjectPath="\Events\Default Work Unit\UI SOUNDS\Play_Buy_Plant" GUID="{65043EEC-C581-4B55-98E6-A15E8D096CE4}" Color="3" DurationType="OneShot" DurationMin="0.13704945" DurationMax="0.13704945">
+					<MediaRefs>
+						<MediaRef Id="554779189"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C0A7B270-E614-7E65-A57D-990F6B97F965}</FileHash>
+</SoundBanksInfo>

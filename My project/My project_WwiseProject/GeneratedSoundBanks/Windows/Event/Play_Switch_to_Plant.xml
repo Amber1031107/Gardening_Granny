@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="621229048" Type="Event" GUID="{4AE5E551-CFBA-46DE-92F5-68ACF596FDC1}" Language="SFX" Hash="{77716469-DFD7-8F4F-9BC2-54917B9DB3FB}">
+			<ObjectPath>Play_Switch_to_Plant</ObjectPath>
+			<ShortName>Play_Switch_to_Plant</ShortName>
+			<Path>Event/Play_Switch_to_Plant.bnk</Path>
+			<Media>
+				<File Id="132157693" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_01.wav</ShortName>
+					<Path>Media/132157693.wem</Path>
+					<CachePath>DF/{DFDC58C5-FAFB-624A-7930-668C35FFBC8E}.wem</CachePath>
+				</File>
+				<File Id="459171107" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_03.wav</ShortName>
+					<Path>Media/459171107.wem</Path>
+					<CachePath>AA/{AAF5BBD8-F4C1-66C5-72BB-BD41FAFDBA52}.wem</CachePath>
+				</File>
+				<File Id="890622669" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_04.wav</ShortName>
+					<Path>Media/890622669.wem</Path>
+					<CachePath>C1/{C1ECD455-391A-F2EE-E4D9-AEADD77E0E67}.wem</CachePath>
+				</File>
+				<File Id="1054119039" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX_Switch Plant_02.wav</ShortName>
+					<Path>Media/1054119039.wem</Path>
+					<CachePath>9D/{9D96E7DC-0C1F-DB18-8203-6788877E5CC4}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="621229048" Name="Play_Switch_to_Plant" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Switch_to_Plant" GUID="{4AE5E551-CFBA-46DE-92F5-68ACF596FDC1}" Color="4" DurationType="OneShot" DurationMin="0.45033994" DurationMax="0.5859492">
+					<MediaRefs>
+						<MediaRef Id="132157693"/>
+						<MediaRef Id="459171107"/>
+						<MediaRef Id="890622669"/>
+						<MediaRef Id="1054119039"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A1ECFB4F-0042-15B8-F039-26E95B0374AF}</FileHash>
+</SoundBanksInfo>

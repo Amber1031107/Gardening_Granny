@@ -1,8 +1,13 @@
 {
  "PlatformInfo": {
   "Platform": {
+<<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
    "Name": "Mac",
    "BasePlatform": "Mac",
+========
+   "Name": "Windows",
+   "BasePlatform": "Windows",
+>>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -14,7 +19,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
-   "AutoSoundBankDefinition": "false",
+   "AutoSoundBankDefinition": "true",
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -33,6 +38,10 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+========
+  "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
+>>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
  }
 }
