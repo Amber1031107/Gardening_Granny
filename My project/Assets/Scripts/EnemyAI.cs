@@ -338,9 +338,12 @@ public class EnemyAI : MonoBehaviour
         Destroy(gameObject, disappearTime);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c6ed6fd (no message)
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
     }
 
     private IEnumerator RunAway()
@@ -366,6 +369,7 @@ public class EnemyAI : MonoBehaviour
         }
 
         TriggerEscape(flung: false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -397,5 +401,7 @@ public class EnemyAI : MonoBehaviour
         }
 
         TriggerEscape(flung: false);
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
     }
 }

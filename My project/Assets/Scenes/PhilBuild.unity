@@ -5093,6 +5093,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -5118,10 +5119,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 13593}
+  m_LocalScale: {x: 3.5685875, y: 6.116872, z: 0.5603636}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773508632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5146,10 +5152,13 @@ RectTransform:
 =======
 >>>>>>> b7b0233 (no message)
 =======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6458, y: -1659}
   m_SizeDelta: {x: 200, y: 50}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
@@ -5162,6 +5171,8 @@ RectTransform:
 =======
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401881524
 MonoBehaviour:
@@ -5186,6 +5197,7 @@ MonoBehaviour:
   m_text: 'How to Play!
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5310,6 +5322,26 @@ MonoBehaviour:
     jump'
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+    In the house you will find a computer, left click on
+    it to open a shop menu.
+
+
+    You will only be able to plant plants on dirt and
+    can only place traps on grass
+
+
+    Left click to turn the ground to dirt and
+    right click to turn it back to grass
+
+
+    to start the cut scene and first part
+    of the game press the button on the wall in the house (Only after you have planted
+    all of your plants)
+
+
+    Traps are negative points so use them wisely'
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5318,6 +5350,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5347,6 +5380,10 @@ MonoBehaviour:
   m_fontColor: {r: 0.1509434, g: 0.13314347, b: 0.13314347, a: 1}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5363,6 +5400,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5392,6 +5430,10 @@ MonoBehaviour:
   m_fontSizeBase: 32
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_fontSize: 36
+  m_fontSizeBase: 36
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5432,6 +5474,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
 =======
   m_margin: {x: -2366.0332, y: -99.49058, z: -67.043045, w: -326.2409}
@@ -5453,6 +5496,9 @@ MonoBehaviour:
   m_margin: {x: -1643.5247, y: -99.49058, z: 1934.0398, w: -572.32104}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_margin: {x: -2366.0332, y: -99.49058, z: -67.043045, w: -326.2409}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9393,6 +9439,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -688}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9414,6 +9461,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -688}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9427,6 +9477,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -6, y: -2}
 =======
   m_AnchoredPosition: {x: 0, y: 0}
@@ -9448,6 +9499,9 @@ RectTransform:
   m_AnchoredPosition: {x: -6, y: -2}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &773508633
@@ -11601,6 +11655,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3e3e7 (no message)
 =======
@@ -11626,6 +11681,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 2845}
+  m_LocalScale: {x: 4.0056, y: 5.6461887, z: 4.7571}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 421476275}
@@ -11633,6 +11692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11662,6 +11722,10 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  m_AnchoredPosition: {x: -323, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998521741
 MonoBehaviour:
@@ -22024,6 +22088,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_MethodName: OpenHowToPlay
 =======
         m_MethodName: HowToPlayButton
@@ -22045,6 +22110,9 @@ MonoBehaviour:
         m_MethodName: OpenHowToPlay
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+        m_MethodName: HowToPlayButton
+>>>>>>> e7eb6f0 (Updates after playtesting)
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22385,6 +22453,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   scoreBoardPanel: {fileID: 600189600}
 =======
   scoreBoardPanel: {fileID: 0}
@@ -22406,6 +22475,9 @@ MonoBehaviour:
   scoreBoardPanel: {fileID: 600189600}
 >>>>>>> 084da1a (no message)
 >>>>>>> b7b0233 (no message)
+=======
+  scoreBoardPanel: {fileID: 0}
+>>>>>>> e7eb6f0 (Updates after playtesting)
   moneyText: {fileID: 98348005}
   incomeAmount: 0
   DaysLeft: {fileID: 1999107312}

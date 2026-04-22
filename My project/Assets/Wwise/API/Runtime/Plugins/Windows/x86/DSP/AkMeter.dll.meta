@@ -55,6 +55,7 @@ PluginImporter:
 <<<<<<< HEAD
 =======
         OS: Windows
+<<<<<<< HEAD
 >>>>>>> e7eb6f0 (Updates after playtesting)
 =======
 >>>>>>> a666e1c (no message)
@@ -66,6 +67,8 @@ PluginImporter:
 =======
 >>>>>>> cd50569 (no message)
 >>>>>>> 33591fd (no message)
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
     Linux64:
       enabled: 0
       settings:

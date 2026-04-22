@@ -7,7 +7,11 @@ public class Pause : MonoBehaviour
     public GameObject storePrefab;
     public GameObject PauseMenu;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject ControlsMenu;
+=======
+    public GameObject howToPlayPanel;
+>>>>>>> e7eb6f0 (Updates after playtesting)
 =======
     public GameObject howToPlayPanel;
 >>>>>>> e7eb6f0 (Updates after playtesting)
@@ -22,7 +26,13 @@ public class Pause : MonoBehaviour
     {
         PauseMenu.SetActive(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
         ControlsMenu.SetActive(false);
+=======
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(false);
+>>>>>>> e7eb6f0 (Updates after playtesting)
 =======
 
         if (howToPlayPanel != null)
@@ -65,16 +75,32 @@ public class Pause : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     public void OpenHowToPlay()
     {
         PauseMenu.SetActive(false);
         howToPlayPanel.SetActive(true);
+=======
+    public void HowToPlayButton()
+    {
+        uiClickSound.Post(gameObject);
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(true);
+>>>>>>> e7eb6f0 (Updates after playtesting)
     }
 
     public void BackButton()
     {
+<<<<<<< HEAD
         howToPlayPanel.SetActive(false);
         PauseMenu.SetActive(true);
+=======
+        uiClickSound.Post(gameObject);
+
+        if (howToPlayPanel != null)
+            howToPlayPanel.SetActive(false);
+>>>>>>> e7eb6f0 (Updates after playtesting)
     }
 
     public void MenuSCreen()
@@ -90,12 +116,16 @@ public class Pause : MonoBehaviour
         Application.Quit();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public void ControlScreen()
     {
         ControlsMenu.SetActive(true);
     }
 }
+=======
+}
+>>>>>>> e7eb6f0 (Updates after playtesting)
 =======
 }
 >>>>>>> e7eb6f0 (Updates after playtesting)
