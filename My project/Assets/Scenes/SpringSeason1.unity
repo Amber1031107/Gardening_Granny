@@ -123,10 +123,13 @@ NavMeshSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &698946
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +268,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -273,6 +277,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &812105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f21bac0541c9b34bbee40452b66f88c, type: 3}
@@ -479,10 +487,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &9841569
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +632,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -629,6 +641,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &11316427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -839,10 +855,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &14230265
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +997,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -986,6 +1006,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &14379799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2216279769742426383, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -1764,10 +1788,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &36950537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,6 +2005,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -1986,6 +2014,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &42751829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2216,10 +2248,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &54298693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,6 +2393,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -2366,6 +2402,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &55934081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6311c5305015d324fbbdb979d26c86fe, type: 3}
@@ -2858,6 +2898,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2009887551}
 =======
 >>>>>>> c6ed6fd (no message)
@@ -2869,6 +2910,11 @@ RectTransform:
 =======
   - {fileID: 2009887551}
 >>>>>>> b46e5f7 (no message)
+=======
+  - {fileID: 2009887551}
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
   - {fileID: 1403505692}
   m_Father: {fileID: 1821711759}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3176,10 +3222,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &86868550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,6 +3367,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -3326,6 +3376,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &86928339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -3335,9 +3389,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &87920105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3408,6 +3466,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6468a8e1ed17d594da55f7fee46392d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -3415,6 +3474,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &94474364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4227,10 +4289,13 @@ MeshCollider:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &123782692
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,6 +4431,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -4374,6 +4440,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &124191972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5325,6 +5395,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -5334,6 +5407,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -5364,6 +5438,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyPlant4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5942,9 +6025,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &203196133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4395375082579749833, guid: 729468339aa3bb640a5cf970da752851, type: 3}
@@ -5956,6 +6043,7 @@ Transform:
   m_PrefabInstance: {fileID: 2013962067}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -5963,6 +6051,9 @@ Transform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &205026157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d28e2ba0e4e6cf4e960f4b010e85221, type: 3}
@@ -6152,6 +6243,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -6161,6 +6255,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -6191,6 +6286,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyPlant5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6240,10 +6344,14 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   m_Name: PlantsButton
 =======
   m_Name: Plants
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   m_Name: PlantsButton
 >>>>>>> a666e1c (no message)
@@ -6253,6 +6361,8 @@ GameObject:
 =======
   m_Name: PlantsButton
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6326,10 +6436,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 0}
 =======
       - m_Target: {fileID: 605686858}
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 0}
 >>>>>>> a666e1c (no message)
@@ -6339,6 +6453,8 @@ MonoBehaviour:
 =======
       - m_Target: {fileID: 0}
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: PlantsButton
         m_Mode: 1
@@ -6775,9 +6891,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &240955027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6848,6 +6968,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20674878502d2154e874bb71793b49ec, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -6855,6 +6976,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &241908662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8098,9 +8222,13 @@ Camera:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &296818558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8162,6 +8290,7 @@ PrefabInstance:
       addedObject: {fileID: 1132311041}
   m_SourcePrefab: {fileID: 100100000, guid: e1107be2e9bcd8e4bb267b8b93be73f3, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -8169,6 +8298,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &300507449
 GameObject:
   m_ObjectHideFlags: 0
@@ -8965,10 +9097,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &338824580
 GameObject:
   m_ObjectHideFlags: 0
@@ -9046,6 +9181,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -9054,6 +9190,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &347627797 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1918414494888556813, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -9323,10 +9463,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &367179968
 GameObject:
   m_ObjectHideFlags: 0
@@ -9404,6 +9547,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -9412,6 +9556,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &370083342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9478,10 +9626,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &376164611
 GameObject:
   m_ObjectHideFlags: 0
@@ -9617,6 +9768,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -9625,6 +9777,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &376270788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f21bac0541c9b34bbee40452b66f88c, type: 3}
@@ -10157,6 +10313,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -10166,6 +10325,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -10196,6 +10356,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyPlant6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11892,10 +12061,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &483353017
 GameObject:
   m_ObjectHideFlags: 0
@@ -12031,6 +12203,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -12039,6 +12212,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &492514156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12475,9 +12652,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
   icon_FlowerSpringPlant1: {fileID: -1987153247, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
   icon_FlowerSpringPlant2: {fileID: -1622452316, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
   icon_FlowerSpringPlant3: {fileID: 338609901, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
@@ -12487,6 +12668,7 @@ MonoBehaviour:
   icon_Trap: {fileID: 21300000, guid: 5a370a5e2f118f14092847836c645339, type: 3}
   icon_Shovel: {fileID: 21300000, guid: dd4aee1881ece8b4db5ada987a335aa3, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -12494,6 +12676,9 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
   icon_Default: {fileID: 626182853, guid: 271bf30a2d9684b4cab3abfe44b0637e, type: 3}
   slots:
   - slotObject: {fileID: 1639083303}
@@ -12540,9 +12725,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
   select_FlowerSpringPlant1:
     idInternal: 0
     valueGuidInternal: 
@@ -12580,6 +12769,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -12587,6 +12777,9 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!114 &507037195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12644,10 +12837,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &513900484
 GameObject:
   m_ObjectHideFlags: 0
@@ -12726,6 +12922,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -12734,6 +12931,10 @@ RectTransform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &514909038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13840,10 +14041,13 @@ CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &554991571
 GameObject:
   m_ObjectHideFlags: 0
@@ -13921,6 +14125,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -13929,6 +14134,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &557230892 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -14086,10 +14295,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &565241757
 GameObject:
   m_ObjectHideFlags: 0
@@ -14167,6 +14379,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -14175,6 +14388,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &566813647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14303,9 +14520,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &574635216 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8841642917160026815, guid: 25777f85d8364f940b855cd78a958f02, type: 3}
@@ -14317,6 +14538,7 @@ Transform:
   m_PrefabInstance: {fileID: 1725291398}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -14324,6 +14546,9 @@ Transform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &575406550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14519,10 +14744,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &596482101
 GameObject:
   m_ObjectHideFlags: 0
@@ -14658,6 +14886,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -14666,6 +14895,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &599068048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14816,9 +15049,13 @@ MeshCollider:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &605686853 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7510063291589483951, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -14893,6 +15130,7 @@ MonoBehaviour:
   audioController: {fileID: 0}
   moneyAmount: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -14900,6 +15138,9 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &607331540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -15091,10 +15332,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &620359210
 GameObject:
   m_ObjectHideFlags: 0
@@ -15172,6 +15416,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -15180,6 +15425,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &622881880
 GameObject:
   m_ObjectHideFlags: 0
@@ -15450,10 +15699,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &627736729
 GameObject:
   m_ObjectHideFlags: 0
@@ -15667,6 +15919,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -15675,6 +15928,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &631713905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15736,10 +15993,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &634201646
 GameObject:
   m_ObjectHideFlags: 0
@@ -15875,6 +16135,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -15883,6 +16144,10 @@ RectTransform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &639430948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15944,9 +16209,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &641689657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16017,6 +16286,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44b366f1b5b37f148a851926216652cc, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -16024,6 +16294,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &641983875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16409,10 +16682,14 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   m_Name: Trapshop
 =======
   m_Name: Traps
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   m_Name: Trapshop
 >>>>>>> a666e1c (no message)
@@ -16422,6 +16699,8 @@ GameObject:
 =======
   m_Name: Trapshop
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16977,10 +17256,13 @@ CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &701890290
 GameObject:
   m_ObjectHideFlags: 0
@@ -17119,6 +17401,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -17127,6 +17410,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &705087031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1069305226679414495, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -17644,9 +17931,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &728674485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17705,6 +17996,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76e0e626f60aa8b40b1f9d9bb628e34f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -17712,6 +18004,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &731924473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18560,10 +18855,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &775340123
 GameObject:
   m_ObjectHideFlags: 0
@@ -18702,6 +19000,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -18710,6 +19009,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &777998287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19400,10 +19703,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &809586780
 GameObject:
   m_ObjectHideFlags: 0
@@ -19542,6 +19848,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -19550,6 +19857,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &816525091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cadedf70258fe274283983205c1bcd4f, type: 3}
@@ -19740,10 +20051,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &828190136
 GameObject:
   m_ObjectHideFlags: 0
@@ -19879,6 +20193,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -19887,6 +20202,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &829452762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -20044,6 +20363,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   inventoryList: []
   selectItem: 1
   itemRegistry:
@@ -20071,8 +20393,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cb871fb2557e2e542a1b1976ebb0f298, type: 2}
   handAnchor: {fileID: 1305004765}
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   inventoryList: 
   selectItem: 1
   Flower_Spring_Item_Flower1: {fileID: 915385545}
@@ -20083,6 +20408,7 @@ MonoBehaviour:
   Flower_Spring_Item_Flower6: {fileID: 574635216}
   Trap_Item: {fileID: 203196133}
   Shovel_Item: {fileID: 1132311039}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
@@ -20122,6 +20448,9 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &832771515
 Transform:
   m_ObjectHideFlags: 0
@@ -20620,10 +20949,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &849955680
 GameObject:
   m_ObjectHideFlags: 0
@@ -20759,6 +21091,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -20767,6 +21100,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &851626219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21705,9 +22042,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &894136758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5770427325432453848, guid: 76e0e626f60aa8b40b1f9d9bb628e34f, type: 3}
@@ -21719,6 +22060,7 @@ Transform:
   m_PrefabInstance: {fileID: 728674485}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -21726,6 +22068,9 @@ Transform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &895923062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21948,10 +22293,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &903169065
 GameObject:
   m_ObjectHideFlags: 0
@@ -22090,6 +22438,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -22098,6 +22447,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &905169745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22393,9 +22746,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &915385545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8374727896575919567, guid: 44b366f1b5b37f148a851926216652cc, type: 3}
@@ -22407,6 +22764,7 @@ Transform:
   m_PrefabInstance: {fileID: 641689657}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -22414,6 +22772,9 @@ Transform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &916832554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22695,10 +23056,14 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   m_Name: Trapsbutton
 =======
   m_Name: Traps
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   m_Name: Trapsbutton
 >>>>>>> a666e1c (no message)
@@ -22708,6 +23073,8 @@ GameObject:
 =======
   m_Name: Trapsbutton
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22726,10 +23093,14 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   m_LocalScale: {x: 1.5577133, y: 1.5577133, z: 1.5577133}
 =======
   m_LocalScale: {x: 1.483681, y: 1.483681, z: 1.483681}
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   m_LocalScale: {x: 1.5577133, y: 1.5577133, z: 1.5577133}
 >>>>>>> a666e1c (no message)
@@ -22739,6 +23110,8 @@ RectTransform:
 =======
   m_LocalScale: {x: 1.5577133, y: 1.5577133, z: 1.5577133}
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1469805298}
@@ -22750,10 +23123,14 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   m_AnchoredPosition: {x: -298.592, y: 475}
 =======
   m_AnchoredPosition: {x: -303, y: 473}
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   m_AnchoredPosition: {x: -298.592, y: 475}
 >>>>>>> a666e1c (no message)
@@ -22763,6 +23140,8 @@ RectTransform:
 =======
   m_AnchoredPosition: {x: -298.592, y: 475}
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &924305425
@@ -22813,10 +23192,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 0}
 =======
       - m_Target: {fileID: 605686858}
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 0}
 >>>>>>> a666e1c (no message)
@@ -22826,6 +23209,8 @@ MonoBehaviour:
 =======
       - m_Target: {fileID: 0}
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: TrapsButton
         m_Mode: 1
@@ -23008,10 +23393,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &944039182
 GameObject:
   m_ObjectHideFlags: 0
@@ -23234,6 +23622,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -23242,6 +23631,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &946598762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -24487,10 +24880,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &988761872
 GameObject:
   m_ObjectHideFlags: 0
@@ -24626,6 +25022,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -24634,6 +25031,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &990756393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24755,6 +25156,9 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   - {fileID: 1909584072}
   - {fileID: 1028376190}
   - {fileID: 946522404}
@@ -24767,6 +25171,7 @@ RectTransform:
   - {fileID: 924305424}
   - {fileID: 220281542}
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   - {fileID: 1909584072}
   - {fileID: 1028376190}
@@ -24790,6 +25195,8 @@ RectTransform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   m_Father: {fileID: 1821711759}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -25170,10 +25577,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1006421951
 GameObject:
   m_ObjectHideFlags: 0
@@ -25331,6 +25741,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -25339,6 +25750,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1008045583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25462,6 +25877,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   TreesShop: {fileID: 1909584071}
   PathwayShop: {fileID: 1028376189}
   MiscShop: {fileID: 946522403}
@@ -25488,6 +25906,7 @@ MonoBehaviour:
   buyPathbutton2: {fileID: 14230269}
   buyPathbutton3: {fileID: 634201647}
 =======
+<<<<<<< HEAD
 =======
   TreesShop: {fileID: 1909584071}
   PathwayShop: {fileID: 1028376189}
@@ -25551,6 +25970,17 @@ MonoBehaviour:
   buyPathbutton2: {fileID: 14230269}
   buyPathbutton3: {fileID: 634201647}
 >>>>>>> b46e5f7 (no message)
+=======
+  moneyText: {fileID: 1455831096}
+  buybutton1: {fileID: 1261549708}
+  buybutton2: {fileID: 1071844145}
+  buybutton3: {fileID: 1774853157}
+  buybutton4: {fileID: 155650915}
+  buybutton5: {fileID: 211356543}
+  buybutton6: {fileID: 399647422}
+  buyTrap1: {fileID: 1487388016}
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
   playersInventory: {fileID: 832771514}
   buyPlantEvent:
     idInternal: 0
@@ -25915,10 +26345,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1028376189
 GameObject:
   m_ObjectHideFlags: 0
@@ -26002,6 +26435,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -26010,6 +26444,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1030826383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26170,10 +26608,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1043257908
 GameObject:
   m_ObjectHideFlags: 0
@@ -26251,6 +26692,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -26259,6 +26701,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1043728283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26568,6 +27014,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1057440879
 GameObject:
   m_ObjectHideFlags: 0
@@ -26645,6 +27094,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 --- !u!1 &1054790299 stripped
+<<<<<<< HEAD
 =======
 --- !u!1 &1057440879
 >>>>>>> a666e1c (no message)
@@ -26809,6 +27259,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1057440879}
   m_CullTransparentMesh: 1
 >>>>>>> b46e5f7 (no message)
+=======
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8416839824548594431, guid: 20674878502d2154e874bb71793b49ec, type: 3}
+  m_PrefabInstance: {fileID: 240955027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1054790300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9188838118154098757, guid: 20674878502d2154e874bb71793b49ec, type: 3}
+  m_PrefabInstance: {fileID: 240955027}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1057902313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27492,6 +27954,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -27501,6 +27966,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -27531,6 +27997,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyPlant2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28446,10 +28921,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
   shopscript: {fileID: 1009478906}
 =======
   shopscript: {fileID: 605686858}
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
   shopscript: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -28459,6 +28938,8 @@ MonoBehaviour:
 =======
   shopscript: {fileID: 1009478906}
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
   scoreText: {fileID: 247314411}
 --- !u!23 &1107129666
 MeshRenderer:
@@ -28767,10 +29248,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1112032113
 GameObject:
   m_ObjectHideFlags: 0
@@ -28848,6 +29332,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -28856,6 +29341,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1112291818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29404,9 +29893,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1132311039 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 215892407089644268, guid: e1107be2e9bcd8e4bb267b8b93be73f3, type: 3}
@@ -29431,6 +29924,7 @@ Transform:
   m_PrefabInstance: {fileID: 296818558}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -29438,6 +29932,9 @@ Transform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1136287078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cadedf70258fe274283983205c1bcd4f, type: 3}
@@ -29614,10 +30111,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1156319088
 GameObject:
   m_ObjectHideFlags: 0
@@ -29695,6 +30195,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -29703,6 +30204,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1159198087 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea7d02c4a6aaaa948a9ec0fb64699e73, type: 3}
@@ -30291,10 +30796,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1192428891
 GameObject:
   m_ObjectHideFlags: 0
@@ -30433,6 +30941,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -30441,6 +30950,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1197878514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -30544,10 +31057,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1215211436
 GameObject:
   m_ObjectHideFlags: 0
@@ -30686,6 +31202,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -30694,6 +31211,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1215473301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f21bac0541c9b34bbee40452b66f88c, type: 3}
@@ -31101,10 +31622,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1230110459
 GameObject:
   m_ObjectHideFlags: 0
@@ -31182,6 +31706,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -31190,6 +31715,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1230415533 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cadedf70258fe274283983205c1bcd4f, type: 3}
@@ -31796,6 +32325,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -31805,6 +32337,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -31835,6 +32368,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyPlant1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31849,10 +32391,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1272246392
 GameObject:
   m_ObjectHideFlags: 0
@@ -31988,6 +32533,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -31996,6 +32542,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1272883833 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d28e2ba0e4e6cf4e960f4b010e85221, type: 3}
@@ -32558,10 +33108,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1298836396
 GameObject:
   m_ObjectHideFlags: 0
@@ -32700,6 +33253,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -32708,6 +33262,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1300189944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33089,10 +33647,15 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Children: []
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+  m_Children: []
+=======
+>>>>>>> 5a410ac (no message)
   m_Children:
   - {fileID: 1132311043}
   - {fileID: 203196134}
@@ -33103,6 +33666,7 @@ Transform:
   - {fileID: 1054790300}
   - {fileID: 574635217}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
   m_Children: []
@@ -33112,6 +33676,9 @@ Transform:
 =======
   m_Children: []
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
   m_Father: {fileID: 832771515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1305741211 stripped
@@ -33185,9 +33752,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1308389155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33246,6 +33817,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 525adb7c2470c8f42af37adc80f5406f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -33253,6 +33825,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1309637101
 GameObject:
   m_ObjectHideFlags: 0
@@ -36153,6 +36728,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -36162,6 +36740,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -36192,6 +36771,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyTrap1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36331,10 +36919,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1492670117
 GameObject:
   m_ObjectHideFlags: 0
@@ -36412,6 +37003,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -36420,6 +37012,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1497980145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37277,9 +37873,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1569251924 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1816589191573957742, guid: 6468a8e1ed17d594da55f7fee46392d9, type: 3}
@@ -37291,6 +37891,7 @@ Transform:
   m_PrefabInstance: {fileID: 87920105}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -37298,6 +37899,9 @@ Transform:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1569981368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cadedf70258fe274283983205c1bcd4f, type: 3}
@@ -38801,10 +39405,13 @@ CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1621898318
 GameObject:
   m_ObjectHideFlags: 0
@@ -38943,6 +39550,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -38951,6 +39559,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1629989577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cadedf70258fe274283983205c1bcd4f, type: 3}
@@ -39193,10 +39805,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1647595749
 GameObject:
   m_ObjectHideFlags: 0
@@ -39332,6 +39947,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -39340,6 +39956,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1648152499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39628,10 +40248,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1653139955
 GameObject:
   m_ObjectHideFlags: 0
@@ -39767,6 +40390,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -39775,6 +40399,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &1654173192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a1e53e0656edc354b93d241384125600, type: 3}
@@ -41475,9 +42103,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1725291398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41548,6 +42180,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25777f85d8364f940b855cd78a958f02, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -41555,6 +42188,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1725597646
 GameObject:
   m_ObjectHideFlags: 0
@@ -41773,10 +42409,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1744104236
 GameObject:
   m_ObjectHideFlags: 0
@@ -41915,6 +42554,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -41923,6 +42563,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1745224021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42306,10 +42950,13 @@ MeshCollider:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1770169111
 GameObject:
   m_ObjectHideFlags: 0
@@ -42445,6 +43092,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -42453,6 +43101,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1770997638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d28e2ba0e4e6cf4e960f4b010e85221, type: 3}
@@ -42937,6 +43589,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       - m_Target: {fileID: 1009478906}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyItem
@@ -42946,6 +43601,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 =======
       - m_Target: {fileID: 605686858}
+<<<<<<< HEAD
 =======
       - m_Target: {fileID: 1009478906}
 >>>>>>> a666e1c (no message)
@@ -42976,6 +43632,15 @@ MonoBehaviour:
 =======
           m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
 >>>>>>> b46e5f7 (no message)
+=======
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyPlant3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43740,6 +44405,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 513900487}
 =======
 >>>>>>> c6ed6fd (no message)
@@ -43751,6 +44417,11 @@ RectTransform:
 =======
   - {fileID: 513900487}
 >>>>>>> b46e5f7 (no message)
+=======
+  - {fileID: 513900487}
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
   - {fileID: 75566119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43777,6 +44448,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ControlsMenu: {fileID: 513900484}
 =======
 >>>>>>> c6ed6fd (no message)
@@ -43788,6 +44460,11 @@ MonoBehaviour:
 =======
   ControlsMenu: {fileID: 513900484}
 >>>>>>> b46e5f7 (no message)
+=======
+  ControlsMenu: {fileID: 513900484}
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
   pauseOnSound:
     idInternal: 0
     valueGuidInternal: 
@@ -44210,10 +44887,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1849056060
 GameObject:
   m_ObjectHideFlags: 0
@@ -44352,6 +45032,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -44360,6 +45041,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1852492742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45524,10 +46209,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1909584071
 GameObject:
   m_ObjectHideFlags: 0
@@ -45615,6 +46303,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -45623,6 +46312,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1910710359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45846,10 +46539,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1917090706
 GameObject:
   m_ObjectHideFlags: 0
@@ -45988,6 +46684,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -45996,6 +46693,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1918278207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4973900313364365505, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -46651,10 +47352,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: 21.36
 =======
       value: 20.74
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: 21.36
 >>>>>>> a666e1c (no message)
@@ -46664,6 +47369,8 @@ PrefabInstance:
 =======
       value: 21.36
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: -7802591831821460912, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46675,10 +47382,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: -3.29
 =======
       value: -3.79
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: -3.29
 >>>>>>> a666e1c (no message)
@@ -46688,6 +47399,8 @@ PrefabInstance:
 =======
       value: -3.29
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: -7802591831821460912, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46747,10 +47460,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: -27.85
 =======
       value: -26.68
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: -27.85
 >>>>>>> a666e1c (no message)
@@ -46760,6 +47477,8 @@ PrefabInstance:
 =======
       value: -27.85
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 1869325816163081078, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46771,19 +47490,26 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: 45.96
       objectReference: {fileID: 0}
     - target: {fileID: 1869325816163081078, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7630957
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       value: 43.85
       objectReference: {fileID: 0}
     - target: {fileID: 1869325816163081078, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.8168707
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
@@ -46802,6 +47528,9 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.7630957
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 1869325816163081078, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -46813,6 +47542,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: 0.64628553
       objectReference: {fileID: 0}
     - target: {fileID: 1869325816163081078, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -46824,6 +47556,7 @@ PrefabInstance:
       value: 11.47
 =======
       value: 0.5768209
+<<<<<<< HEAD
 =======
       value: 0.64628553
 >>>>>>> a666e1c (no message)
@@ -46858,6 +47591,17 @@ PrefabInstance:
 =======
       value: 11.47
 >>>>>>> b46e5f7 (no message)
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869325816163081078, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 70.455
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516042241587049035, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.87
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 3516042241587049035, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46869,10 +47613,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: -2.92
 =======
       value: -3.41
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: -2.92
 >>>>>>> a666e1c (no message)
@@ -46882,6 +47630,8 @@ PrefabInstance:
 =======
       value: -2.92
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 3516042241587049035, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46905,10 +47655,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: 16.87
 =======
       value: 16.15
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: 16.87
 >>>>>>> a666e1c (no message)
@@ -46918,6 +47672,8 @@ PrefabInstance:
 =======
       value: 16.87
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 5358155300036032076, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46929,10 +47685,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: 49.19
 =======
       value: 48.83
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: 49.19
 >>>>>>> a666e1c (no message)
@@ -46942,6 +47702,8 @@ PrefabInstance:
 =======
       value: 49.19
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 5358155300036032076, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46965,10 +47727,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: -27.3
 =======
       value: -27.7
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: -27.3
 >>>>>>> a666e1c (no message)
@@ -46978,6 +47744,8 @@ PrefabInstance:
 =======
       value: -27.3
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 5407449604880790073, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46989,10 +47757,14 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
       value: 30.59
 =======
       value: 32.73
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
       value: 30.59
 >>>>>>> a666e1c (no message)
@@ -47002,6 +47774,8 @@ PrefabInstance:
 =======
       value: 30.59
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
       objectReference: {fileID: 0}
     - target: {fileID: 5407449604880790073, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -47024,11 +47798,15 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
     m_RemovedGameObjects:
     - {fileID: -7510063291589483951, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
 =======
     m_RemovedGameObjects: []
 >>>>>>> c6ed6fd (no message)
+<<<<<<< HEAD
 =======
     m_RemovedGameObjects:
     - {fileID: -7510063291589483951, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -47040,6 +47818,8 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: -7510063291589483951, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -415819471913817053, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -47178,15 +47958,20 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
     - targetCorrespondingSourceObject: {fileID: -7510063291589483951, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 605686855}
     - targetCorrespondingSourceObject: {fileID: -7510063291589483951, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 605686858}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
@@ -47195,6 +47980,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
     - targetCorrespondingSourceObject: {fileID: -7637293870435852242, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1009478903}
@@ -47723,10 +48511,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &1979743932
 GameObject:
   m_ObjectHideFlags: 0
@@ -47804,6 +48595,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -47812,6 +48604,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &1981102521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48371,10 +49167,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &2009887550
 GameObject:
   m_ObjectHideFlags: 0
@@ -48510,6 +49309,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -48518,6 +49318,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &2009966620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4663855882144048062, guid: 7997f91afc4b94b4a8dd9ba0239b120e, type: 3}
@@ -48632,9 +49436,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 27cfc40 (no message)
+=======
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &2013962067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48705,6 +49513,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 729468339aa3bb640a5cf970da752851, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6ed6fd (no message)
 =======
 >>>>>>> a666e1c (no message)
@@ -48712,6 +49521,9 @@ PrefabInstance:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &2014616755 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -48758,10 +49570,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &2021660445
 GameObject:
   m_ObjectHideFlags: 0
@@ -49030,6 +49845,7 @@ MonoBehaviour:
         m_CallState: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -49038,6 +49854,10 @@ MonoBehaviour:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1 &2028521160
 GameObject:
   m_ObjectHideFlags: 0
@@ -49674,10 +50494,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &2054359717
 GameObject:
   m_ObjectHideFlags: 0
@@ -49816,6 +50639,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c6ed6fd (no message)
 =======
@@ -49824,6 +50648,10 @@ CanvasRenderer:
 >>>>>>> 27cfc40 (no message)
 =======
 >>>>>>> b46e5f7 (no message)
+=======
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!4 &2055263937 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4717369792784006848, guid: 08afde41415bd0c44a0c5b0b5496afdb, type: 3}
@@ -50801,6 +51629,9 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a410ac (no message)
 --- !u!1 &2123064999
 GameObject:
   m_ObjectHideFlags: 0
@@ -50939,6 +51770,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 --- !u!1 &2123232137 stripped
+<<<<<<< HEAD
 =======
 --- !u!1 &2123064999
 >>>>>>> a666e1c (no message)
@@ -51225,6 +52057,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 2123064999}
   m_CullTransparentMesh: 1
 >>>>>>> b46e5f7 (no message)
+=======
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7495930040076144254, guid: 525adb7c2470c8f42af37adc80f5406f, type: 3}
+  m_PrefabInstance: {fileID: 1308389155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2123232138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7155432577318999236, guid: 525adb7c2470c8f42af37adc80f5406f, type: 3}
+  m_PrefabInstance: {fileID: 1308389155}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> c6ed6fd (no message)
+>>>>>>> 5a410ac (no message)
 --- !u!1001 &2125981709
 PrefabInstance:
   m_ObjectHideFlags: 0

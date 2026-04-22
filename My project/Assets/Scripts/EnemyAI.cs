@@ -351,7 +351,11 @@ public class EnemyAI : MonoBehaviour
 >>>>>>> f4f8a07 (no message)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3a79e98 (no message)
+=======
+>>>>>>> c6ed6fd (no message)
+>>>>>>> e880a95 (no message)
     }
 
     private IEnumerator RunAway()
@@ -378,6 +382,7 @@ public class EnemyAI : MonoBehaviour
 
         TriggerEscape(flung: false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cfde5dc (Area update, took out builds)
 <<<<<<< HEAD
 >>>>>>> 27cfc40 (no message)
@@ -386,7 +391,17 @@ public class EnemyAI : MonoBehaviour
 =======
 >>>>>>> e7eb6f0 (Updates after playtesting)
 >>>>>>> 3a79e98 (no message)
+<<<<<<< HEAD
 >>>>>>> f4f8a07 (no message)
+=======
+=======
+=======
+>>>>>>> e7eb6f0 (Updates after playtesting)
+=======
+>>>>>>> cfde5dc (Area update, took out builds)
+>>>>>>> c6ed6fd (no message)
+>>>>>>> e880a95 (no message)
+>>>>>>> 5a410ac (no message)
     }
 
     private IEnumerator RunAway()
