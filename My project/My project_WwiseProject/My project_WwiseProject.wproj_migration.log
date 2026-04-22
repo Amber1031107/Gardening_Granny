@@ -35,6 +35,7 @@ Project migration to XML Schema (XSD) version 133 is completed.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 654bc1e (no message)
 =======
@@ -81,6 +82,8 @@ Project migration to XML Schema (XSD) version 133 is completed.
 =======
 >>>>>>> 4b74875 (no message)
 =======
+>>>>>>> c005656 (no message)
+=======
 >>>>>>> 1862b01 (no message)
 >>>>>>> aa0a968 (no message)
 =======
@@ -121,12 +124,22 @@ Project migration to XML Schema (XSD) version 133 is completed.
 =======
 >>>>>>> 03de798 (no message)
 =======
+>>>>>>> 7eddacc (no message)
+=======
 =======
 >>>>>>> 60800bb (no message)
 =======
 >>>>>>> 47b9640 (no message)
+<<<<<<< HEAD
 >>>>>>> add46cc (no message)
+<<<<<<< HEAD
 >>>>>>> 1f674f2 (no message)
+=======
+=======
+=======
+>>>>>>> cae79d1 (no message)
+>>>>>>> 7eddacc (no message)
+>>>>>>> c005656 (no message)
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu' was moved during the migration of your project. If your project is under source control the file has been marked for move, remember to commit the change.
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Audio Devices\Default Work Unit.wwu' was moved during the migration of your project. If your project is under source control the file has been marked for move, remember to commit the change.
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu' was moved during the migration of your project. If your project is under source control the file has been marked for move, remember to commit the change.
@@ -137,6 +150,7 @@ The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My proje
 The file 'C:\Users\Amber\OneDrive\Documents\Gardening_Granny\My project\My project_WwiseProject\Actor-Mixer Hierarchy' was deleted during the migration of your project. If your project is under source control the file has been marked for delete, remember to commit the change.
 The default work unit '\Sidechain Mixes\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
 Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +200,8 @@ Some new object properties have been added or obsolete properties deleted. The p
 >>>>>>> 992d1a1 (no message)
 =======
 >>>>>>> 1f674f2 (no message)
+=======
+>>>>>>> c005656 (no message)
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
@@ -240,6 +256,8 @@ Some new object properties have been added or obsolete properties deleted. The p
 >>>>>>> c236d95 (no message)
 =======
 >>>>>>> add46cc (no message)
+=======
+>>>>>>> 7eddacc (no message)
 >>>>>>> b4c89e6 (no message)
 <<<<<<< HEAD
 >>>>>>> f0c9004 (no message)
@@ -281,5 +299,13 @@ Some new object properties have been added or obsolete properties deleted. The p
 =======
 =======
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> 03de798 (no message)
+<<<<<<< HEAD
 >>>>>>> 4b74875 (no message)
+=======
+=======
+=======
+>>>>>>> cae79d1 (no message)
+>>>>>>> 7eddacc (no message)
+>>>>>>> c005656 (no message)
