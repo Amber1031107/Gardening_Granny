@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}">
 =======
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}">
@@ -18,10 +19,13 @@
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 1fd725a (no message)
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}">
 =======
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}">
 >>>>>>> b97c6f7 (no message)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdf751e (no message)
 =======
@@ -41,6 +45,11 @@
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}">
 >>>>>>> b97c6f7 (no message)
 >>>>>>> 5a75269 (no message)
+=======
+=======
+		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}">
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
 			<ObjectPath>Play_Digging_Up_Plant</ObjectPath>
 			<ShortName>Play_Digging_Up_Plant</ShortName>
 			<Path>Event/Play_Digging_Up_Plant.bnk</Path>
@@ -55,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<CachePath>D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem</CachePath>
 =======
 					<CachePath>CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem</CachePath>
@@ -65,10 +75,13 @@
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 1fd725a (no message)
 					<CachePath>D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem</CachePath>
 =======
 					<CachePath>CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem</CachePath>
 >>>>>>> b97c6f7 (no message)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdf751e (no message)
 =======
@@ -88,6 +101,11 @@
 					<CachePath>CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem</CachePath>
 >>>>>>> b97c6f7 (no message)
 >>>>>>> 5a75269 (no message)
+=======
+=======
+					<CachePath>D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem</CachePath>
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
 				</File>
 			</Media>
 			<Events>
@@ -106,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{9D6833CD-7391-81A0-9F70-FA1ACAA4C29D}</FileHash>
 =======
 	<FileHash>{87C728FA-10D8-5F8D-622C-FC929271BE9A}</FileHash>
@@ -116,10 +135,13 @@
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 1fd725a (no message)
 	<FileHash>{9D6833CD-7391-81A0-9F70-FA1ACAA4C29D}</FileHash>
 =======
 	<FileHash>{87C728FA-10D8-5F8D-622C-FC929271BE9A}</FileHash>
 >>>>>>> b97c6f7 (no message)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdf751e (no message)
 =======
@@ -139,4 +161,9 @@
 	<FileHash>{87C728FA-10D8-5F8D-622C-FC929271BE9A}</FileHash>
 >>>>>>> b97c6f7 (no message)
 >>>>>>> 5a75269 (no message)
+=======
+=======
+	<FileHash>{9D6833CD-7391-81A0-9F70-FA1ACAA4C29D}</FileHash>
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
 </SoundBanksInfo>

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
 =======
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
@@ -18,10 +19,13 @@
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 1fd725a (no message)
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
 =======
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
 >>>>>>> b97c6f7 (no message)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdf751e (no message)
 =======
@@ -41,6 +45,11 @@
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
 >>>>>>> b97c6f7 (no message)
 >>>>>>> 5a75269 (no message)
+=======
+=======
+		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
 			<ObjectPath>Play_Cut_Scene_Button</ObjectPath>
 			<ShortName>Play_Cut_Scene_Button</ShortName>
 			<Path>Event/Play_Cut_Scene_Button.bnk</Path>
@@ -60,12 +69,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> 5a75269 (no message)
+=======
+>>>>>>> 1fd725a (no message)
 					<CachePath>87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem</CachePath>
 				</File>
 			</Media>
@@ -96,8 +108,11 @@
 =======
 >>>>>>> b97c6f7 (no message)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fdf751e (no message)
 =======
+=======
+>>>>>>> 1fd725a (no message)
 =======
 					<CachePath>87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem</CachePath>
 				</File>
@@ -105,6 +120,7 @@
 			<Events>
 				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="2.2946439" DurationMax="2.2946439">
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
@@ -118,6 +134,8 @@
 =======
 >>>>>>> b97c6f7 (no message)
 >>>>>>> 5a75269 (no message)
+=======
+>>>>>>> 1fd725a (no message)
 					<MediaRefs>
 						<MediaRef Id="307067782"/>
 						<MediaRef Id="340222023"/>
@@ -133,6 +151,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{980CF50A-A946-17A2-B804-C4F58E258B62}</FileHash>
 =======
 	<FileHash>{D850B641-BE9D-AE3A-E2C7-83D2748DC2E2}</FileHash>
@@ -143,10 +162,13 @@
 =======
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 1fd725a (no message)
 	<FileHash>{980CF50A-A946-17A2-B804-C4F58E258B62}</FileHash>
 =======
 	<FileHash>{D850B641-BE9D-AE3A-E2C7-83D2748DC2E2}</FileHash>
 >>>>>>> b97c6f7 (no message)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdf751e (no message)
 =======
@@ -166,4 +188,9 @@
 	<FileHash>{D850B641-BE9D-AE3A-E2C7-83D2748DC2E2}</FileHash>
 >>>>>>> b97c6f7 (no message)
 >>>>>>> 5a75269 (no message)
+=======
+=======
+	<FileHash>{980CF50A-A946-17A2-B804-C4F58E258B62}</FileHash>
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
 </SoundBanksInfo>

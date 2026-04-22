@@ -16,8 +16,11 @@ namespace AK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7772bc0 (no message)
+=======
+>>>>>>> 1fd725a (no message)
         static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
 <<<<<<< HEAD
@@ -97,14 +100,39 @@ namespace AK
 =======
 >>>>>>> 7772bc0 (no message)
 =======
+=======
+        static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
+>>>>>>> f8dbe17 (no message)
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
+        static const AkUniqueID PLAY_BEAR_TRAP_FLING = 1734114213U;
+        static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
+        static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
+        static const AkUniqueID PLAY_BUY_TRAP = 3485936852U;
+        static const AkUniqueID PLAY_CASH_REGISTER = 1433988185U;
+        static const AkUniqueID PLAY_COMPUTER = 1984956505U;
+        static const AkUniqueID PLAY_CUT_SCENE_BUTTON = 588888374U;
+        static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
+        static const AkUniqueID PLAY_DIGGING_UP_PLANT = 3054394219U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_GRASS_SNEAK_FOOTSTEPS_LOOP = 3018976446U;
+        static const AkUniqueID PLAY_NO_MONEY_LEFT = 2150464526U;
+        static const AkUniqueID PLAY_PAUSE_MENU_OFF = 2321699868U;
+        static const AkUniqueID PLAY_PAUSE_MENU_ON = 2756808150U;
+        static const AkUniqueID PLAY_PLANTING_PLANTS = 2764715416U;
         static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_SWITCH_TO_BEAR_TRAP = 3887442043U;
+        static const AkUniqueID PLAY_SWITCH_TO_PLANT = 621229048U;
+        static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
+        static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
+=======
+>>>>>>> 1fd725a (no message)
 >>>>>>> 9a1dd63 (pt 2)
 <<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
@@ -115,7 +143,15 @@ namespace AK
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+        static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
+        static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
+        static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
     } // namespace EVENTS
 
     namespace STATES
@@ -195,6 +231,18 @@ namespace AK
 >>>>>>> 9a1dd63 (pt 2)
 >>>>>>> 7772bc0 (no message)
 
+        namespace SURFACES
+        {
+            static const AkUniqueID GROUP = 3714303081U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace SURFACES
+
     } // namespace SWITCHES
 
 <<<<<<< HEAD
@@ -212,6 +260,7 @@ namespace AK
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 =======
 >>>>>>> 8efe417 (no message)
@@ -219,10 +268,17 @@ namespace AK
 >>>>>>> c26099d (no message)
 =======
 =======
+>>>>>>> 1fd725a (no message)
+=======
     } // namespace SWITCHES
 
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -237,6 +293,7 @@ namespace AK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
@@ -248,10 +305,19 @@ namespace AK
 =======
 >>>>>>> 9a1dd63 (pt 2)
 >>>>>>> 7772bc0 (no message)
+=======
+        static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
+=======
+>>>>>>> 9a1dd63 (pt 2)
+=======
+        static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         static const AkUniqueID HOUSE_REVERB = 2675173306U;
@@ -271,7 +337,13 @@ namespace AK
         static const AkUniqueID OUTSIDE = 438105790U;
         static const AkUniqueID S = 84696428U;
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+        static const AkUniqueID HOUSE_REVERB = 2675173306U;
+>>>>>>> f8dbe17 (no message)
+>>>>>>> 1fd725a (no message)
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
