@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
 =======
     "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
@@ -33,6 +34,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
     "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
 =======
     "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
@@ -65,12 +68,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
     "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
 =======
     "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+    "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
     "ObjectPath": "Play_Cut_Scene_Button",
     "ShortName": "Play_Cut_Scene_Button",
     "Path": "Event/Play_Cut_Scene_Button.bnk",
@@ -100,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
 =======
       "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
@@ -114,6 +129,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
       "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
 =======
       "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
@@ -146,12 +163,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
       "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
 =======
       "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
      }
     ],
     "Events": [
@@ -171,6 +199,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
@@ -183,6 +212,12 @@
 =======
 >>>>>>> 756b11d (no message)
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+>>>>>>> 756b11d (no message)
+=======
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
       "DurationMin": "2.2946439",
       "DurationMax": "2.2946439",
 =======
@@ -229,8 +264,18 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "DurationMin": "2.2946439",
+      "DurationMax": "2.2946439",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
       "MediaRefs": [
        {
         "Id": "307067782"
@@ -252,6 +297,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
 =======
   "FileHash": "{E0B43D2D-2C70-6CB6-7A2A-D59575EB80EB}"
@@ -266,6 +312,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
   "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
 =======
   "FileHash": "{E0B43D2D-2C70-6CB6-7A2A-D59575EB80EB}"
@@ -298,11 +346,22 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
   "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
 =======
   "FileHash": "{E0B43D2D-2C70-6CB6-7A2A-D59575EB80EB}"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+  "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
  }
 }

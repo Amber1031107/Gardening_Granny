@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{20DF0A13-AC89-7DD7-78A2-545AB9182613}",
 =======
     "Hash": "{E11F3FBA-FA29-9FD7-F7EF-519297FE7512}",
@@ -33,6 +34,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
     "Hash": "{20DF0A13-AC89-7DD7-78A2-545AB9182613}",
 =======
     "Hash": "{E11F3FBA-FA29-9FD7-F7EF-519297FE7512}",
@@ -65,12 +68,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
     "Hash": "{20DF0A13-AC89-7DD7-78A2-545AB9182613}",
 =======
     "Hash": "{E11F3FBA-FA29-9FD7-F7EF-519297FE7512}",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+    "Hash": "{20DF0A13-AC89-7DD7-78A2-545AB9182613}",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
     "ObjectPath": "Play_Bear_Trap_Fling",
     "ShortName": "Play_Bear_Trap_Fling",
     "Path": "Event/Play_Bear_Trap_Fling.bnk",
@@ -91,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "0D/{0DDC0606-82CD-243B-0DF3-65F476F647E7}.wem"
 =======
       "CachePath": "7F/{7F495DEC-FD4A-28AA-314E-E8F6097776AE}.wem"
@@ -105,6 +120,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
       "CachePath": "0D/{0DDC0606-82CD-243B-0DF3-65F476F647E7}.wem"
 =======
       "CachePath": "7F/{7F495DEC-FD4A-28AA-314E-E8F6097776AE}.wem"
@@ -137,12 +154,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
       "CachePath": "0D/{0DDC0606-82CD-243B-0DF3-65F476F647E7}.wem"
 =======
       "CachePath": "7F/{7F495DEC-FD4A-28AA-314E-E8F6097776AE}.wem"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "CachePath": "0D/{0DDC0606-82CD-243B-0DF3-65F476F647E7}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
      },
      {
       "Id": "842763039",
@@ -160,6 +188,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "40/{4094910F-6C30-D425-1907-1CAE939C2781}.wem"
 =======
       "CachePath": "2F/{2F0585B9-8916-59EA-CF15-55D537EBFCBE}.wem"
@@ -174,6 +203,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
       "CachePath": "40/{4094910F-6C30-D425-1907-1CAE939C2781}.wem"
 =======
       "CachePath": "2F/{2F0585B9-8916-59EA-CF15-55D537EBFCBE}.wem"
@@ -206,12 +237,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
       "CachePath": "40/{4094910F-6C30-D425-1907-1CAE939C2781}.wem"
 =======
       "CachePath": "2F/{2F0585B9-8916-59EA-CF15-55D537EBFCBE}.wem"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "CachePath": "40/{4094910F-6C30-D425-1907-1CAE939C2781}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
      },
      {
       "Id": "1012928164",
@@ -229,6 +271,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "62/{62C1D91E-AB8E-C5FB-172E-6DA90501D033}.wem"
 =======
       "CachePath": "CA/{CADE8654-0FAF-D537-8EB7-4BBCD75BDFFD}.wem"
@@ -243,6 +286,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
       "CachePath": "62/{62C1D91E-AB8E-C5FB-172E-6DA90501D033}.wem"
 =======
       "CachePath": "CA/{CADE8654-0FAF-D537-8EB7-4BBCD75BDFFD}.wem"
@@ -275,12 +320,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
       "CachePath": "62/{62C1D91E-AB8E-C5FB-172E-6DA90501D033}.wem"
 =======
       "CachePath": "CA/{CADE8654-0FAF-D537-8EB7-4BBCD75BDFFD}.wem"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "CachePath": "62/{62C1D91E-AB8E-C5FB-172E-6DA90501D033}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
      }
     ],
     "Plugins": {
@@ -336,6 +392,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{2982191E-F293-DC01-FE68-0DBDEA3B8750}"
 =======
   "FileHash": "{F8F3C2DE-D526-55AD-B813-BF0AED936E4D}"
@@ -350,6 +407,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
   "FileHash": "{2982191E-F293-DC01-FE68-0DBDEA3B8750}"
 =======
   "FileHash": "{F8F3C2DE-D526-55AD-B813-BF0AED936E4D}"
@@ -382,11 +441,22 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
   "FileHash": "{2982191E-F293-DC01-FE68-0DBDEA3B8750}"
 =======
   "FileHash": "{F8F3C2DE-D526-55AD-B813-BF0AED936E4D}"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+  "FileHash": "{2982191E-F293-DC01-FE68-0DBDEA3B8750}"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
  }
 }

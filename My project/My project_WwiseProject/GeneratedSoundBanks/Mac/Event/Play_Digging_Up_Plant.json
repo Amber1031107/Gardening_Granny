@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
 =======
     "Hash": "{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}",
@@ -33,6 +34,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
     "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
 =======
     "Hash": "{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}",
@@ -65,12 +68,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
     "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
 =======
     "Hash": "{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+    "Hash": "{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}",
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
     "ObjectPath": "Play_Digging_Up_Plant",
     "ShortName": "Play_Digging_Up_Plant",
     "Path": "Event/Play_Digging_Up_Plant.bnk",
@@ -91,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
 =======
       "CachePath": "CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem"
@@ -105,6 +120,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
       "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
 =======
       "CachePath": "CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem"
@@ -137,12 +154,23 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
       "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
 =======
       "CachePath": "CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "CachePath": "D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
      }
     ],
     "Events": [
@@ -173,6 +201,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{74536497-4B9C-D8AD-67B4-60D3F23F6969}"
 =======
   "FileHash": "{A91BB19F-9ACC-CB44-4F7F-04A5A84C4409}"
@@ -187,6 +216,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> a255892 (no message)
   "FileHash": "{74536497-4B9C-D8AD-67B4-60D3F23F6969}"
 =======
   "FileHash": "{A91BB19F-9ACC-CB44-4F7F-04A5A84C4409}"
@@ -219,11 +250,22 @@
 >>>>>>> 1fd725a (no message)
 =======
 =======
+=======
+>>>>>>> 53bbf21 (no message)
   "FileHash": "{74536497-4B9C-D8AD-67B4-60D3F23F6969}"
 =======
   "FileHash": "{A91BB19F-9ACC-CB44-4F7F-04A5A84C4409}"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+  "FileHash": "{74536497-4B9C-D8AD-67B4-60D3F23F6969}"
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
  }
 }

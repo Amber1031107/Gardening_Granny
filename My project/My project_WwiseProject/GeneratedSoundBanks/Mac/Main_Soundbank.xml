@@ -94,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
 >>>>>>> c9441e8 (rebase pt2 ig?)
 <<<<<<< HEAD
@@ -177,8 +178,17 @@
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{F1BFD328-A3CC-0A15-98F1-042200324B4B}">
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{12277D5A-B359-A37E-E687-B62F5B53E676}">
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -2111,8 +2121,18 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 	<FileHash>{D3CFF9E1-2B2F-273E-FD33-C0C31794B909}</FileHash>
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+	<FileHash>{3E7746D9-342A-D15A-7154-00F370BCB2CD}</FileHash>
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+>>>>>>> 53bbf21 (no message)
+>>>>>>> a255892 (no message)
 </SoundBanksInfo>
