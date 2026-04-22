@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "SoundBankVersion": "172",
 =======
   "SoundBankVersion": "154",
@@ -36,12 +37,16 @@
 =======
   "SoundBankVersion": "172",
 >>>>>>> 93f1f27 (no message)
+=======
+  "SoundBankVersion": "154",
+>>>>>>> 787f68f (no message)
   "SoundBanks": [
    {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +126,8 @@
 >>>>>>> aa0a968 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
     "Hash": "{A6E9FFD9-6D25-CEE0-3A7C-AC95E31992F8}",
 =======
     "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
@@ -187,6 +194,8 @@
 >>>>>>> 1862b01 (no message)
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
     "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
 =======
     "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
@@ -209,8 +218,17 @@
 =======
     "Hash": "{A6E9FFD9-6D25-CEE0-3A7C-AC95E31992F8}",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+    "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -267,12 +285,21 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      "AudioDevices": [
       {
        "Id": "2317455096",
        "Name": "No_Output",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +333,9 @@
 =======
        "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
 >>>>>>> 93f1f27 (no message)
+=======
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+>>>>>>> 787f68f (no message)
        "GUID": "{4BF40DA4-EBC2-457D-92D1-F93F823C241C}",
        "LibName": "No Output",
        "LibId": "11862023"
@@ -321,6 +351,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        "ObjectPath": "\\Devices\\Default Work Unit\\System",
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
@@ -346,6 +377,9 @@
 =======
        "ObjectPath": "\\Devices\\Default Work Unit\\System",
 >>>>>>> 93f1f27 (no message)
+=======
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+>>>>>>> 787f68f (no message)
        "GUID": "{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}",
        "LibName": "System",
        "LibId": "11403271"
@@ -354,6 +388,7 @@
     },
     "Busses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,8 +413,12 @@
 =======
 >>>>>>> fd4ca8c (no message)
 =======
+>>>>>>> 34da449 (no message)
+=======
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
       "Id": "77978275",
       "Name": "Ambient",
 <<<<<<< HEAD
@@ -417,11 +456,20 @@
       "Name": "Ambience Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambience Master",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+>>>>>>> 8efe417 (no message)
+>>>>>>> 34da449 (no message)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,11 +484,19 @@
 >>>>>>> 51b2374 (no message)
 >>>>>>> 62545f0 (no message)
 =======
+=======
+>>>>>>> 34da449 (no message)
 >>>>>>> 51b2374 (no message)
 =======
 <<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "79554116",
       "Name": "Music Master",
 <<<<<<< HEAD
@@ -468,6 +524,13 @@
        ]
       }
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 8efe417 (no message)
      },
      {
       "Id": "143634621",
@@ -606,6 +669,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 =======
@@ -646,6 +710,10 @@
 >>>>>>> bfd60f9 (no message)
 =======
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,12 +762,23 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      }
     ],
     "AuxBusses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -734,6 +813,8 @@
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
       "Id": "2675173306",
       "Name": "House_Reverb",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\House_Reverb",
@@ -783,6 +864,8 @@
 =======
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
       "Id": "84696428",
       "Name": "s",
 <<<<<<< HEAD
@@ -933,23 +1016,43 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicDuck",
       "GUID": "{B6B854D8-2035-4EA0-AB93-867F1548FE39}",
       "Color": "24"
+=======
+      "Id": "84696428",
+      "Name": "s",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
+>>>>>>> 8efe417 (no message)
      },
      {
-      "Id": "1493153371",
-      "Name": "PlayerSpeed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
-      "GUID": "{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}",
-      "Color": "21"
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
      },
      {
+<<<<<<< HEAD
       "Id": "4231187838",
       "Name": "Ambience_MenuMute",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_MenuMute",
       "GUID": "{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}",
       "Color": "13"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      }
     ],
     "StateGroups": [
@@ -989,6 +1092,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "Color": "19",
 >>>>>>> f198644 (Git LFS Update)
@@ -1003,6 +1107,8 @@
 >>>>>>> e97b253 (rebase)
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 34da449 (no message)
       "Color": "19",
 =======
 >>>>>>> e97b253 (rebase)
@@ -1011,7 +1117,17 @@
       "Color": "19",
 >>>>>>> f198644 (Git LFS Update)
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "Color": "19",
+>>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "States": [
        {
         "Id": "748895195",
@@ -1022,6 +1138,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
 =======
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}",
@@ -1037,6 +1154,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}",
         "Color": "19"
 =======
@@ -1046,13 +1165,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
 =======
         "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{43117BF3-3CDA-4B0B-86A4-614F41D5BCC5}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "1296465106",
@@ -1063,6 +1193,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
 =======
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}",
@@ -1078,6 +1209,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}",
         "Color": "19"
 =======
@@ -1087,13 +1220,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
 =======
         "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{34ABD531-D9EF-40A6-A876-E4201019E0B4}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "2965343494",
@@ -1104,6 +1248,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
 =======
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}",
@@ -1119,6 +1264,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}",
         "Color": "19"
 =======
@@ -1128,13 +1275,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
 =======
         "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "3924562482",
@@ -1145,6 +1303,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
 =======
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}",
@@ -1160,6 +1319,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}",
         "Color": "19"
 =======
@@ -1169,13 +1330,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
 =======
         "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{5CF65426-0C45-4723-95AE-A2C44424E501}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "4010875483",
@@ -1186,6 +1358,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
 =======
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}",
@@ -1201,6 +1374,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}",
         "Color": "19"
 =======
@@ -1210,13 +1385,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
 =======
         "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}",
         "Color": "19"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        }
       ]
      },
@@ -1230,6 +1416,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       "Color": "2",
 >>>>>>> f198644 (Git LFS Update)
@@ -1244,6 +1431,8 @@
 >>>>>>> e97b253 (rebase)
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 34da449 (no message)
       "Color": "2",
 =======
 >>>>>>> e97b253 (rebase)
@@ -1252,7 +1441,17 @@
       "Color": "2",
 >>>>>>> f198644 (Git LFS Update)
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "Color": "2",
+>>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "States": [
        {
         "Id": "311764537",
@@ -1263,6 +1462,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
 =======
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}",
@@ -1278,6 +1478,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}",
         "Color": "2"
 =======
@@ -1287,13 +1489,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
 =======
         "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}",
         "Color": "2"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{47755B12-4B21-4BE0-A710-C41B1C55FC51}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "748895195",
@@ -1304,6 +1517,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
 =======
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}",
@@ -1319,6 +1533,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}",
         "Color": "2"
 =======
@@ -1328,13 +1544,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
 =======
         "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}",
         "Color": "2"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "1011622525",
@@ -1345,6 +1572,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
 =======
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}",
@@ -1360,6 +1588,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}",
         "Color": "2"
 =======
@@ -1369,13 +1599,24 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
 =======
         "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}",
         "Color": "2"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "GUID": "{36184277-813F-44FC-8B98-DC3ED223B4E5}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        }
       ]
      }
@@ -1461,11 +1702,14 @@
       ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 =======
+=======
+>>>>>>> 34da449 (no message)
 =======
      },
      {
@@ -1499,10 +1743,13 @@
       ]
 >>>>>>> fd4ca8c (no message)
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 8efe417 (no message)
      }
     ]
    }
   ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,6 +1829,8 @@
 >>>>>>> aa0a968 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
   "FileHash": "{9A2E1CBB-D307-F01D-46DB-16DC78E3E0D7}"
 =======
   "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
@@ -1648,6 +1897,8 @@
 >>>>>>> 1862b01 (no message)
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
   "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
 =======
   "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
@@ -1670,7 +1921,16 @@
 =======
   "FileHash": "{9A2E1CBB-D307-F01D-46DB-16DC78E3E0D7}"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+  "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
  }
 }

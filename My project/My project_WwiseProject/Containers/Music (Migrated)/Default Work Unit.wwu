@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
 =======
 >>>>>>> b4c89e6 (no message)
@@ -51,6 +52,8 @@
 =======
 >>>>>>> 0838fe7 (no message)
 =======
+>>>>>>> 34da449 (no message)
+=======
 >>>>>>> cfb9e52 (pt3)
 =======
 >>>>>>> 3226c72 (pt3)
@@ -79,6 +82,8 @@
 >>>>>>> 19a21f4 (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
 =======
 >>>>>>> b4c89e6 (no message)
@@ -5872,6 +5877,7 @@
 >>>>>>> 19a21f4 (no message)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f0c9004 (no message)
 >>>>>>> 0838fe7 (no message)
 =======
@@ -5898,11 +5904,19 @@
 =======
 =======
 >>>>>>> 9f18f85 (no message)
+<<<<<<< HEAD
 >>>>>>> 19a21f4 (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="123">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone"/>
 	</InteractiveMusic>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5932,6 +5946,8 @@
 >>>>>>> bfd60f9 (no message)
 =======
 >>>>>>> 19a21f4 (no message)
+=======
+>>>>>>> 34da449 (no message)
 >>>>>>> 9a1dd63 (pt 2)
 <<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
@@ -5982,6 +5998,8 @@
 >>>>>>> 1d3a915 (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX):My project/My project_WwiseProject/Interactive Music Hierarchy/Default Work Unit.wwu
 <<<<<<< HEAD
 >>>>>>> 9f18f85 (no message)
@@ -5991,6 +6009,14 @@
 =======
 =======
 >>>>>>> b4c89e6 (no message)
+<<<<<<< HEAD
 >>>>>>> f0c9004 (no message)
+<<<<<<< HEAD
 >>>>>>> 0838fe7 (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 </WwiseDocument>

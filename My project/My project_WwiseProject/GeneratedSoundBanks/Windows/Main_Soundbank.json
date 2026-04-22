@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "SoundBankVersion": "172",
 =======
   "SoundBankVersion": "154",
@@ -36,6 +37,9 @@
 =======
   "SoundBankVersion": "172",
 >>>>>>> 93f1f27 (no message)
+=======
+  "SoundBankVersion": "154",
+>>>>>>> 787f68f (no message)
   "SoundBanks": [
    {
     "Id": "2228651116",
@@ -43,6 +47,7 @@
     "GUID": "{134F0B2E-D2D6-4C95-A537-A42623FFD71D}",
     "Color": "10",
     "Language": "SFX",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +145,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> a255892 (no message)
+=======
+>>>>>>> 34da449 (no message)
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -214,6 +221,8 @@
 >>>>>>> 756b11d (no message)
 =======
 >>>>>>> 53bbf21 (no message)
+=======
+>>>>>>> 787f68f (no message)
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -245,8 +254,17 @@
 =======
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+<<<<<<< HEAD
 >>>>>>> 53bbf21 (no message)
+<<<<<<< HEAD
 >>>>>>> a255892 (no message)
+=======
+=======
+=======
+    "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -284,6 +302,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -298,6 +317,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -345,8 +368,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "128863012",
       "Language": "SFX",
       "Streaming": "false",
@@ -355,6 +386,7 @@
       "CachePath": "CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +409,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -432,8 +468,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "147936951",
       "Language": "SFX",
       "Streaming": "false",
@@ -458,6 +502,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -472,6 +517,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -519,8 +568,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "253876681",
       "Language": "SFX",
       "Streaming": "false",
@@ -542,6 +599,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Kids Cutscene Music.wav",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +659,8 @@
 >>>>>>> aa0a968 (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -746,6 +806,8 @@
 >>>>>>> 1862b01 (no message)
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -786,7 +848,13 @@
       "ShortName": "Spring Music 44.1.wav",
       "CachePath": "FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+=======
+=======
+      "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
      },
      {
       "Id": "355788501",
@@ -846,6 +914,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
@@ -856,6 +925,10 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 34da449 (no message)
       "Id": "472907063",
       "Language": "SFX",
       "Streaming": "false",
@@ -869,10 +942,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 8efe417 (no message)
+<<<<<<< HEAD
 =======
 >>>>>>> c26099d (no message)
 =======
@@ -889,6 +966,8 @@
 =======
 >>>>>>> f198644 (Git LFS Update)
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
       "Id": "577526996",
       "Language": "SFX",
       "Streaming": "false",
@@ -897,6 +976,7 @@
       "CachePath": "47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +999,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -974,8 +1058,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "631474963",
       "Language": "SFX",
       "Streaming": "false",
@@ -1008,6 +1100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -1022,6 +1115,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -1069,8 +1166,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "720278991",
       "Language": "SFX",
       "Streaming": "false",
@@ -1111,6 +1216,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -1125,6 +1231,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -1172,8 +1282,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "804176017",
       "Language": "SFX",
       "Streaming": "false",
@@ -1238,6 +1356,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -1252,6 +1371,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -1299,8 +1422,16 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "977423185",
       "Language": "SFX",
       "Streaming": "false",
@@ -1309,6 +1440,7 @@
       "CachePath": "C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1331,6 +1463,10 @@
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 =======
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 =======
@@ -1378,14 +1514,23 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "1046667742",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Amb_Birds Spring_06.wav",
       "CachePath": "FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1407,6 +1552,8 @@
 =======
 >>>>>>> fd4ca8c (no message)
 =======
+>>>>>>> 34da449 (no message)
+=======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
      },
@@ -1423,6 +1570,8 @@
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
      }
     ],
 >>>>>>> fd4ca8c (no message)
@@ -1522,8 +1671,18 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+     }
+    ],
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
     "Events": [
      {
       "Id": "1551648488",
@@ -1534,6 +1693,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1574,6 +1734,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "Id": "132634063"
        },
        {
@@ -1652,6 +1814,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
         "Id": "312702700"
        },
        {
@@ -1673,52 +1837,12 @@
         "Id": "132634063"
        },
        {
+=======
+>>>>>>> 8efe417 (no message)
         "Id": "312702700"
-       }
-      ],
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "29232601"
-        }
-       ]
-      }
-     },
-     {
-      "Id": "3854155799",
-      "Name": "Play_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\ChHARACTER SOUNDS\\Play_Footsteps",
-      "GUID": "{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}",
-      "Color": "15",
-      "DurationType": "OneShot",
-      "DurationMin": "0.33852082",
-      "DurationMax": "0.7168791",
-      "SwitchContainers": [
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "3714303081",
-         "Id": "4248645337",
-         "GUID": "{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}",
-         "Color": "18",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "53202029"
-         },
-         {
-          "Id": "246889118"
-         },
-         {
-          "Id": "620877416"
-         },
-         {
-          "Id": "988108994"
-         }
-        ]
        },
        {
+<<<<<<< HEAD
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "3714303081",
@@ -1776,14 +1900,24 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "Id": "472907063"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        }
       ]
      },
      {
       "Id": "378356484",
       "Name": "Play_Spring_AMB",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1812,6 +1946,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
       "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCE\\Play_Spring_AMB",
 =======
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
@@ -1832,12 +1968,23 @@
 >>>>>>> 407e5fa (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
 =======
       "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCE\\Play_Spring_AMB",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring_AMB",
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "GUID": "{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}",
       "Color": "11",
       "DurationType": "Infinite",
@@ -1944,6 +2091,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ]
 <<<<<<< HEAD
 =======
@@ -1960,6 +2108,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -2012,6 +2162,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
       ]
 =======
       ],
@@ -2023,8 +2175,17 @@
        ]
       }
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      ]
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      },
      {
       "Id": "474285493",
@@ -2048,6 +2209,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "472907063"
        }
       ]
@@ -2062,6 +2224,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "Id": "327896736"
        }
 =======
@@ -2087,6 +2251,8 @@
 =======
 >>>>>>> 7772bc0 (no message)
 =======
+=======
+>>>>>>> 787f68f (no message)
         "Id": "472907063"
        }
       ]
@@ -2145,8 +2311,19 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "Id": "472907063"
+       }
+      ]
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      },
      {
       "Id": "3643452717",
@@ -2167,6 +2344,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "312702700"
 =======
 =======
@@ -2181,10 +2359,14 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
         "Id": "132634063"
 =======
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
         "Id": "312702700"
 >>>>>>> f98d626 (no message)
 >>>>>>> 407e5fa (no message)
@@ -2195,19 +2377,27 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 34da449 (no message)
       ]
 =======
         "Id": "132634063"
 =======
         "Id": "312702700"
 >>>>>>> 8efe417 (no message)
+<<<<<<< HEAD
 =======
         "Id": "312702700"
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+>>>>>>> 34da449 (no message)
        },
        {
         "Id": "472907063"
        }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2216,6 +2406,10 @@
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 407e5fa (no message)
+=======
+>>>>>>> 787f68f (no message)
+<<<<<<< HEAD
+>>>>>>> 34da449 (no message)
       ],
       "PluginRefs": {
        "ShareSets": [
@@ -2368,7 +2562,13 @@
 >>>>>>> f98d626 (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+=======
+=======
+      ]
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
      },
      {
       "Id": "3439960413",
@@ -2384,16 +2584,32 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Id": "132634063"
 =======
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
         "Id": "312702700"
 >>>>>>> f98d626 (no message)
        },
        {
         "Id": "472907063"
        }
+<<<<<<< HEAD
+=======
+      ]
+=======
+        "Id": "132634063"
+=======
+        "Id": "312702700"
+>>>>>>> 8efe417 (no message)
+       },
+       {
+        "Id": "472907063"
+       }
+>>>>>>> 787f68f (no message)
 <<<<<<< HEAD
       ],
       "PluginRefs": {
@@ -2454,12 +2670,22 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      ]
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      }
     ],
     "Busses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2492,8 +2718,12 @@
 =======
 >>>>>>> fd4ca8c (no message)
 =======
+>>>>>>> 34da449 (no message)
+=======
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
       "Id": "77978275",
       "Name": "Ambient",
 <<<<<<< HEAD
@@ -2523,11 +2753,20 @@
       "Name": "Ambience Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambience Master",
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+>>>>>>> 8efe417 (no message)
+>>>>>>> 34da449 (no message)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2543,6 +2782,8 @@
 =======
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
 >>>>>>> 51b2374 (no message)
 <<<<<<< HEAD
 >>>>>>> 62545f0 (no message)
@@ -2555,7 +2796,13 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "Id": "79554116",
       "Name": "Music Master",
 <<<<<<< HEAD
@@ -2583,6 +2830,13 @@
        ]
       }
 >>>>>>> f198644 (Git LFS Update)
+=======
+      "Id": "79554116",
+      "Name": "Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
+      "Color": "26"
+>>>>>>> 8efe417 (no message)
      },
      {
       "Id": "143634621",
@@ -2772,6 +3026,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2817,6 +3072,10 @@
 >>>>>>> bfd60f9 (no message)
 =======
 >>>>>>> 1d3a915 (no message)
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2877,12 +3136,23 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
      }
     ],
     "AuxBusses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2927,6 +3197,8 @@
 >>>>>>> 407e5fa (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -3024,6 +3296,8 @@
 =======
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
       "Id": "84696428",
       "Name": "s",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
@@ -3273,46 +3547,53 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicDuck",
       "GUID": "{B6B854D8-2035-4EA0-AB93-867F1548FE39}",
       "Color": "24"
+=======
+      "Id": "84696428",
+      "Name": "s",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+      "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
+>>>>>>> 8efe417 (no message)
      },
      {
-      "Id": "1493153371",
-      "Name": "PlayerSpeed",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
-      "GUID": "{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}",
-      "Color": "21"
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+      "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
+      "Color": "11"
      },
      {
-      "Id": "4231187838",
-      "Name": "Ambience_MenuMute",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ambience_MenuMute",
-      "GUID": "{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}",
-      "Color": "13"
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
+      "Color": "11"
      }
     ],
-    "SwitchGroups": [
+    "StateGroups": [
      {
-      "Id": "3714303081",
-      "Name": "Surfaces",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces",
-      "GUID": "{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}",
-      "Color": "4",
-      "Switches": [
+      "Id": "1176052424",
+      "Name": "Location",
+      "ObjectPath": "\\States\\Default Work Unit\\Location",
+      "GUID": "{7A01359D-718A-445B-A4B7-045C1ABCB7F8}",
+      "States": [
        {
-        "Id": "841620460",
-        "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Concrete",
-        "GUID": "{55F515DB-BB55-46F3-8FA0-9762C238BBB5}",
-        "Color": "26"
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Outside",
+        "GUID": "{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"
        },
        {
-        "Id": "2195636714",
-        "Name": "Dirt",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Dirt",
-        "GUID": "{1D66F7B4-A293-4686-9E61-1544E4579905}",
-        "Color": "8"
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\None",
+        "GUID": "{085A8335-8EFE-4447-8108-26B681D121EC}"
        },
        {
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+=======
+<<<<<<< HEAD
+>>>>>>> 787f68f (no message)
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Grass",
@@ -3330,8 +3611,20 @@
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+        "Id": "3553349781",
+        "Name": "Inside",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Inside",
+        "GUID": "{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
        }
       ]
      }
@@ -3366,6 +3659,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -3435,6 +3729,8 @@
 >>>>>>> fd4ca8c (no message)
 =======
 >>>>>>> a255892 (no message)
+=======
+>>>>>>> 34da449 (no message)
   "FileHash": "{FFA0E3ED-5A49-70E3-BC1F-63FFD2B202D7}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -3509,6 +3805,8 @@
 >>>>>>> 756b11d (no message)
 =======
 >>>>>>> 53bbf21 (no message)
+=======
+>>>>>>> 787f68f (no message)
   "FileHash": "{8F368A6F-74CF-603D-A137-1593B0F33EA6}"
 =======
   "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
@@ -3540,7 +3838,16 @@
 =======
   "FileHash": "{FFA0E3ED-5A49-70E3-BC1F-63FFD2B202D7}"
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+<<<<<<< HEAD
 >>>>>>> 53bbf21 (no message)
+<<<<<<< HEAD
 >>>>>>> a255892 (no message)
+=======
+=======
+=======
+  "FileHash": "{269843B6-0546-F7D7-0C4E-CFD7F0B61E47}"
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
  }
 }

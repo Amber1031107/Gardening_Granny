@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
 <<<<<<< HEAD
 =======
@@ -23,6 +24,8 @@ Event	ID	Name			Wwise Object Path	Notes
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
 	378356484	Play_Spring_AMB			\Default Work Unit\AMBIENCE\Play_Spring_AMB	
 =======
 	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
@@ -37,12 +40,23 @@ Event	ID	Name			Wwise Object Path	Notes
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+=======
+>>>>>>> 787f68f (no message)
 	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
 =======
 	378356484	Play_Spring_AMB			\Default Work Unit\AMBIENCE\Play_Spring_AMB	
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 	474285493	Play_Spring_MUSIC			\Default Work Unit\MUSIC\Play_Spring_MUSIC	
 	1551648488	Play_Autumn_MUSIC			\Default Work Unit\MUSIC\Play_Autumn_MUSIC	
 	3439960413	Play_Winter_Music			\Default Work Unit\MUSIC\Play_Winter_Music	
@@ -54,6 +68,7 @@ Event	ID	Name			Wwise Object Path	Notes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 
@@ -81,6 +96,8 @@ State	ID	Name	State Group			Notes
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
 	3854155799	Play_Footsteps			\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -128,6 +145,8 @@ State	ID	Name	State Group			Notes
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> 756b11d (no message)
+=======
+>>>>>>> 787f68f (no message)
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
@@ -165,18 +184,40 @@ Switch	ID	Name	Switch Group			Notes
 	841620460	Concrete	Surfaces			
 	2195636714	Dirt	Surfaces			
 	4248645337	Grass	Surfaces			
+=======
+>>>>>>> 8efe417 (no message)
 
 State Group	ID	Name			Wwise Object Path	Notes
+	1176052424	Location			\Default Work Unit\Location	
+	3381515358	Season			\Default Work Unit\Season	
 	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
 
 State	ID	Name	State Group			Notes
+<<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+	438105790	Outside	Location			
+	748895195	None	Location			
+	3553349781	Inside	Location			
+	748895195	None	Season			
+	1296465106	Spring	Season			
+	2965343494	Winter	Season			
+	3924562482	Summer	Season			
+	4010875483	Autumn	Season			
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 	311764537	Day	TimeOfDay			
 	748895195	None	TimeOfDay			
 	1011622525	Night	TimeOfDay			
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +270,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> fd4ca8c (no message)
+=======
+>>>>>>> 34da449 (no message)
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	441011833	MusicDuck			\Default Work Unit\MusicDuck	
 	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
@@ -254,7 +297,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 =======
 =======
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 Audio Bus	ID	Name			Wwise Object Path	Notes
 <<<<<<< HEAD
 	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
@@ -568,22 +616,20 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
 	4231187838	Ambience_MenuMute			\Default Work Unit\Ambience_MenuMute	
 
+=======
+>>>>>>> 8efe417 (no message)
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
-	143634621	Ambience Master			\Default Work Unit\Master Audio Bus\Ambience Master	
-	1279065646	SFX & UI Master (for music ducking)			\Default Work Unit\Master Audio Bus\SFX & UI Master (for music ducking)	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2675173306	House_Reverb			\Default Work Unit\Master Audio Bus\House_Reverb	
-
-Effect plug-ins	ID	Name	Type				Notes
-	29232601	New_Parametric_EQ_03	Wwise Parametric EQ			
-	126004133	Parametric EQ (Custom)	Wwise Parametric EQ			
-	980414561	Room_Small (Custom)	Wwise RoomVerb			
-	1111163968	MusicDuckMeter	Wwise Meter			
+	84696428	s			\Default Work Unit\Master Audio Bus\s	
+	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
+	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+<<<<<<< HEAD
 	1012836	Amb_Owl2 03	.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
 	20790822	Amb_Owl2 06	.cache\5A\{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 06		152544
 	34470463	Amb_Birds Spring_04	.cache\3F\{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_04		151300
@@ -694,6 +740,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 =======
 >>>>>>> 1862b01 (no message)
 =======
+=======
+>>>>>>> 8efe417 (no message)
 	1012836	Amb_Owl2 03	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
 	20790822	Amb_Owl2 06	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\5A\{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 06		152544
 	34470463	Amb_Birds Spring_04	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\3F\{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_04		151300
@@ -727,6 +775,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	921534118	Amb_Owl2 04	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\49\{49C8911B-3EC4-FC5A-5D93-0D0878E4C176}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 04		140896
 	977423185	Amb_Birds Spring_11	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\C5\{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_11		230192
 	1046667742	Amb_Birds Spring_06	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
+<<<<<<< HEAD
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 <<<<<<< HEAD
 >>>>>>> 9f18f85 (no message)
@@ -749,6 +798,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1046667742	Amb_Birds Spring_06	.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
 	1062463723	FS_Dirt_03	.cache\4C\{4CF3AB96-ADB8-5325-ACBD-D61A31521280}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Dirt\FS_Dirt_03		32594
 >>>>>>> f198644 (Git LFS Update)
+<<<<<<< HEAD
 >>>>>>> 756b11d (no message)
+<<<<<<< HEAD
 >>>>>>> fd4ca8c (no message)
+=======
+=======
+=======
+>>>>>>> 8efe417 (no message)
+>>>>>>> 787f68f (no message)
+>>>>>>> 34da449 (no message)
 
