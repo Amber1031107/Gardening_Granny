@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="133">
 	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone">
@@ -549,4 +550,10 @@
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>
+=======
+<WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone"/>
+	</InteractiveMusic>
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX):My project/My project_WwiseProject/Interactive Music Hierarchy/Default Work Unit.wwu
 </WwiseDocument>

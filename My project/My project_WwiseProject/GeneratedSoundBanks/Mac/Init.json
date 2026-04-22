@@ -10,7 +10,11 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
     "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
+=======
+    "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -45,7 +49,11 @@
      {
       "Id": "79554116",
       "Name": "Music Master",
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
      },
@@ -211,6 +219,10 @@
     ]
    }
   ],
+<<<<<<< HEAD
   "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
+=======
+  "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
+>>>>>>> 7239d46 (Added Music Manager & Updated SFX)
  }
 }
