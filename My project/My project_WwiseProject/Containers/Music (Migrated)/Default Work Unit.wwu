@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Music (Migrated)/Default Work Unit.wwu
 =======
 >>>>>>> b4c89e6 (no message)
@@ -32,6 +33,8 @@
 >>>>>>> 62545f0 (no message)
 =======
 >>>>>>> 801a362 (no message)
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> cfb9e52 (pt3)
 =======
@@ -3975,11 +3978,17 @@
 =======
 =======
 >>>>>>> 51b2374 (no message)
+<<<<<<< HEAD
 >>>>>>> 62545f0 (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 <WwiseDocument Type="WorkUnit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" SchemaVersion="123">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{711C0931-B438-406F-A8E8-E853B3311E91}" PersistMode="Standalone"/>
 	</InteractiveMusic>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4000,6 +4009,8 @@
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> 62545f0 (no message)
+=======
+>>>>>>> 407e5fa (no message)
 >>>>>>> 9a1dd63 (pt 2)
 <<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
@@ -4026,5 +4037,10 @@
 =======
 =======
 >>>>>>> ed71b18 (no message)
+<<<<<<< HEAD
 >>>>>>> 801a362 (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 </WwiseDocument>

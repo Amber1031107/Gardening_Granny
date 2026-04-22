@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
 <<<<<<< HEAD
@@ -112,7 +113,15 @@
 =======
 		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{12277D5A-B359-A37E-E687-B62F5B53E676}">
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
+	<SoundBanks>
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}">
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -135,6 +144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -143,6 +153,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -170,11 +182,17 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="128863012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_01.wav</ShortName>
 					<CachePath>CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +207,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -220,7 +240,12 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="147936951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_02.wav</ShortName>
 					<CachePath>E6/{E6048A61-D0F4-73DA-D1C2-B28C267A7ACE}.wem</CachePath>
@@ -235,6 +260,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -243,6 +269,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -270,7 +298,12 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="253876681" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_14.wav</ShortName>
 					<CachePath>64/{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem</CachePath>
@@ -281,6 +314,7 @@
 				</File>
 				<File Id="312702700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Kids Cutscene Music.wav</ShortName>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +353,8 @@
 >>>>>>> 62545f0 (no message)
 =======
 >>>>>>> 44531e6 (no message)
+=======
+>>>>>>> 407e5fa (no message)
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
 =======
 					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
@@ -411,6 +447,9 @@
 				<File Id="327896736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spring Music 44.1.wav</ShortName>
 					<CachePath>FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem</CachePath>
+=======
+					<CachePath>06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem</CachePath>
+>>>>>>> f98d626 (no message)
 				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
@@ -443,16 +482,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> 7772bc0 (no message)
+=======
+>>>>>>> 407e5fa (no message)
 				<File Id="472907063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PLACEHOLDERMUSIC.wav</ShortName>
 					<CachePath>89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470,10 +513,13 @@
 >>>>>>> 7772bc0 (no message)
 =======
 >>>>>>> 1fd725a (no message)
+=======
+>>>>>>> 407e5fa (no message)
 				<File Id="577526996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 07.wav</ShortName>
 					<CachePath>47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +534,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -519,7 +567,12 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="631474963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_05.wav</ShortName>
 					<CachePath>B9/{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem</CachePath>
@@ -538,6 +591,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -546,6 +600,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -573,7 +629,12 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="720278991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_01.wav</ShortName>
 					<CachePath>D4/{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem</CachePath>
@@ -596,6 +657,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -604,6 +666,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -631,7 +695,12 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="804176017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_05.wav</ShortName>
 					<CachePath>AE/{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem</CachePath>
@@ -666,6 +735,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -674,6 +744,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -701,11 +773,17 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="977423185" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_11.wav</ShortName>
 					<CachePath>C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -720,6 +798,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -747,11 +827,17 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 				<File Id="1046667742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_06.wav</ShortName>
 					<CachePath>FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -765,6 +851,8 @@
 >>>>>>> 9fccf0a (no message)
 =======
 =======
+>>>>>>> 407e5fa (no message)
+=======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
 				<File Id="1062463723" Language="SFX" Streaming="false" Location="Memory">
@@ -773,35 +861,30 @@
 				</File>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
 =======
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 			</Media>
-			<Plugins>
-				<Custom>
-					<Plugin Id="126004133" Name="Parametric EQ (Custom)" ObjectPath="\Containers\Default Work Unit\Ambience\Spring Amb\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{722AF47A-21A3-4EFB-B073-D598AD753D05}" LibName="Wwise Parametric EQ" LibId="6881283"/>
-					<Plugin Id="980414561" Name="Room_Small (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\House_Reverb\[Effect Slot [0]: (RoomVerb)]\Room_Small (Custom)" GUID="{115C6A43-ACCE-441A-B094-5F77ED8D99B1}" LibName="Wwise RoomVerb" LibId="7733251"/>
-				</Custom>
-				<ShareSets>
-					<Plugin Id="29232601" Name="New_Parametric_EQ_03" ObjectPath="\Effects\Default Work Unit\New_Parametric_EQ_03" GUID="{81A99DAE-78E5-45FA-9A40-EAF5546E27F3}" LibName="Wwise Parametric EQ" LibId="6881283"/>
-					<Plugin Id="1111163968" Name="MusicDuckMeter" ObjectPath="\Effects\Default Work Unit\MusicDuckMeter" GUID="{CECBE9F4-FCB0-485F-AF3E-3AF43C4C7F2F}" LibName="Wwise Meter" LibId="8454147"/>
-				</ShareSets>
-			</Plugins>
 			<Events>
 				<Event Id="1551648488" Name="Play_Autumn_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Autumn_MUSIC" GUID="{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}" Color="26" DurationType="Infinite">
 					<MediaRefs>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<MediaRef Id="132634063"/>
+=======
+>>>>>>> f98d626 (no message)
 						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="29232601"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
@@ -826,6 +909,8 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 407e5fa (no message)
 				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps" GUID="{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}" Color="15" DurationType="OneShot" DurationMin="0.33852082" DurationMax="0.7168791">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -949,7 +1034,13 @@
 				</Event>
 				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\AMBIENCE\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 					<MediaRefs>
 						<MediaRef Id="1012836"/>
 						<MediaRef Id="20790822"/>
@@ -989,6 +1080,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -997,6 +1089,8 @@
 =======
 >>>>>>> 9fccf0a (no message)
 =======
+=======
+>>>>>>> 407e5fa (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -1064,6 +1158,8 @@
 >>>>>>> e97b253 (rebase)
 =======
 >>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> f98d626 (no message)
 				</Event>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1072,38 +1168,24 @@
 				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="312702700"/>
-						<MediaRef Id="327896736"/>
+						<MediaRef Id="472907063"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="29232601"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="3643452717" Name="Play_Summer_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Summer_MUSIC" GUID="{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}" Color="26" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="132634063"/>
 						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="29232601"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="3439960413" Name="Play_Winter_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Winter_Music" GUID="{F81BF58E-500B-4783-8FF4-49F17A01D84C}" Color="26" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="132634063"/>
 						<MediaRef Id="312702700"/>
+						<MediaRef Id="472907063"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="29232601"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 			</Events>
 			<Busses>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1138,6 +1220,8 @@
 >>>>>>> 44531e6 (no message)
 =======
 >>>>>>> 1fd725a (no message)
+=======
+>>>>>>> 407e5fa (no message)
 				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
 				<Bus Id="143634621" Name="Ambience Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambience Master" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 				<Bus Id="1279065646" Name="SFX &amp; UI Master (for music ducking)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX &amp; UI Master (for music ducking)" GUID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" Color="19">
@@ -1312,24 +1396,33 @@
 				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
 				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
 >>>>>>> 67b769d (Fixed Wwise Issue)
+<<<<<<< HEAD
 >>>>>>> 654bc1e (no message)
+=======
+=======
+				<Bus Id="77978275" Name="Ambient" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
+				<Bus Id="79554116" Name="Music Master" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="84696428" Name="s" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
+				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
+				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 			</AuxBusses>
-			<GameParameters>
-				<GameParameter Id="441011833" Name="MusicDuck" ObjectPath="\Game Parameters\Default Work Unit\MusicDuck" GUID="{B6B854D8-2035-4EA0-AB93-867F1548FE39}" Color="24"/>
-				<GameParameter Id="1493153371" Name="PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\PlayerSpeed" GUID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" Color="21"/>
-				<GameParameter Id="4231187838" Name="Ambience_MenuMute" ObjectPath="\Game Parameters\Default Work Unit\Ambience_MenuMute" GUID="{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}" Color="13"/>
-			</GameParameters>
-			<SwitchGroups>
-				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Default Work Unit\Surfaces" GUID="{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}" Color="4">
-					<Switches>
-						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Surfaces\Concrete" GUID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}" Color="26"/>
-						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{1D66F7B4-A293-4686-9E61-1544E4579905}" Color="8"/>
-						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" Color="18"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
+			<StateGroups>
+				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\Location\Outside" GUID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Location\None" GUID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
+						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\Location\Inside" GUID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1375,6 +1468,8 @@
 =======
 =======
 >>>>>>> 654bc1e (no message)
+=======
+>>>>>>> 407e5fa (no message)
 	<FileHash>{13259A0D-788A-CC1F-011B-2A1B074FA5FD}</FileHash>
 =======
 	<FileHash>{BB9C27EC-923D-2279-EE53-909A8C1207DE}</FileHash>
@@ -1475,5 +1570,11 @@
 =======
 	<FileHash>{13259A0D-788A-CC1F-011B-2A1B074FA5FD}</FileHash>
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+	<FileHash>{BB9C27EC-923D-2279-EE53-909A8C1207DE}</FileHash>
+>>>>>>> f98d626 (no message)
+>>>>>>> 407e5fa (no message)
 </SoundBanksInfo>
