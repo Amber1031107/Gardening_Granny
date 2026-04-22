@@ -97,6 +97,7 @@ EditorBuildSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
@@ -146,6 +147,8 @@ EditorBuildSettings:
 >>>>>>> 3a79e98 (no message)
 =======
 >>>>>>> 7eddacc (no message)
+=======
+>>>>>>> b171235 (no message)
   - enabled: 1
     path: Assets/Scenes/SpringSeason1.unity
     guid: 46e800d8b8af73241b2d0654ca2d3862
@@ -169,14 +172,30 @@ EditorBuildSettings:
 =======
 =======
 =======
+=======
+>>>>>>> 9d3e3e7 (no message)
   - enabled: 1
     path: Assets/Scenes/PhilBuild.unity
     guid: 9ff869ba5ba037b45af72229cf8f9488
 =======
 >>>>>>> ed71b18 (no message)
+<<<<<<< HEAD
 >>>>>>> cae79d1 (no message)
+<<<<<<< HEAD
 >>>>>>> 7eddacc (no message)
+<<<<<<< HEAD
 >>>>>>> c005656 (no message)
+=======
+=======
+=======
+=======
+  - enabled: 1
+    path: Assets/Scenes/PhilBuild.unity
+    guid: 9ff869ba5ba037b45af72229cf8f9488
+>>>>>>> 59844dc (no message)
+>>>>>>> 9d3e3e7 (no message)
+>>>>>>> b171235 (no message)
+>>>>>>> 8ee8629 (no message)
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
