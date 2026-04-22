@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{DEB4F5AE-E076-B645-0BDE-65A0A795451B}">
+		<SoundBank Id="2228651116" Type="User" GUID="{134F0B2E-D2D6-4C95-A537-A42623FFD71D}" Color="10" Language="SFX" Hash="{12277D5A-B359-A37E-E687-B62F5B53E676}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
@@ -18,9 +18,21 @@
 					<ShortName>Amb_Birds Spring_04.wav</ShortName>
 					<CachePath>3F/{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem</CachePath>
 				</File>
+				<File Id="53202029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass_04.wav</ShortName>
+					<CachePath>44/{4483EF53-4E9B-5CEF-4DF1-E03E1FC2F7C2}.wem</CachePath>
+				</File>
 				<File Id="128863012" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_01.wav</ShortName>
 					<CachePath>CE/{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem</CachePath>
+				</File>
+				<File Id="132634063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spring Music 44.1.wav</ShortName>
+					<CachePath>BC/{BC1DB1D0-8D04-3D26-5CB1-946A6F33415C}.wem</CachePath>
+				</File>
+				<File Id="133350982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Rock04.wav</ShortName>
+					<CachePath>B6/{B6936AE9-E370-1ED9-59C5-E25F966E43CA}.wem</CachePath>
 				</File>
 				<File Id="147936951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_02.wav</ShortName>
@@ -29,6 +41,10 @@
 				<File Id="241852122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 05.wav</ShortName>
 					<CachePath>7B/{7BD9C0B7-2690-50F6-AB6B-5700145ADD38}.wem</CachePath>
+				</File>
+				<File Id="246889118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass_02.wav</ShortName>
+					<CachePath>FF/{FF98C9BF-2E1F-077C-644A-CD9513712524}.wem</CachePath>
 				</File>
 				<File Id="253876681" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_14.wav</ShortName>
@@ -41,6 +57,18 @@
 				<File Id="312702700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Kids Cutscene Music.wav</ShortName>
 					<CachePath>C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem</CachePath>
+				</File>
+				<File Id="326278609" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt_A01.wav</ShortName>
+					<CachePath>F7/{F70D0BB4-BAEE-0745-AC23-CF483E409934}.wem</CachePath>
+				</File>
+				<File Id="326362433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Rock03.wav</ShortName>
+					<CachePath>00/{00B271A4-4322-3229-89D6-4E503329F8FC}.wem</CachePath>
+				</File>
+				<File Id="327896736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spring Music 44.1.wav</ShortName>
+					<CachePath>FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem</CachePath>
 				</File>
 				<File Id="355788501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring Amb.wav</ShortName>
@@ -66,13 +94,17 @@
 					<ShortName>Amb_Birds Spring_16.wav</ShortName>
 					<CachePath>21/{21903945-360E-4620-271D-8511BA50DC56}.wem</CachePath>
 				</File>
-				<File Id="472907063" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>PLACEHOLDERMUSIC.wav</ShortName>
-					<CachePath>89/{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem</CachePath>
-				</File>
 				<File Id="577526996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Owl2 07.wav</ShortName>
 					<CachePath>47/{4716F03C-6733-F07C-A2AF-61874428A630}.wem</CachePath>
+				</File>
+				<File Id="605369206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Rock01.wav</ShortName>
+					<CachePath>0C/{0CC925BF-2D09-E222-B64F-D1D32C5CBC2D}.wem</CachePath>
+				</File>
+				<File Id="620877416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass_01.wav</ShortName>
+					<CachePath>F0/{F08A943D-EDBF-8DDE-581D-E01F5C036C29}.wem</CachePath>
 				</File>
 				<File Id="631474963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_05.wav</ShortName>
@@ -85,6 +117,10 @@
 				<File Id="640225445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_12.wav</ShortName>
 					<CachePath>D5/{D5B05581-CEC2-0694-2747-769211630B60}.wem</CachePath>
+				</File>
+				<File Id="661201764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt_A04.wav</ShortName>
+					<CachePath>7C/{7C5B6292-0C0A-7793-FB12-3B2202703C6E}.wem</CachePath>
 				</File>
 				<File Id="720278991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_01.wav</ShortName>
@@ -101,6 +137,10 @@
 				<File Id="767538386" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Breeze Spring_03.wav</ShortName>
 					<CachePath>7A/{7A811B0A-5A97-6CB3-4BDF-0700672D562C}.wem</CachePath>
+				</File>
+				<File Id="769204516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Rock02.wav</ShortName>
+					<CachePath>42/{4235D687-DB65-E3C0-0F7D-D0B36A0EC0D3}.wem</CachePath>
 				</File>
 				<File Id="804176017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_05.wav</ShortName>
@@ -130,23 +170,81 @@
 					<ShortName>Amb_Owl2 04.wav</ShortName>
 					<CachePath>49/{49C8911B-3EC4-FC5A-5D93-0D0878E4C176}.wem</CachePath>
 				</File>
+				<File Id="925054752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt_A02.wav</ShortName>
+					<CachePath>D1/{D1106CFB-946E-31DE-3DCE-9D28E7265A5A}.wem</CachePath>
+				</File>
 				<File Id="977423185" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_11.wav</ShortName>
 					<CachePath>C5/{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem</CachePath>
+				</File>
+				<File Id="988108994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass_03.wav</ShortName>
+					<CachePath>D9/{D9890019-D577-A0CD-6F5C-707003B70933}.wem</CachePath>
 				</File>
 				<File Id="1046667742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_Birds Spring_06.wav</ShortName>
 					<CachePath>FF/{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem</CachePath>
 				</File>
+				<File Id="1062463723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt_A03.wav</ShortName>
+					<CachePath>4C/{4CF3AB96-ADB8-5325-ACBD-D61A31521280}.wem</CachePath>
+				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="126004133" Name="Parametric EQ (Custom)" ObjectPath="\Containers\Default Work Unit\Ambience\Spring Amb\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{722AF47A-21A3-4EFB-B073-D598AD753D05}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="980414561" Name="Room_Small (Custom)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\House_Reverb\[Effect Slot [0]: (RoomVerb)]\Room_Small (Custom)" GUID="{115C6A43-ACCE-441A-B094-5F77ED8D99B1}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="29232601" Name="New_Parametric_EQ_03" ObjectPath="\Effects\Default Work Unit\New_Parametric_EQ_03" GUID="{81A99DAE-78E5-45FA-9A40-EAF5546E27F3}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="1111163968" Name="MusicDuckMeter" ObjectPath="\Effects\Default Work Unit\MusicDuckMeter" GUID="{CECBE9F4-FCB0-485F-AF3E-3AF43C4C7F2F}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="1551648488" Name="Play_Autumn_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Autumn_MUSIC" GUID="{063767CF-3A8E-478E-9AF8-5FC7D3EFF021}" Color="26" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="132634063"/>
 						<MediaRef Id="312702700"/>
-						<MediaRef Id="472907063"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="29232601"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
-				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps" GUID="{D1CA1CDC-78CD-4C69-A4FB-D52B44D6D12C}" Color="15" DurationType="OneShot" DurationMin="0.33852082" DurationMax="0.7168791">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" Color="18" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="53202029"/>
+								<MediaRef Id="246889118"/>
+								<MediaRef Id="620877416"/>
+								<MediaRef Id="988108994"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2195636714" GUID="{1D66F7B4-A293-4686-9E61-1544E4579905}" Color="8"/>
+							<MediaRefs>
+								<MediaRef Id="326278609"/>
+								<MediaRef Id="661201764"/>
+								<MediaRef Id="925054752"/>
+								<MediaRef Id="1062463723"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="841620460" GUID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}" Color="26"/>
+							<MediaRefs>
+								<MediaRef Id="133350982"/>
+								<MediaRef Id="326362433"/>
+								<MediaRef Id="605369206"/>
+								<MediaRef Id="769204516"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="378356484" Name="Play_Spring_AMB" ObjectPath="\Events\Default Work Unit\AMBIENCE\Play_Spring_AMB" GUID="{B27D3AF5-5070-4FB2-88DA-E0C4CAED77AB}" Color="11" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1012836"/>
 						<MediaRef Id="20790822"/>
@@ -180,46 +278,82 @@
 						<MediaRef Id="977423185"/>
 						<MediaRef Id="1046667742"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="126004133"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="474285493" Name="Play_Spring_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Spring_MUSIC" GUID="{2BDD5FBF-B2D2-4C97-8CCD-CA985369E356}" Color="26" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="312702700"/>
-						<MediaRef Id="472907063"/>
+						<MediaRef Id="327896736"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="29232601"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3643452717" Name="Play_Summer_MUSIC" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Summer_MUSIC" GUID="{078B8BB8-6A73-43E2-BCA7-6BB1FBE67951}" Color="26" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="132634063"/>
 						<MediaRef Id="312702700"/>
-						<MediaRef Id="472907063"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="29232601"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3439960413" Name="Play_Winter_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Winter_Music" GUID="{F81BF58E-500B-4783-8FF4-49F17A01D84C}" Color="26" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="132634063"/>
 						<MediaRef Id="312702700"/>
-						<MediaRef Id="472907063"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="29232601"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 			</Events>
 			<Busses>
-				<Bus Id="77978275" Name="Ambient" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
 				<Bus Id="79554116" Name="Music Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Music Master" GUID="{11F96520-960A-4725-89F6-496F227595C2}" Color="26"/>
-				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="143634621" Name="Ambience Master" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambience Master" GUID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" Color="11"/>
+				<Bus Id="1279065646" Name="SFX &amp; UI Master (for music ducking)" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\SFX &amp; UI Master (for music ducking)" GUID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" Color="19">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1111163968"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Busses\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="10"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="84696428" Name="s" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\s" GUID="{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"/>
-				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Outside" GUID="{025BEA4E-656B-488B-AA63-A04F5016FA98}" Color="11"/>
-				<AuxBus Id="3553349781" Name="Inside" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\Ambient\Inside" GUID="{BAB30D57-8102-4140-9822-C216D6D9B22E}" Color="11"/>
+				<AuxBus Id="2675173306" Name="House_Reverb" ObjectPath="\Busses\Default Work Unit\Master Audio Bus\House_Reverb" GUID="{283547EC-048D-43C2-A2BB-0ACADCE94D82}" Color="4">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="980414561"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
-			<StateGroups>
-				<StateGroup Id="1176052424" Name="Location" ObjectPath="\States\Default Work Unit\Location" GUID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
-					<States>
-						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\Location\Outside" GUID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Location\None" GUID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
-						<State Id="3553349781" Name="Inside" ObjectPath="\States\Default Work Unit\Location\Inside" GUID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
+			<GameParameters>
+				<GameParameter Id="441011833" Name="MusicDuck" ObjectPath="\Game Parameters\Default Work Unit\MusicDuck" GUID="{B6B854D8-2035-4EA0-AB93-867F1548FE39}" Color="24"/>
+				<GameParameter Id="1493153371" Name="PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\PlayerSpeed" GUID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" Color="21"/>
+				<GameParameter Id="4231187838" Name="Ambience_MenuMute" ObjectPath="\Game Parameters\Default Work Unit\Ambience_MenuMute" GUID="{C74F9CFB-E801-47A6-AB3E-6F16C1E493B0}" Color="13"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Default Work Unit\Surfaces" GUID="{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}" Color="4">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Surfaces\Concrete" GUID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}" Color="26"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{1D66F7B4-A293-4686-9E61-1544E4579905}" Color="8"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" Color="18"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1B55DF76-9665-0B9E-4FEE-8DA0E40DCA68}</FileHash>
+	<FileHash>{3E7746D9-342A-D15A-7154-00F370BCB2CD}</FileHash>
 </SoundBanksInfo>
