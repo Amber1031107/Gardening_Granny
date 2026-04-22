@@ -12,6 +12,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
@@ -32,10 +33,17 @@ fileFormatVersion: 2
 =======
 >>>>>>> 5437169 (no message)
 =======
+>>>>>>> 858d6f4 (no message)
+=======
 >>>>>>> 0f02715 (Fixing up after rebase)
 =======
 >>>>>>> 59844dc (no message)
+<<<<<<< HEAD
 >>>>>>> 261b14d (no message)
+=======
+=======
+>>>>>>> cd50569 (no message)
+>>>>>>> 858d6f4 (no message)
 guid: 7b242084d8d9887409dca80a365b72dd
 PluginImporter:
   externalObjects: {}
@@ -56,6 +64,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       enabled: 1
 =======
       enabled: 0
@@ -66,6 +75,8 @@ PluginImporter:
 =======
 =======
 >>>>>>> 261b14d (no message)
+=======
+>>>>>>> 858d6f4 (no message)
       enabled: 0
 =======
       enabled: 1
@@ -76,7 +87,13 @@ PluginImporter:
 =======
       enabled: 0
 >>>>>>> 59844dc (no message)
+<<<<<<< HEAD
 >>>>>>> 261b14d (no message)
+=======
+=======
+      enabled: 1
+>>>>>>> cd50569 (no message)
+>>>>>>> 858d6f4 (no message)
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
@@ -109,6 +126,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 guid: 7b242084d8d9887409dca80a365b72dd
 >>>>>>> ff9a591 (Fixed Wwise Issue)
@@ -132,6 +150,8 @@ guid: 7b242084d8d9887409dca80a365b72dd
 >>>>>>> b46e5f7 (no message)
 =======
 >>>>>>> 261b14d (no message)
+=======
+>>>>>>> 858d6f4 (no message)
 =======
 guid: 7b242084d8d9887409dca80a365b72dd
 >>>>>>> 67b769d (Fixed Wwise Issue)
@@ -163,4 +183,9 @@ guid: 7b242084d8d9887409dca80a365b72dd
 =======
 guid: 7b242084d8d9887409dca80a365b72dd
 >>>>>>> 1fc8695 (no message)
+<<<<<<< HEAD
 >>>>>>> 5437169 (no message)
+=======
+=======
+>>>>>>> cd50569 (no message)
+>>>>>>> 858d6f4 (no message)

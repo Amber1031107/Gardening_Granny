@@ -89,6 +89,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Build.unity
     guid: fa0d5570a890a6f4ebcb029b3eaff537
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
@@ -122,7 +123,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Build.unity
     guid: fa0d5570a890a6f4ebcb029b3eaff537
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+  - enabled: 1
+    path: Assets/Scenes/SpringSeason1.unity
+    guid: 46e800d8b8af73241b2d0654ca2d3862
+>>>>>>> cd50569 (no message)
+>>>>>>> 858d6f4 (no message)
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
