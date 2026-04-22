@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
 =======
     "Hash": "{FAAFD04B-6FAF-016E-0A63-ADD2F9603EE8}",
@@ -31,6 +32,9 @@
 =======
     "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
 >>>>>>> 6d3d0ae (no message)
+=======
+    "Hash": "{AF29B83F-31F4-FF0F-9A4F-547B7F61ACBE}",
+>>>>>>> 74561eb (rebase pt2 ig?)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -87,7 +91,14 @@
       "Id": "77978275",
       "Name": "Ambient",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
+<<<<<<< HEAD
 =======
+=======
+      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
+      "Color": "11"
+     },
+     {
+>>>>>>> 74561eb (rebase pt2 ig?)
       "Id": "79554116",
       "Name": "Music Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
@@ -154,8 +165,12 @@
       "Name": "Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+>>>>>>> 74561eb (rebase pt2 ig?)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 =======
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
@@ -505,6 +520,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
 =======
   "FileHash": "{85D41626-B0C7-5D71-B142-7BE38A98EDF7}"
@@ -521,5 +537,8 @@
 =======
   "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
 >>>>>>> 6d3d0ae (no message)
+=======
+  "FileHash": "{A1B01B69-6A8D-ABC0-D9FF-D2F995B7B842}"
+>>>>>>> 74561eb (rebase pt2 ig?)
  }
 }

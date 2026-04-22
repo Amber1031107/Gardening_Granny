@@ -2,6 +2,7 @@
  "PlatformInfo": {
   "Platform": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
    "Name": "Windows",
    "BasePlatform": "Windows",
@@ -18,6 +19,10 @@
    "BasePlatform": "Windows",
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
+=======
+   "Name": "Windows",
+   "BasePlatform": "Windows",
+>>>>>>> 74561eb (rebase pt2 ig?)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -50,6 +55,7 @@
   },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 ========
@@ -65,5 +71,8 @@
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 >>>>>>> 6d3d0ae (no message)
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> 74561eb (rebase pt2 ig?)
  }
 }

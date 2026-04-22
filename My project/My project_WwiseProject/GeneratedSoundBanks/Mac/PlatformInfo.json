@@ -2,6 +2,7 @@
  "PlatformInfo": {
   "Platform": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
    "Name": "Mac",
    "BasePlatform": "Mac",
@@ -18,6 +19,10 @@
    "BasePlatform": "Mac",
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
 >>>>>>> f198644 (Git LFS Update)
+=======
+   "Name": "Mac",
+   "BasePlatform": "Mac",
+>>>>>>> 74561eb (rebase pt2 ig?)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -50,6 +55,7 @@
   },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 ========
@@ -65,5 +71,8 @@
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 >>>>>>> 6d3d0ae (no message)
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> 74561eb (rebase pt2 ig?)
  }
 }

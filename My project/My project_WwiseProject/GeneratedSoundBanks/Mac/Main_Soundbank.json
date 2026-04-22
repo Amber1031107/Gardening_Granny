@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -36,6 +37,9 @@
 =======
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 >>>>>>> 6d3d0ae (no message)
+=======
+    "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
+>>>>>>> 74561eb (rebase pt2 ig?)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -165,6 +169,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -205,6 +210,9 @@
 =======
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 >>>>>>> 6d3d0ae (no message)
+=======
+      "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
+>>>>>>> 74561eb (rebase pt2 ig?)
      },
      {
       "Id": "355788501",
@@ -868,7 +876,14 @@
       "Id": "77978275",
       "Name": "Ambient",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
+<<<<<<< HEAD
 =======
+=======
+      "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
+      "Color": "11"
+     },
+     {
+>>>>>>> 74561eb (rebase pt2 ig?)
       "Id": "79554116",
       "Name": "Music Master",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
@@ -935,8 +950,12 @@
       "Name": "Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+>>>>>>> 74561eb (rebase pt2 ig?)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 =======
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
@@ -1088,6 +1107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 =======
   "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
@@ -1107,5 +1127,8 @@
 =======
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 >>>>>>> 6d3d0ae (no message)
+=======
+  "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
+>>>>>>> 74561eb (rebase pt2 ig?)
  }
 }

@@ -13,6 +13,7 @@ Project migration to XML Schema (XSD) version 133 is completed.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 60800bb (no message)
@@ -39,3 +40,5 @@ Some new object properties have been added or obsolete properties deleted. The p
 >>>>>>> 6d3d0ae (no message)
 =======
 >>>>>>> 47b9640 (no message)
+=======
+>>>>>>> 74561eb (rebase pt2 ig?)
