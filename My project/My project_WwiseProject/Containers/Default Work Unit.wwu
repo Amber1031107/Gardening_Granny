@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,16 +52,32 @@
 =======
 >>>>>>> 6b096a1 (no message)
 >>>>>>> 5fee5fe (pulling audio into programming)
+<<<<<<< HEAD
 >>>>>>> 6087949 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 				<Folder Name="Character Sounds" ID="{D79ECCED-3A8A-4D3B-A128-CAA7CBD56B09}" ShortID="864641803">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Folder Name="Footsteps" ID="{C34A7640-25B9-48F5-9E27-A39BBC9DD8CC}" ShortID="533553735">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 								<SwitchContainer Name="Footsteps Switcher" ID="{DD62B3A3-1574-4562-932E-7366DE1E138A}" ShortID="165699762">
 =======
 				<Sound Name="trial_SFX" ID="{852D346A-0D62-4B2D-AB92-5918F3D4F549}" ShortID="870659225">
@@ -158,11 +175,18 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+								<SwitchContainer Name="Footsteps Switcher" ID="{DD62B3A3-1574-4562-932E-7366DE1E138A}" ShortID="165699762">
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
 										</Reference>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +340,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 >>>>>>> 992d1a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 										<Reference Name="DefaultSwitchOrState">
 											<ObjectRef Name="Grass" ID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
 =======
@@ -327,12 +353,45 @@
 =======
 >>>>>>> c236d95 (no message)
 =======
+>>>>>>> c606e5c (no message)
+=======
+=======
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Grass" ID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
+										</Reference>
+>>>>>>> c26099d (no message)
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surfaces" ID="{C9A92E37-7B5B-46D5-BE55-B794ABFD5AB6}" WorkUnitID="{F43C8294-F4BB-429F-BB87-AEAB041BB067}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="FS_Grass_01" ID="{2BA743EE-F7D2-4D06-A1C4-84B659D38509}" ShortID="242924692">
+										<RandomSequenceContainer Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}" ShortID="821139214">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="18"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BFD4FE8A-1A62-4664-BFD0-809044640C26}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -342,19 +401,174 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass_01" ID="{09983CB9-4EBA-452F-A523-66BA28C38B17}">
-													<Language>SFX</Language>
-													<AudioFile>FS_Grass_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="620877416"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="FS_Grass_01" ID="{2BA743EE-F7D2-4D06-A1C4-84B659D38509}" ShortID="242924692">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Grass_01" ID="{09983CB9-4EBA-452F-A523-66BA28C38B17}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Grass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="620877416"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Grass_01" ID="{09983CB9-4EBA-452F-A523-66BA28C38B17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Grass_02" ID="{6F7D116C-2203-4C8E-AA52-6EA619E99CE9}" ShortID="414575787">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Grass_02" ID="{5A5455AC-314A-498A-B997-122A516FABA3}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Grass_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="246889118"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Grass_02" ID="{5A5455AC-314A-498A-B997-122A516FABA3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Grass_03" ID="{FDDBADD4-5317-4E3A-B1A5-184ABB2E5957}" ShortID="878427757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Grass_03" ID="{32728B48-8DE9-42F7-8FCF-AE8E52D230F8}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Grass_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="988108994"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Grass_03" ID="{32728B48-8DE9-42F7-8FCF-AE8E52D230F8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Grass_04" ID="{77F93ED9-6FDE-4D3C-9C23-84799F1B1C07}" ShortID="1006778228">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Grass_04" ID="{BDB0A993-3FBB-4330-BC22-F0E5DA818C0A}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Grass_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="53202029"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Grass_04" ID="{BDB0A993-3FBB-4330-BC22-F0E5DA818C0A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass_01" ID="{09983CB9-4EBA-452F-A523-66BA28C38B17}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FS_Grass_02" ID="{6F7D116C-2203-4C8E-AA52-6EA619E99CE9}" ShortID="414575787">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<RTPC Name="" ID="{4A1B23B5-F6CE-4832-836C-460F2A5EA634}" ShortID="566573790">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{5664D993-9BC0-456E-A44C-46CE11F4A337}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>-155</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-155</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+													<RTPC Name="" ID="{432CF872-1A6B-4185-BABA-E2972E5494EE}" ShortID="705520879">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{1C8CCAAF-62AA-40D8-8B8B-D60887656E16}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>-9.87819</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-9.87819</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Dirt" ID="{5FA2281A-8075-425E-BC1A-AD1BA1408EDB}" ShortID="871576676">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="8"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -364,19 +578,174 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass_02" ID="{5A5455AC-314A-498A-B997-122A516FABA3}">
-													<Language>SFX</Language>
-													<AudioFile>FS_Grass_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="246889118"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="FS_Dirt_01" ID="{236CA740-E189-4EDB-8C95-EE04098C775F}" ShortID="964563068">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A01" ID="{BBB588B8-FF82-4CF9-B371-F3EB88C7F12F}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="326278609"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A01" ID="{BBB588B8-FF82-4CF9-B371-F3EB88C7F12F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Dirt_02" ID="{B267C08F-9521-44C9-B5A6-6DEA100F7F52}" ShortID="286108786">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A02" ID="{1D98D2AC-1A64-4E4F-8C53-DD343802973A}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925054752"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A02" ID="{1D98D2AC-1A64-4E4F-8C53-DD343802973A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Dirt_03" ID="{1C815F0A-004F-405B-A89A-A902087B0853}" ShortID="846720397">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A03" ID="{781FEE4E-5D6A-4846-ACE5-4DDED8B4FA83}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1062463723"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A03" ID="{781FEE4E-5D6A-4846-ACE5-4DDED8B4FA83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Dirt_04" ID="{91AD3959-A466-4E25-A7ED-FECEAEB52E2D}" ShortID="899539129">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A04" ID="{BB05CF61-4F53-4528-B244-857688A024DB}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="661201764"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A04" ID="{BB05CF61-4F53-4528-B244-857688A024DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass_02" ID="{5A5455AC-314A-498A-B997-122A516FABA3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FS_Grass_03" ID="{FDDBADD4-5317-4E3A-B1A5-184ABB2E5957}" ShortID="878427757">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<RTPC Name="" ID="{20823607-2A60-4B1D-8FA8-3A9C4900E6F1}" ShortID="280575306">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{7AA86A25-BC38-4363-8397-329A3BFE5E43}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>-9.87819</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-9.87819</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+													<RTPC Name="" ID="{8194A940-34D0-4BB5-B626-E1ABEDFBC4AC}" ShortID="12949200">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{E2BE0A78-A08B-46D4-9FD7-E04835AED344}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>-155</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-155</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Concrete" ID="{F464A3CE-DC36-4E25-897D-A0852C06E6DB}" ShortID="184106560">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="26"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -386,45 +755,206 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="FS_Grass_03" ID="{32728B48-8DE9-42F7-8FCF-AE8E52D230F8}">
-													<Language>SFX</Language>
-													<AudioFile>FS_Grass_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="988108994"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="FS_Concrete_01" ID="{E56B7F9A-B257-4618-8DD4-AA517680423B}" ShortID="412290130">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Rock01" ID="{D6A24945-4E21-4C96-B421-1C3D0F464DDF}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Rock01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="605369206"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Rock01" ID="{D6A24945-4E21-4C96-B421-1C3D0F464DDF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Concrete_02" ID="{38DEFFBC-E8C9-49C5-95CD-6575634F3B02}" ShortID="280123094">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Rock02" ID="{612DA6AC-0DBF-453A-9CA5-548EA0B3FA15}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Rock02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="769204516"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Rock02" ID="{612DA6AC-0DBF-453A-9CA5-548EA0B3FA15}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Concrete_03" ID="{CF3EC649-1795-4278-84A8-FAD319737276}" ShortID="617728087">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Rock03" ID="{1402F710-D16A-4894-ADE8-DEF97494680E}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Rock03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="326362433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Rock03" ID="{1402F710-D16A-4894-ADE8-DEF97494680E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Concrete_04" ID="{EC3D6CAA-2838-46D3-B4AE-DD02DB83BFC5}" ShortID="936509827">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Rock04" ID="{F03091A6-E299-429A-BE52-F2AD7AE28D32}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Rock04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="133350982"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Rock04" ID="{F03091A6-E299-429A-BE52-F2AD7AE28D32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass_03" ID="{32728B48-8DE9-42F7-8FCF-AE8E52D230F8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="FS_Grass_04" ID="{77F93ED9-6FDE-4D3C-9C23-84799F1B1C07}" ShortID="1006778228">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="FS_Grass_04" ID="{BDB0A993-3FBB-4330-BC22-F0E5DA818C0A}">
-													<Language>SFX</Language>
-													<AudioFile>FS_Grass_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="53202029"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="FS_Grass_04" ID="{BDB0A993-3FBB-4330-BC22-F0E5DA818C0A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<RTPC Name="" ID="{2AEEB87F-F959-4895-A5EE-1C2A68A6F041}" ShortID="613914789">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{2792A61D-D72D-41D3-86FE-C880099A4414}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>-3.50797</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-3.50797</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+													<RTPC Name="" ID="{F9062FAE-08C2-4698-AC31-040D34B3D13B}" ShortID="1051535849">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="PlayerSpeed" ID="{B8C952B5-0E80-4CC3-9A91-D2FACE2C5413}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{2CD01481-FD7F-4D1C-A3E9-FA0800516791}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-96</XPos>
+																				<YPos>-155</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-155</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Dirt" ID="{5FA2281A-8075-425E-BC1A-AD1BA1408EDB}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Concrete" ID="{F464A3CE-DC36-4E25-897D-A0852C06E6DB}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Grass" ID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}"/>
+												<ItemList>
+													<ItemRef Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{1D66F7B4-A293-4686-9E61-1544E4579905}"/>
+												<ItemList>
+													<ItemRef Name="Dirt" ID="{5FA2281A-8075-425E-BC1A-AD1BA1408EDB}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Concrete" ID="{55F515DB-BB55-46F3-8FA0-9762C238BBB5}"/>
+												<ItemList>
+													<ItemRef Name="Concrete" ID="{F464A3CE-DC36-4E25-897D-A0852C06E6DB}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Player Actions" ID="{9702F2A2-EC4A-40ED-A1A8-C0526169B128}" ShortID="513968947">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2177,6 +2707,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 															<Property Name="Max" Type="Real64" Value="100"/>
 =======
 =======
@@ -2185,6 +2716,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 															<Property Name="Max" Type="Real64" Value="250"/>
 =======
@@ -2208,7 +2741,13 @@
 =======
 															<Property Name="Max" Type="Real64" Value="100"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+															<Property Name="Max" Type="Real64" Value="250"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 															<Property Name="Min" Type="Real64" Value="-125"/>
 														</PropertyList>
 													</Modifier>
@@ -2221,6 +2760,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<Value>-4</Value>
 											</ValueList>
 =======
@@ -2230,6 +2770,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 												<Value>-4.7</Value>
 											</ValueList>
@@ -2261,6 +2803,10 @@
 =======
 												<Value>-4.7</Value>
 											</ValueList>
+=======
+												<Value>-4.7</Value>
+											</ValueList>
+>>>>>>> c606e5c (no message)
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{19DA8D10-87E8-4383-ABA4-C293E840598B}">
@@ -2272,6 +2818,7 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+<<<<<<< HEAD
 >>>>>>> f8dbe17 (no message)
 <<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
@@ -2280,7 +2827,12 @@
 												<Value>-4</Value>
 											</ValueList>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -2292,6 +2844,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
 =======
@@ -2300,6 +2853,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
@@ -2323,7 +2878,13 @@
 =======
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -2342,6 +2903,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -2350,12 +2912,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0179170159262364"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.358025984911987"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -2374,7 +2942,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Digging_01.wav</AudioFile>
 													<MediaIDList>
@@ -2385,6 +2958,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_01" ID="{485C9A1D-250E-4783-9A38-04C1A1A51DC6}" Platform="Linked"/>
@@ -2399,6 +2973,13 @@
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<AudioFileSource Name="SFX_Digging_01_v2" ID="{559F718D-0E20-4799-A285-597F766A9296}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Digging_01_v2.wav</AudioFile>
@@ -2406,6 +2987,7 @@
 														<MediaID ID="100853048"/>
 													</MediaIDList>
 												</AudioFileSource>
+<<<<<<< HEAD
 <<<<<<< HEAD
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2439,7 +3021,15 @@
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_01" ID="{485C9A1D-250E-4783-9A38-04C1A1A51DC6}" Platform="Linked"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Digging_01_v2" ID="{559F718D-0E20-4799-A285-597F766A9296}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Digging_02" ID="{29135D43-A317-479B-BADE-018140475BD8}" ShortID="194262897">
@@ -2457,6 +3047,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -2465,12 +3056,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0182313495389774"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.321877619446773"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -2489,7 +3086,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Digging_02.wav</AudioFile>
 													<MediaIDList>
@@ -2500,6 +3102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_02" ID="{CD36B4EC-8C59-4AB8-8B25-A2961AC428F7}" Platform="Linked"/>
@@ -2514,6 +3117,13 @@
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<AudioFileSource Name="SFX_Digging_02_v2" ID="{468737EA-A929-4A81-94F1-CFE6CD390A25}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Digging_02_v2.wav</AudioFile>
@@ -2521,6 +3131,7 @@
 														<MediaID ID="348204162"/>
 													</MediaIDList>
 												</AudioFileSource>
+<<<<<<< HEAD
 <<<<<<< HEAD
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2554,7 +3165,15 @@
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_02" ID="{CD36B4EC-8C59-4AB8-8B25-A2961AC428F7}" Platform="Linked"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Digging_02_v2" ID="{468737EA-A929-4A81-94F1-CFE6CD390A25}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Digging_03" ID="{DCE97FFB-989A-4C03-A523-3166FC33E007}" ShortID="726249592">
@@ -2572,6 +3191,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -2580,12 +3200,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0179170159262363"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.330050293378039"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -2604,7 +3230,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Digging_03.wav</AudioFile>
 													<MediaIDList>
@@ -2615,6 +3246,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_03" ID="{EAFAEC2D-12D4-4BD2-B95D-023BF2D91AEA}" Platform="Linked"/>
@@ -2629,6 +3261,13 @@
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<AudioFileSource Name="SFX_Digging_03_v2" ID="{75E21808-35EC-49D1-B36C-A6A48B124362}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Digging_03_v2.wav</AudioFile>
@@ -2637,6 +3276,7 @@
 													</MediaIDList>
 												</AudioFileSource>
 <<<<<<< HEAD
+<<<<<<< HEAD
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_03_v2" ID="{75E21808-35EC-49D1-B36C-A6A48B124362}" Platform="Linked"/>
@@ -2669,7 +3309,15 @@
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Digging_03" ID="{EAFAEC2D-12D4-4BD2-B95D-023BF2D91AEA}" Platform="Linked"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Digging_03_v2" ID="{75E21808-35EC-49D1-B36C-A6A48B124362}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2678,6 +3326,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<RandomSequenceContainer Name="Planting Plants_02" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
 									<PropertyList>
 =======
@@ -2687,6 +3336,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 								<RandomSequenceContainer Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
 									<PropertyList>
@@ -2721,6 +3372,10 @@
 =======
 								<RandomSequenceContainer Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
 									<PropertyList>
+=======
+								<RandomSequenceContainer Name="Planting Plants" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
+									<PropertyList>
+>>>>>>> c606e5c (no message)
 										<Property Name="Color" Type="int16" Value="5"/>
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
@@ -2735,6 +3390,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+<<<<<<< HEAD
 >>>>>>> f8dbe17 (no message)
 <<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
@@ -2743,7 +3399,12 @@
 								<RandomSequenceContainer Name="Planting Plants_02" ID="{E90ECB87-5BFF-42CB-85BE-27BEACB69789}" ShortID="1037682751">
 									<PropertyList>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2754,6 +3415,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 															<Property Name="Max" Type="Real64" Value="50"/>
 =======
 =======
@@ -2762,6 +3424,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 															<Property Name="Max" Type="Real64" Value="100"/>
 =======
@@ -2785,13 +3449,20 @@
 =======
 															<Property Name="Max" Type="Real64" Value="50"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+															<Property Name="Max" Type="Real64" Value="100"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 															<Property Name="Min" Type="Real64" Value="-75"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2804,7 +3475,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-1</Value>
@@ -2822,6 +3498,7 @@
 											</ModifierList>
 										</Property>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -2839,7 +3516,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2850,6 +3532,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
 =======
@@ -2858,6 +3541,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
@@ -2881,11 +3566,18 @@
 =======
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="SFX_Planting02_01" ID="{1C877755-A8F1-430B-A14C-C1C0F186288A}" ShortID="430024041">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2898,7 +3590,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ModifierList>
@@ -2909,6 +3606,7 @@
 												</Property>
 											</PropertyList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -2926,7 +3624,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2941,6 +3644,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -2949,12 +3653,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0226364907654813"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.259215422913428"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -2973,7 +3683,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Planting02_01.wav</AudioFile>
 													<MediaIDList>
@@ -2990,6 +3705,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -2998,7 +3714,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ModifierList>
@@ -3008,6 +3729,7 @@
 													</ModifierList>
 												</Property>
 											</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -3026,7 +3748,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -3041,6 +3768,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -3049,12 +3777,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0342623637887678"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.321248952221291"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -3073,7 +3807,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Planting02_02.wav</AudioFile>
 													<MediaIDList>
@@ -3090,6 +3829,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -3098,7 +3838,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ModifierList>
@@ -3108,6 +3853,7 @@
 													</ModifierList>
 												</Property>
 											</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -3126,7 +3872,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -3141,6 +3892,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -3149,12 +3901,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0182900248908837"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.28921102335547"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -3173,7 +3931,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Planting02_03.wav</AudioFile>
 													<MediaIDList>
@@ -3190,6 +3953,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -3198,7 +3962,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<EffectSlot Name="" ID="{470A9B5F-D6DE-4E49-A274-7154E939D729}" ShortID="107637198">
@@ -3212,12 +3981,15 @@
 									</ObjectLists>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> eb33fc9 (no message)
 =======
 =======
 >>>>>>> 5fee5fe (pulling audio into programming)
 >>>>>>> 6087949 (no message)
 =======
+=======
+>>>>>>> 18a9049 (no message)
 =======
 >>>>>>> 5fee5fe (pulling audio into programming)
 =======
@@ -3227,13 +3999,15 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								</RandomSequenceContainer>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Traps" ID="{0D579336-F3A8-4A4B-8159-910EF6EEF9DC}" ShortID="369778243">
-							<ChildrenList>
 								<Folder Name="Traps Placing" ID="{33F53217-CFC7-46AB-A21B-365B8A4B753A}" ShortID="357617243">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3243,11 +4017,17 @@
 >>>>>>> 6087949 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="13"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 								</RandomSequenceContainer>
@@ -3272,7 +4052,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ChildrenList>
 										<RandomSequenceContainer Name="Bear Trap Place" ID="{BB3E9F1B-831C-4D53-945D-2DE7E79A4ECD}" ShortID="873220915">
 											<PropertyList>
@@ -3317,6 +4102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
 =======
@@ -3325,6 +4111,8 @@
 =======
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
@@ -3346,6 +4134,9 @@
 =======
 =======
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+=======
+													<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+>>>>>>> c606e5c (no message)
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3579,6 +4370,9 @@
 														<AudioFileSource Name="SFX_Bear Trap Place_NEW02" ID="{FA69D777-6F0F-469E-907C-4CBB498A79EF}">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c606e5c (no message)
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.0411502889064766"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.0110198383009543"/>
@@ -3586,6 +4380,7 @@
 																<Property Name="TrimBegin" Type="Real64" Value="0.0465916494230355"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.395954175283536"/>
 															</PropertyList>
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b4c89e6 (no message)
@@ -3596,7 +4391,12 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 															<Language>SFX</Language>
 															<AudioFile>SFX_Bear Trap Place_NEW02.wav</AudioFile>
 															<MediaIDList>
@@ -3853,6 +4653,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c26099d (no message)
@@ -3869,6 +4670,8 @@
 =======
 =======
 =======
+>>>>>>> 18a9049 (no message)
+=======
 >>>>>>> c236d95 (no message)
 >>>>>>> 992d1a1 (no message)
 =======
@@ -3876,7 +4679,15 @@
 =======
 =======
 >>>>>>> 53bbf21 (no message)
+<<<<<<< HEAD
 >>>>>>> a255892 (no message)
+=======
+=======
+=======
+=======
+>>>>>>> c26099d (no message)
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								<Sound Name="Computer" ID="{5496AF47-EC83-47C3-97D3-0FDD740C3F48}" ShortID="42579937">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4431,6 +5242,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 =======
 >>>>>>> 60800bb (no message)
@@ -4445,6 +5257,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> a255892 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -4466,6 +5280,8 @@
 >>>>>>> 6b096a1 (no message)
 =======
 =======
+=======
+>>>>>>> c606e5c (no message)
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 <<<<<<< HEAD
 >>>>>>> 53bbf21 (no message)
@@ -4475,13 +5291,22 @@
 =======
 =======
 >>>>>>> 60800bb (no message)
+<<<<<<< HEAD
 >>>>>>> c236d95 (no message)
+<<<<<<< HEAD
 >>>>>>> 992d1a1 (no message)
+=======
+=======
+=======
+>>>>>>> c26099d (no message)
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI Sounds" ID="{B186BB4F-8647-4D05-BB68-4F368957CEC2}" ShortID="445353397">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4495,13 +5320,19 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 >>>>>>> eb33fc9 (no message)
 					<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4532,6 +5363,8 @@
 >>>>>>> 992d1a1 (no message)
 =======
 >>>>>>> 34da449 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 						<Sound Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" ShortID="945929694">
 <<<<<<< HEAD
 							<PropertyList>
@@ -4556,6 +5389,8 @@
 =======
 >>>>>>> c236d95 (no message)
 =======
+=======
+>>>>>>> c606e5c (no message)
 =======
 >>>>>>> 8efe417 (no message)
 >>>>>>> 787f68f (no message)
@@ -5958,24 +6793,19 @@
 							</ReferenceList>
 						</Sound>
 						<Sound Name="Buy Trap" ID="{E52F499F-D4C8-4499-A085-D1BE3EDA9823}" ShortID="12348799">
+=======
+						<Sound Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" ShortID="945929694">
+>>>>>>> c26099d (no message)
 							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
+								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>13</Value>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{41924410-77BB-4D54-A665-CFE7DF6986E1}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="75"/>
-													<Property Name="Min" Type="Real64" Value="-75"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -5983,34 +6813,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI_Shop_Trap Select" ID="{C8AB0F78-AB37-4E03-8C15-20D4E14253C8}">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.00412723755109812"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.00454789167075891"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>UI_Shop_Trap Select.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="974261825"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="UI_Shop_Trap Select" ID="{C8AB0F78-AB37-4E03-8C15-20D4E14253C8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="UI Click" ID="{6854B6E6-CCA1-4243-957B-1658C9BA796B}" ShortID="945929694">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+									<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6039,9 +6842,352 @@
 										<MediaID ID="853472176"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="UI Click 03" ID="{0BCA0C22-32EF-47C8-9A67-12FA28839489}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.0817267393126572"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI Click 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="475229616"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="UI_Click_v4" ID="{D7F813E1-E17C-40D2-A439-CF24019A7D89}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Click_v4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551107934"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="UI_Click_v5" ID="{AFF726AD-4806-42AC-8B6B-8CF62555F50A}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.043848167539267"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Click_v5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="199870249"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI ClickNEW" ID="{D52E38F0-FC3E-409B-97D9-769658E6C2C6}" Platform="Linked"/>
+								<ActiveSource Name="UI_Click_v5" ID="{AFF726AD-4806-42AC-8B6B-8CF62555F50A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Folder Name="Shop" ID="{74ED3A69-70C9-4624-ADC0-CCEC8AAD6AF4}" ShortID="546466525">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="Buy Plant" ID="{37759B15-2518-41F3-A159-A292D272B1E8}" ShortID="347336497">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="3"/>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{073AFE10-0BFB-4960-A685-4FC97B0C2107}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C6F3FDED-C179-4882-B32D-C1A30FC4E6B4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="21"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A22DA140-98FA-4204-B9BD-7516FF4AC621}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5460CBC0-B699-4FF8-922F-D45732B2C233}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI ClickNEW" ID="{F625DA2C-1E32-46CE-A32A-6F6D754CDCF6}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00838222967309304"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.137049455155071"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI ClickNEW.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554779189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI ClickNEW" ID="{F625DA2C-1E32-46CE-A32A-6F6D754CDCF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Buy Trap" ID="{E52F499F-D4C8-4499-A085-D1BE3EDA9823}" ShortID="12348799">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="3"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>13</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BBD50854-D6AE-4D45-A82A-02841B506A83}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="13"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{41924410-77BB-4D54-A665-CFE7DF6986E1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F1924F81-7E99-4E59-941A-5444BFCCA1E9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_Shop_Trap Select" ID="{C8AB0F78-AB37-4E03-8C15-20D4E14253C8}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00412723755109812"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0238362671643471"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00454789167075891"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.243129924440557"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI_Shop_Trap Select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974261825"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_Shop_Trap Select" ID="{C8AB0F78-AB37-4E03-8C15-20D4E14253C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="No Money Left" ID="{0C74DAC9-0EB9-473E-9AA3-CA0F94524DB0}" ShortID="958398499">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="273658-Negative-Sound-Tone-Hit-4" ID="{33C4725B-8C91-4084-B6C9-B0C347836A64}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.000291603517460821"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0329081780103106"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0651647089313082"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.262287947666459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>273658-Negative-Sound-Tone-Hit-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="107601812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="273658-Negative-Sound-Tone-Hit-4" ID="{33C4725B-8C91-4084-B6C9-B0C347836A64}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cash Register" ID="{2800E4E0-56B3-4C78-9A75-83E099DDE9C8}" ShortID="1033638977">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Cash Register" ID="{CC452595-44AB-431B-A2DE-DF7548524159}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0165343915343915"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.418320105820106"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.128968253968254"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.67989417989418"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-2.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Cash Register.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="776291714"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="SFX_Cash Register_v2" ID="{92EFE540-7090-4CCB-8E56-ABC7DCE26403}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.515378844711178"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.48312078019505"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Cash Register_v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="472422728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Cash Register_v2" ID="{92EFE540-7090-4CCB-8E56-ABC7DCE26403}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Pause Menu ON" ID="{9E6B0B13-FD4D-46AB-B159-3E8A2622D475}" ShortID="688801944">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Switch Woosh 02" ID="{6BE5EF77-2717-4A79-8956-ECE1E1840B2A}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Switch Woosh 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="467418394"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="UI_Pause_ON" ID="{955D357F-065B-4334-B11A-7CA88000EAF2}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Pause_ON.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="172961020"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Pause_ON" ID="{955D357F-065B-4334-B11A-7CA88000EAF2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pause Menu OFF" ID="{E913A69D-CE6C-40CD-BA27-986FA5907C32}" ShortID="8143859">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Switch Woosh 01" ID="{A40D5730-BD7D-493F-89EB-BB673A8C001B}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Switch Woosh 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="764503158"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="UI_Pause_OFF" ID="{45BFCB04-ACF9-4720-9D0F-0278AAFADE0D}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Pause_OFF.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="776827659"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Pause_OFF" ID="{45BFCB04-ACF9-4720-9D0F-0278AAFADE0D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 <<<<<<< HEAD
@@ -6064,6 +7210,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<Property Name="Color" Type="int16" Value="19"/>
 =======
 =======
@@ -6072,6 +7219,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Color" Type="int16" Value="19"/>
@@ -6099,7 +7248,15 @@
 =======
 								<Property Name="Color" Type="int16" Value="19"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -6111,6 +7268,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
 =======
@@ -6119,6 +7277,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 									<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
@@ -6142,7 +7302,13 @@
 =======
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+									<ObjectRef Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6168,6 +7334,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<Value>-4</Value>
 =======
 =======
@@ -6176,6 +7343,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 												<Value>-5</Value>
 =======
@@ -6199,7 +7368,13 @@
 =======
 												<Value>-4</Value>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+												<Value>-5</Value>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -6249,6 +7424,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 													<ValueList>
 														<Value>1</Value>
 													</ValueList>
@@ -6259,6 +7435,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 =======
 													<ValueList>
@@ -6286,7 +7464,12 @@
 														<Value>1</Value>
 													</ValueList>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{1DAD5ADB-A397-46D6-AEAD-A77F2EECBB88}">
@@ -6645,6 +7828,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 																<Value>-8</Value>
 =======
 =======
@@ -6653,6 +7837,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 																<Value>-10</Value>
 =======
@@ -6676,7 +7862,13 @@
 =======
 																<Value>-8</Value>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+																<Value>-10</Value>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -7244,6 +8436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<Value>-4</Value>
 =======
 =======
@@ -7252,6 +8445,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 												<Value>-1</Value>
 =======
@@ -7275,7 +8470,13 @@
 =======
 												<Value>-4</Value>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+												<Value>-1</Value>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7781,6 +8982,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> eb33fc9 (no message)
@@ -7794,6 +8996,13 @@
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> f8dbe17 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<EffectSlot Name="" ID="{CA6BB2F8-7393-4E5F-9C3C-FE181A70DC70}" ShortID="533992356">
@@ -7816,6 +9025,7 @@
 									</EffectSlot>
 								</ObjectList>
 							</ObjectLists>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c26099d (no message)
@@ -8430,6 +9640,8 @@
 >>>>>>> 6087949 (no message)
 =======
 =======
+>>>>>>> 18a9049 (no message)
+=======
 >>>>>>> 5fee5fe (pulling audio into programming)
 =======
 >>>>>>> f8dbe17 (no message)
@@ -9034,6 +10246,9 @@
 >>>>>>> 4ecf037 (no message)
 =======
 >>>>>>> c236d95 (no message)
+=======
+>>>>>>> c26099d (no message)
+>>>>>>> c606e5c (no message)
 						</BlendContainer>
 						<BlendContainer Name="Summer Amb" ID="{36D36072-76B5-429B-8260-66B57D551269}" ShortID="402565748">
 							<PropertyList>
@@ -9630,17 +10845,28 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+<<<<<<< HEAD
 =======
 >>>>>>> 60800bb (no message)
+=======
+>>>>>>> c26099d (no message)
 						</BlendContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Kids Cutscene" ID="{DD64B773-0CBC-4A30-89C4-82E068A3DA4E}" ShortID="935939516">
+				<Folder Name="Enemy Sounds" ID="{DD64B773-0CBC-4A30-89C4-82E068A3DA4E}" ShortID="935939516">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Folder Name="Music" ID="{385E79AB-13FE-49BD-A013-A398790C3282}" ShortID="769382800"/>
 						<Folder Name="Traps Activated" ID="{A74FA321-73A8-4E97-A3AD-8FF0D95BDD2E}" ShortID="979363378">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Sound Name="Bear Trap Activate" ID="{010A49AB-8AA1-4546-A7BC-FD45692DA453}" ShortID="831541676">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9650,7 +10876,12 @@
 >>>>>>> 6087949 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<PropertyList>
 										<Property Name="Inclusion" Type="bool">
 											<ValueList>
@@ -9658,6 +10889,7 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 						</BlendContainer>
@@ -9685,7 +10917,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -9720,6 +10957,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -9728,7 +10966,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
 												<ModifierInfo>
@@ -9741,6 +10984,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -9759,7 +11003,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -9779,6 +11028,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<Value>-4</Value>
 											</ValueList>
 =======
@@ -9788,6 +11038,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 												<Value>-6</Value>
 											</ValueList>
@@ -9819,6 +11071,10 @@
 =======
 												<Value>-6</Value>
 											</ValueList>
+=======
+												<Value>-6</Value>
+											</ValueList>
+>>>>>>> c606e5c (no message)
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{3BFDF746-4FA4-4DD6-9DD1-5FA361B06BEF}">
@@ -9830,6 +11086,7 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+<<<<<<< HEAD
 >>>>>>> f8dbe17 (no message)
 <<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
@@ -9838,7 +11095,12 @@
 												<Value>-4</Value>
 											</ValueList>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -9850,6 +11112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
 =======
@@ -9858,6 +11121,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
@@ -9881,7 +11146,13 @@
 =======
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+											<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -9900,6 +11171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -9908,11 +11180,17 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.631581147927888"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -9931,7 +11209,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Trap Snap Fling_01.wav</AudioFile>
 													<MediaIDList>
@@ -9958,6 +11241,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -9966,12 +11250,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="LoopBegin" Type="Real64" Value="0.6398371106459"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.577917390260813"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -9990,7 +11280,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Trap Snap Fling_02.wav</AudioFile>
 													<MediaIDList>
@@ -10017,6 +11312,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -10025,11 +11321,17 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.627972153514366"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -10048,7 +11350,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>SFX_Trap Snap Fling_03.wav</AudioFile>
 													<MediaIDList>
@@ -10065,6 +11372,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -10073,7 +11381,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<EffectSlot Name="" ID="{08FAA618-9DE8-40C0-8381-3D72BAE36113}" ShortID="345859000">
@@ -10085,6 +11398,7 @@
 											</EffectSlot>
 										</ObjectList>
 									</ObjectLists>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -10103,12 +11417,18 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<RandomSequenceContainer Name="Digging Up Plant" ID="{3EDE955A-6FE6-49D1-9AA0-606BDADEA2CD}" ShortID="619547736">
 							<PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10121,7 +11441,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								<Property Name="Lowpass" Type="int16">
 									<ModifierList>
 										<ModifierInfo>
@@ -10135,6 +11460,7 @@
 									</ModifierList>
 								</Property>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -10152,7 +11478,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -10163,6 +11494,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 													<Property Name="Max" Type="Real64" Value="50"/>
 =======
 =======
@@ -10171,6 +11503,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 													<Property Name="Max" Type="Real64" Value="125"/>
 =======
@@ -10194,7 +11528,13 @@
 =======
 													<Property Name="Max" Type="Real64" Value="50"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+													<Property Name="Max" Type="Real64" Value="125"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Property Name="Min" Type="Real64" Value="-50"/>
 												</PropertyList>
 											</Modifier>
@@ -10209,6 +11549,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -10217,7 +11558,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{20CF3523-524D-4BE1-A413-2653DC66682A}">
@@ -10230,6 +11576,7 @@
 										</ModifierInfo>
 									</ModifierList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -10247,7 +11594,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -10259,6 +11611,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
 =======
@@ -10267,6 +11620,8 @@
 >>>>>>> 1fd725a (no message)
 =======
 >>>>>>> 6b096a1 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 <<<<<<< HEAD
 									<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 =======
@@ -10290,11 +11645,18 @@
 =======
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+									<ObjectRef Name="SFX &amp; UI Master (for music ducking)" ID="{1EBBCF6F-F45B-45C2-98AE-4A062B63C8A9}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="SFX_Plant Dig Up_01" ID="{B78A2F8A-2CC0-4814-A36E-39A88F76BE50}" ShortID="226313577">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10307,7 +11669,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ModifierList>
@@ -10318,6 +11685,7 @@
 										</Property>
 									</PropertyList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -10335,7 +11703,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -10364,6 +11737,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Plant Dig Up_01" ID="{2E69BCC8-7518-482B-BD01-2C62B27176A0}" Platform="Linked"/>
@@ -10378,6 +11752,13 @@
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										<AudioFileSource Name="SFX_Plant Dig Up_01_v2" ID="{3B9F40F9-1438-49CB-AD86-9F3DE63141CF}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.00445026195694223"/>
@@ -10391,6 +11772,7 @@
 												<MediaID ID="767701832"/>
 											</MediaIDList>
 										</AudioFileSource>
+<<<<<<< HEAD
 <<<<<<< HEAD
 									</ChildrenList>
 									<ActiveSourceList>
@@ -10424,7 +11806,15 @@
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Plant Dig Up_01" ID="{2E69BCC8-7518-482B-BD01-2C62B27176A0}" Platform="Linked"/>
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Plant Dig Up_01_v2" ID="{3B9F40F9-1438-49CB-AD86-9F3DE63141CF}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -10433,6 +11823,7 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Grass Footsteps" ID="{A307316E-2009-474B-98F8-D4088F1BECB6}" ShortID="8501978">
 									<PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10449,6 +11840,13 @@
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
 												<Value>40</Value>
@@ -10464,6 +11862,7 @@
 												<Value>16</Value>
 											</ValueList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 										<Property Name="Lowpass" Type="int16">
 >>>>>>> 2e5039c (test)
@@ -10484,7 +11883,12 @@
 =======
 										<Property Name="Lowpass" Type="int16">
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{983E64E7-16FA-4B9B-AE63-F717389A58A5}">
@@ -10540,6 +11944,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -10548,11 +11953,17 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.0174613140952525"/>
 													</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
@@ -10571,7 +11982,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 													<Language>SFX</Language>
 													<AudioFile>FS_Grass Sneak_01.wav</AudioFile>
 													<MediaIDList>
@@ -10699,6 +12115,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6087949 (no message)
@@ -10707,7 +12124,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+<<<<<<< HEAD
 >>>>>>> 1fd725a (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 								<Sound Name="Grass Sneak Footsteps Loop" ID="{0A04E679-33CE-4057-8879-4ABC04DF8439}" ShortID="904177457">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -10749,6 +12171,7 @@
 									</ActiveSourceList>
 								</Sound>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -10766,7 +12189,12 @@
 =======
 =======
 >>>>>>> 4ecf037 (no message)
+<<<<<<< HEAD
 >>>>>>> 6b096a1 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -11018,6 +12446,7 @@
 >>>>>>> 03de798 (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 						<PropertyContainer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
+<<<<<<< HEAD
 =======
 						<ActorMixer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX):My project/My project_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu
@@ -11057,8 +12486,23 @@
 =======
 						<PropertyContainer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> 03de798 (no message)
+<<<<<<< HEAD
 >>>>>>> 4b74875 (no message)
+=======
+=======
+=======
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+>>>>>>> c26099d (no message)
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -11076,8 +12520,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
 												<Value>6</Value>
@@ -11088,6 +12535,7 @@
 												<Value>-1</Value>
 											</ValueList>
 										</Property>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -11114,7 +12562,12 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -11130,13 +12583,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f8dbe17 (no message)
+=======
+>>>>>>> c606e5c (no message)
 										<AudioFileSource Name="Spring Music 44_1" ID="{343F1475-32AD-4112-A1DE-CC4FEB87E15A}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="15.5269048702625"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 											<Language>SFX</Language>
 											<AudioFile>Spring Music 44.1.wav</AudioFile>
@@ -11176,9 +12633,12 @@
 =======
 >>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{E5DC07C2-2725-49E3-A24D-83737C31328D}">
+=======
+>>>>>>> c606e5c (no message)
 											<Language>SFX</Language>
-											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
+											<AudioFile>Spring Music 44.1.wav</AudioFile>
 											<MediaIDList>
+<<<<<<< HEAD
 												<MediaID ID="472907063"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -11187,13 +12647,20 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+												<MediaID ID="327896736"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11254,6 +12721,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
@@ -11360,12 +12829,16 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+>>>>>>> c606e5c (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 >>>>>>> 9f18f85 (no message)
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{036169D3-8ADB-49CB-95EF-DF55161EB544}" ShortID="816733909"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
+=======
+>>>>>>> c26099d (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
 <<<<<<< HEAD
@@ -11496,6 +12969,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
@@ -11538,7 +13012,12 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{815B9597-27E1-437A-8B74-D0F34C4756CB}" ShortID="881014583">
 													<PropertyList>
@@ -11547,6 +13026,7 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11598,11 +13078,17 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{3F9D315A-87D1-4F8E-8539-D65EA2E58CEB}" ShortID="85358723"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11664,28 +13150,15 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+=======
+>>>>>>> c606e5c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{9357E782-94F4-451A-A0C0-5D313423ED8C}" ShortID="391935208"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{F51C3962-8D3F-4E27-B1A0-39CF0543CFDB}" ShortID="289817887">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{393AA432-6578-4124-85B4-4C7ABBB6E4BC}" ShortID="1055533330">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 									<ActiveSourceList>
+<<<<<<< HEAD
 										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{E5DC07C2-2725-49E3-A24D-83737C31328D}" Platform="Linked"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -11694,7 +13167,13 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+										<ActiveSource Name="Spring Music 44_1" ID="{343F1475-32AD-4112-A1DE-CC4FEB87E15A}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Summer Music" ID="{48F6E470-8422-41AB-8604-E6FEA19BACD8}" ShortID="467919631">
@@ -11710,6 +13189,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11755,9 +13235,13 @@
 =======
 >>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{093EFB4B-5F95-4A18-A7BA-4825543D1656}">
+=======
+										<AudioFileSource Name="Spring Music 44_1" ID="{4AC7DFE8-0BC3-47D3-A7C1-2828E6A3DC67}">
+>>>>>>> c606e5c (no message)
 											<Language>SFX</Language>
-											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
+											<AudioFile>Spring Music 44.1.wav</AudioFile>
 											<MediaIDList>
+<<<<<<< HEAD
 												<MediaID ID="472907063"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -11766,13 +13250,20 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+												<MediaID ID="132634063"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11833,6 +13324,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
@@ -11939,12 +13432,16 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+>>>>>>> c606e5c (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 >>>>>>> 9f18f85 (no message)
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{8834D555-5EDE-47F6-A2BB-132750EF1101}" ShortID="542499416"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
+=======
+>>>>>>> c26099d (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
 <<<<<<< HEAD
@@ -12075,6 +13572,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
@@ -12121,7 +13619,12 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{754DD062-A58E-47E6-AC0B-25F46AE64717}" ShortID="350891212">
 													<PropertyList>
@@ -12130,6 +13633,7 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12177,11 +13681,17 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{9CC8A9F0-B328-416A-BFC8-3281E6BEB1ED}" ShortID="772513962"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12239,28 +13749,15 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+=======
+>>>>>>> c606e5c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{B8ABBA82-F4C8-431A-88B3-44D4A493C67B}" ShortID="1009688893"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{7AECF027-17D5-4D10-A0E2-A87D879F9F72}" ShortID="455734104">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{0F0E0C08-2C03-401C-A0E8-B8CBD8AF478F}" ShortID="915876421">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 									<ActiveSourceList>
+<<<<<<< HEAD
 										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{093EFB4B-5F95-4A18-A7BA-4825543D1656}" Platform="Linked"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -12269,7 +13766,13 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+										<ActiveSource Name="Spring Music 44_1" ID="{4AC7DFE8-0BC3-47D3-A7C1-2828E6A3DC67}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Autumn Music" ID="{D89F9055-5462-4CA1-A553-B131C40B9903}" ShortID="726222514">
@@ -12285,6 +13788,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12330,9 +13834,13 @@
 =======
 >>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{273657C8-900D-46DD-BD65-7A0A01F9DF8B}">
+=======
+										<AudioFileSource Name="Spring Music 44_1" ID="{8BBB01D7-21AD-488D-BFAB-AD5235FF010C}">
+>>>>>>> c606e5c (no message)
 											<Language>SFX</Language>
-											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
+											<AudioFile>Spring Music 44.1.wav</AudioFile>
 											<MediaIDList>
+<<<<<<< HEAD
 												<MediaID ID="472907063"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -12341,13 +13849,20 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+												<MediaID ID="132634063"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12408,6 +13923,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
@@ -12514,12 +14031,16 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+>>>>>>> c606e5c (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 >>>>>>> 9f18f85 (no message)
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{2B46BD08-B118-454A-95FB-1AD149AF14A1}" ShortID="923902902"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
+=======
+>>>>>>> c26099d (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
 <<<<<<< HEAD
@@ -12650,6 +14171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
@@ -12696,7 +14218,12 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{5772A5C8-CD2B-4A2C-BACC-97D4A953F137}" ShortID="253708018">
 													<PropertyList>
@@ -12705,6 +14232,7 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12756,11 +14284,17 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{26F1FF17-1D02-4A73-AC7F-CC395286E166}" ShortID="723883659"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12822,24 +14356,15 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+=======
+>>>>>>> c606e5c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{0C728C15-81A6-4AE8-A6A4-4048AF4A258D}" ShortID="1035745848"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{D9A6ADAD-5C65-42F2-B231-69E5F83E9F85}" ShortID="860913599">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{869140A6-70D7-469C-A76C-EE270AD877B1}" ShortID="837059482"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 									<ActiveSourceList>
+<<<<<<< HEAD
 										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{273657C8-900D-46DD-BD65-7A0A01F9DF8B}" Platform="Linked"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -12848,7 +14373,13 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+										<ActiveSource Name="Spring Music 44_1" ID="{8BBB01D7-21AD-488D-BFAB-AD5235FF010C}" Platform="Linked"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Winter Music" ID="{F47EEDB3-74D4-440A-9267-404399A032A9}" ShortID="84825854">
@@ -12864,6 +14395,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12909,9 +14441,13 @@
 =======
 >>>>>>> 5bc341c (no message)
 										<AudioFileSource Name="PLACEHOLDERMUSIC" ID="{B3420CD7-3619-407A-BB17-33C0F7623DAE}">
+=======
+										<AudioFileSource Name="Spring Music 44_1" ID="{34837E2D-FBA1-4023-A6F0-4C5716F10D3E}">
+>>>>>>> c606e5c (no message)
 											<Language>SFX</Language>
-											<AudioFile>PLACEHOLDERMUSIC.wav</AudioFile>
+											<AudioFile>Spring Music 44.1.wav</AudioFile>
 											<MediaIDList>
+<<<<<<< HEAD
 												<MediaID ID="472907063"/>
 <<<<<<< HEAD
 >>>>>>> f98d626 (no message)
@@ -12920,13 +14456,20 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+												<MediaID ID="132634063"/>
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12987,6 +14530,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
@@ -13093,12 +14638,16 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+>>>>>>> c606e5c (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 >>>>>>> 9f18f85 (no message)
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{D0F07261-B51F-4A3E-911E-7726EF42CF30}" ShortID="1061499760"/>
 											</StateGroupInfo>
 											<StateGroupInfo>
+=======
+>>>>>>> c26099d (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
 <<<<<<< HEAD
@@ -13229,6 +14778,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e97b253 (rebase)
@@ -13275,7 +14825,12 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 												<CustomState Name="" ID="{335D9C93-9939-474D-B743-22831CC02FA2}" ShortID="867721052">
 													<PropertyList>
@@ -13284,6 +14839,7 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13335,11 +14891,17 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+<<<<<<< HEAD
 >>>>>>> bfd60f9 (no message)
+=======
+=======
+>>>>>>> c606e5c (no message)
+>>>>>>> 18a9049 (no message)
 												<StateRef Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
 												<CustomState Name="" ID="{655107DB-C407-4565-A062-1A9F813D01B6}" ShortID="1029366144"/>
 											</CustomState>
 											<CustomState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13493,25 +15055,15 @@
 =======
 =======
 >>>>>>> 5bc341c (no message)
+=======
+>>>>>>> c606e5c (no message)
 												<StateRef Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 												<CustomState Name="" ID="{78B056FD-CE07-4FDB-B54E-94DA32EAA8B1}" ShortID="341148029"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Winter" ID="{8BEC9E4A-C8EF-4C85-A440-EBF3460D1C80}"/>
-												<CustomState Name="" ID="{90D80BB8-99B7-4A3C-ACF9-191CD98765C2}" ShortID="31853414"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Autumn" ID="{DE63EA2B-ABE5-4F1B-BDEC-8A3220FC9541}"/>
-												<CustomState Name="" ID="{01EF8ECC-4389-4582-BF96-B9741BB0D4D6}" ShortID="753605445">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="PLACEHOLDERMUSIC" ID="{B3420CD7-3619-407A-BB17-33C0F7623DAE}" Platform="Linked"/>
+										<ActiveSource Name="Spring Music 44_1" ID="{34837E2D-FBA1-4023-A6F0-4C5716F10D3E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -13880,6 +15432,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 =======
 =======
@@ -13913,6 +15466,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 18a9049 (no message)
 =======
 >>>>>>> f8dbe17 (no message)
 >>>>>>> 1fd725a (no message)
@@ -13962,7 +15517,22 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+>>>>>>> c606e5c (no message)
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
+=======
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{F0BAA1CD-0811-4D52-9D89-E0EFFDE02230}" ShortID="868760792">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="New_Parametric_EQ_03" ID="{81A99DAE-78E5-45FA-9A40-EAF5546E27F3}" WorkUnitID="{06D47C5E-CB33-4189-8159-F7AEE8946691}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+>>>>>>> c26099d (no message)
 						</PropertyContainer>
 =======
 						</ActorMixer>
