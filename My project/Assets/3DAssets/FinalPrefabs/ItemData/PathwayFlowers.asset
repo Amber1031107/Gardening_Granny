@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: Flower Path
   displayName: Flower Path
-  handPrefab: {fileID: 7449789240672324216, guid: 901bd9250dd6bfe4380bf31c8276cbe7, type: 3}
+  handPrefab: {fileID: 8437577084903292953, guid: b8705dbb8d7d7f44c8466db3b031c671, type: 3}
   placeablePrefab: {fileID: 4832622223958088028, guid: 677d120a52fa4ec46ac4f43dc7cae71a, type: 3}
   icon: {fileID: 21300000, guid: 35d2e7f72911ba640a46f854fb08d8a5, type: 3}
   cost: 5
@@ -25,4 +25,4 @@ MonoBehaviour:
   selectionSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 23fc744d5df42b1408f6afb2066626a9, type: 2}

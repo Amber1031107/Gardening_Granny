@@ -1,63 +1,82 @@
 Event	ID	Name			Wwise Object Path	Notes
-	378356484	Play_Spring_AMB			\Default Work Unit\Play_Spring_AMB	
+	378356484	Play_Spring_AMB			\Default Work Unit\AMBIENCE\Play_Spring_AMB	
 	474285493	Play_Spring_MUSIC			\Default Work Unit\MUSIC\Play_Spring_MUSIC	
 	1551648488	Play_Autumn_MUSIC			\Default Work Unit\MUSIC\Play_Autumn_MUSIC	
 	3439960413	Play_Winter_Music			\Default Work Unit\MUSIC\Play_Winter_Music	
 	3643452717	Play_Summer_MUSIC			\Default Work Unit\MUSIC\Play_Summer_MUSIC	
+	3854155799	Play_Footsteps			\Default Work Unit\ChHARACTER SOUNDS\Play_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3714303081	Surfaces			\Default Work Unit\Surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Surfaces			
+	2195636714	Dirt	Surfaces			
+	4248645337	Grass	Surfaces			
 
 State Group	ID	Name			Wwise Object Path	Notes
-	1176052424	Location			\Default Work Unit\Location	
-	3381515358	Season			\Default Work Unit\Season	
 	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
 
 State	ID	Name	State Group			Notes
-	438105790	Outside	Location			
-	748895195	None	Location			
-	3553349781	Inside	Location			
-	748895195	None	Season			
-	1296465106	Spring	Season			
-	2965343494	Winter	Season			
-	3924562482	Summer	Season			
-	4010875483	Autumn	Season			
 	311764537	Day	TimeOfDay			
 	748895195	None	TimeOfDay			
 	1011622525	Night	TimeOfDay			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	441011833	MusicDuck			\Default Work Unit\MusicDuck	
+	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
+	4231187838	Ambience_MenuMute			\Default Work Unit\Ambience_MenuMute	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
+	143634621	Ambience Master			\Default Work Unit\Master Audio Bus\Ambience Master	
+	1279065646	SFX & UI Master (for music ducking)			\Default Work Unit\Master Audio Bus\SFX & UI Master (for music ducking)	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	84696428	s			\Default Work Unit\Master Audio Bus\s	
-	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
-	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
+	2675173306	House_Reverb			\Default Work Unit\Master Audio Bus\House_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	29232601	New_Parametric_EQ_03	Wwise Parametric EQ			
+	126004133	Parametric EQ (Custom)	Wwise Parametric EQ			
+	980414561	Room_Small (Custom)	Wwise RoomVerb			
+	1111163968	MusicDuckMeter	Wwise Meter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1012836	Amb_Owl2 03	.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
 	20790822	Amb_Owl2 06	.cache\5A\{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 06		152544
 	34470463	Amb_Birds Spring_04	.cache\3F\{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_04		151300
+	53202029	FS_Grass_04	.cache\44\{4483EF53-4E9B-5CEF-4DF1-E03E1FC2F7C2}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Grass\FS_Grass_04		61408
 	128863012	Amb_Birds Spring_01	.cache\CE\{CE8C56EC-A97C-014E-9592-367E1E429E1E}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_01		226904
+	132634063	Winter Music	.cache\BC\{BC1DB1D0-8D04-3D26-5CB1-946A6F33415C}.wem		\Containers\Default Work Unit\Music\Day Music\Winter Music		26717672
+	133350982	FS_Concrete_04	.cache\B6\{B6936AE9-E370-1ED9-59C5-E25F966E43CA}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Concrete\FS_Concrete_04		41898
 	147936951	Amb_Breeze Spring_02	.cache\E6\{E6048A61-D0F4-73DA-D1C2-B28C267A7ACE}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_02		1196900
 	241852122	Amb_Owl2 05	.cache\7B\{7BD9C0B7-2690-50F6-AB6B-5700145ADD38}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 05		144352
+	246889118	FS_Grass_02	.cache\FF\{FF98C9BF-2E1F-077C-644A-CD9513712524}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Grass\FS_Grass_02		50720
 	253876681	Amb_Birds Spring_14	.cache\64\{64EA8FE7-61FC-1298-EFB4-236A18609C1B}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_14		302508
 	260095195	Amb_Birds Spring_07	.cache\84\{84EC8472-5EBC-E4CA-6FA8-888851344918}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_07		95420
 	312702700	Night Music	.cache\C6\{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem		\Containers\Default Work Unit\Music\Night Music\Night Music		13878312
+	326278609	FS_Dirt_01	.cache\F7\{F70D0BB4-BAEE-0745-AC23-CF483E409934}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Dirt\FS_Dirt_01		40624
+	326362433	FS_Concrete_03	.cache\00\{00B271A4-4322-3229-89D6-4E503329F8FC}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Concrete\FS_Concrete_03		37908
+	327896736	Spring Music	.cache\FD\{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem		\Containers\Default Work Unit\Music\Day Music\Spring Music		26717720
 	355788501	Breeze	.cache\3F\{3F7C6DAC-F472-F6BD-B3FC-D65F90209BF9}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze		23667068
 	393861057	Amb_Breeze Spring_04	.cache\7E\{7EC04265-824E-43DF-0546-71FA6C755295}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_04		2660160
 	403079355	Amb_Birds Spring_09	.cache\D7\{D79412BA-A357-B5E1-B237-93FE704DEC86}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_09		148016
 	432728295	Amb_Owl2 02	.cache\76\{763C7D7A-A47D-7001-1FCB-4B27A77648EA}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 02		133728
 	433637960	Amb_Birds Spring_15	.cache\07\{0758BF7B-F160-3B0C-767F-12609310D383}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_15		156232
 	458925649	Amb_Birds Spring_16	.cache\21\{21903945-360E-4620-271D-8511BA50DC56}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_16		215396
-	472907063	Winter Music	.cache\89\{899280CC-0862-57CC-CD53-D8ED6E098E64}.wem		\Containers\Default Work Unit\Music\Day Music\Winter Music		3072096
 	577526996	Amb_Owl2 07	.cache\47\{4716F03C-6733-F07C-A2AF-61874428A630}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 07		130464
+	605369206	FS_Concrete_01	.cache\0C\{0CC925BF-2D09-E222-B64F-D1D32C5CBC2D}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Concrete\FS_Concrete_01		37280
+	620877416	FS_Grass_01	.cache\F0\{F08A943D-EDBF-8DDE-581D-E01F5C036C29}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Grass\FS_Grass_01		54368
 	631474963	Amb_Breeze Spring_05	.cache\B9\{B9404B4B-CE67-66C8-F681-028A2FC510F5}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_05		2642900
 	633174091	Amb_Birds Spring_08	.cache\23\{23C7A52E-3CB2-66D9-4804-AFEF87E86907}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_08		205536
 	640225445	Amb_Birds Spring_12	.cache\D5\{D5B05581-CEC2-0694-2747-769211630B60}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_12		282784
+	661201764	FS_Dirt_04	.cache\7C\{7C5B6292-0C0A-7793-FB12-3B2202703C6E}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Dirt\FS_Dirt_04		36290
 	720278991	Amb_Breeze Spring_01	.cache\D4\{D49DE44D-6C83-C003-FD6D-9F898069EFC3}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_01		850424
 	738021387	Main Loop	.cache\34\{346FC4C1-9DF5-1520-41FB-0835345BEDBE}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Main Loop		13437648
 	749633620	Amb_Birds Spring_02	.cache\A9\{A98EC5AB-3ECB-4D8C-01E5-018153FD8A63}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_02		78984
 	767538386	Amb_Breeze Spring_03	.cache\7A\{7A811B0A-5A97-6CB3-4BDF-0700672D562C}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Breeze Gusts\Amb_Breeze Spring_03		1248568
+	769204516	FS_Concrete_02	.cache\42\{4235D687-DB65-E3C0-0F7D-D0B36A0EC0D3}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Concrete\FS_Concrete_02		37216
 	804176017	Amb_Birds Spring_05	.cache\AE\{AE11C240-2D73-1987-F1A1-8244FD596EFF}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_05		175960
 	817186541	Amb_Birds Spring_10	.cache\C3\{C31D09DE-7694-3EFD-CB91-7F2449813FF3}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_10		205536
 	820213659	Amb_Owl2 01	.cache\27\{27FA1E25-D32B-5341-1AE5-7A1A0A0A772F}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 01		127648
@@ -65,6 +84,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	878415752	Amb_Birds Spring_03	.cache\C8\{C88D703C-AA12-3692-264F-25BAB273EA5E}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_03		177600
 	885330277	Main Loop	.cache\4A\{4A644631-9D56-5153-AF1E-ABC48C9C5D81}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Main Loop		10080096
 	921534118	Amb_Owl2 04	.cache\49\{49C8911B-3EC4-FC5A-5D93-0D0878E4C176}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 04		140896
+	925054752	FS_Dirt_02	.cache\D1\{D1106CFB-946E-31DE-3DCE-9D28E7265A5A}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Dirt\FS_Dirt_02		37986
 	977423185	Amb_Birds Spring_11	.cache\C5\{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_11		230192
+	988108994	FS_Grass_03	.cache\D9\{D9890019-D577-A0CD-6F5C-707003B70933}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Grass\FS_Grass_03		54624
 	1046667742	Amb_Birds Spring_06	.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
+	1062463723	FS_Dirt_03	.cache\4C\{4CF3AB96-ADB8-5325-ACBD-D61A31521280}.wem		\Containers\Default Work Unit\Character Sounds\Footsteps\Footsteps Switcher\Dirt\FS_Dirt_03		32594
 

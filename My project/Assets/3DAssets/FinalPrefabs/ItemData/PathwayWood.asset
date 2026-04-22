@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: Wooden Path
   displayName: Wooden Path
-  handPrefab: {fileID: 8437577084903292953, guid: b8705dbb8d7d7f44c8466db3b031c671, type: 3}
+  handPrefab: {fileID: 5305622269942659786, guid: aa80c9da0bbc7254e8dac292a5772c7f, type: 3}
   placeablePrefab: {fileID: 3940583247587809222, guid: bd1f79a8ce2f8564dbe3dd7f7e91c167, type: 3}
   icon: {fileID: 21300000, guid: 430c046ee89135440b452681c0fc1916, type: 3}
   cost: 5
@@ -25,4 +25,4 @@ MonoBehaviour:
   selectionSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 23fc744d5df42b1408f6afb2066626a9, type: 2}
