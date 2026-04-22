@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
 =======
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
@@ -30,6 +31,9 @@
 =======
 		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}">
 >>>>>>> f198644 (Git LFS Update)
+=======
+		<SoundBank Id="588888374" Type="Event" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Language="SFX" Hash="{EB555591-2FE8-19CB-75B1-3DB4AB809275}">
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 			<ObjectPath>Play_Cut_Scene_Button</ObjectPath>
 			<ShortName>Play_Cut_Scene_Button</ShortName>
 			<Path>Event/Play_Cut_Scene_Button.bnk</Path>
@@ -42,6 +46,7 @@
 				<File Id="340222023" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SFX_DayNight Transition.wav</ShortName>
 					<Path>Media/340222023.wem</Path>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +94,13 @@
 >>>>>>> c26099d (no message)
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+					<CachePath>87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="588888374" Name="Play_Cut_Scene_Button" ObjectPath="\Events\Default Work Unit\PLAYER ACTIONS\Play_Cut_Scene_Button" GUID="{66554DA9-A3D9-40B5-BE0C-84A6F9965940}" Color="23" DurationType="OneShot" DurationMin="2.2946439" DurationMax="2.2946439">
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 					<MediaRefs>
 						<MediaRef Id="307067782"/>
 						<MediaRef Id="340222023"/>
@@ -97,6 +109,7 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,4 +139,7 @@
 =======
 	<FileHash>{31424A31-3553-7BD6-B49E-1DB7CD25DCA6}</FileHash>
 >>>>>>> f198644 (Git LFS Update)
+=======
+	<FileHash>{1A13B755-9A75-5685-DC80-21D0C7A36ACD}</FileHash>
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 </SoundBanksInfo>

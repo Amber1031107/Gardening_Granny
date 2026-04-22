@@ -14,12 +14,17 @@ namespace AK
     namespace EVENTS
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+        static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
+        static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
         static const AkUniqueID PLAY_BEAR_TRAP_FLING = 1734114213U;
         static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
         static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
@@ -45,6 +50,7 @@ namespace AK
         static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         static const AkUniqueID PLAY_BEAR_TRAP_FLING = 1734114213U;
         static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
@@ -68,6 +74,8 @@ namespace AK
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
 <<<<<<< HEAD
+=======
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
         static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
         static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
@@ -193,9 +201,13 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_MASTER = 79554116U;
 <<<<<<< HEAD
+<<<<<<< HEAD
         static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
 =======
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
+=======
+        static const AkUniqueID SFX___UI_MASTER__FOR_MUSIC_DUCKING_ = 1279065646U;
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
     } // namespace BUSSES
 
     namespace AUX_BUSSES

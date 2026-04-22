@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}">
 =======
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}">
@@ -30,6 +31,9 @@
 =======
 		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{F6D71012-66F2-E4B6-62C8-BDE9BBFA500B}">
 >>>>>>> f198644 (Git LFS Update)
+=======
+		<SoundBank Id="3054394219" Type="Event" GUID="{4A3D9450-46C7-4342-B50D-108E6FB424D5}" Language="SFX" Hash="{0D237D1F-D4FC-F1FF-209E-C4A0EED39228}">
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 			<ObjectPath>Play_Digging_Up_Plant</ObjectPath>
 			<ShortName>Play_Digging_Up_Plant</ShortName>
 			<Path>Event/Play_Digging_Up_Plant.bnk</Path>
@@ -42,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<CachePath>D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem</CachePath>
 =======
 					<CachePath>CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem</CachePath>
@@ -66,6 +71,9 @@
 =======
 					<CachePath>CE/{CE8618FB-F943-A075-D794-F1C54BF01131}.wem</CachePath>
 >>>>>>> f198644 (Git LFS Update)
+=======
+					<CachePath>D8/{D8ADBAE9-880F-6667-7D17-95668AF66581}.wem</CachePath>
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 				</File>
 			</Media>
 			<Events>
@@ -82,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{91F9536F-3CC5-DDD7-A8D2-56A93E2A011E}</FileHash>
 =======
 	<FileHash>{C7F22A15-A0A1-56E6-3BD9-B6914C870DA4}</FileHash>
@@ -106,4 +115,7 @@
 =======
 	<FileHash>{C7F22A15-A0A1-56E6-3BD9-B6914C870DA4}</FileHash>
 >>>>>>> f198644 (Git LFS Update)
+=======
+	<FileHash>{91F9536F-3CC5-DDD7-A8D2-56A93E2A011E}</FileHash>
+>>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 </SoundBanksInfo>
