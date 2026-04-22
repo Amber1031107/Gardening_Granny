@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b50081eb0fce3864e9a9639f89d7dc60
 PluginImporter:
   externalObjects: {}
@@ -42,3 +43,6 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+guid: b50081eb0fce3864e9a9639f89d7dc60
+>>>>>>> ff9a591 (Fixed Wwise Issue)
