@@ -3,6 +3,9 @@
   "Platform": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
    "Name": "Mac",
    "BasePlatform": "Mac",
@@ -10,6 +13,7 @@
    "Name": "Windows",
    "BasePlatform": "Windows",
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
+<<<<<<< HEAD
 =======
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
    "Name": "Windows",
@@ -23,6 +27,8 @@
    "Name": "Mac",
    "BasePlatform": "Mac",
 >>>>>>> 74561eb (rebase pt2 ig?)
+=======
+>>>>>>> fdf751e (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -34,7 +40,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
-   "AutoSoundBankDefinition": "false",
+   "AutoSoundBankDefinition": "true",
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -56,11 +62,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 ========
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
+<<<<<<< HEAD
 =======
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -74,5 +84,7 @@
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 >>>>>>> 74561eb (rebase pt2 ig?)
+=======
+>>>>>>> fdf751e (no message)
  }
 }
