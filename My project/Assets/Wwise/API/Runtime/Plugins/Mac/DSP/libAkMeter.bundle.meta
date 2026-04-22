@@ -1,6 +1,9 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b97c6f7 (no message)
 guid: 8eb9712b10736ee488d20d6e0abcae72
 =======
 <<<<<<< HEAD
@@ -20,7 +23,11 @@ PluginImporter:
       enabled: 0
       settings: {}
     Editor:
+<<<<<<< HEAD
       enabled: 1
+=======
+      enabled: 0
+>>>>>>> b97c6f7 (no message)
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
@@ -32,6 +39,7 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 =======
 guid: 8eb9712b10736ee488d20d6e0abcae72
 >>>>>>> 67b769d (Fixed Wwise Issue)
@@ -41,4 +49,9 @@ guid: 8eb9712b10736ee488d20d6e0abcae72
 =======
 guid: 8eb9712b10736ee488d20d6e0abcae72
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)

@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
 =======
     "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
@@ -43,6 +44,12 @@
 =======
     "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+    "Hash": "{EB555591-2FE8-19CB-75B1-3DB4AB809275}",
+=======
+    "Hash": "{1D7C81FE-1D0D-C980-EB5B-88CAB2CCA905}",
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)
     "ObjectPath": "Play_Cut_Scene_Button",
     "ShortName": "Play_Cut_Scene_Button",
     "Path": "Event/Play_Cut_Scene_Button.bnk",
@@ -69,6 +76,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
 =======
       "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
@@ -96,6 +104,12 @@
 =======
       "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+      "CachePath": "87/{8797347D-ED05-8593-C591-C74EE1F9E684}.wem"
+=======
+      "CachePath": "21/{218534F8-3B18-BE80-F247-858FB2089E6B}.wem"
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)
      }
     ],
     "Events": [
@@ -112,15 +126,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+>>>>>>> 5a75269 (no message)
       "DurationMin": "2.2946439",
       "DurationMax": "2.2946439",
 =======
       "DurationMin": "2.3505993",
       "DurationMax": "2.3505993",
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f198644 (Git LFS Update)
 =======
@@ -145,6 +163,9 @@
       "DurationMin": "2.2946439",
       "DurationMax": "2.2946439",
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)
       "MediaRefs": [
        {
         "Id": "307067782"
@@ -163,6 +184,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
 =======
   "FileHash": "{E0B43D2D-2C70-6CB6-7A2A-D59575EB80EB}"
@@ -190,5 +212,11 @@
 =======
   "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+  "FileHash": "{798F8727-9ED0-944E-A7E6-2931BE0D4D21}"
+=======
+  "FileHash": "{E0B43D2D-2C70-6CB6-7A2A-D59575EB80EB}"
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)
  }
 }

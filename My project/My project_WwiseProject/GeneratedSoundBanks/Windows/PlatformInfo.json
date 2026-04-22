@@ -6,16 +6,23 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fdf751e (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
    "Name": "Windows",
    "BasePlatform": "Windows",
 <<<<<<< HEAD
+=======
+<<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
+   "Name": "Windows",
+   "BasePlatform": "Windows",
+>>>>>>> 5a75269 (no message)
 ========
    "Name": "Mac",
    "BasePlatform": "Mac",
 >>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
@@ -42,6 +49,8 @@
    "Name": "Windows",
    "BasePlatform": "Windows",
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 5a75269 (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -55,16 +64,25 @@
   "Settings": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    "AutoSoundBankDefinition": "false",
 =======
    "AutoSoundBankDefinition": "true",
 >>>>>>> f198644 (Git LFS Update)
 =======
+=======
+>>>>>>> 5a75269 (no message)
    "AutoSoundBankDefinition": "true",
 =======
    "AutoSoundBankDefinition": "false",
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+   "AutoSoundBankDefinition": "true",
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -83,6 +101,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +146,8 @@
 =======
 =======
 >>>>>>> ef11019 (no message)
+=======
+>>>>>>> 5a75269 (no message)
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -137,6 +158,16 @@
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+<<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+========
+  "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
+>>>>>>>> f198644 (Git LFS Update):My project/My project_WwiseProject/GeneratedSoundBanks/Mac/PlatformInfo.json
+>>>>>>> b97c6f7 (no message)
+>>>>>>> 5a75269 (no message)
  }
 }
