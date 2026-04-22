@@ -18,6 +18,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a666e1c (no message)
 =======
@@ -49,6 +50,8 @@ fileFormatVersion: 2
 >>>>>>> 8ee8629 (no message)
 =======
 >>>>>>> 0b2670c (no message)
+=======
+>>>>>>> c9390a8 (no message)
 =======
 >>>>>>> 0f02715 (Fixing up after rebase)
 =======
@@ -82,11 +85,21 @@ fileFormatVersion: 2
 =======
 >>>>>>> 03c9217 (no message)
 =======
+>>>>>>> 3015d42 (no message)
+=======
 >>>>>>> a666e1c (no message)
 =======
 >>>>>>> 9d3e3e7 (no message)
+<<<<<<< HEAD
 >>>>>>> b171235 (no message)
+<<<<<<< HEAD
 >>>>>>> 8ee8629 (no message)
+=======
+=======
+=======
+>>>>>>> 33591fd (no message)
+>>>>>>> 3015d42 (no message)
+>>>>>>> c9390a8 (no message)
 guid: 6dd1d112510fbb9459475e2fdf44b819
 PluginImporter:
   externalObjects: {}
@@ -109,6 +122,7 @@ PluginImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       enabled: 1
 =======
       enabled: 0
@@ -123,6 +137,8 @@ PluginImporter:
 >>>>>>> 858d6f4 (no message)
 =======
 >>>>>>> 8ee8629 (no message)
+=======
+>>>>>>> c9390a8 (no message)
       enabled: 0
 =======
       enabled: 1
@@ -143,12 +159,23 @@ PluginImporter:
 >>>>>>> 858d6f4 (no message)
 =======
 =======
+=======
+>>>>>>> 3015d42 (no message)
       enabled: 1
 =======
       enabled: 0
 >>>>>>> 9d3e3e7 (no message)
+<<<<<<< HEAD
 >>>>>>> b171235 (no message)
+<<<<<<< HEAD
 >>>>>>> 8ee8629 (no message)
+=======
+=======
+=======
+      enabled: 1
+>>>>>>> 33591fd (no message)
+>>>>>>> 3015d42 (no message)
+>>>>>>> c9390a8 (no message)
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
@@ -175,6 +202,7 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +244,8 @@ guid: 6dd1d112510fbb9459475e2fdf44b819
 >>>>>>> cb4da1d (no message)
 =======
 >>>>>>> 8ee8629 (no message)
+=======
+>>>>>>> c9390a8 (no message)
 =======
 guid: 6dd1d112510fbb9459475e2fdf44b819
 >>>>>>> 67b769d (Fixed Wwise Issue)
@@ -261,6 +291,8 @@ guid: 6dd1d112510fbb9459475e2fdf44b819
 =======
 >>>>>>> b171235 (no message)
 =======
+>>>>>>> 3015d42 (no message)
+=======
 guid: 6dd1d112510fbb9459475e2fdf44b819
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 <<<<<<< HEAD
@@ -297,5 +329,13 @@ guid: 6dd1d112510fbb9459475e2fdf44b819
 =======
 guid: 6dd1d112510fbb9459475e2fdf44b819
 >>>>>>> ef343c7 (no message)
+<<<<<<< HEAD
 >>>>>>> 03c9217 (no message)
+<<<<<<< HEAD
 >>>>>>> 0b2670c (no message)
+=======
+=======
+=======
+>>>>>>> 33591fd (no message)
+>>>>>>> 3015d42 (no message)
+>>>>>>> c9390a8 (no message)
