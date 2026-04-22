@@ -367,6 +367,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						</AuxBus>
 >>>>>>> 2e5039c (test)
 <<<<<<< HEAD
@@ -380,7 +381,13 @@
 =======
 =======
 >>>>>>> 5fee5fe (pulling audio into programming)
+<<<<<<< HEAD
 >>>>>>> 6087949 (no message)
+=======
+=======
+						</Bus>
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

@@ -19,6 +19,7 @@ State	ID	Name	State Group			Notes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
@@ -32,6 +33,8 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 =======
 =======
 >>>>>>> f198644 (Git LFS Update)
+=======
+>>>>>>> 9fccf0a (no message)
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	441011833	MusicDuck			\Default Work Unit\MusicDuck	
 	4231187838	Ambience_MenuMute			\Default Work Unit\Ambience_MenuMute	
@@ -75,6 +78,9 @@ Effect plug-ins	ID	Name	Type				Notes
 >>>>>>> f198644 (Git LFS Update)
 =======
 =======
+=======
+Audio Bus	ID	Name			Wwise Object Path	Notes
+>>>>>>> e97b253 (rebase)
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Ambient	
 	79554116	Music Master			\Default Work Unit\Master Audio Bus\Music Master	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
@@ -83,8 +89,14 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	84696428	s			\Default Work Unit\Master Audio Bus\s	
 	438105790	Outside			\Default Work Unit\Master Audio Bus\Ambient\Outside	
 	3553349781	Inside			\Default Work Unit\Master Audio Bus\Ambient\Inside	
+<<<<<<< HEAD
 >>>>>>> 9a1dd63 (pt 2)
+<<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
+=======
+=======
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

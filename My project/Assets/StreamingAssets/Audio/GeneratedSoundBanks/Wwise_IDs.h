@@ -23,11 +23,14 @@ namespace AK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
         static const AkUniqueID PAUSE_AMBIENCE_BUS = 1385805035U;
         static const AkUniqueID PLAY_AUTUMN_MUSIC = 1551648488U;
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
+=======
+>>>>>>> 9fccf0a (no message)
         static const AkUniqueID PLAY_BEAR_TRAP_FLING = 1734114213U;
         static const AkUniqueID PLAY_BEAR_TRAP_PLACE = 2554101686U;
         static const AkUniqueID PLAY_BUY_PLANT = 3731501872U;
@@ -103,7 +106,16 @@ namespace AK
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> 9a1dd63 (pt 2)
+<<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
+=======
+=======
+        static const AkUniqueID PLAY_SPRING_AMB = 378356484U;
+        static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
+        static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
+        static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
     } // namespace EVENTS
 
     namespace STATES
@@ -164,6 +176,7 @@ namespace AK
         } // namespace SEASONS
 <<<<<<< HEAD
 
+<<<<<<< HEAD
         namespace SURFACES
         {
             static const AkUniqueID GROUP = 3714303081U;
@@ -198,11 +211,18 @@ namespace AK
     } // namespace GAME_PARAMETERS
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 14bdb75 (Minor Audio Updates, fixed Playtesting issues)
 =======
 >>>>>>> 8efe417 (no message)
 =======
 >>>>>>> c26099d (no message)
+=======
+=======
+    } // namespace SWITCHES
+
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
@@ -233,6 +253,7 @@ namespace AK
     namespace AUX_BUSSES
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         static const AkUniqueID HOUSE_REVERB = 2675173306U;
 =======
         static const AkUniqueID INSIDE = 3553349781U;
@@ -242,7 +263,15 @@ namespace AK
 >>>>>>> 7239d46 (Added Music Manager & Updated SFX)
 =======
 >>>>>>> 9a1dd63 (pt 2)
+<<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
+=======
+=======
+        static const AkUniqueID INSIDE = 3553349781U;
+        static const AkUniqueID OUTSIDE = 438105790U;
+        static const AkUniqueID S = 84696428U;
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

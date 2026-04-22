@@ -22,8 +22,11 @@
 				<StateGroup Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}">
 					<PropertyList>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
 =======
+=======
+>>>>>>> 9fccf0a (no message)
 <<<<<<< HEAD
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
@@ -31,7 +34,13 @@
 =======
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
 >>>>>>> 9a1dd63 (pt 2)
+<<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
+=======
+=======
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{A9DEA397-70D1-4AD2-80AC-C97023AD3C69}"/>
@@ -43,14 +52,23 @@
 							<StartState Name="Day" ID="{47755B12-4B21-4BE0-A710-C41B1C55FC51}"/>
 							<EndState Name="Night" ID="{36184277-813F-44FC-8B98-DC3ED223B4E5}"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 							<Time>3</Time>
 =======
+=======
+>>>>>>> 9fccf0a (no message)
 <<<<<<< HEAD
 							<Time>2</Time>
 =======
 							<Time>3</Time>
 >>>>>>> 9a1dd63 (pt 2)
+<<<<<<< HEAD
 >>>>>>> 7772bc0 (no message)
+=======
+=======
+							<Time>3</Time>
+>>>>>>> e97b253 (rebase)
+>>>>>>> 9fccf0a (no message)
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
