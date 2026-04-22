@@ -5,6 +5,7 @@
   "SchemaVersion": "16",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "SoundBankVersion": "172",
 =======
   "SoundBankVersion": "154",
@@ -12,12 +13,16 @@
 =======
   "SoundBankVersion": "172",
 >>>>>>> c9441e8 (rebase pt2 ig?)
+=======
+  "SoundBankVersion": "154",
+>>>>>>> 51b2374 (no message)
   "SoundBanks": [
    {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +75,8 @@
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> ef11019 (no message)
+=======
+>>>>>>> 62545f0 (no message)
     "Hash": "{847F6EFD-11DD-1FB6-8266-46C7D9F29510}",
 =======
     "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
@@ -92,7 +99,13 @@
 =======
     "Hash": "{51BB7D6A-812C-D179-394B-C59C0AE18DB0}",
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+    "Hash": "{2352A3E1-54C5-8788-7094-120B284700ED}",
+>>>>>>> 51b2374 (no message)
+>>>>>>> 62545f0 (no message)
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -143,6 +156,7 @@
        "Name": "No_Output",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
@@ -150,6 +164,9 @@
 =======
        "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
 >>>>>>> c9441e8 (rebase pt2 ig?)
+=======
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+>>>>>>> 51b2374 (no message)
        "GUID": "{4BF40DA4-EBC2-457D-92D1-F93F823C241C}",
        "LibName": "No Output",
        "LibId": "11862023"
@@ -159,6 +176,7 @@
        "Name": "System",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        "ObjectPath": "\\Devices\\Default Work Unit\\System",
 =======
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
@@ -166,6 +184,9 @@
 =======
        "ObjectPath": "\\Devices\\Default Work Unit\\System",
 >>>>>>> c9441e8 (rebase pt2 ig?)
+=======
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+>>>>>>> 51b2374 (no message)
        "GUID": "{7BD3C7D3-4E0C-42D4-89D1-C0764984213C}",
        "LibName": "System",
        "LibId": "11403271"
@@ -174,6 +195,7 @@
     },
     "Busses": [
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,10 +213,17 @@
 >>>>>>> ef343c7 (no message)
 =======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
+=======
+=======
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
+>>>>>>> 62545f0 (no message)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
      {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 74561eb (rebase pt2 ig?)
 =======
@@ -203,9 +232,12 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> 51b2374 (no message)
+>>>>>>> 62545f0 (no message)
       "Id": "79554116",
       "Name": "Music Master",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Music Master",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Master",
       "GUID": "{11F96520-960A-4725-89F6-496F227595C2}",
       "Color": "26"
      },
@@ -340,6 +372,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 =======
@@ -368,6 +401,8 @@
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> ef11019 (no message)
+=======
+>>>>>>> 62545f0 (no message)
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
@@ -376,6 +411,9 @@
 >>>>>>> f198644 (Git LFS Update)
 =======
 =======
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+>>>>>>> 51b2374 (no message)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 >>>>>>> 67b769d (Fixed Wwise Issue)
 <<<<<<< HEAD
@@ -473,6 +511,7 @@
 =======
       "Id": "84696428",
       "Name": "s",
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
 =======
       "Id": "84696428",
@@ -483,6 +522,9 @@
 =======
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\s",
 >>>>>>> c9441e8 (rebase pt2 ig?)
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\s",
+>>>>>>> 51b2374 (no message)
       "GUID": "{E5D780DA-8392-4073-938B-1CE72AAEB7D1}"
      },
      {
@@ -490,7 +532,11 @@
       "Name": "Outside",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+=======
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Outside",
+>>>>>>> 51b2374 (no message)
       "GUID": "{025BEA4E-656B-488B-AA63-A04F5016FA98}",
       "Color": "11"
 >>>>>>> 67b769d (Fixed Wwise Issue)
@@ -542,7 +588,7 @@
      {
       "Id": "3553349781",
       "Name": "Inside",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
 >>>>>>> e97b253 (rebase)
@@ -954,6 +1000,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -992,6 +1039,8 @@
 >>>>>>> 9fccf0a (no message)
 =======
 >>>>>>> ef11019 (no message)
+=======
+>>>>>>> 62545f0 (no message)
   "FileHash": "{2970B1EA-844F-CBFD-A39E-7B86C02245D0}"
 =======
   "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
@@ -1014,6 +1063,12 @@
 =======
   "FileHash": "{9EB807C1-DE37-703A-BDA8-189C4342136B}"
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+  "FileHash": "{3F8793A1-B544-BDD3-146B-63BB629BB5D3}"
+>>>>>>> 51b2374 (no message)
+>>>>>>> 62545f0 (no message)
  }
 }
