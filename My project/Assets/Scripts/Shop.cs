@@ -11,15 +11,33 @@ public class Shop : MonoBehaviour, IInteractable
     public GameObject storePrefab;
     public GameObject TrapsShop;
     public GameObject PlantsShop;
+    public GameObject TreesShop;
+    public GameObject PathwayShop;
+    public GameObject MiscShop;
     public TextMeshProUGUI moneyText;
 
-    public Button buybutton1;
-    public Button buybutton2;
-    public Button buybutton3;
-    public Button buybutton4;
-    public Button buybutton5;
-    public Button buybutton6;
+    public Button buyPlantbutton1;
+    public Button buyPlantbutton2;
+    public Button buyPlantbutton3;
+    public Button buyPlantbutton4;
+    public Button buyPlantbutton5;
+    public Button buyPlantbutton6;
     public Button buyTrap1;
+    public Button buyTreebutton1;
+    public Button buyTreebutton2;
+    public Button buyTreebutton3;
+    public Button buyTreebutton4;
+    public Button buyTreebutton5;
+    public Button buyMiscbutton1;
+    public Button buyMiscbutton2;
+    public Button buyMiscbutton3;
+    public Button buyMiscbutton4;
+    public Button buyMiscbutton5;
+    public Button buyMiscbutton6;
+    public Button buyPathbutton1;
+    public Button buyPathbutton2;
+    public Button buyPathbutton3;
+
 
     public PlayersInventory playersInventory;
 
@@ -86,13 +104,27 @@ public class Shop : MonoBehaviour, IInteractable
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
-        buybutton1.interactable = moneyAmount >= 5;
-        buybutton2.interactable = moneyAmount >= 10;
-        buybutton3.interactable = moneyAmount >= 15;
-        buybutton4.interactable = moneyAmount >= 20;
-        buybutton5.interactable = moneyAmount >= 25;
-        buybutton6.interactable = moneyAmount >= 30;
+        buyPlantbutton1.interactable = moneyAmount >= 5;
+        buyPlantbutton2.interactable = moneyAmount >= 10;
+        buyPlantbutton3.interactable = moneyAmount >= 15;
+        buyPlantbutton4.interactable = moneyAmount >= 20;
+        buyPlantbutton5.interactable = moneyAmount >= 25;
+        buyPlantbutton6.interactable = moneyAmount >= 30;
         buyTrap1.interactable = moneyAmount >= 5;
+        buyMiscbutton1.interactable = moneyAmount >= 40;
+        buyMiscbutton2.interactable = moneyAmount >= 60;
+        buyMiscbutton3.interactable = moneyAmount >= 10;
+        buyMiscbutton4.interactable = moneyAmount >= 20;
+        buyMiscbutton5.interactable = moneyAmount >= 5;
+        buyMiscbutton6.interactable = moneyAmount >= 15;
+        buyTreebutton1.interactable = moneyAmount >= 5;
+        buyTreebutton2.interactable = moneyAmount >= 10;
+        buyTreebutton3.interactable = moneyAmount >= 15;
+        buyTreebutton4.interactable = moneyAmount >= 20;
+        buyTreebutton5.interactable = moneyAmount >= 25;
+        buyPathbutton1.interactable = moneyAmount >= 5;
+        buyPathbutton2.interactable = moneyAmount >= 5;
+        buyPathbutton3.interactable = moneyAmount >= 5;
 
     }
     public void TrapsButton()
@@ -100,6 +132,9 @@ public class Shop : MonoBehaviour, IInteractable
 
         TrapsShop.SetActive(true);
         PlantsShop.SetActive(false);
+        TreesShop.SetActive(false);
+        MiscShop.SetActive(false);
+        PathwayShop.SetActive(false);
     }
 
     public void PlantsButton()
@@ -107,6 +142,36 @@ public class Shop : MonoBehaviour, IInteractable
 
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(true);
+        TreesShop.SetActive(false);
+        MiscShop.SetActive(false);
+        PathwayShop.SetActive(false);
+    }
+    public void TreesButton()
+    {
+
+        TrapsShop.SetActive(false);
+        PlantsShop.SetActive(false);
+        TreesShop.SetActive(true);
+        MiscShop.SetActive(false);
+        PathwayShop.SetActive(false);
+    }
+    public void PathwayButton()
+    {
+
+        TrapsShop.SetActive(false);
+        PlantsShop.SetActive(false);
+        TreesShop.SetActive(false);
+        MiscShop.SetActive(false);
+        PathwayShop.SetActive(true);
+    }
+    public void MiscButton()
+    {
+
+        TrapsShop.SetActive(false);
+        PlantsShop.SetActive(true);
+        TreesShop.SetActive(false);
+        MiscShop.SetActive(true);
+        PathwayShop.SetActive(false);
     }
 
     public void InteractLeftClick()
@@ -139,6 +204,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
 
     void PlayPlantBuySound() //Audio
+<<<<<<< HEAD
     {
         buyPlantEvent?.Post(gameObject);
     }
@@ -167,10 +233,15 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(itemType.FlowerSpringPlant1);
         PlayPlantBuySound(); //Audio
+=======
+    {
+        buyPlantEvent?.Post(gameObject);
+>>>>>>> MaybeBetterFixForPolishingPurposes
     }
 
-    public void BuyPlant2()
+    void PlayTrapBuySound()
     {
+<<<<<<< HEAD
 
         if (moneyAmount < 10) //Audio
         {
@@ -182,10 +253,14 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(itemType.FlowerSpringPlant2);
         PlayPlantBuySound(); //Audio
+=======
+        buyTrapEvent?.Post(gameObject);
+>>>>>>> MaybeBetterFixForPolishingPurposes
     }
 
-    public void BuyPlant3()
+    void PlayErrorSound()
     {
+<<<<<<< HEAD
 
         if (moneyAmount < 15)
         {
@@ -197,16 +272,24 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(itemType.FlowerSpringPlant3);
         PlayPlantBuySound(); //Audio
+=======
+        outOfMoneyEvent?.Post(gameObject);
+>>>>>>> MaybeBetterFixForPolishingPurposes
     }
 
-    public void BuyPlant4()
+    public void BuyItem(ItemData item)
     {
+<<<<<<< HEAD
 
         if (moneyAmount < 20) //Audio
+=======
+        if (moneyAmount < item.cost)
+>>>>>>> MaybeBetterFixForPolishingPurposes
         {
             PlayErrorSound();
             return;
         }
+<<<<<<< HEAD
 
         moneyAmount -= 20;
         UpdateMoneyUI();
@@ -259,5 +342,14 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(itemType.Trap);
         PlayTrapBuySound(); //Audio
+=======
+
+        moneyAmount -= item.cost;
+        UpdateMoneyUI();
+        playersInventory.AddItem(item.itemID);
+
+        if (item.plantsOnGrass) PlayTrapBuySound();
+        else PlayPlantBuySound();
+>>>>>>> MaybeBetterFixForPolishingPurposes
     }
 }

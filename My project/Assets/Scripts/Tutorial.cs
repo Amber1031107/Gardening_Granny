@@ -11,8 +11,12 @@ public class Tutorial : MonoBehaviour
     // public string sceneName = "Tutorial";  // Name of the scene to load
     public void Next()
    {
+<<<<<<< HEAD
         uiClickSound.Post(gameObject); //Audio
         SceneManager.LoadScene("PhilBuild");
+=======
+        SceneManager.LoadScene("SpringSeason1");
+>>>>>>> MaybeBetterFixForPolishingPurposes
    }
 
     //void Start()

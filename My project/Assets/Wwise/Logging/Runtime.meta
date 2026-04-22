@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:My project/Assets/Wwise/Logging/Runtime.meta
 guid: 518a50d26d766444a932e7cad880b7a1
+========
+guid: 7837bb0ac4102374a9485d0003028da3
+>>>>>>>> MaybeBetterFixForPolishingPurposes:My project/Assets/Scripts/ScriptableObjects.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

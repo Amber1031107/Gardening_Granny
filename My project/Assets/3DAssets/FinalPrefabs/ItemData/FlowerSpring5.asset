@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
+  m_Name: FlowerSpring5
+  m_EditorClassIdentifier: 
+  itemID: Bird Trap
+  displayName: Bird Trap
+  handPrefab: {fileID: 5989909340263978057, guid: d113109f5965282448329a11fc979965, type: 3}
+  placeablePrefab: {fileID: 8416839824548594431, guid: 20674878502d2154e874bb71793b49ec, type: 3}
+  icon: {fileID: -1399929918, guid: a76d6a6daf06a6b4e84bdd5aa9f89771, type: 3}
+  cost: 25
+  isInfinite: 0
+  isShovel: 0
+  plantsOnDirt: 1
+  plantsOnGrass: 0
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23fc744d5df42b1408f6afb2066626a9, type: 2}

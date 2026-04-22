@@ -14,12 +14,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 0f7d4c79c68ee3242a089b3f5a10c999
+<<<<<<< HEAD
   - enabled: 0
     path: Assets/Scenes/Build.unity
     guid: fa0d5570a890a6f4ebcb029b3eaff537
   - enabled: 1
     path: Assets/Scenes/PhilBuild.unity
     guid: 9ff869ba5ba037b45af72229cf8f9488
+=======
+  - enabled: 1
+    path: Assets/Scenes/Build.unity
+    guid: fa0d5570a890a6f4ebcb029b3eaff537
+  - enabled: 1
+    path: Assets/Scenes/SpringSeason1.unity
+    guid: 46e800d8b8af73241b2d0654ca2d3862
+>>>>>>> MaybeBetterFixForPolishingPurposes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

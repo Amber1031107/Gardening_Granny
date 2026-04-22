@@ -1,16 +1,26 @@
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using AK.Wwise; //Audio
+=======
+﻿using UnityEngine;
+using AK.Wwise;
+>>>>>>> MaybeBetterFixForPolishingPurposes
 
 public class DirtDigging : MonoBehaviour, IInteractable
 {
     private Renderer rend;
+<<<<<<< HEAD
     private FootstepSurfaceTag footstepTag; //Footstep Audio
+=======
+    private FootstepSurfaceTag footstepTag;
+>>>>>>> MaybeBetterFixForPolishingPurposes
 
     public Material Dirt;
     public Material Grass;
 
+<<<<<<< HEAD
     [Header("Placeable Prefabs")]
     public GameObject FlowerSpringPrefab_plant1;
     public GameObject FlowerSpringPrefab_plant2;
@@ -29,6 +39,12 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public AK.Wwise.Event trapEvent;
 
     private Dictionary<itemType, GameObject> placeablePrefabs;
+=======
+    [Header("Audio")]
+    public AK.Wwise.Event digEvent;
+    public AK.Wwise.Event plantEvent;
+    public AK.Wwise.Event trapEvent;
+>>>>>>> MaybeBetterFixForPolishingPurposes
 
     public bool CheckDirt;
     public bool PlantIsPlanted;
@@ -42,6 +58,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
             playerInventory = FindAnyObjectByType<PlayersInventory>();
 
         rend = GetComponent<Renderer>();
+<<<<<<< HEAD
         footstepTag = GetComponent<FootstepSurfaceTag>(); //Footstep Audio
 
         rend.material = Grass;
@@ -65,17 +82,22 @@ public class DirtDigging : MonoBehaviour, IInteractable
             { itemType.FlowerWinter,       FlowerWinterPrefab },
             { itemType.Trap,               TrapPrefab }
         };
+=======
+        footstepTag = GetComponent<FootstepSurfaceTag>();
+
+        rend.material = Grass;
+
+        if (footstepTag != null)
+            footstepTag.surfaceType = FootstepSurface.Grass;
+>>>>>>> MaybeBetterFixForPolishingPurposes
     }
 
     public void InteractLeftClick()
     {
-        var selected = playerInventory.GetSelectedItemType();
-        if (selected == null) return;
+        ItemData data = playerInventory.GetSelectedItemData();
 
-        bool holdingPlant = selected.ToString().Contains("Flower");
-        bool holdingShovel = selected == itemType.Shovel;
-        bool holdingTrap = selected == itemType.Trap;
 
+<<<<<<< HEAD
         if (holdingPlant)
         {
             if (CheckDirt && !PlantIsPlanted)
@@ -126,19 +148,66 @@ public class DirtDigging : MonoBehaviour, IInteractable
                     footstepTag.surfaceType = FootstepSurface.Dirt;
 
                 // Shovel is infinite — no ConsumeItem call needed
+=======
+        if (data.isShovel)
+        {
+            if (!CheckDirt && !TrapIsPlaced)
+            {
+                digEvent?.Post(gameObject);
+                rend.material = Dirt;
+                CheckDirt = true;
+                if (footstepTag != null)
+                    footstepTag.surfaceType = FootstepSurface.Dirt;
+>>>>>>> MaybeBetterFixForPolishingPurposes
             }
+            return;
+        }
+        // ── Plants on dug soil ────────────────────────────────────────────────
+        if (data.plantsOnDirt)
+        {
+            if (!CheckDirt || PlantIsPlanted) return;
+            if (playerInventory.GetSelectedItemCount() == 0) return;
+            if (data.placeablePrefab == null)
+            {
+                Debug.LogWarning($"[DirtDigging] {data.itemID} has no placeablePrefab.");
+                return;
+            }
+
+            Instantiate(data.placeablePrefab, transform.position, Quaternion.identity);
+            plantEvent?.Post(gameObject);
+            PlantIsPlanted = true;
+            playerInventory.ConsumeItem(data.itemID);
+            return;
+        }
+
+        // ── Items on unbroken ground ──────────────────────────────────────────
+        if (data.plantsOnGrass)
+        {
+            if (CheckDirt || TrapIsPlaced) return;
+            if (playerInventory.GetSelectedItemCount() == 0) return;
+            if (data.placeablePrefab == null)
+            {
+                Debug.LogWarning($"[DirtDigging] {data.itemID} has no placeablePrefab.");
+                return;
+            }
+
+            Instantiate(data.placeablePrefab, transform.position, Quaternion.identity);
+            trapEvent?.Post(gameObject);
+            TrapIsPlaced = true;
+            playerInventory.ConsumeItem(data.itemID);
+            return;
         }
     }
 
     public void InteractRightClick()
     {
-        var selected = playerInventory.GetSelectedItemType();
-        if (selected == null) return;
+        ItemData data = playerInventory.GetSelectedItemData();
+        if (data == null) return;
 
-        bool holdingShovel = selected == itemType.Shovel;
-
-        if (holdingShovel)
+        // ── Shovel — revert dirt back to grass ───────────────────────────────
+        if (data.isShovel && CheckDirt && !PlantIsPlanted)
         {
+<<<<<<< HEAD
             if (CheckDirt && !PlantIsPlanted)
             {
                 rend.material = Grass;
@@ -148,6 +217,13 @@ public class DirtDigging : MonoBehaviour, IInteractable
                 if (footstepTag != null)
                     footstepTag.surfaceType = FootstepSurface.Grass;
             }
+=======
+            rend.material = Grass;
+            CheckDirt = false;
+
+            if (footstepTag != null)
+                footstepTag.surfaceType = FootstepSurface.Grass;
+>>>>>>> MaybeBetterFixForPolishingPurposes
         }
     }
 }

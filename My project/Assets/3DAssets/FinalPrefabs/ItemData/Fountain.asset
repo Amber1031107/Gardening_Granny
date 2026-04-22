@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e7181a0a483594bbea6ddbc7348dd1, type: 3}
+  m_Name: Fountain
+  m_EditorClassIdentifier: 
+  itemID: Fountain
+  displayName: Fountain
+  handPrefab: {fileID: 2081179620837687784, guid: 465a8effde1a29a48838516598d67e7d, type: 3}
+  placeablePrefab: {fileID: 1585789517300038181, guid: 424c8793dead93443a0df66eb407413e, type: 3}
+  icon: {fileID: 21300000, guid: 155af442f643f6a48858534518c6417f, type: 3}
+  cost: 40
+  isInfinite: 0
+  isShovel: 0
+  plantsOnDirt: 0
+  plantsOnGrass: 1
+  selectionSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23fc744d5df42b1408f6afb2066626a9, type: 2}
