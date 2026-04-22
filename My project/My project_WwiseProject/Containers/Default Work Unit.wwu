@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" SchemaVersion="123">
-	<AudioObjects>
+<WwiseDocument Type="WorkUnit" ID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" SchemaVersion="133">
+	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}" PersistMode="Standalone">
 			<ChildrenList>
 <<<<<<< HEAD
@@ -5112,6 +5112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
@@ -5122,6 +5123,8 @@
 >>>>>>> ef11019 (no message)
 =======
 >>>>>>> 62545f0 (no message)
+=======
+>>>>>>> 801a362 (no message)
 												<StateGroupInfo Name="" ID="{721A9C68-8989-424F-AAB1-39267B2F3D4E}" ShortID="878590231"/>
 =======
 >>>>>>> 51b2374 (no message)
@@ -5187,7 +5190,13 @@
 												<StateGroupInfo Name="" ID="{721A9C68-8989-424F-AAB1-39267B2F3D4E}" ShortID="878590231"/>
 											</StateGroupInfo>
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+											<StateGroupInfo Name="" ID="{73CC2BF0-AC95-421C-8EA2-51B38160554E}"/></StateGroupInfo>
+>>>>>>> ed71b18 (no message)
+>>>>>>> 801a362 (no message)
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -5474,6 +5483,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
@@ -5484,6 +5494,8 @@
 >>>>>>> ef11019 (no message)
 =======
 >>>>>>> 62545f0 (no message)
+=======
+>>>>>>> 801a362 (no message)
 												<StateGroupInfo Name="" ID="{E19C1B0C-43FF-4A8E-9FCE-8A0B8C2E40D3}" ShortID="126922916"/>
 =======
 >>>>>>> 51b2374 (no message)
@@ -5549,7 +5561,13 @@
 												<StateGroupInfo Name="" ID="{E19C1B0C-43FF-4A8E-9FCE-8A0B8C2E40D3}" ShortID="126922916"/>
 											</StateGroupInfo>
 >>>>>>> c9441e8 (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> ef11019 (no message)
+=======
+=======
+											<StateGroupInfo Name="" ID="{C2EFE77F-527C-4E70-B403-F01143234261}"/></StateGroupInfo>
+>>>>>>> ed71b18 (no message)
+>>>>>>> 801a362 (no message)
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -9286,5 +9304,5 @@
 >>>>>>> 9fccf0a (no message)
 			</ChildrenList>
 		</WorkUnit>
-	</AudioObjects>
+	</Containers>
 </WwiseDocument>
