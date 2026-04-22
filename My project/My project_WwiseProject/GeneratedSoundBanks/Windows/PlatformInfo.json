@@ -11,6 +11,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0b2670c (no message)
 =======
 >>>>>>> fdf751e (no message)
 =======
@@ -70,6 +73,7 @@
    "Name": "Windows",
    "BasePlatform": "Windows",
 >>>>>>> ef343c7 (no message)
+<<<<<<< HEAD
 =======
 >>>>>>> ff9a591 (Fixed Wwise Issue)
 =======
@@ -90,6 +94,8 @@
 =======
 >>>>>>> fdf751e (no message)
 >>>>>>> f86b449 (no message)
+=======
+>>>>>>> 0b2670c (no message)
    "Generator": "2025.1.5.9095"
   },
   "RootPaths": {
@@ -101,6 +107,7 @@
   },
   "DefaultAlign": "16",
   "Settings": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +133,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> f86b449 (no message)
+=======
+>>>>>>> 0b2670c (no message)
    "AutoSoundBankDefinition": "true",
 =======
    "AutoSoundBankDefinition": "false",
@@ -166,7 +175,13 @@
 =======
    "AutoSoundBankDefinition": "true",
 >>>>>>> 4581925 (no message)
+<<<<<<< HEAD
 >>>>>>> f86b449 (no message)
+=======
+=======
+   "AutoSoundBankDefinition": "false",
+>>>>>>> 03c9217 (no message)
+>>>>>>> 0b2670c (no message)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -185,6 +200,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +266,8 @@
 >>>>>>> 4b74875 (no message)
 =======
 >>>>>>> f86b449 (no message)
+=======
+>>>>>>> 0b2670c (no message)
   "FileHash": "{3F28F661-AF6B-4A30-B213-E8BA758D406F}"
 =======
   "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
@@ -292,6 +310,8 @@
 >>>>>>> 03de798 (no message)
 =======
 =======
+>>>>>>> 03c9217 (no message)
+=======
 >>>>>>> fdf751e (no message)
 >>>>>>> 4581925 (no message)
 <<<<<<<< HEAD:My project/My project_WwiseProject/GeneratedSoundBanks/Windows/PlatformInfo.json
@@ -333,7 +353,16 @@
 =======
 =======
 >>>>>>> fdf751e (no message)
+<<<<<<< HEAD
 >>>>>>> 4581925 (no message)
+<<<<<<< HEAD
 >>>>>>> f86b449 (no message)
+=======
+=======
+=======
+  "FileHash": "{125A3202-D889-A339-F260-2F3DD972B85B}"
+>>>>>>> ef343c7 (no message)
+>>>>>>> 03c9217 (no message)
+>>>>>>> 0b2670c (no message)
  }
 }

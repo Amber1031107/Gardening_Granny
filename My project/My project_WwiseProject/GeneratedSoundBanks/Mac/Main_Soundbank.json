@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -160,6 +161,8 @@
 >>>>>>> 4b74875 (no message)
 =======
 >>>>>>> 18a9049 (no message)
+=======
+>>>>>>> 0b2670c (no message)
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -242,6 +245,8 @@
 >>>>>>> 03de798 (no message)
 =======
 >>>>>>> c606e5c (no message)
+=======
+>>>>>>> 03c9217 (no message)
     "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
 =======
     "Hash": "{14B0DC80-7B09-CAC1-583E-541E3D1F69D2}",
@@ -309,8 +314,17 @@
 =======
     "Hash": "{12277D5A-B359-A37E-E687-B62F5B53E676}",
 >>>>>>> c26099d (no message)
+<<<<<<< HEAD
 >>>>>>> c606e5c (no message)
+<<<<<<< HEAD
 >>>>>>> 18a9049 (no message)
+=======
+=======
+=======
+    "Hash": "{DEB4F5AE-E076-B645-0BDE-65A0A795451B}",
+>>>>>>> ef343c7 (no message)
+>>>>>>> 03c9217 (no message)
+>>>>>>> 0b2670c (no message)
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -743,6 +757,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -785,6 +800,8 @@
 >>>>>>> 63adbf9 (no message)
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 0b2670c (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -936,6 +953,8 @@
 >>>>>>> 7f4b170 (no message)
 =======
 >>>>>>> 03de798 (no message)
+=======
+>>>>>>> 03c9217 (no message)
       "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
 =======
       "CachePath": "06/{064D8553-97E3-6E7B-E8B2-3CE5A0240025}.wem"
@@ -1019,6 +1038,9 @@
       "Location": "Memory",
       "ShortName": "Spring Music 44.1.wav",
       "CachePath": "FD/{FD92657A-AD52-1D0B-4D85-4CAA2781B430}.wem"
+=======
+      "CachePath": "C6/{C6A2734B-467B-DFDC-1A7A-2583B6468066}.wem"
+>>>>>>> ef343c7 (no message)
      },
      {
       "Id": "355788501",
@@ -3242,6 +3264,7 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 44531e6 (no message)
 =======
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambient",
@@ -3253,7 +3276,11 @@
 =======
 >>>>>>> 4b74875 (no message)
 =======
+>>>>>>> 0b2670c (no message)
 =======
+=======
+=======
+>>>>>>> ef343c7 (no message)
       "GUID": "{FDBCA941-4517-422B-A1F2-724853BB7E71}",
       "Color": "11"
      },
@@ -3575,6 +3602,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3627,6 +3655,8 @@
 =======
 =======
 >>>>>>> 4b74875 (no message)
+=======
+>>>>>>> 0b2670c (no message)
 =======
 >>>>>>> 787f68f (no message)
 =======
@@ -3688,13 +3718,21 @@
 =======
 =======
 =======
+=======
+>>>>>>> 03c9217 (no message)
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
 >>>>>>> 74561eb (rebase pt2 ig?)
+<<<<<<< HEAD
 >>>>>>> 03de798 (no message)
+=======
+=======
+      "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus",
+>>>>>>> ef343c7 (no message)
+>>>>>>> 03c9217 (no message)
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 =======
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
@@ -3897,6 +3935,7 @@
       "Id": "3553349781",
       "Name": "Inside",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+<<<<<<< HEAD
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
 =======
@@ -4195,6 +4234,8 @@
       "Id": "3553349781",
       "Name": "Inside",
       "ObjectPath": "\\Busses\\Default Work Unit\\Master Audio Bus\\Ambient\\Inside",
+=======
+>>>>>>> ef343c7 (no message)
       "GUID": "{BAB30D57-8102-4140-9822-C216D6D9B22E}",
       "Color": "11"
      }
@@ -4309,6 +4350,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 =======
   "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
@@ -4386,6 +4428,8 @@
 >>>>>>> 4b74875 (no message)
 =======
 >>>>>>> 18a9049 (no message)
+=======
+>>>>>>> 0b2670c (no message)
   "FileHash": "{A1240334-16E4-3BB0-DCCB-00AA6AE6AFD7}"
 =======
   "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
@@ -4468,6 +4512,8 @@
 >>>>>>> 03de798 (no message)
 =======
 >>>>>>> c606e5c (no message)
+=======
+>>>>>>> 03c9217 (no message)
   "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
 =======
   "FileHash": "{F3D20B90-B4BB-4028-B5D8-B005E0044ABE}"
@@ -4535,7 +4581,16 @@
 =======
   "FileHash": "{A1240334-16E4-3BB0-DCCB-00AA6AE6AFD7}"
 >>>>>>> c26099d (no message)
+<<<<<<< HEAD
 >>>>>>> c606e5c (no message)
+<<<<<<< HEAD
 >>>>>>> 18a9049 (no message)
+=======
+=======
+=======
+  "FileHash": "{03AD2C47-1F89-EAFA-2E53-ABB5205D3BC3}"
+>>>>>>> ef343c7 (no message)
+>>>>>>> 03c9217 (no message)
+>>>>>>> 0b2670c (no message)
  }
 }
