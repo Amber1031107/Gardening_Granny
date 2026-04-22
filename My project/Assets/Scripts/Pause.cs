@@ -120,8 +120,11 @@ public class Pause : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f4f8a07 (no message)
+=======
+>>>>>>> 46128ae (no message)
     public void OpenHowToPlay()
     {
         PauseMenu.SetActive(false);
@@ -143,7 +146,16 @@ public class Pause : MonoBehaviour
 >>>>>>> 620b465 (Got How to Play Working)
 =======
 >>>>>>> 3a79e98 (no message)
+<<<<<<< HEAD
 >>>>>>> f4f8a07 (no message)
+=======
+=======
+    public void OpenHowToPlay()
+    {
+        PauseMenu.SetActive(false);
+        howToPlayPanel.SetActive(true);
+>>>>>>> 618fc90 (no message)
+>>>>>>> 46128ae (no message)
     }
 
     public void BackButton()
@@ -151,8 +163,11 @@ public class Pause : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f4f8a07 (no message)
+=======
+>>>>>>> 46128ae (no message)
         howToPlayPanel.SetActive(false);
         PauseMenu.SetActive(true);
 =======
@@ -168,7 +183,14 @@ public class Pause : MonoBehaviour
 >>>>>>> 620b465 (Got How to Play Working)
 =======
 >>>>>>> 3a79e98 (no message)
+<<<<<<< HEAD
 >>>>>>> f4f8a07 (no message)
+=======
+=======
+        howToPlayPanel.SetActive(false);
+        PauseMenu.SetActive(true);
+>>>>>>> 618fc90 (no message)
+>>>>>>> 46128ae (no message)
     }
 
     public void MenuSCreen()
