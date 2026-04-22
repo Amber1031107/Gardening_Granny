@@ -54,10 +54,17 @@
   "DefaultAlign": "16",
   "Settings": {
 <<<<<<< HEAD
+<<<<<<< HEAD
    "AutoSoundBankDefinition": "false",
 =======
    "AutoSoundBankDefinition": "true",
 >>>>>>> f198644 (Git LFS Update)
+=======
+   "AutoSoundBankDefinition": "true",
+=======
+   "AutoSoundBankDefinition": "false",
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
    "CopyLooseStreamedMediaFiles": "true",
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
@@ -76,6 +83,7 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,10 +125,18 @@
   "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
 >>>>>>> f198644 (Git LFS Update)
 =======
+=======
+>>>>>>> ef11019 (no message)
   "FileHash": "{43DC4D8B-E1C4-6629-7922-EB33C80B18F4}"
 =======
   "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
 >>>>>>> 67b769d (Fixed Wwise Issue)
+<<<<<<< HEAD
 >>>>>>> 654bc1e (no message)
+=======
+=======
+  "FileHash": "{BA35B236-12B2-1915-B45F-F43A80BE50E2}"
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
  }
 }

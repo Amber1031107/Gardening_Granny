@@ -5110,12 +5110,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 6087949 (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupInfo Name="" ID="{721A9C68-8989-424F-AAB1-39267B2F3D4E}" ShortID="878590231"/>
 											</StateGroupInfo>
 =======
@@ -5172,7 +5175,14 @@
 =======
 											<StateGroupInfo Name="" ID="{73CC2BF0-AC95-421C-8EA2-51B38160554E}"/></StateGroupInfo>
 >>>>>>> 5fee5fe (pulling audio into programming)
+<<<<<<< HEAD
 >>>>>>> 6087949 (no message)
+=======
+=======
+												<StateGroupInfo Name="" ID="{721A9C68-8989-424F-AAB1-39267B2F3D4E}" ShortID="878590231"/>
+											</StateGroupInfo>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -5457,12 +5467,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb33fc9 (no message)
 =======
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 6087949 (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupInfo Name="" ID="{E19C1B0C-43FF-4A8E-9FCE-8A0B8C2E40D3}" ShortID="126922916"/>
 											</StateGroupInfo>
 =======
@@ -5519,7 +5532,14 @@
 =======
 											<StateGroupInfo Name="" ID="{C2EFE77F-527C-4E70-B403-F01143234261}"/></StateGroupInfo>
 >>>>>>> 5fee5fe (pulling audio into programming)
+<<<<<<< HEAD
 >>>>>>> 6087949 (no message)
+=======
+=======
+												<StateGroupInfo Name="" ID="{E19C1B0C-43FF-4A8E-9FCE-8A0B8C2E40D3}" ShortID="126922916"/>
+											</StateGroupInfo>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -7640,6 +7660,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 =======
 >>>>>>> 7772bc0 (no message)
@@ -7647,6 +7668,8 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 						<PropertyContainer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
 <<<<<<< HEAD
 =======
@@ -7699,7 +7722,13 @@
 =======
 						<ActorMixer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+						<PropertyContainer Name="Day Music" ID="{C52F2B37-05B1-47BB-B4C1-E6C1E62020D6}" ShortID="163420035">
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -7791,6 +7820,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{036169D3-8ADB-49CB-95EF-DF55161EB544}" ShortID="816733909"/>
@@ -7802,6 +7832,8 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
@@ -7887,7 +7919,18 @@
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+												<StateGroupInfo Name="" ID="{036169D3-8ADB-49CB-95EF-DF55161EB544}" ShortID="816733909"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
+												<StateGroupInfo Name="" ID="{894F849E-C980-47FD-A43A-21FC2F5DFCA9}" ShortID="534031585"/>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
@@ -8059,6 +8102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{8834D555-5EDE-47F6-A2BB-132750EF1101}" ShortID="542499416"/>
@@ -8070,6 +8114,8 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
@@ -8155,7 +8201,18 @@
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+												<StateGroupInfo Name="" ID="{8834D555-5EDE-47F6-A2BB-132750EF1101}" ShortID="542499416"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
+												<StateGroupInfo Name="" ID="{042E4016-939A-43CF-BFAB-E4EC7B8A3852}" ShortID="480268398"/>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
@@ -8323,6 +8380,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{2B46BD08-B118-454A-95FB-1AD149AF14A1}" ShortID="923902902"/>
@@ -8334,6 +8392,8 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
@@ -8419,7 +8479,18 @@
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+												<StateGroupInfo Name="" ID="{2B46BD08-B118-454A-95FB-1AD149AF14A1}" ShortID="923902902"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
+												<StateGroupInfo Name="" ID="{1F16B918-11F1-434C-B34B-47C79827D1D4}" ShortID="469605815"/>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
@@ -8591,6 +8662,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 												<StateGroupInfo Name="" ID="{D0F07261-B51F-4A3E-911E-7726EF42CF30}" ShortID="1061499760"/>
@@ -8602,6 +8674,8 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
 <<<<<<< HEAD
 												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
@@ -8687,7 +8761,18 @@
 											<StateGroupInfo>
 												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+												<StateGroupRef Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}"/>
+												<StateGroupInfo Name="" ID="{D0F07261-B51F-4A3E-911E-7726EF42CF30}" ShortID="1061499760"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="TimeOfDay" ID="{5D6BF316-2C81-4432-9822-1199121CCBF7}"/>
+												<StateGroupInfo Name="" ID="{3F65295A-EDD9-4DCF-BFAD-27DA85CA685F}" ShortID="248511086"/>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
@@ -8835,6 +8920,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						</ActorMixer>
 						<ActorMixer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
 >>>>>>> b4c89e6 (no message)
@@ -8850,6 +8936,8 @@
 =======
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 						</ActorMixer>
 						<ActorMixer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
 >>>>>>> 9a1dd63 (pt 2)
@@ -8864,7 +8952,14 @@
 						</ActorMixer>
 						<ActorMixer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+						</PropertyContainer>
+						<PropertyContainer Name="Night Music" ID="{5BA63FA8-E5B5-4BEB-B5BB-5127528E400B}" ShortID="43105884">
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -8913,6 +9008,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 												<StateGroupInfo Name="" ID="{92D35B83-34A4-47AC-B832-E8590C414053}" ShortID="661247159"/>
 =======
@@ -8944,6 +9040,8 @@
 =======
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 												<StateGroupInfo Name="" ID="{92D35B83-34A4-47AC-B832-E8590C414053}" ShortID="661247159"/>
 =======
 >>>>>>> 9a1dd63 (pt 2)
@@ -8955,7 +9053,13 @@
 =======
 =======
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+												<StateGroupInfo Name="" ID="{92D35B83-34A4-47AC-B832-E8590C414053}" ShortID="661247159"/>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
@@ -8997,6 +9101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:My project/My project_WwiseProject/Containers/Default Work Unit.wwu
 =======
 =======
@@ -9005,6 +9110,8 @@
 >>>>>>> 654bc1e (no message)
 =======
 >>>>>>> 9fccf0a (no message)
+=======
+>>>>>>> ef11019 (no message)
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<EffectSlot Name="" ID="{F0BAA1CD-0811-4D52-9D89-E0EFFDE02230}" ShortID="868760792">
@@ -9078,6 +9185,9 @@
 =======
 =======
 						</ActorMixer>
+=======
+						</PropertyContainer>
+>>>>>>> c9441e8 (rebase pt2 ig?)
 					</ChildrenList>
 				</Folder>
 >>>>>>> e97b253 (rebase)

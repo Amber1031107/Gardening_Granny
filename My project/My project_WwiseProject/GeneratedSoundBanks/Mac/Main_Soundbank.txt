@@ -433,6 +433,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e97b253 (rebase)
 	1012836	Amb_Owl2 03	D:\SAE\CIM316\Granny Gardening Sound Deisgn\Unity Project\Gardening_Granny\My project\My project_WwiseProject\.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
@@ -474,6 +475,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 >>>>>>> 7772bc0 (no message)
 =======
 =======
+=======
+>>>>>>> c9441e8 (rebase pt2 ig?)
 	1012836	Amb_Owl2 03	.cache\D4\{D4A93FC2-7759-1335-E66E-08A84E7E6597}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 03		141296
 	20790822	Amb_Owl2 06	.cache\5A\{5AB61B32-E793-CEBB-0CDD-F24665C3CCA0}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 06		152544
 	34470463	Amb_Birds Spring_04	.cache\3F\{3F040BCB-B5F7-4C8C-E231-DAA8193919F7}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_04		151300
@@ -507,11 +510,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	921534118	Amb_Owl2 04	.cache\49\{49C8911B-3EC4-FC5A-5D93-0D0878E4C176}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Night\Owl\Amb_Owl2 04		140896
 	977423185	Amb_Birds Spring_11	.cache\C5\{C54E0935-E3C2-CDEC-6047-F25451277BF6}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_11		230192
 	1046667742	Amb_Birds Spring_06	.cache\FF\{FF7BEE83-1470-3321-EC57-E6CC74DBA921}.wem		\Containers\Default Work Unit\Ambience\Spring Amb\Spring Day\Bird Sounds\Amb_Birds Spring_06		115144
+<<<<<<< HEAD
 >>>>>>> 67b769d (Fixed Wwise Issue)
 <<<<<<< HEAD
 >>>>>>> 654bc1e (no message)
 =======
 =======
 >>>>>>> e97b253 (rebase)
+<<<<<<< HEAD
 >>>>>>> 9fccf0a (no message)
+=======
+=======
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 

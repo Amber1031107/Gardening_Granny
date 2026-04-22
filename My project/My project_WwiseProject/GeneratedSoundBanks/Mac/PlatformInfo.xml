@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
 =======
 		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
@@ -23,6 +24,12 @@
 =======
 		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
 >>>>>>> f198644 (Git LFS Update)
+=======
+		<AutoSoundBankDefinition>true</AutoSoundBankDefinition>
+=======
+		<AutoSoundBankDefinition>false</AutoSoundBankDefinition>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 		<CopyLooseStreamedMediaFiles>true</CopyLooseStreamedMediaFiles>
 		<SubFoldersForGeneratedFiles>false</SubFoldersForGeneratedFiles>
 		<RemoveUnusedGeneratedFiles>true</RemoveUnusedGeneratedFiles>
@@ -46,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
 =======
 	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
@@ -60,9 +68,17 @@
 	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
 >>>>>>> f198644 (Git LFS Update)
 =======
+=======
+>>>>>>> ef11019 (no message)
 	<FileHash>{A5B82917-21AA-5CFF-B77E-7032A48F409A}</FileHash>
 =======
 	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
 >>>>>>> 67b769d (Fixed Wwise Issue)
+<<<<<<< HEAD
 >>>>>>> 654bc1e (no message)
+=======
+=======
+	<FileHash>{C58C19C5-BB8F-A668-7646-71F27D6B9470}</FileHash>
+>>>>>>> c9441e8 (rebase pt2 ig?)
+>>>>>>> ef11019 (no message)
 </PlatformInfo>
