@@ -8,6 +8,7 @@ using AK.Wwise; //Audio
 
 public class Shop : MonoBehaviour, IInteractable
 {
+    [Header("Store Pages")]
     public GameObject storePrefab;
     public GameObject TrapsShop;
     public GameObject PlantsShop;
@@ -15,25 +16,29 @@ public class Shop : MonoBehaviour, IInteractable
     public GameObject PathwayShop;
     public GameObject MiscShop;
     public TextMeshProUGUI moneyText;
-
+    [Header("Plant Store Buy Buttons")]
     public Button buyPlantbutton1;
     public Button buyPlantbutton2;
     public Button buyPlantbutton3;
     public Button buyPlantbutton4;
     public Button buyPlantbutton5;
     public Button buyPlantbutton6;
+    [Header("Trap Store Buy Buttons")]
     public Button buyTrap1;
+    [Header("Tree Store Buy Buttons")]
     public Button buyTreebutton1;
     public Button buyTreebutton2;
     public Button buyTreebutton3;
     public Button buyTreebutton4;
     public Button buyTreebutton5;
+    [Header("Misc Store Buy Buttons")]
     public Button buyMiscbutton1;
     public Button buyMiscbutton2;
     public Button buyMiscbutton3;
     public Button buyMiscbutton4;
     public Button buyMiscbutton5;
     public Button buyMiscbutton6;
+    [Header("Path Store Buy Buttons")]
     public Button buyPathbutton1;
     public Button buyPathbutton2;
     public Button buyPathbutton3;
@@ -47,6 +52,7 @@ public class Shop : MonoBehaviour, IInteractable
     public AK.Wwise.Event outOfMoneyEvent;
     public AK.Wwise.Event playComputerEvent;
     public AK.Wwise.Event closeShopEvent;
+    public AK.Wwise.Event uiClickSound;
 
     public DayNightAudioController audioController; //AmbienceStop
 
@@ -129,7 +135,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void TrapsButton()
     {
-
+        uiClickSound.Post(gameObject);
         TrapsShop.SetActive(true);
         PlantsShop.SetActive(false);
         TreesShop.SetActive(false);
@@ -139,7 +145,7 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void PlantsButton()
     {
-
+        uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(true);
         TreesShop.SetActive(false);
@@ -148,7 +154,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void TreesButton()
     {
-
+        uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
         TreesShop.SetActive(true);
@@ -157,7 +163,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void PathwayButton()
     {
-
+        uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
         TreesShop.SetActive(false);
@@ -166,7 +172,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void MiscButton()
     {
-
+        uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(true);
         TreesShop.SetActive(false);

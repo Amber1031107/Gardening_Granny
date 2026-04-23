@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: Wider tree
   displayName: Wider tree
-  handPrefab: {fileID: 5085570905295676503, guid: ee5b6e7ceba590d4289b6f5bf209bde2, type: 3}
+  handPrefab: {fileID: 4936814297940827291, guid: 5cfa07d1b9e18f443bf094505cb7771d, type: 3}
   placeablePrefab: {fileID: 5085570905295676503, guid: ee5b6e7ceba590d4289b6f5bf209bde2, type: 3}
   icon: {fileID: 21300000, guid: 30facdd8cba60b64882c7ba11301d205, type: 3}
   cost: 25
@@ -25,4 +25,4 @@ MonoBehaviour:
   selectionSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}

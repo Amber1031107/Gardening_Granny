@@ -6,6 +6,7 @@ public class Pause : MonoBehaviour
 {
     public GameObject storePrefab;
     public GameObject PauseMenu;
+    public GameObject controlsMenu;
 
     public AK.Wwise.Event pauseOnSound; //Audio
     public AK.Wwise.Event pauseOffSound;
@@ -16,6 +17,7 @@ public class Pause : MonoBehaviour
     void Start()
     {
         PauseMenu.SetActive(false);
+        controlsMenu.SetActive(false);
     }
 
     void Update()
@@ -49,6 +51,7 @@ public class Pause : MonoBehaviour
                     resumeAmbience.Post(gameObject); // Audio
                 }
             }
+            controlsMenu.SetActive(false);
         }
 
     }
@@ -62,5 +65,11 @@ public class Pause : MonoBehaviour
     {
         uiClickSound.Post(gameObject); //Audio
         Application.Quit();
+    }
+
+    public void Controls()
+    {
+        controlsMenu.SetActive(true);
+        uiClickSound.Post(gameObject);
     }
 }
