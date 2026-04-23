@@ -25,4 +25,4 @@ MonoBehaviour:
   selectionSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8eb21ff8e23b74e458e846e19b7595e2, type: 2}
