@@ -10,27 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.23188138
+      value: 0.013602399
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.23188138
+      value: 0.013602399
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.23188138
+      value: 0.013602399
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.8976
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.51
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.27
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_Name
-      value: TreeOak
+      value: TreeOakHand
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8b663c3a2836af64387b4f1297f5ba6e, type: 3}
       propertyPath: m_TagString
