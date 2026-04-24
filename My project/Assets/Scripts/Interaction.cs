@@ -15,6 +15,7 @@ public class Interaction : MonoBehaviour
     void Update()
     {
 
+
         if (Shop.shopIsOpen)
             return;
 
@@ -24,11 +25,10 @@ public class Interaction : MonoBehaviour
             Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
             {
-                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
-                {
+                Debug.Log($"[Interaction] Hit: {hitInfo.collider.gameObject.name} on {hitInfo.collider.gameObject.layer}");
+                IInteractable interactObj = hitInfo.collider.GetComponentInParent<IInteractable>();
+                if (interactObj != null)
                     interactObj.InteractLeftClick();
-                    //Debug.Log("Interacted");
-                }
             }
         }
         if (Input.GetMouseButtonDown(1))
@@ -37,11 +37,10 @@ public class Interaction : MonoBehaviour
             Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
             {
-                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
-                {
+                Debug.Log($"[Interaction] Hit: {hitInfo.collider.gameObject.name} on {hitInfo.collider.gameObject.layer}");
+                IInteractable interactObj = hitInfo.collider.GetComponentInParent<IInteractable>();
+                if (interactObj != null)
                     interactObj.InteractRightClick();
-                    //Debug.Log("Interacted");
-                }
             }
         }
     }

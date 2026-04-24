@@ -63,6 +63,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9aeb330dff920af4c8186b3d99dc4953, type: 3}
       insertIndex: -1
       addedObject: {fileID: -2320952116708825897}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9aeb330dff920af4c8186b3d99dc4953, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5211005868391174260}
   m_SourcePrefab: {fileID: 100100000, guid: 9aeb330dff920af4c8186b3d99dc4953, type: 3}
 --- !u!1 &7426407223624627365 stripped
 GameObject:
@@ -91,3 +94,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: 9aeb330dff920af4c8186b3d99dc4953, type: 3}
+--- !u!114 &5211005868391174260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426407223624627365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Trap
+  isTrap: 1
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

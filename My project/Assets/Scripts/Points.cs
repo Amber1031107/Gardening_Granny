@@ -54,6 +54,8 @@ public class Points : MonoBehaviour, IInteractable
         if (scoreBoardPanel != null)
             scoreBoardPanel.SetActive(false);
         //GameEndScreen.SetActive(false);
+        if (scoreText != null)
+            scoreText.text = "Score: 0";
         UpdateScoreUI();
     }
 

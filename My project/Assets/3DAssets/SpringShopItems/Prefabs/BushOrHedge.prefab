@@ -75,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06d3c995103c1e24488a5b1c5adbc85d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3511692368990057419}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06d3c995103c1e24488a5b1c5adbc85d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6813545018890440799}
   m_SourcePrefab: {fileID: 100100000, guid: 06d3c995103c1e24488a5b1c5adbc85d, type: 3}
 --- !u!1 &6918035936248293080 stripped
 GameObject:
@@ -102,3 +105,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 6.9961224, y: 32.86, z: 8.289421}
   m_Center: {x: -0.71497476, y: 16.432514, z: 0.4712847}
+--- !u!114 &-6813545018890440799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6918035936248293080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Bush
+  isTrap: 0
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

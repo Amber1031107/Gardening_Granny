@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3641865
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3641865
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3641865
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -79,6 +83,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8923924219455476467}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4754671715186518144}
   m_SourcePrefab: {fileID: 100100000, guid: 4b3a12592cba0c44d998db54ccad6a57, type: 3}
 --- !u!1 &5684833742494048936 stripped
 GameObject:
@@ -106,3 +113,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5.677771, y: 0.2703302, z: 5.677771}
   m_Center: {x: -0.00032508376, y: 0.13517141, z: 0.031879548}
+--- !u!114 &-4754671715186518144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5684833742494048936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Rocky Path
+  isTrap: 1
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

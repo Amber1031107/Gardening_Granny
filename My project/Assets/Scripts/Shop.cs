@@ -76,6 +76,9 @@ public class Shop : MonoBehaviour, IInteractable
         storePrefab.SetActive(false);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
+        PathwayShop.SetActive(false);
+        TreesShop.SetActive(false);
+        MiscShop.SetActive(false);
     }
 
     public void UpdateMoneyUI()

@@ -19,6 +19,8 @@ public class EnemyAI : MonoBehaviour
 
     private Points points;
 
+  
+
     // ── Plant destruction limit ───────────────────────────────────────────────
     private int plantsDestroyedThisRound = 0;
     public int maxPlantsToDestroy = 2;
@@ -74,6 +76,8 @@ public class EnemyAI : MonoBehaviour
         points = FindObjectOfType<Points>();
         if (points == null)
             Debug.LogWarning("[EnemyAI] Could not find Points script in scene!");
+
+
     }
 
     void FixedUpdate()
