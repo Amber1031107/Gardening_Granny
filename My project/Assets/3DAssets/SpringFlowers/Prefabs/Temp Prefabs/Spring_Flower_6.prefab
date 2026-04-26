@@ -78,6 +78,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 685950643ebfb95478d11d2fb1d4149e, type: 3}
       insertIndex: -1
       addedObject: {fileID: -277974391636837742}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 685950643ebfb95478d11d2fb1d4149e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2324641871791208232}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 685950643ebfb95478d11d2fb1d4149e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5459463559875644893}
   m_SourcePrefab: {fileID: 100100000, guid: 685950643ebfb95478d11d2fb1d4149e, type: 3}
 --- !u!1 &8841642917160026815 stripped
 GameObject:
@@ -98,6 +104,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointValue: 6
 --- !u!64 &-277974391636837742
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8841642917160026815}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -967454248388709734, guid: 685950643ebfb95478d11d2fb1d4149e, type: 3}
+--- !u!114 &-2324641871791208232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8841642917160026815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Staries
+  isTrap: 0
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!64 &5459463559875644893
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

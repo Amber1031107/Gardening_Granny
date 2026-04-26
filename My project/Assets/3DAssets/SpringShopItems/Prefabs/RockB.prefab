@@ -75,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 771ce935eeef2f645ad667957d6b7083, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4167717164299883061}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 771ce935eeef2f645ad667957d6b7083, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8782810564971793213}
   m_SourcePrefab: {fileID: 100100000, guid: 771ce935eeef2f645ad667957d6b7083, type: 3}
 --- !u!1 &386209006459557279 stripped
 GameObject:
@@ -103,3 +106,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8996957445894004796, guid: 771ce935eeef2f645ad667957d6b7083, type: 3}
+--- !u!114 &8782810564971793213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386209006459557279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: RockBig
+  isTrap: 1
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

@@ -75,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7bfeb6d9728b6364ca4803d9dba82e7e, type: 3}
       insertIndex: -1
       addedObject: {fileID: -2780969518688368534}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7bfeb6d9728b6364ca4803d9dba82e7e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 984209863089729880}
   m_SourcePrefab: {fileID: 100100000, guid: 7bfeb6d9728b6364ca4803d9dba82e7e, type: 3}
 --- !u!1 &4521690575198259226 stripped
 GameObject:
@@ -103,3 +106,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1192326751526488301, guid: 7bfeb6d9728b6364ca4803d9dba82e7e, type: 3}
+--- !u!114 &984209863089729880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4521690575198259226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Mushrooms
+  isTrap: 0
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

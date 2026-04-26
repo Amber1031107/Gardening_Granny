@@ -20,8 +20,8 @@ MonoBehaviour:
   cost: 15
   isInfinite: 0
   isShovel: 0
-  plantsOnDirt: 0
-  plantsOnGrass: 1
+  plantsOnDirt: 1
+  plantsOnGrass: 0
   selectionSound:
     idInternal: 0
     valueGuidInternal: 

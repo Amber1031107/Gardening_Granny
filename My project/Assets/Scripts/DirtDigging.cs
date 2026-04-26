@@ -38,7 +38,6 @@ public class DirtDigging : MonoBehaviour, IInteractable
     {
         ItemData data = playerInventory.GetSelectedItemData();
 
-
         if (data.isShovel)
         {
             if (!CheckDirt && !TrapIsPlaced)
@@ -93,7 +92,9 @@ public class DirtDigging : MonoBehaviour, IInteractable
         ItemData data = playerInventory.GetSelectedItemData();
         if (data == null) return;
 
-        // ── Shovel — revert dirt back to grass ───────────────────────────────
+        // Don't revert dirt if a plant is sitting on it — let the plant handle right-click
+        if (PlantIsPlanted) return;
+
         if (data.isShovel && CheckDirt && !PlantIsPlanted)
         {
             rend.material = Grass;

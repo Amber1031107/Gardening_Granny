@@ -75,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d7bd28bd94a7af34fba25d477f64c888, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6257435807842923144}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d7bd28bd94a7af34fba25d477f64c888, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2771182790808084008}
   m_SourcePrefab: {fileID: 100100000, guid: d7bd28bd94a7af34fba25d477f64c888, type: 3}
 --- !u!1 &7942454381531933185 stripped
 GameObject:
@@ -102,3 +105,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7207322, y: 18.150906, z: 1.8690408}
   m_Center: {x: -0.11212607, y: 9.076736, z: -0.21819189}
+--- !u!114 &2771182790808084008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7942454381531933185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Pine Tree
+  isTrap: 0
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

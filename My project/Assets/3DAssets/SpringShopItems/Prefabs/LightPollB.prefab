@@ -67,6 +67,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cb89f2b1be2b37242b220554cf6f8f55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7659917424955135700}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cb89f2b1be2b37242b220554cf6f8f55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7742428947990231538}
   m_SourcePrefab: {fileID: 100100000, guid: cb89f2b1be2b37242b220554cf6f8f55, type: 3}
 --- !u!1 &9217009829046082949 stripped
 GameObject:
@@ -95,3 +98,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6496748606676428904, guid: cb89f2b1be2b37242b220554cf6f8f55, type: 3}
+--- !u!114 &7742428947990231538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217009829046082949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1ad1fd41e71934cba4e719730473ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: Light Poll
+  isTrap: 1
+  rotationStep: 45
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rotateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

@@ -12,14 +12,15 @@ public class Points : MonoBehaviour, IInteractable
     public Vector3 spawnAreaCenter;   // Centre of the random spawn zone
     public Vector3 spawnAreaSize;     // Width/Height/Depth of the zone (like a box)
 
-
+    [Header("Doors")]
+    public HouseDoors houseDoors;
 
     //public GameObject GameEndScreen;
 
     [Header("Kid spawn stuff")]
     public GameObject Kid;
     public Vector3 spawnPosition;
-    public GameObject InvisableWall;
+    //public GameObject InvisableWall;
     public GameObject Fances;
     public Vector3 WallSpawnPosition;
 
@@ -50,10 +51,14 @@ public class Points : MonoBehaviour, IInteractable
     {
         Fances.SetActive(true);
         DaysLeftAmount = 3;
+        if (houseDoors != null)
+            houseDoors.ResetDoors();
 
         if (scoreBoardPanel != null)
             scoreBoardPanel.SetActive(false);
         //GameEndScreen.SetActive(false);
+        if (scoreText != null)
+            scoreText.text = "Score: 0";
         UpdateScoreUI();
     }
 
@@ -87,6 +92,8 @@ public class Points : MonoBehaviour, IInteractable
         if (placedCount > 1 && !kidSpawned)  // ← Only runs if kid hasn't spawned yet
         {
             kidSpawned = true;  // ← Lock it immediately so it can never run again
+            if (houseDoors != null)
+                houseDoors.CloseDoors();
 
             // Random position within the defined box area
             Vector3 randomSpawn = new Vector3(
@@ -96,7 +103,7 @@ public class Points : MonoBehaviour, IInteractable
             );
 
             Instantiate(Kid, randomSpawn, Quaternion.identity);
-            Instantiate(InvisableWall, WallSpawnPosition, Quaternion.identity);
+            //Instantiate(InvisableWall, WallSpawnPosition, Quaternion.identity);
             Fances.SetActive(false);
 
             sun.intensity = 0.05f;
@@ -132,6 +139,8 @@ public class Points : MonoBehaviour, IInteractable
         }
 
         Fances.SetActive(true);
+        if (houseDoors != null)
+            houseDoors.ResetDoors();
         UpdateScoreUI();
 
         // Show the scoreboard panel

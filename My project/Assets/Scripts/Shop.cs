@@ -76,6 +76,9 @@ public class Shop : MonoBehaviour, IInteractable
         storePrefab.SetActive(false);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
+        PathwayShop.SetActive(false);
+        TreesShop.SetActive(false);
+        MiscShop.SetActive(false);
     }
 
     public void UpdateMoneyUI()
@@ -107,8 +110,6 @@ public class Shop : MonoBehaviour, IInteractable
             TrapsShop.SetActive(false);
             PlantsShop.SetActive(false);
             shopIsOpen = false; //Retriggers world interaction
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
         }
         buyPlantbutton1.interactable = moneyAmount >= 5;
         buyPlantbutton2.interactable = moneyAmount >= 10;
