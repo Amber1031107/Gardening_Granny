@@ -456,6 +456,83 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Placing_Path" ID="{7417EE75-287A-4B07-83D2-626010BE9AEB}">
+							<ChildrenList>
+								<Action Name="" ID="{5B02906F-C873-413F-B101-675062F853FF}" ShortID="712492605">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Path" ID="{A1E42EB1-1198-4C39-8125-489F33E39501}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Path" ID="{217FEAD7-1739-472D-ABB8-67AF32A8780E}">
+							<ChildrenList>
+								<Action Name="" ID="{616BAE01-01A3-4A1E-B78C-72F1C227F821}" ShortID="150225262">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Path" ID="{9A39821C-5908-47D2-BB88-C78BFB1D4AEF}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Item_Rotate" ID="{E1406F97-E481-4A88-B867-94968A0DC584}">
+							<ChildrenList>
+								<Action Name="" ID="{4F0418EF-7A4F-4FB1-A7AC-CD55B98BE30B}" ShortID="833406654">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Item Rotate" ID="{965A6BD5-264C-45F9-8F69-7849CCD9C4BE}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Placing_Light_Pole" ID="{4AFC3B7D-7560-426B-889B-859B0ADFB0D5}">
+							<ChildrenList>
+								<Action Name="" ID="{91E25B3F-068F-49C4-95AE-229C72723CC3}" ShortID="740951091">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Light Pole" ID="{45794A30-E494-442D-88F9-A1B5D712A0CA}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Rock" ID="{9B136F6E-3CF9-4E0D-A4E1-29C7A1A1F563}">
+							<ChildrenList>
+								<Action Name="" ID="{96F069FB-8E1E-4A3E-B36B-C92857EB23E9}" ShortID="588540727">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Rock" ID="{3921F85A-6EE4-4C76-A9FA-26BD4D51F94F}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Gnome" ID="{0C93FD61-4353-4EFF-9DAE-81D67F4F1DC0}">
+							<ChildrenList>
+								<Action Name="" ID="{356B27D5-A810-40AF-895C-5CEB19EB36B7}" ShortID="395334599">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Gnome" ID="{EB326BD1-B91F-414B-8652-772AABC26F36}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Trunk" ID="{1F6D3556-E2B3-4D3F-899A-99F6CF62A065}">
+							<ChildrenList>
+								<Action Name="" ID="{C3FF0159-8B67-415F-B72F-CD9EBDFF2558}" ShortID="975982904">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Trunk" ID="{5639A50F-A369-4DC2-A69B-59A85E12BA5A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ChHARACTER SOUNDS" ID="{E845AF78-FD7B-4259-9262-D4F50083D632}" ShortID="201104246">

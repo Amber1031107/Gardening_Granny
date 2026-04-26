@@ -16,4 +16,6 @@ public class ItemData : ScriptableObject
 
     [Header("Audio")]
     public AK.Wwise.Event selectionSound;
+    public AK.Wwise.Event plantSound;
+    public AK.Wwise.Event PlantBuySound;
 }

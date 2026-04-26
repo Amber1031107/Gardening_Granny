@@ -62,7 +62,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
             }
 
             Instantiate(data.placeablePrefab, transform.position, Quaternion.identity);
-            plantEvent?.Post(gameObject);
+            data.plantSound?.Post(gameObject);   // ← was plantEvent
             PlantIsPlanted = true;
             playerInventory.ConsumeItem(data.itemID);
             return;
@@ -80,7 +80,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
             }
 
             Instantiate(data.placeablePrefab, transform.position, Quaternion.identity);
-            trapEvent?.Post(gameObject);
+            data.plantSound?.Post(gameObject);   // ← was trapEvent
             TrapIsPlaced = true;
             playerInventory.ConsumeItem(data.itemID);
             return;

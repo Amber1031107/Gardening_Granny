@@ -60546,7 +60546,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 940854335}
-  - component: {fileID: 940854334}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -60554,31 +60553,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &940854334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 940854333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2b07f0cf210ed409e3d8f674e34f6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 48a7781a4c6b68642bfb8da26d317298, type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  engineLogging: 0
 --- !u!4 &940854335
 Transform:
   m_ObjectHideFlags: 0
@@ -67746,9 +67720,9 @@ MonoBehaviour:
   kidSpawned: 0
   spawnAreaCenter: {x: 0, y: 0, z: 0}
   spawnAreaSize: {x: 0, y: 0, z: 0}
+  houseDoors: {fileID: 0}
   Kid: {fileID: 3618407741882849123, guid: 471a38c77cfcfe94d8acf634d25decd6, type: 3}
   spawnPosition: {x: 31.07332, y: 5.582937, z: 89.16806}
-  InvisableWall: {fileID: 7481643865514951652, guid: 3021fa954b8ce8b4c96d1120cf5cd85f, type: 3}
   Fances: {fileID: 1934529799}
   WallSpawnPosition: {x: 10.73, y: 8.86, z: -66.78}
   pointsPrefab: {fileID: 300507449}
@@ -68974,7 +68948,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b41829b93bd738e4087eda573742fe01, type: 2}
 --- !u!1 &1130198598 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5880710048077283450, guid: ae188b0f03f97b2488548687c1a82bc1, type: 3}
@@ -87388,7 +87362,7 @@ MonoBehaviour:
   closePortalTriggerList: 
   rooms:
   - {fileID: 0}
-  - {fileID: 565568711}
+  - {fileID: 0}
   isStatic: 0
 --- !u!65 &1663448530
 BoxCollider:
@@ -102862,7 +102836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_listeners:
     initialListenerList:
-    - {fileID: 0}
+    - {fileID: 293707902}
     useDefaultListeners: 1
   isEnvironmentAware: 1
   isStaticObject: 0

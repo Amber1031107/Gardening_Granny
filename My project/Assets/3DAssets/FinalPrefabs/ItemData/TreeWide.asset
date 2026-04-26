@@ -25,4 +25,12 @@ MonoBehaviour:
   selectionSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 18c063dd5fbff65418e7bb141d6b3668, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 320bbee7c68a088449a6e60612233d07, type: 2}
+  plantSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99b83994886b5744098f967b0d4ca43d, type: 2}
+  PlantBuySound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23fc744d5df42b1408f6afb2066626a9, type: 2}

@@ -227,6 +227,7 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void BuyItem(ItemData item)
     {
+        ItemData data = playersInventory.GetSelectedItemData();
         if (moneyAmount < item.cost)
         {
             PlayErrorSound();
@@ -237,7 +238,6 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(item.itemID);
 
-        if (item.plantsOnGrass) PlayTrapBuySound();
-        else PlayPlantBuySound();
+        data.PlantBuySound?.Post(gameObject);
     }
 }

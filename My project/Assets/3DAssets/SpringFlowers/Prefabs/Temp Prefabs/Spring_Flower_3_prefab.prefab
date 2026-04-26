@@ -102,11 +102,11 @@ MonoBehaviour:
   pickupEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ae4e9b2babf18ff4aa3fc80fe68f331b, type: 2}
   rotateEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7aca062d55b1a284d9f087c6e07c4eb1, type: 2}
 --- !u!64 &9160714514137753541
 MeshCollider:
   m_ObjectHideFlags: 0
