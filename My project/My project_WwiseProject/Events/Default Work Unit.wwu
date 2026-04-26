@@ -371,6 +371,91 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Placing_Rocks" ID="{90F3F103-DCA4-45EE-8D87-C28BFB612F57}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="15"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{DA7BFAF8-8C51-4823-8B5C-E8BAA955DBD2}" ShortID="193181670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Rocks" ID="{8F2512EC-AD68-45D9-955F-A9D0D777E0FD}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Removing_Object" ID="{BE439AF2-4377-4F7A-975A-1880BA417C8B}">
+							<ChildrenList>
+								<Action Name="" ID="{337249FC-0401-41C4-88DD-730738927094}" ShortID="304097897">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Removing Object" ID="{A2BB285A-3B5C-453A-8158-A318332A903B}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Placing_Trees" ID="{6AEBD0B8-2E12-4ED4-A487-4E4120691BA0}">
+							<ChildrenList>
+								<Action Name="" ID="{61BFE9C7-F8EC-42AD-BCDA-E95A89466F74}" ShortID="492538731">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Trees" ID="{930D617F-042D-4797-B4E3-00951901011C}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Tree" ID="{2E3FCB7A-8BD8-4EA9-A428-F72B4ECE0C53}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{647653A0-67B0-4413-8B90-F12F7C4394EB}" ShortID="761052436">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Tree" ID="{F47C3B24-EF65-47BE-A47A-B3C601BDA353}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Fountain" ID="{04D6A7CD-340E-40DF-9514-41290056BD86}">
+							<ChildrenList>
+								<Action Name="" ID="{2C2E35C7-2AC7-4FAC-BB61-B1700705FC51}" ShortID="767459191">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Fountain" ID="{F2F1098F-649A-473E-B61B-F7E240745445}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Placing_Gnome" ID="{6D8FF498-8D96-4DE2-94A0-B69A0BDA1D33}">
+							<ChildrenList>
+								<Action Name="" ID="{1A650EDC-6EC9-435B-BC11-A624EC3A0368}" ShortID="1044176096">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Gnome" ID="{2B16D2B7-C401-46F0-AF29-356C95C11770}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Light" ID="{A694D723-9118-4FF3-9A21-6338FE08E6BB}">
+							<ChildrenList>
+								<Action Name="" ID="{E02ED7D8-4514-4E6D-AE99-BEF281530569}" ShortID="796875775">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Light" ID="{9DFBE56B-0856-4B40-9F39-48FD11BCEB5C}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ChHARACTER SOUNDS" ID="{E845AF78-FD7B-4259-9262-D4F50083D632}" ShortID="201104246">

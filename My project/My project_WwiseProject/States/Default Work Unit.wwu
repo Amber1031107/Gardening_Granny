@@ -5,12 +5,14 @@
 			<ChildrenList>
 				<StateGroup Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}">
 					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
 						<State Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
-						<State Name="Inside" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+						<State Name="House" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+						<State Name="Garage" ID="{F1CD5176-57FD-43B9-92BD-10AEF7D332F7}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Season" ID="{D8D21C3D-B6C1-4155-B331-E61E23E2672D}">

@@ -16,15 +16,46 @@
 					<ChildrenList>
 						<Bus Name="Ambience Master" ID="{FDBCA941-4517-422B-A1F2-724853BB7E71}">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="11"/>
-								<Property Name="Lowpass" Type="int16">
+								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Color" Type="int16" Value="11"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Location" ID="{7A01359D-718A-445B-A4B7-045C1ABCB7F8}"/>
+										<StateGroupInfo Name="" ID="{46035320-15E3-4E1D-9C96-04C5B9F271BB}" ShortID="358348362"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Garage" ID="{F1CD5176-57FD-43B9-92BD-10AEF7D332F7}"/>
+										<CustomState Name="" ID="{7A163F7B-3C74-44E8-AB3F-8DDDF4A5FD39}" ShortID="178046580"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{085A8335-8EFE-4447-8108-26B681D121EC}"/>
+										<CustomState Name="" ID="{EEC82460-BD9C-46F8-827D-B49BF8005561}" ShortID="834296890"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Outside" ID="{25D0A57F-2C8D-4A69-9F25-B77B075EF5B7}"/>
+										<CustomState Name="" ID="{553FBB81-0119-45DC-9003-85EFD6B66671}" ShortID="1047174933"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="House" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
+										<CustomState Name="" ID="{1A01044E-943A-4725-881D-6B8324B9FB59}" ShortID="746095729">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-7"/>
+												<Property Name="Lowpass" Type="int16" Value="-51"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<RTPC Name="" ID="{94E5B849-7217-42D1-810A-CC11C0C54537}" ShortID="131271929">
@@ -58,6 +89,70 @@
 											</Reference>
 										</ReferenceList>
 									</RTPC>
+									<RTPC Name="" ID="{FA7AEB5C-2EE0-412E-8132-6860F1907642}" ShortID="12733041">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusLowpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="GarageDepth" ID="{440C3A6C-FC13-4AD8-BA2D-882925DEF444}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{EA48E5A1-5D1F-410B-89CD-DE1F45338970}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-48</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+									<RTPC Name="" ID="{064AC777-A35F-41D4-AEF9-CED099AF950B}" ShortID="603120625">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="GarageDepth" ID="{440C3A6C-FC13-4AD8-BA2D-882925DEF444}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{94683352-7043-4F8D-89FF-0DF25A4DE648}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-6.69107</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
@@ -65,7 +160,7 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Color" Type="int16" Value="26"/>
