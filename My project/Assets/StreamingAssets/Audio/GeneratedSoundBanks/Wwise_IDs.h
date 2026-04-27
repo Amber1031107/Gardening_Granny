@@ -50,11 +50,13 @@ namespace AK
         static const AkUniqueID PLAY_SWITCH_TO_SHOVEL = 2103328760U;
         static const AkUniqueID PLAY_SWITCH_TO_TREE = 1993165749U;
         static const AkUniqueID PLAY_SWITCH_TO_TRUNK = 2735143457U;
+        static const AkUniqueID PLAY_TUTORIAL_MUSIC = 4216738260U;
         static const AkUniqueID PLAY_UI_CLICK = 1749424733U;
         static const AkUniqueID PLAY_WINTER_MUSIC = 3439960413U;
         static const AkUniqueID RESUME_AMBIENCE_BUS = 4093438092U;
         static const AkUniqueID STOP_GRASS_SNEAK_FOOTSTEPS_LOOP = 312763200U;
         static const AkUniqueID STOP_SPRING_AMB = 1702308546U;
+        static const AkUniqueID STOP_TUTORIAL_MUSIC = 1994822886U;
     } // namespace EVENTS
 
     namespace STATES
@@ -124,6 +126,7 @@ namespace AK
                 static const AkUniqueID CONCRETE = 841620460U;
                 static const AkUniqueID DIRT = 2195636714U;
                 static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID LINO_FLOOR = 4210739282U;
             } // namespace SWITCH
         } // namespace SURFACES
 

@@ -2,5 +2,6 @@ public enum FootstepSurface
 {
     Grass,
     Dirt,
-    Concrete
+    Concrete,
+    Lino_Floor
 }

@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 public class Tutorial : MonoBehaviour
 {
     //public float delayTime = 5f;  // Time in seconds before changing the scene
-   // public string sceneName = "Tutorial";  // Name of the scene to load
-   public void Next()
+    // public string sceneName = "Tutorial";  // Name of the scene to load
+
+    public TutorialMusicManager tutorialMusicManager; //Tutorial Music
+
+    public void Next()
    {
+        if (tutorialMusicManager != null)
+        {
+            tutorialMusicManager.FadeOutAndDestroy(); //Tutorial Music Fade Into Next scene
+        }
+
         SceneManager.LoadScene("2_AudioSpringSeason1 1");
    }
 

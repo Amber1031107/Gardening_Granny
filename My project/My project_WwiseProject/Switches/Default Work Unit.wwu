@@ -43,6 +43,12 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Switch>
+						<Switch Name="Lino_Floor" ID="{EC37127C-FB1E-40BB-BDA5-F9732B0A4710}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

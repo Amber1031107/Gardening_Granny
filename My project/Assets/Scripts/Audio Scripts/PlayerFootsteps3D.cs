@@ -38,6 +38,9 @@ public class PlayerFootsteps3D : MonoBehaviour
     private float nextShuffleCooldown;
     private float smoothedSpeed;
 
+    private FootstepSurface? overrideSurface = null;
+    private int triggerCount = 0;
+
     private void Start()
     {
         if (controller == null)
@@ -121,6 +124,9 @@ public class PlayerFootsteps3D : MonoBehaviour
 
     private FootstepSurface DetectSurface()
     {
+        if (overrideSurface.HasValue)
+            return overrideSurface.Value;
+
         RaycastHit hit;
         Vector3 origin = transform.position + controller.center;
 
@@ -136,5 +142,33 @@ public class PlayerFootsteps3D : MonoBehaviour
         }
 
         return FootstepSurface.Grass;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        FootstepSurfaceTag tag = other.GetComponent<FootstepSurfaceTag>();
+        if (tag != null)
+        {
+            overrideSurface = tag.surfaceType;
+            triggerCount++;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        FootstepSurfaceTag tag = other.GetComponent<FootstepSurfaceTag>();
+        if (tag != null)
+        {
+            triggerCount--;
+
+            if (triggerCount <= 0)
+            {
+                overrideSurface = null;
+            }
+        }
     }
 }

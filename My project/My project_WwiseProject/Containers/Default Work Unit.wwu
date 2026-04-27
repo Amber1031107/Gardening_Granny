@@ -576,11 +576,123 @@
 												</ObjectList>
 											</ObjectLists>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Lino_Floor" ID="{C352EF1A-6560-4931-B88F-339819A63190}" ShortID="226035925">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="24"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FS_Dirt_01" ID="{9E52CC23-705E-40B9-B3D2-E9B34127CB8B}" ShortID="327360719">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A01" ID="{71936417-A7B8-4EBF-9CA3-088E0A59CBDE}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="326278609"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A01" ID="{71936417-A7B8-4EBF-9CA3-088E0A59CBDE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Dirt_02" ID="{42CA3A03-E8CD-4B07-8C03-AAC50A8B651B}" ShortID="686144536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A02" ID="{72CAD446-48CA-499E-B6F9-72520894773F}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925054752"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A02" ID="{72CAD446-48CA-499E-B6F9-72520894773F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Dirt_03" ID="{422D887F-6340-4098-8220-E759F441D022}" ShortID="590442753">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A03" ID="{C816FC4B-6E02-4C99-99D3-A3C45CB15A8C}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1062463723"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A03" ID="{C816FC4B-6E02-4C99-99D3-A3C45CB15A8C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Dirt_04" ID="{2F816635-D7C2-4854-B593-0958AC2E4E99}" ShortID="276005855">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_Dirt_A04" ID="{BCCD7DE6-71E5-43E7-B99A-ED7A5E13674C}">
+															<Language>SFX</Language>
+															<AudioFile>FS_Dirt_A04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="661201764"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_Dirt_A04" ID="{BCCD7DE6-71E5-43E7-B99A-ED7A5E13674C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="Dirt" ID="{5FA2281A-8075-425E-BC1A-AD1BA1408EDB}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Lino_Floor" ID="{C352EF1A-6560-4931-B88F-339819A63190}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}"/>
@@ -594,6 +706,12 @@
 												<SwitchRef Name="Grass" ID="{E2224B67-4B7B-4288-811C-D7E2ADCBE38C}"/>
 												<ItemList>
 													<ItemRef Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Lino_Floor" ID="{EC37127C-FB1E-40BB-BDA5-F9732B0A4710}"/>
+												<ItemList>
+													<ItemRef Name="Lino_Floor" ID="{C352EF1A-6560-4931-B88F-339819A63190}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
