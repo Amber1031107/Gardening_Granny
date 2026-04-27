@@ -30,6 +30,8 @@ namespace AK
         static const AkUniqueID PLAY_NO_MONEY_LEFT = 2150464526U;
         static const AkUniqueID PLAY_PAUSE_MENU_OFF = 2321699868U;
         static const AkUniqueID PLAY_PAUSE_MENU_ON = 2756808150U;
+        static const AkUniqueID PLAY_PLACING_BUSHES = 803624915U;
+        static const AkUniqueID PLAY_PLACING_FOUNTAIN = 3208396997U;
         static const AkUniqueID PLAY_PLACING_GNOME = 136993547U;
         static const AkUniqueID PLAY_PLACING_LIGHT_POLE = 2807145232U;
         static const AkUniqueID PLAY_PLACING_PATH = 2071328600U;

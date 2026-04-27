@@ -112,6 +112,9 @@
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9E387C55-65AD-49E2-AF9D-F0257BF6C28D}" ShortID="133258772">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Spring Music" ID="{ED66EE5E-D0D9-4273-B4A3-FC03AF89D987}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
@@ -122,6 +125,43 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Night Music" ID="{52E0EADA-6522-4695-85A4-7C2055FE2250}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Tutorial_Music" ID="{DAB319A4-CD63-430F-A10F-7ED50B97A6AF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B7EEDA04-67B3-4C73-9C83-D3E2410FE1D0}" ShortID="878973032">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tutorial Music" ID="{E6B1ED77-50EE-4782-9A6B-E7E081B808D1}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Tutorial_Music" ID="{874276F8-A219-412B-9545-1EFDF5200FAB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{E413B04D-EA77-4B12-8086-01AD2DC463F4}" ShortID="908407551">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tutorial Music" ID="{E6B1ED77-50EE-4782-9A6B-E7E081B808D1}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -528,6 +568,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Switch to Trunk" ID="{5639A50F-A369-4DC2-A69B-59A85E12BA5A}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Placing_Bushes" ID="{05FF91AA-F090-49F0-A2B8-59D57EBC2FB0}">
+							<ChildrenList>
+								<Action Name="" ID="{D22CD912-7482-4839-B8BE-9DA2A001269A}" ShortID="485422288">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Bushes" ID="{55066DAA-E07A-491D-81CD-AC2B0F89B1A2}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Placing_Fountain" ID="{B5B266B2-C7AC-4F80-872A-E3419ACCBCA6}">
+							<ChildrenList>
+								<Action Name="" ID="{E5E02C9B-3DD6-4C74-AFBD-75AAC0D7B644}" ShortID="383215984">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Fountain" ID="{F6C49C91-C7BE-4993-A84A-A9CBBC7F5918}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

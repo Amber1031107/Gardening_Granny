@@ -29,7 +29,7 @@ MonoBehaviour:
   plantSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8ddf371001940ee4fa82c4beb5cfaea4, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: d6d704e0c662482418f8c282c2562d8e, type: 2}
   PlantBuySound:
     idInternal: 0
     valueGuidInternal: 
