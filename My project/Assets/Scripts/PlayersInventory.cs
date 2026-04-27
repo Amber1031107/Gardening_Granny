@@ -8,6 +8,8 @@ public class PlayersInventory : MonoBehaviour
     public Dictionary<string, int> itemCounts = new Dictionary<string, int>();
     public int selectItem;
 
+    private HotbarUI hotbarUI; //Audio to stop switch sound when you place last item
+
     private const int MAX_VISIBLE = 8;
     private int windowStart = 0;
 
@@ -26,6 +28,8 @@ public class PlayersInventory : MonoBehaviour
 
     void Start()
     {
+        hotbarUI = FindObjectOfType<HotbarUI>(); //Audio to stop switch sound when you place last item
+
         foreach (var data in itemRegistry)
         {
             if (string.IsNullOrEmpty(data.itemID))
@@ -137,6 +141,9 @@ public class PlayersInventory : MonoBehaviour
 
         if (itemCounts[itemID] <= 0)
         {
+            if (hotbarUI != null)
+                hotbarUI.SuppressNextSelectionSound(); //Audio to stop switch sound when you place last item
+
             inventoryList.Remove(itemID);
             itemCounts.Remove(itemID);
 

@@ -17,6 +17,8 @@ public class HotbarUI : MonoBehaviour
 
     private int lastSelectedIndex = -1;
 
+    private bool suppressNextSelectionSound = false; //Audio to stop switch sound when you place last item
+
     void Update()
     {
         RefreshHotbar();
@@ -65,6 +67,12 @@ public class HotbarUI : MonoBehaviour
 
             if (Shop.shopIsOpen) return;
 
+            if (suppressNextSelectionSound) //Audio to stop switch sound when you place last item
+            {
+                suppressNextSelectionSound = false;
+                return;
+            }
+
             PlaySelectionSound();
         }
     }
@@ -74,6 +82,11 @@ public class HotbarUI : MonoBehaviour
         ItemData data = playerInventory.GetSelectedItemData();
         if (data == null) return;
         data.selectionSound?.Post(gameObject);
+    }
+
+    public void SuppressNextSelectionSound() //Audio to stop switch sound when you place last item
+    {
+        suppressNextSelectionSound = true;
     }
 }
 
