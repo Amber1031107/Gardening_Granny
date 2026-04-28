@@ -16,7 +16,7 @@ public class Tutorial : MonoBehaviour
             tutorialMusicManager.FadeOutAndDestroy(); //Tutorial Music Fade Into Next scene
         }
 
-        SceneManager.LoadScene("2_AudioSpringSeason1 1");
+        SceneManager.LoadScene("SpringSeason1");
    }
 
     //void Start()
