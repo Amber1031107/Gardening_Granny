@@ -107,6 +107,7 @@ public class Shop : MonoBehaviour, IInteractable
             }
 
             storePrefab.SetActive(false);
+            FindObjectOfType<TutorialManager>()?.NotifyShopClosed();
             TrapsShop.SetActive(false);
             PlantsShop.SetActive(false);
             shopIsOpen = false; //Retriggers world interaction
@@ -136,6 +137,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void TrapsButton()
     {
+        FindObjectOfType<TutorialManager>()?.NotifyShopTabSwitched();
         uiClickSound.Post(gameObject);
         TrapsShop.SetActive(true);
         PlantsShop.SetActive(false);
@@ -146,6 +148,7 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void PlantsButton()
     {
+        FindObjectOfType<TutorialManager>()?.NotifyShopTabSwitched();
         uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(true);
@@ -155,6 +158,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void TreesButton()
     {
+        FindObjectOfType<TutorialManager>()?.NotifyShopTabSwitched();
         uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
@@ -164,6 +168,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void PathwayButton()
     {
+        FindObjectOfType<TutorialManager>()?.NotifyShopTabSwitched();
         uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(false);
@@ -173,6 +178,7 @@ public class Shop : MonoBehaviour, IInteractable
     }
     public void MiscButton()
     {
+        FindObjectOfType<TutorialManager>()?.NotifyShopTabSwitched();
         uiClickSound.Post(gameObject);
         TrapsShop.SetActive(false);
         PlantsShop.SetActive(true);
@@ -188,6 +194,7 @@ public class Shop : MonoBehaviour, IInteractable
         playComputerEvent?.Post(gameObject);
 
         storePrefab.SetActive(true);
+        FindObjectOfType<TutorialManager>()?.NotifyShopOpened();
         Shop.shopIsOpen = true;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
@@ -237,7 +244,7 @@ public class Shop : MonoBehaviour, IInteractable
         moneyAmount -= item.cost;
         UpdateMoneyUI();
         playersInventory.AddItem(item.itemID);
-
+        FindObjectOfType<TutorialManager>()?.NotifyItemBought();
         data.PlantBuySound?.Post(gameObject);
     }
 }

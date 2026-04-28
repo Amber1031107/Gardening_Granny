@@ -64,6 +64,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
             Instantiate(data.placeablePrefab, transform.position, Quaternion.identity);
             data.plantSound?.Post(gameObject);   // ← was plantEvent
             PlantIsPlanted = true;
+            FindObjectOfType<TutorialManager>()?.NotifyPlantedOnDirt();
             playerInventory.ConsumeItem(data.itemID);
             return;
         }
@@ -82,6 +83,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
             Instantiate(data.placeablePrefab, transform.position, Quaternion.identity);
             data.plantSound?.Post(gameObject);   // ← was trapEvent
             TrapIsPlaced = true;
+            FindObjectOfType<TutorialManager>()?.NotifyPlantedOnGrass();
             playerInventory.ConsumeItem(data.itemID);
             return;
         }

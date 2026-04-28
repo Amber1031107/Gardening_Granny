@@ -64,7 +64,7 @@ public class PlacedPlant : MonoBehaviour, IInteractable
         playerInventory.AddItem(itemID);
 
         pickupEvent?.Post(gameObject);
-
+        FindObjectOfType<TutorialManager>()?.NotifyItemPickedUp();
         Destroy(gameObject);
     }
 
@@ -74,6 +74,7 @@ public class PlacedPlant : MonoBehaviour, IInteractable
         transform.Rotate(Vector3.up, rotationStep, Space.World);
         rotateEvent?.Post(gameObject);
         Debug.Log($"[PlacedPlant] '{gameObject.name}' rotated to Y={transform.eulerAngles.y:F1}°");
+        FindObjectOfType<TutorialManager>()?.NotifyItemRotated();
     }
 
 
