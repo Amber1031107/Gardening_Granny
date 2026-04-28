@@ -595,6 +595,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Placing_Fairy_Garden" ID="{39510A8B-E60E-41D8-B8A2-9C8A0E4CFF6E}">
+							<ChildrenList>
+								<Action Name="" ID="{DF27B221-7173-44DB-BBD5-A361823F4995}" ShortID="48573078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Placing Fairy Garden" ID="{30F078FA-375A-4997-962C-0BA63394F360}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Switch_to_Fairy_Garden" ID="{0C825A5D-7687-48FD-B135-AECA2CEAF77B}">
+							<ChildrenList>
+								<Action Name="" ID="{9B2640E9-9DE2-4AB1-A089-15DEC9386979}" ShortID="663978215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch to Fairy Garden" ID="{AF993285-D261-48B2-8816-29CDA0CDFC4B}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Dirt_to_Grass" ID="{13DDB2FB-990D-4E4D-AED9-1FC5B1AE93FF}">
+							<ChildrenList>
+								<Action Name="" ID="{B52CDE60-6B49-4362-9924-9EE38571FC44}" ShortID="781406095">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dirt to Grass" ID="{99F0EBED-9B67-47A4-BC81-ABEB4D182B9E}" WorkUnitID="{1C58DFF3-51F3-4711-9B46-2EA679FFA489}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ChHARACTER SOUNDS" ID="{E845AF78-FD7B-4259-9262-D4F50083D632}" ShortID="201104246">

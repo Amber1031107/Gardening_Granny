@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_CUT_SCENE_BUTTON = 588888374U;
         static const AkUniqueID PLAY_DIGGING_DIRT = 3203628969U;
         static const AkUniqueID PLAY_DIGGING_UP_PLANT = 3054394219U;
+        static const AkUniqueID PLAY_DIRT_TO_GRASS = 815420564U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GRASS_SNEAK_FOOTSTEPS_LOOP = 3018976446U;
         static const AkUniqueID PLAY_ITEM_ROTATE = 2252524815U;
@@ -31,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_PAUSE_MENU_OFF = 2321699868U;
         static const AkUniqueID PLAY_PAUSE_MENU_ON = 2756808150U;
         static const AkUniqueID PLAY_PLACING_BUSHES = 803624915U;
+        static const AkUniqueID PLAY_PLACING_FAIRY_GARDEN = 474760752U;
         static const AkUniqueID PLAY_PLACING_FOUNTAIN = 3208396997U;
         static const AkUniqueID PLAY_PLACING_GNOME = 136993547U;
         static const AkUniqueID PLAY_PLACING_LIGHT_POLE = 2807145232U;
@@ -43,6 +45,7 @@ namespace AK
         static const AkUniqueID PLAY_SPRING_MUSIC = 474285493U;
         static const AkUniqueID PLAY_SUMMER_MUSIC = 3643452717U;
         static const AkUniqueID PLAY_SWITCH_TO_BEAR_TRAP = 3887442043U;
+        static const AkUniqueID PLAY_SWITCH_TO_FAIRY_GARDEN = 1466905308U;
         static const AkUniqueID PLAY_SWITCH_TO_FOUNTAIN = 3238552689U;
         static const AkUniqueID PLAY_SWITCH_TO_GNOME = 2331113287U;
         static const AkUniqueID PLAY_SWITCH_TO_LIGHT = 679932879U;

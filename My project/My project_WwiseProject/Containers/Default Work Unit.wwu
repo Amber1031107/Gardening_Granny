@@ -41,6 +41,18 @@
 										<RandomSequenceContainer Name="Grass" ID="{72AF5A96-89E4-40DD-A1FF-B690F11D219C}" ShortID="821139214">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="18"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{26574EE2-0802-445B-8AF2-4B676DCD79B8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="9"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -232,6 +244,18 @@
 										<RandomSequenceContainer Name="Dirt" ID="{5FA2281A-8075-425E-BC1A-AD1BA1408EDB}" ShortID="871576676">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="8"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3FED0970-1DBD-41AF-AAF6-EED25861C3BA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="13"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -409,6 +433,18 @@
 										<RandomSequenceContainer Name="Concrete" ID="{F464A3CE-DC36-4E25-897D-A0852C06E6DB}" ShortID="184106560">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="26"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EDF47115-DEBD-4782-8EDE-259001A4B4B5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="15"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -586,11 +622,48 @@
 										<RandomSequenceContainer Name="Lino_Floor" ID="{C352EF1A-6560-4931-B88F-339819A63190}" ShortID="226035925">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="24"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8142D769-F2F2-4487-8FB5-CB855E2EA7AD}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="12"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{CBCDF7DD-6777-4694-8B14-A09242A3D68A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-15</Value>
 													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1DBB8BD9-4382-4D9A-8AA0-F7E92BC46697}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -602,7 +675,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="FS_Dirt_01" ID="{9E52CC23-705E-40B9-B3D2-E9B34127CB8B}" ShortID="327360719">
+												<Sound Name="FS_Concrete_01" ID="{0290A3DD-B816-4471-90B0-0CA4F151C728}" ShortID="879910441">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -612,19 +685,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_A01" ID="{71936417-A7B8-4EBF-9CA3-088E0A59CBDE}">
+														<AudioFileSource Name="FS_Rock01" ID="{F5977C1C-350F-463B-94ED-42FAC3A7E86F}">
 															<Language>SFX</Language>
-															<AudioFile>FS_Dirt_A01.wav</AudioFile>
+															<AudioFile>FS_Rock01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="326278609"/>
+																<MediaID ID="605369206"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="FS_Dirt_A01" ID="{71936417-A7B8-4EBF-9CA3-088E0A59CBDE}" Platform="Linked"/>
+														<ActiveSource Name="FS_Rock01" ID="{F5977C1C-350F-463B-94ED-42FAC3A7E86F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="FS_Dirt_02" ID="{42CA3A03-E8CD-4B07-8C03-AAC50A8B651B}" ShortID="686144536">
+												<Sound Name="FS_Concrete_02" ID="{FD87427C-C50F-4C17-BD60-CDA8D8F5BAD6}" ShortID="376677124">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -634,19 +707,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_A02" ID="{72CAD446-48CA-499E-B6F9-72520894773F}">
+														<AudioFileSource Name="FS_Rock02" ID="{145C4CBE-76E8-48DA-8894-48FAEAFB6FA3}">
 															<Language>SFX</Language>
-															<AudioFile>FS_Dirt_A02.wav</AudioFile>
+															<AudioFile>FS_Rock02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="925054752"/>
+																<MediaID ID="769204516"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="FS_Dirt_A02" ID="{72CAD446-48CA-499E-B6F9-72520894773F}" Platform="Linked"/>
+														<ActiveSource Name="FS_Rock02" ID="{145C4CBE-76E8-48DA-8894-48FAEAFB6FA3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="FS_Dirt_03" ID="{422D887F-6340-4098-8220-E759F441D022}" ShortID="590442753">
+												<Sound Name="FS_Concrete_03" ID="{3E92CE99-56A2-41E4-BDD0-F2CB21D86C21}" ShortID="825029475">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -656,19 +729,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_A03" ID="{C816FC4B-6E02-4C99-99D3-A3C45CB15A8C}">
+														<AudioFileSource Name="FS_Rock03" ID="{2FA523E9-71B4-4DB6-AEC6-F164938A02C8}">
 															<Language>SFX</Language>
-															<AudioFile>FS_Dirt_A03.wav</AudioFile>
+															<AudioFile>FS_Rock03.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1062463723"/>
+																<MediaID ID="326362433"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="FS_Dirt_A03" ID="{C816FC4B-6E02-4C99-99D3-A3C45CB15A8C}" Platform="Linked"/>
+														<ActiveSource Name="FS_Rock03" ID="{2FA523E9-71B4-4DB6-AEC6-F164938A02C8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="FS_Dirt_04" ID="{2F816635-D7C2-4854-B593-0958AC2E4E99}" ShortID="276005855">
+												<Sound Name="FS_Concrete_04" ID="{D5C867D5-99FC-42C0-9CBF-82F62B1AB513}" ShortID="983886999">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -678,19 +751,30 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_A04" ID="{BCCD7DE6-71E5-43E7-B99A-ED7A5E13674C}">
+														<AudioFileSource Name="FS_Rock04" ID="{E17FCBD6-4966-4157-BB1F-F8C3755643AB}">
 															<Language>SFX</Language>
-															<AudioFile>FS_Dirt_A04.wav</AudioFile>
+															<AudioFile>FS_Rock04.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="661201764"/>
+																<MediaID ID="133350982"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="FS_Dirt_A04" ID="{BCCD7DE6-71E5-43E7-B99A-ED7A5E13674C}" Platform="Linked"/>
+														<ActiveSource Name="FS_Rock04" ID="{E17FCBD6-4966-4157-BB1F-F8C3755643AB}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{CA9A8E35-E329-4406-80E7-AE1032863B66}" ShortID="44520462">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<ObjectRef Name="New_Parametric_EQ_03" ID="{81A99DAE-78E5-45FA-9A40-EAF5546E27F3}" WorkUnitID="{06D47C5E-CB33-4189-8159-F7AEE8946691}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
@@ -1754,7 +1838,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_Switch Tree_V2_01" ID="{5F3A4DF3-70AA-4F40-9361-82F54F0401FB}" ShortID="626355566">
+												<Sound Name="SFX_Switch Tree_01" ID="{E3CDF765-81B0-4F7E-82A6-8C20DBABDB81}" ShortID="174860665">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1764,19 +1848,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Tree_V2_01" ID="{D6D2C944-90E6-4756-9240-9E065359B0BC}">
+														<AudioFileSource Name="SFX_Switch Tree_01" ID="{854E574E-0176-4D1C-8BDD-95FA2EE42BF9}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Switch Tree_V2_01.wav</AudioFile>
+															<AudioFile>SFX_Switch Tree_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="235790961"/>
+																<MediaID ID="504886626"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Tree_V2_01" ID="{D6D2C944-90E6-4756-9240-9E065359B0BC}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Tree_01" ID="{854E574E-0176-4D1C-8BDD-95FA2EE42BF9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Tree_V2_02" ID="{AC43C862-8887-4810-8802-A5882910B22E}" ShortID="66728908">
+												<Sound Name="SFX_Switch Tree_02" ID="{BA69FF29-E373-4118-80FB-D7B9FE2508D0}" ShortID="735510601">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1786,19 +1870,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Tree_V2_02" ID="{AFD16146-09B9-4A8F-ABCD-5296D006581A}">
+														<AudioFileSource Name="SFX_Switch Tree_02" ID="{D070378F-F959-4A01-B9FF-5DB8E1EC4E81}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Switch Tree_V2_02.wav</AudioFile>
+															<AudioFile>SFX_Switch Tree_02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="406170168"/>
+																<MediaID ID="682593231"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Tree_V2_02" ID="{AFD16146-09B9-4A8F-ABCD-5296D006581A}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Tree_02" ID="{D070378F-F959-4A01-B9FF-5DB8E1EC4E81}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Tree_V2_03" ID="{D4DBA27A-92C3-48BA-A133-B215AD2B9B8C}" ShortID="917051323">
+												<Sound Name="SFX_Switch Tree_03" ID="{9AE8C016-41C6-43A9-A9DC-ADD60C12EE33}" ShortID="213087403">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1808,19 +1892,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Tree_V2_03" ID="{83BF6682-8397-4391-BE91-02F8EF9D2FFD}">
+														<AudioFileSource Name="SFX_Switch Tree_03" ID="{C1DB0B88-62A6-4D4B-9D5F-333E80B51143}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Switch Tree_V2_03.wav</AudioFile>
+															<AudioFile>SFX_Switch Tree_03.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="10969859"/>
+																<MediaID ID="257800003"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Tree_V2_03" ID="{83BF6682-8397-4391-BE91-02F8EF9D2FFD}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Tree_03" ID="{C1DB0B88-62A6-4D4B-9D5F-333E80B51143}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Tree_V2_04" ID="{9E80AD1A-3011-487E-A08E-2A048AA06511}" ShortID="623477142">
+												<Sound Name="SFX_Switch Tree_04" ID="{6BEA6BB1-95E7-442A-84C8-70168E52967F}" ShortID="755059879">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1830,16 +1914,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Tree_V2_04" ID="{451B7BB7-EF6D-4369-8ABA-4BAF9C5C0AB0}">
+														<AudioFileSource Name="SFX_Switch Tree_04" ID="{C8FA76EE-2EB5-42BA-81E3-5C068CB07D56}">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Switch Tree_V2_04.wav</AudioFile>
+															<AudioFile>SFX_Switch Tree_04.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="149300226"/>
+																<MediaID ID="952145608"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Tree_V2_04" ID="{451B7BB7-EF6D-4369-8ABA-4BAF9C5C0AB0}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Tree_04" ID="{C8FA76EE-2EB5-42BA-81E3-5C068CB07D56}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1874,9 +1958,6 @@
 													</ModifierList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-4</Value>
-													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{245F0B59-79F9-47DC-B219-23D35181F08D}">
@@ -1899,7 +1980,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_Switch Fountain_01" ID="{EA150724-D40F-4920-8086-EBA09EC2511F}" ShortID="263364787">
+												<Sound Name="SFX_Switch Fountain_01" ID="{465B953A-F278-4645-B765-CD241D603700}" ShortID="43829976">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1909,7 +1990,28 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Fountain_01" ID="{92BD106B-B6B2-421B-86A9-B22368F0300E}">
+														<AudioFileSource Name="SFX_Switch Fountain_02" ID="{B4662303-0341-4EB3-91B0-397BBA597F4E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="625823256"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_01" ID="{08677360-912A-4273-B17F-B77E117C684F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="625823256"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_01" ID="{B290C4B7-D487-42A6-B0FE-241DFF049ABF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="625823256"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_01" ID="{9FC915DD-4A1C-455C-B526-1422AC7D5EDB}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Switch Fountain_01.wav</AudioFile>
 															<MediaIDList>
@@ -1918,10 +2020,10 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Fountain_01" ID="{92BD106B-B6B2-421B-86A9-B22368F0300E}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Fountain_01" ID="{9FC915DD-4A1C-455C-B526-1422AC7D5EDB}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Fountain_02" ID="{F745ED72-0CE3-430D-97B3-E475AC5831BE}" ShortID="193191480">
+												<Sound Name="SFX_Switch Fountain_02" ID="{E7E9A508-691E-4BA1-B807-7D52B46D1BDF}" ShortID="912423939">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1931,7 +2033,28 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Fountain_02" ID="{0147F73D-1100-4D2A-82B8-2A77856F3A4B}">
+														<AudioFileSource Name="SFX_Switch Fountain_02" ID="{F99C5798-5327-470B-956E-1065264CF261}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="263673745"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_02" ID="{C4984222-9827-4CC2-A16F-3CF8AC5C44DC}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="263673745"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_02" ID="{5934D035-46B5-4615-9205-65D0775FF113}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="263673745"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_02" ID="{3E2E4F5D-4798-4BA8-863F-1E57111D4395}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Switch Fountain_02.wav</AudioFile>
 															<MediaIDList>
@@ -1940,10 +2063,10 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Fountain_02" ID="{0147F73D-1100-4D2A-82B8-2A77856F3A4B}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Fountain_02" ID="{3E2E4F5D-4798-4BA8-863F-1E57111D4395}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Fountain_03" ID="{F41DCB84-71DC-4458-A062-A2A50CA2658E}" ShortID="950339816">
+												<Sound Name="SFX_Switch Fountain_03" ID="{66670F67-563A-43B2-998C-774DDF8FA82D}" ShortID="893816449">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -1953,7 +2076,28 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Fountain_03" ID="{49225728-4E1C-448A-9773-B4A2C66B3330}">
+														<AudioFileSource Name="SFX_Switch Fountain_03" ID="{DBF2C5AB-98AC-41AB-8127-7DA72E3749E1}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="533433023"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_03" ID="{A4EA45DB-BDB2-4694-B888-9C441DC116A3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="533433023"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_03" ID="{FA7B0A98-716E-4F96-A1E1-AA72251E5F4C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="533433023"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_03" ID="{FCD8E974-4D85-41FC-978D-7D1E5DC7EF19}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Switch Fountain_03.wav</AudioFile>
 															<MediaIDList>
@@ -1962,7 +2106,50 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Fountain_03" ID="{49225728-4E1C-448A-9773-B4A2C66B3330}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Fountain_03" ID="{FCD8E974-4D85-41FC-978D-7D1E5DC7EF19}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Switch Fountain_04" ID="{834BF938-D3F3-420D-8DB3-A0C4626621EA}" ShortID="625479859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Switch Fountain_04" ID="{D47DF7AD-0767-4256-8DAD-230B0E2BCB0F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992952691"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_04" ID="{FA9A0C4B-BE9B-493D-B4C6-C1ECE3E0ECED}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992952691"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_04" ID="{03F6A15F-8AE8-4E71-A2D8-E00700F08772}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992952691"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Fountain_04" ID="{3BEBB6A8-1699-4C34-8187-8951EAF2B014}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fountain_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992952691"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Switch Fountain_04" ID="{3BEBB6A8-1699-4C34-8187-8951EAF2B014}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2035,9 +2222,16 @@
 																<MediaID ID="318224832"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Light_01" ID="{2006BA1A-59EB-421D-8D1A-D70ADA516FD1}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Light_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="318224832"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Light_01" ID="{CC0D8525-69E9-41AD-BC13-F7B3A964E9EB}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Light_01" ID="{2006BA1A-59EB-421D-8D1A-D70ADA516FD1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Light_03" ID="{A1BECB30-1776-44A9-8742-D09008EDF5BE}" ShortID="991511179">
@@ -2057,9 +2251,16 @@
 																<MediaID ID="612454140"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Light_03" ID="{E7CF7B37-2C93-44F4-B064-5F9CA353CE4A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Light_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="612454140"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Light_03" ID="{EAEE467A-A0AA-49E0-98D2-72E63FB9DE0F}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Light_03" ID="{E7CF7B37-2C93-44F4-B064-5F9CA353CE4A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Light_04" ID="{89424706-89A0-436D-9D19-88895101E7AD}" ShortID="55478107">
@@ -2079,9 +2280,16 @@
 																<MediaID ID="222119029"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Light_04" ID="{52688F50-CABC-4528-9054-6389537D45D3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Light_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="222119029"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Light_04" ID="{E90171EF-8118-4C00-842A-A115EAEF5E51}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Light_04" ID="{52688F50-CABC-4528-9054-6389537D45D3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Light_02" ID="{899531F0-549C-4AAF-960C-7E42DDE9EBC7}" ShortID="33427471">
@@ -2101,9 +2309,16 @@
 																<MediaID ID="400433328"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Light_02" ID="{A158343C-623F-4E1A-ABF7-738F166FD15E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Light_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="400433328"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Light_02" ID="{17E91624-149C-420F-893C-E1670DEA85E5}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Light_02" ID="{A158343C-623F-4E1A-ABF7-738F166FD15E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2161,7 +2376,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_Switch Path_01" ID="{68F7568D-74E1-48DE-A4B9-BFB1E3CAD724}" ShortID="820634329">
+												<Sound Name="SFX_Switch Path_01" ID="{CA84382A-1F4A-458E-9920-B2D618841CC4}" ShortID="81008343">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2171,7 +2386,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Path_01" ID="{12E91483-6C21-4046-ACE7-748133E23E5C}">
+														<AudioFileSource Name="SFX_Switch Path_01" ID="{B6ECB253-2AE9-45D8-865A-04A474B312A0}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Switch Path_01.wav</AudioFile>
 															<MediaIDList>
@@ -2180,10 +2395,10 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Path_01" ID="{12E91483-6C21-4046-ACE7-748133E23E5C}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Path_01" ID="{B6ECB253-2AE9-45D8-865A-04A474B312A0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Path_02" ID="{4A4F2BB9-261F-474B-BA99-454D0F9A57CC}" ShortID="44537814">
+												<Sound Name="SFX_Switch Path_02" ID="{5C4E55B9-CA99-413A-8E07-C5E803831C9B}" ShortID="632783618">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2193,7 +2408,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Path_02" ID="{ED5ACD90-F741-4527-A935-B3DD1D772288}">
+														<AudioFileSource Name="SFX_Switch Path_02" ID="{E4085459-A928-4510-96EF-52B9E1B64890}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Switch Path_02.wav</AudioFile>
 															<MediaIDList>
@@ -2202,10 +2417,10 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Path_02" ID="{ED5ACD90-F741-4527-A935-B3DD1D772288}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Path_02" ID="{E4085459-A928-4510-96EF-52B9E1B64890}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Switch Path_03" ID="{3D507F6D-B03E-48DB-86F9-4067A9296B0F}" ShortID="996386310">
+												<Sound Name="SFX_Switch Path_03" ID="{D3C4AC6D-E55A-4BC9-9D51-1189744233B0}" ShortID="1003616265">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2215,7 +2430,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Path_03" ID="{76EA5F50-0AAE-451D-AC92-39560A9E5F0F}">
+														<AudioFileSource Name="SFX_Switch Path_03" ID="{CACCD865-97F6-47A7-A743-3772B3C90AAC}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Switch Path_03.wav</AudioFile>
 															<MediaIDList>
@@ -2224,29 +2439,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Path_03" ID="{76EA5F50-0AAE-451D-AC92-39560A9E5F0F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_Switch Path_04" ID="{52F75F10-7E0F-404E-8028-71AE721FBA97}" ShortID="471251059">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SFX_Switch Path_04" ID="{3E7D95D4-6E28-4888-A746-305FF04C61DA}">
-															<Language>SFX</Language>
-															<AudioFile>SFX_Switch Path_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1039575916"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Path_04" ID="{3E7D95D4-6E28-4888-A746-305FF04C61DA}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Path_03" ID="{CACCD865-97F6-47A7-A743-3772B3C90AAC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2280,7 +2473,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-1.5</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -2321,9 +2514,16 @@
 																<MediaID ID="249736747"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Rock_01" ID="{0BAB6B62-0B78-4BCA-BB14-FEC0369875F1}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Rock_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="249736747"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Rock_01" ID="{045ECA6E-2224-421B-8FB7-79E5D17A8973}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Rock_01" ID="{0BAB6B62-0B78-4BCA-BB14-FEC0369875F1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Rock_02" ID="{3FCCAF0B-36CD-46B4-971C-08CA27A2C026}" ShortID="669724926">
@@ -2343,9 +2543,16 @@
 																<MediaID ID="742966382"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Rock_02" ID="{DDBE4979-3355-476F-94FD-CE34F228DB9D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Rock_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="742966382"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Rock_02" ID="{A9DE45F7-C245-4851-B5B7-168643EEBD73}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Rock_02" ID="{DDBE4979-3355-476F-94FD-CE34F228DB9D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Rock_03" ID="{E59352B5-49AE-40D8-B5C6-5BAFE7D128DE}" ShortID="999366697">
@@ -2365,9 +2572,16 @@
 																<MediaID ID="974198180"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Rock_03" ID="{4F615775-36E1-43E2-934D-71FDCDDBC0CB}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Rock_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974198180"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Rock_03" ID="{58B5C484-6F2C-4662-8E38-6007DDD542F8}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Rock_03" ID="{4F615775-36E1-43E2-934D-71FDCDDBC0CB}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Rock_04" ID="{99F4662E-F689-444F-9A1A-BBFBF282FCA3}" ShortID="1033913859">
@@ -2387,9 +2601,16 @@
 																<MediaID ID="850640856"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Rock_04" ID="{2FB5001A-0FC4-4065-BE93-94E78BF116F3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Rock_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="850640856"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Rock_04" ID="{F5F0D8E1-9B63-41E9-A3E4-5BCF810C4A6A}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Rock_04" ID="{2FB5001A-0FC4-4065-BE93-94E78BF116F3}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2422,9 +2643,6 @@
 													</ModifierList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{6CF38B96-D8FF-4904-9600-F046190427D2}">
@@ -2464,9 +2682,16 @@
 																<MediaID ID="491863652"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Gnome_01" ID="{281046B3-CBD7-42C0-9BF4-ECC77C29AE3D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Gnome_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="491863652"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Gnome_01" ID="{C76DCDC6-5E76-4553-831F-3A8AA595A296}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Gnome_01" ID="{281046B3-CBD7-42C0-9BF4-ECC77C29AE3D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Gnome_02" ID="{C74D2F1A-5716-47D6-9762-B8F22D159041}" ShortID="147083055">
@@ -2486,9 +2711,16 @@
 																<MediaID ID="261031328"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Gnome_02" ID="{76856BDC-3961-4DED-AA81-5E7B303FAA97}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Gnome_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="261031328"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Gnome_02" ID="{22C3E8C7-C882-49E6-B0C4-6D4AFF101B91}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Gnome_02" ID="{76856BDC-3961-4DED-AA81-5E7B303FAA97}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Switch Gnome_03" ID="{59B98428-BC46-4200-84A2-775825106068}" ShortID="732370771">
@@ -2508,9 +2740,16 @@
 																<MediaID ID="128164758"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="SFX_Switch Gnome_03" ID="{EFCBC4EE-FDD3-49A8-B6FB-9222A7D2C742}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Gnome_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="128164758"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Switch Gnome_03" ID="{E00C05EA-DA17-4604-B90A-7054E47DF552}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Switch Gnome_03" ID="{EFCBC4EE-FDD3-49A8-B6FB-9222A7D2C742}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2658,6 +2897,194 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Switch to Fairy Garden" ID="{AF993285-D261-48B2-8816-29CDA0CDFC4B}" ShortID="769853181">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="23"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9C88C86C-C99F-44C3-9095-A0A9C2380F69}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="20"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C846112A-0C9D-44DB-BB3E-D707345A782B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Switch Fairy Garden_01" ID="{28755AA0-3B6E-48B4-9ECA-B1768760B930}" ShortID="871944297">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C7101A79-662E-45D5-9FB1-E7771CF9B604}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Switch Fairy Garden_01" ID="{41E6458F-F472-4D70-9A4B-EF0DC2CA5F26}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.816236166781141"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.27379770835119"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fairy Garden_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="271579603"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Switch Fairy Garden_01" ID="{41E6458F-F472-4D70-9A4B-EF0DC2CA5F26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Switch Fairy Garden_02" ID="{E03AF66B-52AA-4B84-A4DE-5A8E3D020D08}" ShortID="599202582">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{4DC9EBE6-E676-4964-AAE0-32004BDFBDA8}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Switch Fairy Garden_02" ID="{57AD6156-B5D2-4390-930D-9A6CB48D02C6}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.04932725884532"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.55358739359627"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fairy Garden_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1032439482"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Switch Fairy Garden_02" ID="{57AD6156-B5D2-4390-930D-9A6CB48D02C6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Switch Fairy Garden_03" ID="{66543520-2512-4A1F-98B8-48554D2FDB5E}" ShortID="956567281">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F1ED168D-0004-4053-A7CC-5DDB174D107B}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Switch Fairy Garden_03" ID="{935A3DDE-681A-4AAA-8BA9-7602EA2DD2E8}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.01627452227906"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.55929890826762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fairy Garden_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="50805437"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Switch Fairy Garden_03" ID="{935A3DDE-681A-4AAA-8BA9-7602EA2DD2E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Switch Fairy Garden_04" ID="{A2204FC5-7218-4E2D-BC4E-B862ECEFC506}" ShortID="213301831">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FAE15346-401D-431C-B482-90F35F2EE5FF}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Switch Fairy Garden_04" ID="{99D65BAD-5023-4A89-9E0A-DE674261ABD5}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.10120399580657"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.80417372393062"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_Switch Fairy Garden_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="91379300"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Switch Fairy Garden_04" ID="{99D65BAD-5023-4A89-9E0A-DE674261ABD5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Sound Name="DayNight Transition" ID="{9243C956-CA8A-4B22-B8EC-02749E1A7603}" ShortID="987749987">
@@ -2720,7 +3147,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-2.4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -2744,7 +3171,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_Placing Rock_01" ID="{6D14C391-88AD-483C-930F-AF4E854ECC60}" ShortID="311360920">
+										<Sound Name="SFX_Placing Rock_01" ID="{CEFAF8D9-4EB5-4856-BA77-AD988C5CD1C3}" ShortID="896964554">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2754,7 +3181,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Rock_01" ID="{6E1A00BA-1B50-45AE-9214-26CD5F7559B0}">
+												<AudioFileSource Name="SFX_Placing Rock_01" ID="{FC2C8297-3DF5-424B-918D-3E6F91D3C86B}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Placing Rock_01.wav</AudioFile>
 													<MediaIDList>
@@ -2763,10 +3190,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Rock_01" ID="{6E1A00BA-1B50-45AE-9214-26CD5F7559B0}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Rock_01" ID="{FC2C8297-3DF5-424B-918D-3E6F91D3C86B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Placing Rock_02" ID="{03C547CA-25D4-427B-BCB7-057ABEEDC210}" ShortID="1042106466">
+										<Sound Name="SFX_Placing Rock_02" ID="{0A2CAF48-8A0D-4038-88C8-E11649FC1EAD}" ShortID="259281845">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2776,7 +3203,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Rock_02" ID="{DAC28434-4CC0-4759-A307-2C0D9223EA9E}">
+												<AudioFileSource Name="SFX_Placing Rock_02" ID="{3CA4D591-6464-458C-A119-95E2D4BCD0B9}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Placing Rock_02.wav</AudioFile>
 													<MediaIDList>
@@ -2785,10 +3212,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Rock_02" ID="{DAC28434-4CC0-4759-A307-2C0D9223EA9E}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Rock_02" ID="{3CA4D591-6464-458C-A119-95E2D4BCD0B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Placing Rock_03" ID="{4A4DB06A-C09F-4DBE-9B5E-1F46479F16C0}" ShortID="930924721">
+										<Sound Name="SFX_Placing Rock_03" ID="{5D68C4DF-CDEC-4B85-89F1-A6C07259C410}" ShortID="1059547798">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2798,7 +3225,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Rock_03" ID="{4C6C52EA-C1F8-49D8-A9EB-E54EA38C8997}">
+												<AudioFileSource Name="SFX_Placing Rock_03" ID="{BADA3123-6BBB-4A7B-94FF-6382F58D29CD}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Placing Rock_03.wav</AudioFile>
 													<MediaIDList>
@@ -2807,7 +3234,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Rock_03" ID="{4C6C52EA-C1F8-49D8-A9EB-E54EA38C8997}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Rock_03" ID="{BADA3123-6BBB-4A7B-94FF-6382F58D29CD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2915,7 +3342,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2.5</Value>
+												<Value>1.5</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -2939,7 +3366,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_Placing Tree_v2_01-1" ID="{38101A8C-EAEE-45BF-B53B-62D2430AD870}" ShortID="339605624">
+										<Sound Name="SFX_Placing Tree_01" ID="{F418A117-8AF9-4FE0-A9F7-775E10A97EBB}" ShortID="246341979">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2949,19 +3376,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Tree_v2_01-1" ID="{8988AA50-4E84-41E0-822A-880A7A8BD6B3}">
+												<AudioFileSource Name="SFX_Placing Tree_01" ID="{CE43F444-6BF7-44B2-A05E-34B3B92FD5B1}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Placing Tree_v2_01-1.wav</AudioFile>
+													<AudioFile>SFX_Placing Tree_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="140543356"/>
+														<MediaID ID="665816281"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Tree_v2_01-1" ID="{8988AA50-4E84-41E0-822A-880A7A8BD6B3}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Tree_01" ID="{CE43F444-6BF7-44B2-A05E-34B3B92FD5B1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Placing Tree_v2_02" ID="{92850671-1455-4C87-BC65-8DABD46DF4A9}" ShortID="578705879">
+										<Sound Name="SFX_Placing Tree_02" ID="{B4A217CA-DD0A-45D7-BAE6-24069EDE5BC7}" ShortID="618100167">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2971,19 +3398,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Tree_v2_02" ID="{1575741E-5A58-4F7C-9AC6-0E6B1A0AD500}">
+												<AudioFileSource Name="SFX_Placing Tree_02" ID="{22C81FC6-2D3B-44C8-8D8E-53E01CC922B7}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Placing Tree_v2_02.wav</AudioFile>
+													<AudioFile>SFX_Placing Tree_02.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="766220143"/>
+														<MediaID ID="1070605643"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Tree_v2_02" ID="{1575741E-5A58-4F7C-9AC6-0E6B1A0AD500}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Tree_02" ID="{22C81FC6-2D3B-44C8-8D8E-53E01CC922B7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Placing Tree_v2_03" ID="{A736D436-EDD7-4EF4-A956-12C363BE0AB1}" ShortID="112791738">
+										<Sound Name="SFX_Placing Tree_03" ID="{7604AC1C-7F60-43D7-9EEC-ECD6D6D73D92}" ShortID="679008194">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -2993,19 +3420,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Tree_v2_03" ID="{D7B22B01-B2A4-4124-A12A-BFE29BF9CC0E}">
+												<AudioFileSource Name="SFX_Placing Tree_03" ID="{C3D7812E-C1FC-4B50-A732-DB0EE17083C1}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Placing Tree_v2_03.wav</AudioFile>
+													<AudioFile>SFX_Placing Tree_03.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="322369462"/>
+														<MediaID ID="267235102"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Tree_v2_03" ID="{D7B22B01-B2A4-4124-A12A-BFE29BF9CC0E}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Tree_03" ID="{C3D7812E-C1FC-4B50-A732-DB0EE17083C1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Placing Tree_v2_04" ID="{106BE219-0188-4EF2-96EE-7AFA59DC502E}" ShortID="55895336">
+										<Sound Name="SFX_Placing Tree_04" ID="{F6725D27-74A3-4246-B94E-4F3D2265866B}" ShortID="420781604">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
@@ -3015,16 +3442,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Tree_v2_04" ID="{28FC4791-06E5-41E2-AE87-E16501E3927F}">
+												<AudioFileSource Name="SFX_Placing Tree_04" ID="{C1C485DB-6479-45F6-83DF-3CF991B6775B}">
 													<Language>SFX</Language>
-													<AudioFile>SFX_Placing Tree_v2_04.wav</AudioFile>
+													<AudioFile>SFX_Placing Tree_04.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="855335070"/>
+														<MediaID ID="224870581"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Tree_v2_04" ID="{28FC4791-06E5-41E2-AE87-E16501E3927F}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Tree_04" ID="{C1C485DB-6479-45F6-83DF-3CF991B6775B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3060,7 +3487,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>0.5</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -3101,9 +3528,16 @@
 														<MediaID ID="1061796171"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Gnome_02" ID="{ADAF33CD-CDDB-4008-B86B-5F001B6DC544}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Gnome_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1061796171"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Gnome_02" ID="{104891E8-7D11-4193-8EFF-CF94F885DC39}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Gnome_02" ID="{ADAF33CD-CDDB-4008-B86B-5F001B6DC544}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Placing Gnome_03" ID="{411DD648-7028-42C8-B528-4B1AE5F6EB88}" ShortID="107774629">
@@ -3123,9 +3557,16 @@
 														<MediaID ID="25231436"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Gnome_03" ID="{4E1A5651-3633-4D19-B2BC-0A8D95140679}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Gnome_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="25231436"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Gnome_03" ID="{D9868EBD-32F1-4620-B493-2FA954B78DC3}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Gnome_03" ID="{4E1A5651-3633-4D19-B2BC-0A8D95140679}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Placing Gnome_01" ID="{9462BC70-48CE-48B3-AD50-D14C0B7C44BC}" ShortID="561793541">
@@ -3145,9 +3586,16 @@
 														<MediaID ID="329203824"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Gnome_01" ID="{35D63BE6-7AC1-4899-A971-D535CAEA515B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Gnome_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329203824"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Gnome_01" ID="{5CC086DD-CECA-461A-B240-F1C8D98348B7}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Gnome_01" ID="{35D63BE6-7AC1-4899-A971-D535CAEA515B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3182,6 +3630,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{3F403917-2B40-47FC-AE4E-CB6D40458066}">
@@ -3467,6 +3918,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{E7DEC637-A884-4032-B2BC-F56E5E005929}">
@@ -3499,16 +3953,37 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Placing Light Pole_01" ID="{EDB949A8-FF46-49DB-9CC9-C06E33DE08A6}">
+												<AudioFileSource Name="SFX_Placing Light Pole_02" ID="{EDB949A8-FF46-49DB-9CC9-C06E33DE08A6}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Placing Light Pole_01.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="1060206073"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Light Pole_01" ID="{824102AB-DAF3-4A54-90F4-02D5B762377D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Light Pole_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1060206073"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Light Pole_03" ID="{4A6E0CEA-4494-4B4E-94C6-E1A8BEFC6FDD}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Light Pole_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="755901975"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Light Pole_04" ID="{BC998FBE-D5A6-4E50-A120-86678997C491}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Light Pole_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="171370762"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Light Pole_01" ID="{EDB949A8-FF46-49DB-9CC9-C06E33DE08A6}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Light Pole_04" ID="{BC998FBE-D5A6-4E50-A120-86678997C491}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Placing Light Pole_02" ID="{F4A900F2-4ADF-4183-9972-A2D92A0AB207}" ShortID="249104769">
@@ -3528,9 +4003,16 @@
 														<MediaID ID="755901975"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Light Pole_02" ID="{3EFF230D-0880-48FF-86AC-61D3423644E8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Light Pole_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="755901975"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Light Pole_02" ID="{EA403B58-0DC0-405C-9022-67F20DBE3028}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Light Pole_02" ID="{3EFF230D-0880-48FF-86AC-61D3423644E8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Placing Light Pole_03" ID="{63D73084-84BE-43D8-81CF-A1B51E43A370}" ShortID="236945622">
@@ -3550,9 +4032,16 @@
 														<MediaID ID="171370762"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Light Pole_03" ID="{74BCC656-CDAB-48AB-A307-1093AD52E0A2}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Light Pole_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="171370762"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Light Pole_03" ID="{54448763-A873-46FA-A3CA-930C804D50F0}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Light Pole_03" ID="{74BCC656-CDAB-48AB-A307-1093AD52E0A2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3705,7 +4194,48 @@
 								<RandomSequenceContainer Name="Placing Fountain" ID="{F6C49C91-C7BE-4993-A84A-A9CBBC7F5918}" ShortID="518118969">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="16"/>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C586CEBB-D22B-4938-93B6-CCB3EF436410}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DBB892CE-0C18-4DBF-A44C-243D3E027EE4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9A085BF-B95D-475E-80AD-703DE40C39CB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -3733,9 +4263,23 @@
 														<MediaID ID="272730607"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Fountain_01" ID="{B0FCE2AB-E899-4D82-A0D9-F4E644A324AE}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fountain_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="272730607"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Fountain_01" ID="{29CAF7CE-F704-4AEF-8894-E919AE5339D6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fountain_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="272730607"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Fountain_01" ID="{A4255E64-6FE6-4EC2-860E-90B7ABB446A8}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Fountain_01" ID="{29CAF7CE-F704-4AEF-8894-E919AE5339D6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Placing Fountain_02" ID="{67088F90-8BE3-4FD0-8ED4-04AEC14FE1EC}" ShortID="240560181">
@@ -3755,9 +4299,23 @@
 														<MediaID ID="175299786"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Fountain_02" ID="{DE0D3725-8158-4490-B249-4E3FE3CAD9F6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fountain_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="175299786"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Fountain_02" ID="{EE60A85C-45C2-4DA8-842E-9ECE594D4508}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fountain_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="175299786"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Fountain_02" ID="{6B20BF0F-3E70-407A-B072-5FE49A34ACEB}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Fountain_02" ID="{EE60A85C-45C2-4DA8-842E-9ECE594D4508}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Placing Fountain_03" ID="{37A87BEB-67FF-4135-BCF2-9C4C18E77761}" ShortID="405422292">
@@ -3777,15 +4335,328 @@
 														<MediaID ID="943903181"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Fountain_03" ID="{C4E7260D-2BB5-41DA-BB99-5633FD98651A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fountain_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="943903181"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="SFX_Placing Fountain_03" ID="{DFD4FBCA-C924-45B5-A49D-FAAF2D081D4F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fountain_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="943903181"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="SFX_Placing Fountain_03" ID="{57BAA16F-14C6-454A-8774-8DFF0DF2220A}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Placing Fountain_03" ID="{DFD4FBCA-C924-45B5-A49D-FAAF2D081D4F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Placing Fairy Garden" ID="{30F078FA-375A-4997-962C-0BA63394F360}" ShortID="564421860">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="5"/>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{61F2A680-B247-4ECF-A259-915A6066A3AE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E7EC7CE9-ACCE-457F-96EE-BFFCA65617BE}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E36ABDED-D1F7-429E-8163-E59E558D584C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Placing Fairy Garden_01" ID="{ADBF9B65-319A-4ED4-A28C-92B734B2F487}" ShortID="384496696">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Placing Fairy Garden_01" ID="{021FDDCB-55D2-4CDF-A83F-58C399F4A52F}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.14743842514417"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.29201537985717"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fairy Garden_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="791004686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Placing Fairy Garden_01" ID="{021FDDCB-55D2-4CDF-A83F-58C399F4A52F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Placing Fairy Garden_02" ID="{28EDA7D9-B274-4EAB-8D9F-B752A6D8D06C}" ShortID="387246346">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Placing Fairy Garden_02" ID="{E752A471-BA3A-4FDA-A303-001CCEE06233}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.854663645038168"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.15034589694657"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fairy Garden_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="908268924"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Placing Fairy Garden_02" ID="{E752A471-BA3A-4FDA-A303-001CCEE06233}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Placing Fairy Garden_03" ID="{6A56082E-3D5B-4FA4-9913-95129C48782B}" ShortID="693653612">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Placing Fairy Garden_03" ID="{E6897D81-BCDE-448A-92DB-5784FC52AC93}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.80868320610687"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.34732824427481"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fairy Garden_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="433384061"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Placing Fairy Garden_03" ID="{E6897D81-BCDE-448A-92DB-5784FC52AC93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Placing Fairy Garden_04" ID="{C03BE239-E14E-4AA9-9FD4-30F67E6215DF}" ShortID="1819024">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Placing Fairy Garden_04" ID="{213644DD-3D96-4068-B33A-237335149DD9}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.03679627862595"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.42372375954199"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Placing Fairy Garden_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="184128754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Placing Fairy Garden_04" ID="{213644DD-3D96-4068-B33A-237335149DD9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="Dirt to Grass" ID="{99F0EBED-9B67-47A4-BC81-ABEB4D182B9E}" ShortID="591875216">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{00CACB5E-2507-4C2F-A2D6-C4A9B6624FA8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{10C8EBC8-42E7-48BD-A09F-881A0D73C8BE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0D9EB3FA-2FAE-4041-8E61-927F2BF8BBF6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Dirt to Grass_01" ID="{53C94B87-6A28-44AC-8B5D-1701F9597109}" ShortID="185098287">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Dirt to Grass_01" ID="{B890FF84-8436-4BB7-B8E0-4D1120415978}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Dirt to Grass_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="73484472"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Dirt to Grass_01" ID="{B890FF84-8436-4BB7-B8E0-4D1120415978}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Dirt to Grass_02" ID="{23309380-AEA3-480C-A2D7-C385C932F154}" ShortID="130680222">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Dirt to Grass_02" ID="{9ED7EAE2-0063-43B3-AD01-4F550954FA89}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Dirt to Grass_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920595873"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Dirt to Grass_02" ID="{9ED7EAE2-0063-43B3-AD01-4F550954FA89}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Dirt to Grass_03" ID="{43774FD2-ECD1-4C72-BE52-23CA5DA342DA}" ShortID="577866985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Dirt to Grass_03" ID="{64BBAA33-4EFE-4D44-864B-78230F888A36}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Dirt to Grass_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="80052028"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Dirt to Grass_03" ID="{64BBAA33-4EFE-4D44-864B-78230F888A36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Dirt to Grass_04" ID="{F2D51D46-44E7-445C-B1F0-A4FCECD05F69}" ShortID="453126117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B45DB2-EA70-491A-90EC-4FF42A6FEE78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4DE6EA4-CE68-4E25-9DB2-7117CACFF81C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Dirt to Grass_04" ID="{7FA842C6-FEDD-4AE7-AB7B-EB1411DCC993}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Dirt to Grass_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="247902533"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Dirt to Grass_04" ID="{7FA842C6-FEDD-4AE7-AB7B-EB1411DCC993}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI Sounds" ID="{B186BB4F-8647-4D05-BB68-4F368957CEC2}" ShortID="445353397">
