@@ -75,6 +75,12 @@ public class HotbarUI : MonoBehaviour
 
             PlaySelectionSound();
         }
+        else
+        {
+            // Audio don't let the suppress flag carry over to the next manual switch
+            if (suppressNextSelectionSound)
+                suppressNextSelectionSound = false;
+        }
     }
 
     void PlaySelectionSound()

@@ -13,6 +13,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
     public AK.Wwise.Event digEvent;
     public AK.Wwise.Event plantEvent;
     public AK.Wwise.Event trapEvent;
+    public AK.Wwise.Event GrassEvent;
 
     public bool CheckDirt;
     public bool PlantIsPlanted;
@@ -99,6 +100,7 @@ public class DirtDigging : MonoBehaviour, IInteractable
 
         if (data.isShovel && CheckDirt && !PlantIsPlanted)
         {
+            GrassEvent?.Post(gameObject);
             rend.material = Grass;
             CheckDirt = false;
 

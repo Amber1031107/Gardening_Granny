@@ -245,6 +245,6 @@ public class Shop : MonoBehaviour, IInteractable
         UpdateMoneyUI();
         playersInventory.AddItem(item.itemID);
         FindObjectOfType<TutorialManager>()?.NotifyItemBought();
-        data.PlantBuySound?.Post(gameObject);
+        item.PlantBuySound?.Post(gameObject);
     }
 }

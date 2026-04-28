@@ -49,7 +49,7 @@
 										<StateRef Name="House" ID="{6B8A0A37-F386-4DA9-B052-C60ADD46267E}"/>
 										<CustomState Name="" ID="{1A01044E-943A-4725-881D-6B8324B9FB59}" ShortID="746095729">
 											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-7"/>
+												<Property Name="BusVolume" Type="Real64" Value="-10"/>
 												<Property Name="Lowpass" Type="int16" Value="-51"/>
 											</PropertyList>
 										</CustomState>
@@ -108,11 +108,10 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>SCurve</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-48</YPos>
+																<YPos>-53</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -140,11 +139,74 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-9.94021</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+									<RTPC Name="" ID="{D3CCFB6A-9318-41C8-8783-B7F39E7C07E0}" ShortID="1059097693">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusLowpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="HallwayDepth" ID="{551E6803-863D-48B4-B538-BD569BD67D3D}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A87B1AD3-D564-457F-B2ED-1DC02AD2F31C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
 																<SegmentShape>SCurve</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-6.69107</YPos>
+																<YPos>-42</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+									<RTPC Name="" ID="{A193BC9F-6FE4-4401-BA0A-A1745DCEB105}" ShortID="673912233">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="HallwayDepth" ID="{551E6803-863D-48B4-B538-BD569BD67D3D}" WorkUnitID="{6C2D1FB3-1173-4D17-8B6F-D29CB7AE7530}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{29074BAF-9D6F-491B-8485-598B26D42C7F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-6.61986</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>

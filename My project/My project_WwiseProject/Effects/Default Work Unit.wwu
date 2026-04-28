@@ -56,13 +56,16 @@
 						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
 						<Property Name="FilterTypeBand2" Type="int32" Value="7"/>
 						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
-						<Property Name="FrequencyBand1" Type="Real32" Value="188.4619"/>
-						<Property Name="FrequencyBand2" Type="Real32" Value="4427.833"/>
-						<Property Name="FrequencyBand3" Type="Real32" Value="1024.961"/>
-						<Property Name="GainBand1" Type="Real32" Value="4.450331"/>
-						<Property Name="GainBand3" Type="Real32" Value="-2.649007"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="5702.639"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="16961.74"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2533.858"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2.742049"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2.459364"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
 						<Property Name="QFactorBand1" Type="Real32" Value="0.66"/>
-						<Property Name="QFactorBand2" Type="Real32" Value="0.8371224"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.6626105"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

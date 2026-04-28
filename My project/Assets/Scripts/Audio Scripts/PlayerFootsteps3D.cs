@@ -141,7 +141,7 @@ public class PlayerFootsteps3D : MonoBehaviour
                 return tag.surfaceType;
         }
 
-        return FootstepSurface.Grass;
+        return FootstepSurface.Concrete;
     }
 
     private void OnTriggerEnter(Collider other)

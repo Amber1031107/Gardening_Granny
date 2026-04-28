@@ -5,92 +5,94 @@ public class IndoorAmbience : MonoBehaviour
     [Header("Player")]
     public string playerTag = "Player";
 
-    [Header("Garage Ambience")]
-    public bool useGarageAmbience = true;
-    public Transform garageEntrancePoint;
-    public float garageMaxDepthMeters = 8f;
-    public string garageDepthParameter = "GarageDepth";
+    [Header("Depth Ambience")]
+    public bool useDepthAmbience = true;
+    public Transform entrancePoint;
+    public float maxDepthMeters = 8f;
+    public string depthParameter = "GarageDepth";
 
     [Header("Location State")]
     public bool setLocationStateOnEnter = false;
-    public AK.Wwise.State locationState;
+    public AK.Wwise.State locationStateOnEnter;
+
+    public bool setLocationStateOnExit = false;
+    public AK.Wwise.State locationStateOnExit;
 
     private Transform playerTransform;
-    private bool playerInsideGarage = false;
+    private bool playerInside = false;
 
     private void Start()
     {
-        AkSoundEngine.SetRTPCValue(garageDepthParameter, 0f);
+        if (useDepthAmbience)
+            AkUnitySoundEngine.SetRTPCValue(depthParameter, 0f);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("[IndoorAmbience] Something entered trigger: " + other.name + " | Tag: " + other.tag);
-
         if (!other.CompareTag(playerTag))
             return;
 
         playerTransform = other.transform;
-        playerInsideGarage = true;
+        playerInside = true;
 
         if (setLocationStateOnEnter)
         {
-            locationState.SetValue();
-            Debug.Log("[IndoorAmbience] Location state set.");
+            locationStateOnEnter.SetValue();
+            Debug.Log("[IndoorAmbience] State on enter set.");
         }
-
-        Debug.Log("[IndoorAmbience] PLAYER ENTERED ZONE");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("[IndoorAmbience] Something exited trigger: " + other.name + " | Tag: " + other.tag);
-
         if (!other.CompareTag(playerTag))
             return;
 
         if (other.transform == playerTransform)
         {
-            playerInsideGarage = false;
+            playerInside = false;
             playerTransform = null;
 
-            AkSoundEngine.SetRTPCValue(garageDepthParameter, 0f);
-            Debug.Log("[IndoorAmbience] PLAYER EXITED ZONE. RTPC reset to 0.");
+            if (useDepthAmbience)
+                AkUnitySoundEngine.SetRTPCValue(depthParameter, 0f);
+
+            if (setLocationStateOnExit)
+            {
+                locationStateOnExit.SetValue();
+                Debug.Log("[IndoorAmbience] State on exit set.");
+            }
         }
     }
 
     private void Update()
     {
-        if (useGarageAmbience)
-            UpdateGarageAmbience();
+        if (useDepthAmbience)
+            UpdateDepthAmbience();
     }
 
-    private void UpdateGarageAmbience()
+    private void UpdateDepthAmbience()
     {
-        if (!playerInsideGarage || playerTransform == null || garageEntrancePoint == null)
+        if (!playerInside || playerTransform == null || entrancePoint == null)
             return;
 
-        Vector3 toPlayer = playerTransform.position - garageEntrancePoint.position;
+        Vector3 toPlayer = playerTransform.position - entrancePoint.position;
 
-        float depthMeters = Vector3.Dot(toPlayer, garageEntrancePoint.forward);
-        depthMeters = Mathf.Clamp(depthMeters, 0f, garageMaxDepthMeters);
+        float depthMeters = Vector3.Dot(toPlayer, entrancePoint.forward);
+        depthMeters = Mathf.Clamp(depthMeters, 0f, maxDepthMeters);
 
-        float garageDepthValue = (depthMeters / garageMaxDepthMeters) * 100f;
+        float depthValue = (depthMeters / maxDepthMeters) * 100f;
 
-        AkSoundEngine.SetRTPCValue(garageDepthParameter, garageDepthValue);
-
-        Debug.Log("[IndoorAmbience] " + garageDepthParameter + " = " + garageDepthValue.ToString("F1"));
+        AkUnitySoundEngine.SetRTPCValue(depthParameter, depthValue);
     }
 
     private void OnDrawGizmosSelected()
     {
-        if (garageEntrancePoint == null)
+        if (entrancePoint == null)
             return;
 
         Gizmos.color = Color.cyan;
         Gizmos.DrawLine(
-            garageEntrancePoint.position,
-            garageEntrancePoint.position + garageEntrancePoint.forward * garageMaxDepthMeters
+            entrancePoint.position,
+            entrancePoint.position + entrancePoint.forward * maxDepthMeters
         );
     }
 }

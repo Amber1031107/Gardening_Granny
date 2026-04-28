@@ -141,6 +141,7 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE_MENUMUTE = 4231187838U;
         static const AkUniqueID GARAGEDEPTH = 1666442257U;
+        static const AkUniqueID HALLWAYDEPTH = 4020485220U;
         static const AkUniqueID MUSICDUCK = 441011833U;
         static const AkUniqueID PLAYERSPEED = 1493153371U;
     } // namespace GAME_PARAMETERS
