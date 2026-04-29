@@ -5746,6 +5746,11 @@
 										</RandomSequenceContainer>
 										<Sound Name="Breeze" ID="{C5C4E1B3-E867-4743-A623-B780B29C6319}" ShortID="61163268">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -5774,7 +5779,7 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>4</Value>
+														<Value>1.8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -7600,7 +7605,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7624,9 +7629,20 @@
 										<MediaID ID="423411656"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Tutorial Menu Music_v2" ID="{1208154E-0DC6-4608-A798-74E0C99EAE02}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="23.2264360374656"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tutorial Menu Music_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="964113143"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Tutorial Menu Music" ID="{DF91AEA0-9FA6-4FC7-B3A3-5E134798D552}" Platform="Linked"/>
+								<ActiveSource Name="Tutorial Menu Music_v2" ID="{1208154E-0DC6-4608-A798-74E0C99EAE02}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

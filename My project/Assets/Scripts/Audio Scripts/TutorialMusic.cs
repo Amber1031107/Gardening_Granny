@@ -2,27 +2,36 @@ using UnityEngine;
 
 public class TutorialMusicManager : MonoBehaviour
 {
+    public static TutorialMusicManager Instance;
+
     public AK.Wwise.Event playTutorialMusic;
+
+    [Header("Optional - use this if main game music keeps playing on Main Menu")]
+    public AK.Wwise.Event stopMainGameMusic;
 
     public float fadeOutDuration = 2f;
 
-    private static TutorialMusicManager instance;
     private uint playingID;
 
     void Awake()
     {
-        if (instance != null)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        instance = this;
+        Instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
     void Start()
     {
+        if (stopMainGameMusic != null)
+        {
+            stopMainGameMusic.Post(gameObject);
+        }
+
         playingID = playTutorialMusic.Post(gameObject);
     }
 
@@ -38,5 +47,13 @@ public class TutorialMusicManager : MonoBehaviour
         }
 
         Destroy(gameObject, fadeOutDuration + 0.2f);
+    }
+
+    void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
     }
 }

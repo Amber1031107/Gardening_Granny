@@ -679,7 +679,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d139eeda4b08c4e9b4e50c13e5982b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialMusicManager: {fileID: 514911949}
+  uiClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0e99e7ffc114c55449ba287e4792677c, type: 2}
 --- !u!1 &514911948
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +700,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &514911949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,7 +708,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514911948}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fb81d0c3a0afbd47851fb221cfddd6e, type: 3}
   m_Name: 
@@ -714,7 +717,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c4bcebd30e1323344b3ac164163e3e98, type: 2}
-  fadeOutDuration: 2
+  stopMainGameMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  fadeOutDuration: 2.2
 --- !u!114 &514911950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1400,7 +1407,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1878997567}
   m_Direction: 2
   m_Value: 1.0000037
-  m_Size: 0.21328817
+  m_Size: 0.2132882
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1662,7 +1669,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1652891462}
   m_Direction: 2
   m_Value: 1.0000005
-  m_Size: 0.6038244
+  m_Size: 0.60382444
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2858,7 +2865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 12.500002, y: -10.833338}
+  m_AnchoredPosition: {x: 12.5, y: -10.833313}
   m_SizeDelta: {x: 3296, y: 1264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796183775
